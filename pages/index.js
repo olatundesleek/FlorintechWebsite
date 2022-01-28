@@ -5,6 +5,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import Topnav from "../Components/Topnav/Topnav";
 import Brand from "../Components/Brand/Brand";
 import Slider from "../Components/Slider/Slider";
+import Navmenu from "../Components/Menu/Navmenu";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Box listStyleType="none" textDecoration="none" m={0}>
         <Topnav />
         <Brand />
+        <Navmenu />
         <Slider />
       </Box>
     </div>
