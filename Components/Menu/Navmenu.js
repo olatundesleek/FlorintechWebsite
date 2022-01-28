@@ -17,8 +17,17 @@ function Navmenu() {
   console.log(isActive);
 
   return (
-    <Box display={"flex"}>
-      <Flex justifyContent="center" wrap="wrap">
+    <Flex
+      justifyContent={
+        !isActive ? { md: "center", base: "flex-end" } : "space-between"
+      }
+    >
+      <Flex
+        // className={isActiveStatus == false ? "hamburger" : "hamburger open"}
+        // d={{ base: "none", md: "flex" }}
+        justifyContent="center"
+        wrap="wrap"
+      >
         <MyNavLink href="/">
           <a className="link">HOME</a>
         </MyNavLink>
@@ -44,8 +53,9 @@ function Navmenu() {
           <a className="link">FAQ</a>
         </MyNavLink>
       </Flex>
+
       <Hamburger isActiveStatus={isActive} onClick={handletoggle} />
-    </Box>
+    </Flex>
   );
 }
 
