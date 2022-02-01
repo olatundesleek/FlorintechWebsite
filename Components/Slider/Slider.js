@@ -1,6 +1,9 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Button, Flex } from "@chakra-ui/react";
+import Link from "next/link";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Linkbtn from "../Linkbtn/Linkbtn";
+
 function Slider() {
   return (
     <Carousel
@@ -10,20 +13,155 @@ function Slider() {
       emulateTouch={true}
       showIndicators={false}
     >
-      <div>
+      <div className="page-slider">
         <img src="https://res.cloudinary.com/de0x1equu/image/upload/v1600773486/Student_1_hhux1k.png" />
-        <Box>
-          <Text></Text>
+        <Box
+          justifyContent="center"
+          position="absolute"
+          top={{ base: "25%", sm: "39%", md: "45%" }}
+          width="100%"
+        >
+          <Text
+            fontSize={{ base: "20px", sm: "35px", md: "50px" }}
+            color="#fff"
+          >
+            Start Learning With Florintech
+          </Text>
+          <Text
+            fontSize={{ base: "15px", sm: "25px", md: "30px" }}
+            color="#fff"
+          >
+            With Over 100 free tutorial Videos
+          </Text>
+          <Flex justifyContent="center">
+            <Box d="flex" justifyContent="center">
+              <Linkbtn
+                caption="Tutorials"
+                to="whatsapp"
+                className="register-action"
+                borderRadius="md"
+                bg="none"
+                color="white"
+                px={4}
+                h={8}
+                m={3}
+                border="1px #fff solid"
+              />
+              <Linkbtn
+                caption="Register"
+                to="whatsapp"
+                // className="register-action"
+                borderRadius="md"
+                bg="#092038"
+                color="white"
+                px={4}
+                h={8}
+                m={3}
+                border="1px #fff solid"
+              />
+            </Box>
+          </Flex>
         </Box>
-        <p className="legend">Legend 1</p> <p className="legend">Legend 1</p>
       </div>
-      <div>
+      <div className="page-slider">
         <img src="https://res.cloudinary.com/de0x1equu/image/upload/v1600773475/student1ed_ycght3.png" />
-        <p className="legend">Legend 2</p>
+        <Box
+          justifyContent="center"
+          position="absolute"
+          top={{ base: "25%", sm: "39%", md: "45%" }}
+          width="100%"
+        >
+          <Text
+            fontSize={{ base: "20px", sm: "35px", md: "50px" }}
+            color="#fff"
+          >
+            Jumpstart Your Career
+          </Text>
+          <Text
+            fontSize={{ base: "15px", sm: "25px", md: "30px" }}
+            color="#fff"
+          >
+            Thousands of People Already Registered
+          </Text>
+          <Flex justifyContent="center">
+            <Box d="flex" justifyContent="center">
+              <Linkbtn
+                caption="Courses"
+                to="Courses"
+                className="register-action"
+                borderRadius="md"
+                bg="none"
+                color="white"
+                px={4}
+                h={8}
+                m={3}
+                border="1px #fff solid"
+              />
+              <Linkbtn
+                caption="Register"
+                to="Register"
+                // className="register-action"
+                borderRadius="md"
+                bg="#092038"
+                color="white"
+                px={4}
+                h={8}
+                m={3}
+                border="1px #fff solid"
+              />
+            </Box>
+          </Flex>
+        </Box>
       </div>
-      <div>
+      <div className="page-slider">
         <img src="https://res.cloudinary.com/de0x1equu/image/upload/v1600773441/student2ed_gl6tlj.png" />
-        <p className="legend">Legend 3</p>
+        <Box
+          justifyContent="center"
+          position="absolute"
+          top={{ base: "25%", sm: "39%", md: "45%" }}
+          width="100%"
+        >
+          <Text
+            fontSize={{ base: "20px", sm: "35px", md: "50px" }}
+            color="#fff"
+          >
+            Problems Making A choice?
+          </Text>
+          <Text
+            fontSize={{ base: "15px", sm: "25px", md: "30px" }}
+            color="#fff"
+          >
+            Talk to a course Advisor
+          </Text>
+          <Flex justifyContent="center">
+            <Box d="flex" justifyContent="center">
+              <Linkbtn
+                caption="Click to call"
+                to="whatsapp"
+                className="register-action"
+                borderRadius="md"
+                bg="none"
+                color="white"
+                px={4}
+                h={8}
+                m={3}
+                border="1px #fff solid"
+              />
+              <Linkbtn
+                caption="whatsapp"
+                to="whatsapp"
+                // className="register-action"
+                borderRadius="md"
+                bg="#91d573"
+                color="white"
+                px={4}
+                h={8}
+                m={3}
+                border="1px #fff solid"
+              />
+            </Box>
+          </Flex>
+        </Box>
       </div>
     </Carousel>
   );
