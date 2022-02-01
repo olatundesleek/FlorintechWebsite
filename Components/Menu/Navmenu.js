@@ -27,6 +27,7 @@ function Navmenu() {
         // d={{ base: "none", md: "flex" }}
         justifyContent="center"
         wrap="wrap"
+        d={{ base: "none", md: "flex" }}
       >
         <MyNavLink href="/">
           <a className="link">HOME</a>
