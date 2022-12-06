@@ -84,6 +84,11 @@ a {
 .advantage .writecopy p {
   line-height: 2;
 }
+@media screen and (max-width: 500px) {
+  .advantage .writecopy p {
+    line-height: 2;
+  }
+}
 .advantage .why {
   font-size: 30px;
   color: #fff;
@@ -105,12 +110,18 @@ a {
   outline: #fff;
   margin: 10px;
 }
-.advantage_icon ::before, .advantage_icon ::after {
+.advantage_icon ::before,
+.advantage_icon ::after {
   stroke-width: 1;
   stroke: #ffffff;
 }
 .advantage_lefttab, .advantage_righttab {
   padding: 30px;
+}
+@media screen and (max-width: 500px) {
+  .advantage_lefttab, .advantage_righttab {
+    flex-direction: column;
+  }
 }
 .advantage_icon > path {
   stroke: #ffffff !important;
@@ -119,12 +130,12 @@ a {
 .advantage-subtitle {
   font-size: 30px;
 }
-
-@media screen and (max-width: 600px) {
-  .writecopy p {
-    line-height: normal;
+@media screen and (max-width: 500px) {
+  .advantage {
+    padding: 5px;
   }
 }
+
 /* .register-action {
   position: absolute;
   top: 45%;
