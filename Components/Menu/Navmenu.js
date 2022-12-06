@@ -1,6 +1,7 @@
 import { Flex, Box } from "@chakra-ui/react";
 import MyNavLink from "next/link";
 import Hamburger from "../Hamburger/Hamburger";
+import Mobilemenu from "../Mobilemenu/Mobilemenu";
 import { useState } from "react";
 
 function Navmenu() {
@@ -17,11 +18,15 @@ function Navmenu() {
   console.log(isActive);
 
   return (
-    <Flex
-      justifyContent={
-        !isActive ? { md: "center", base: "flex-end" } : "space-between"
-      }
-    >
+    <Box>
+      <Flex justifyContent={"right"}>
+         <Hamburger isActiveStatus={isActive} onClick={handletoggle} />
+         </Flex>
+      
+      {isActive?<Mobilemenu/>:""}
+      
+
+    <Flex justifyContent={{ base: "flex-end", sm: "flex-end", md: "center" }}>
       <Flex
         // className={isActiveStatus == false ? "hamburger" : "hamburger open"}
         // d={{ base: "none", md: "flex" }}
@@ -55,8 +60,9 @@ function Navmenu() {
         </MyNavLink>
       </Flex>
 
-      <Hamburger isActiveStatus={isActive} onClick={handletoggle} />
+     
     </Flex>
+    </Box>
   );
 }
 
