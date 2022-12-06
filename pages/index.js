@@ -6,7 +6,8 @@ import Topnav from "../Components/Topnav/Topnav";
 import Brand from "../Components/Brand/Brand";
 import Slider from "../Components/Slider/Slider";
 import Navmenu from "../Components/Menu/Navmenu";
-
+import { appContext } from "./_app";
+import Why from "../Components/Whyflorintech/Why";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -24,6 +25,7 @@ export default function Home() {
         <Brand />
         <Navmenu />
         <Slider />
+        <Why/>
       </Box>
     </div>
   );

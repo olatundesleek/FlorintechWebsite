@@ -1,6 +1,8 @@
 import { ChakraProvider } from "@chakra-ui/react";
+import React from "react"
 import "../styles/globals.css";
-
+export const appContext = React.createContext(false)
+let isHamburgerActive = false
 import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
@@ -24,11 +26,15 @@ const theme = extendTheme({
   },
 });
 
+
+
 function MyApp({ Component, pageProps }) {
   return (
+    <appContext.Provider>
     <ChakraProvider theme={theme}>
-      <Component {...pageProps} />{" "}
+      <Component {...pageProps} />
     </ChakraProvider>
+    </appContext.Provider >
   );
 }
 

@@ -1,8 +1,8 @@
 import { Box } from "@chakra-ui/react";
-
+import appContext from '../../pages/_app'
 function Hamburger({ onClick, isActiveStatus }) {
   return (
-    <Box
+    <Box overflow={"hidden"}
       d={{ base: "block", md: "none" }}
       className={isActiveStatus == false ? "hamburger" : "hamburger open"}
       onClick={onClick}
