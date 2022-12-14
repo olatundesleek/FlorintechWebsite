@@ -6,6 +6,8 @@ import { HiOutlineVideoCamera } from "react-icons/hi";
 
 import { GrCertificate } from "react-icons/gr";
 
+
+
 function Why() {
   return (
     <Box className="advantage">
@@ -19,7 +21,7 @@ function Why() {
           the very basic programs to the most advanced IT training in
           programming languages,we have got you at Florintech computer college.
           Our courses includes but not limited to the list of courses: Web
-          development Office training Computer training amongst others.  Still
+          development Office training Computer training amongst others. Still
           have some hesitations whether cooperation with us is worth the
           trouble? Check the benefits of choosing us among others.
         </p>
@@ -35,19 +37,19 @@ function Why() {
         <Flex></Flex>
       </Box>
       <Flex
-        flexDirection={{ base: "column", sm: "column", md: "row" }}
+        flexDirection="column"
         className="advantage_main"
       >
-        <Box className="left-content">
-          <Flex className="advantage_lefttab">
+        <Flex className="left-content"  flexDirection={{ base: "column", sm: "column", md: "column",lg:"row" }}>
+          <Flex  className="advantage_lefttab" flex="50%" flexDirection={{ base: "column", sm: "column", md: "row",lg:"row" }}>
             <Box>
               <GrWorkshop className="advantage_icon" />
             </Box>
             <Box>
               <h2 className="advantage-subtitle">Expert teachers</h2>
               <p>
-                Our college is made of universitygraduates specialized with
-                distinction in the various field they teach. Theyare
+                Our college is made of university graduates specialized with
+                distinction in the various field they teach. They are
                 enthusiastic about teaching and assisting students to understand
                 technologybeen taught. Each of this instructors are working on
                 real life projects for clientsand also developing a pet project
@@ -55,26 +57,26 @@ function Why() {
               </p>
             </Box>
           </Flex>
-          <Flex className="advantage_lefttab">
+          <Flex  className="advantage_lefttab" flex="50%" flexDirection={{ base: "column", sm: "column", md: "row",lg:"row" }}>
             <Box>
               <GrCertificate className="advantage_icon" />
             </Box>
             <Box>
               <h2 className="advantage-subtitle">Trusted Certification</h2>
               <p>
-                Our certificates and diplomascertificates we issued to graduands
-                are easily recognized and welcome inreputable companies,
-                institutions and other organizations here in Nigeria andabroad.
-                This is because Florintech ComputerCollege itself is a leading
-                IT training institute in Okokomaiko,Ojo,Lagos,Nigeria that is
-                duly registered and recognized by the government toimpart
-                quality IT skill sets in student.
+                Our certificates and diplomas certificates we issued to
+                graduands are easily recognized and welcome inreputable
+                companies, institutions and other organizations here in Nigeria
+                andabroad. This is because Florintech Computer College itself is
+                a leading IT training institute in Okokomaiko,Ojo,Lagos,Nigeria
+                that is duly registered and recognized by the government to
+                impact quality IT skill sets in student.
               </p>
             </Box>
           </Flex>
-        </Box>
-        <Box className="right-content">
-          <Flex className="advantage_righttab">
+        </Flex>
+        <Flex className="right-content" flexDirection={{ base: "column", sm: "column", md: "column",lg:"row" }}>
+          <Flex   className="advantage_righttab" flex="50%" flexDirection={{ base: "column", sm: "column", md: "row",lg:"row" }}>
             <Box>
               <HiOutlineTrendingUp className="advantage_icon" />
             </Box>
@@ -82,30 +84,27 @@ function Why() {
               <h2 className="advantage-subtitle">Methodology</h2>
               <p>
                 We keep learning new methods,as well as updating to latest
-                program and programming languages/versions for skill advancement.
-                Our mode of training is 100% practical.
+                program and programming languages/versions for skill
+                advancement. Our mode of training is 100% practical.
               </p>
             </Box>
           </Flex>
-          <Flex className="advantage_righttab">
+          <Flex  className="advantage_righttab" flex="50%" flexDirection={{ base: "column", sm: "column", md: "row",lg:"row" }}>
             <Box>
               <HiOutlineVideoCamera className="advantage_icon" />
             </Box>
             <Box>
               <h2 className="advantage-subtitle">Video Lessons</h2>
               <p>
-                We provide hands on real world team basedprojects which gives
-                room for career growth and personal development. We provide
-                teachings that are original andunique which help our students to
-                grow and succeed. Get ready to be immersed into a world of
-                video guides, referencing and video practices.As this video
-                lesson aid in better understanding and visual retention of
-                information.
+               Get ready to be immersed into a world of video
+                guides, referencing and video practices.As this video lesson aid
+                in better understanding and visual retention of information.
               </p>
             </Box>
           </Flex>
-        </Box>
+        </Flex>
       </Flex>
+   
     </Box>
   );
 }

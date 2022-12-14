@@ -8,6 +8,8 @@ import Slider from "../Components/Slider/Slider";
 import Navmenu from "../Components/Menu/Navmenu";
 import { appContext } from "./_app";
 import Why from "../Components/Whyflorintech/Why";
+import CourseTab from "../Components/Coursetab/CourseTab";
+import Trending from "../Components/Trendingcourses/Trending";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -25,7 +27,12 @@ export default function Home() {
         <Brand />
         <Navmenu />
         <Slider />
+        <Box className="page-main-content" padding={{ base: "10px", sm: "10px", md: "40px",lg:"50px" }}>
         <Why/>
+        <Trending/>
+        </Box>
+        
+     
       </Box>
     </div>
   );

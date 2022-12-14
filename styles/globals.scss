@@ -74,7 +74,7 @@ a {
 }
 
 .advantage {
-  background-image: radial-gradient(circle, #083b6b, #092038);
+ 
   color: #ffffff;
   padding: 50px;
   p {
@@ -117,10 +117,10 @@ a {
   }
   &_lefttab,
   &_righttab {
-    padding: 30px;
-    @media screen and  (max-width:#{$phone-width}) {
-      flex-direction: column;
-    }
+    padding: 10px;
+    // @media screen and  (max-width:#{$phone-width}) {
+    //   flex-direction: column;
+    // }
   }
   &_icon > path {
     stroke: #ffffff !important;
@@ -131,38 +131,54 @@ a {
   }
   @media screen and (max-width:#{$phone-width}) {
     padding: 5px;
-   
   }
 }
 
-/* .register-action {
-  position: absolute;
-  top: 45%;
-  white-space: nowrap;
-  background-color: #092038;
-  font-size: 14px;
-  line-height: 14px;
-  font-weight: 300;
-  color: rgb(255, 255, 255);
-  font-family: Roboto;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-  outline: currentcolor none medium;
-  box-shadow: none;
-  box-sizing: border-box;
-  cursor: pointer;
-  visibility: inherit;
-  transition: none 0s ease 0s;
-  text-align: left;
-  margin: 20px;
-  padding: 10px 30px;
-  letter-spacing: 0px;
-  min-height: 0px;
-  min-width: 0px;
-  max-height: none;
-  max-width: none;
-  opacity: 1;
-  transition: 3s;
-} */
+.course-card {
+  overflow: hidden;
+  width: 400px;
+ 
+  .coursetitle {
+    color: #083b6b;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .coursetext {
+    color: #083b6b;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .courseprice,.learnmore {
+    color: #083b6b;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
+  .image-wrapper {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    .course-image {
+      display: inline-block;
+
+      max-width: 100%;
+    }
+  }
+}
+.page-main-content{padding: 0 40px; background-image: radial-gradient(circle, #083b6b, #092038);}
+.course-main-content {
+  padding: 38px 2vw 34px;
+  .divider {
+    height: 2px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #eef0f5;
+  }
+}
+.trending-section{padding: 0 40px;.trending-Image{object-fit: contain;}&-header{border-radius: 24px;margin: 20px 0;}&-title-text{border-radius:0 24px 24px 0;background-color: #fff;}h2{font-size: 60px;padding:0 20px}}
