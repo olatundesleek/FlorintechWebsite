@@ -30,6 +30,7 @@ export default function Home() {
         <Box className="page-main-content" padding={{ base: "10px", sm: "10px", md: "40px",lg:"50px" }}>
         <Why/>
         <Trending/>
+        
         </Box>
         
      
