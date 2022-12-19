@@ -37,7 +37,7 @@ function Navmenu() {
         <MyNavLink href="/">
           <a className="link">HOME</a>
         </MyNavLink>
-        <MyNavLink href="/">
+        <MyNavLink href="courses">
           <a className="link">COURSES</a>
         </MyNavLink>
         <MyNavLink href="/">
