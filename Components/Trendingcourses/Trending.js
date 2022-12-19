@@ -9,7 +9,7 @@ const webdevelopment = images[0].webdevelopment;
 function Trending() {
   return (
     <Box className='trending-section'>
-<Flex className='trending-section-header'>
+<Flex className='trending-section-header' alignItems="center">
     <Box className='trending-section-title-image'><Image width="700px" height="300px" className="trending-Image" src={trendingImg} /></Box>
     <Box className='trending-section-title-text'><h2>Checkout our premium trending courses</h2></Box>
 </Flex>
@@ -37,7 +37,7 @@ function Trending() {
 <GridItem>
 <CourseTab
         to="/Graphics Design Professional"
-        courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
+        courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit."
         courseTitle="Graphics Design Professional"
         courseImage={webdevelopment}
         price="50000"
