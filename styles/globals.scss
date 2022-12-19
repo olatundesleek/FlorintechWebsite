@@ -132,30 +132,39 @@ a {
     padding: 5px;
   }
 }
-
+.course-card:hover{ transform: scale(1.06);
+  .course-image{transform: scale(1.2);}
+  .divider-content{transform: translateX(0);opacity: 1;}
+  
+}
 .course-card {
+  transition: 0.5s;
   overflow: hidden;
+  max-height: 800px;
   width: 400px;
+  background-image: radial-gradient(circle, #083b6b, #092038);
+  box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
+ 
 
   .coursetitle {
-    color: #083b6b;
+    color: #ffffff;
     font-size: 35px;
     font-weight: bolder;
   }
   .coursetext {
-    color: #083b6b;
+    color: #ffffff;
     font-size: 22px;
     font-weight: bold;
   }
   .courseprice,
   .learnmore {
-    color: #083b6b;
+    color: #ffffff;
     font-size: 20px;
     font-weight: bold;
   }
   border-radius: 24px;
   background-color: #fff;
-  box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
+
   .image-wrapper {
     position: relative;
     height: 250px;
@@ -164,7 +173,7 @@ a {
     -ms-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
     .course-image {
-      display: inline-block;
+      display: inline-block;transition: 0.5s;
 
       max-width: 100%;
     }
@@ -176,26 +185,32 @@ a {
 }
 .course-main-content {
   padding: 38px 2vw 34px;
-  .divider {
+  .divider {overflow: hidden;
     height: 2px;
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: #eef0f5;
+    &-content{transition:0.5s;background-color: #ddbc65;height: 100%;width: 100%;transform: translateX(-500px) ;opacity:0;}
   }
 }
-.trending-section {
+.trending-section {margin: 40px 0;
   padding: 0 40px;
   .trending-Image {
-    object-fit: contain;
+    object-fit: cover;
   }
   &-header {
+    width: 60%;
     border-radius: 24px;
-    margin: 20px 00;
+    margin: 20px 00;  box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
   }
+  &-title-images {align-items: center;}
+
   &-title-text {
+    color: #fff;
     border-radius: 0 24px 24px 0;
-    background-color: #fff;
+    // background-image: radial-gradient(circle, #083b6b, #092038);
+  
   }
   h2 {
     font-size: 60px;
@@ -250,7 +265,6 @@ a {
   background-color: #fff;
   box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
   padding: 10px 8px;
-  
 }
 .single-course-content-two .header {
   font-weight: 700;
@@ -272,10 +286,10 @@ a {
   color: #083b6b;
   display: block;
 }
-.discount{
+.discount {
   text-decoration: line-through;
 }
-.select-course{
+.select-course {
   min-height: 70px;
   margin-bottom: 0px;
   padding-right: 18px;
