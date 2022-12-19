@@ -147,7 +147,8 @@ a {
   font-size: 22px;
   font-weight: bold;
 }
-.course-card .courseprice, .course-card .learnmore {
+.course-card .courseprice,
+.course-card .learnmore {
   color: #083b6b;
   font-size: 20px;
   font-weight: bold;
@@ -197,4 +198,120 @@ a {
 .trending-section h2 {
   font-size: 60px;
   padding: 0 20px;
+}
+
+.single-course-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  font-family: sans-serif;
+  color: #083b6b;
+  font-size: 20px;
+}
+
+.single-course-inner {
+  display: flex;
+  width: 90%;
+}
+
+.single-course-content {
+  flex: 1;
+  width: 100%;
+}
+
+.single-course-content > div {
+  width: 60%;
+}
+
+.single-course-content > div h1 {
+  color: #1d2b5f;
+  font-size: 60px;
+  font-weight: 700;
+  width: 100%;
+  line-height: 1.1em;
+}
+
+.single-course-content > div > p {
+  width: 60%;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.single-course-content-two {
+  width: 330px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
+  padding: 10px 8px;
+}
+
+.single-course-content-two .header {
+  font-weight: 700;
+  font-size: 30px;
+  color: #083b6b;
+  margin: 5px 0;
+}
+
+.single-course-content-two .content {
+  margin: 5px 0;
+}
+
+.course-amount {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.course-amount .amount {
+  font-size: 28px;
+  font-weight: bold;
+  color: #083b6b;
+  display: block;
+}
+
+.discount {
+  text-decoration: line-through;
+}
+
+.select-course {
+  min-height: 70px;
+  margin-bottom: 0px;
+  padding-right: 18px;
+  padding-left: 16px;
+  border: 3px solid #000;
+  background-color: #fff;
+  color: #1d2b5f;
+  font-size: 18px;
+  line-height: 1em;
+  width: 100%;
+}
+
+.course-cart-button {
+  background-color: #083b6b;
+  color: #fff;
+  border-radius: 80px;
+  font-size: 1.2em;
+  width: 100%;
+  padding: 20px 14px;
+  border: unset;
+  transform-style: preserve-3d;
+  transition: box-shadow 350ms ease, transform 350ms ease;
+  line-height: 1em;
+  font-weight: 700;
+  font-family: Manrope, sans-serif !important;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.course-cart-button:hover {
+  transform: scale(1.054);
 }/*# sourceMappingURL=globals.css.map */
