@@ -208,26 +208,30 @@ a {
   margin: 40px 0;
   padding: 0 40px;
 }
-.trending-section .trending-Image {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 .trending-section-header {
   width: 60%;
-  border-radius: 24px;
-  margin: 20px 0;
-  box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
-}
-.trending-section-title-images {
-  align-items: center;
 }
 .trending-section-title-text {
+  margin: 50px 0;
   color: #fff;
   border-radius: 0 24px 24px 0;
 }
 .trending-section h2 {
-  font-size: 60px;
+  font-size: 30px;
   padding: 0 20px;
+}
+
+.footer {
+  background-image: radial-gradient(circle, #083b6b, #092038);
+  padding: 0 90px;
+}
+.footer h2 {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+.footer p {
+  color: #ffffff;
 }
 
 .single-course-container {
