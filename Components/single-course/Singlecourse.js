@@ -1,13 +1,13 @@
 import React from "react";
 
-function Singlecourse() {
+function Singlecourse(courseTitle) {
   return (
     <div>
       <section className="single-course-container">
         <div className="single-course-inner">
           <div className="single-course-content">
             <div>
-              <h1>Advanced Funnel Optimization</h1>
+              <h1></h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 sem at tortor egestas posuere sed

@@ -11,6 +11,7 @@ import CourseTab from "../Components/Coursetab/CourseTab";
 import Trending from "../Components/Trendingcourses/Trending";
 import Singlecourse from "../Components/single-course/Singlecourse";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer/Footer";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -30,10 +31,10 @@ export default function Home() {
         <Box className="page-main-content" padding={{ base: "10px", sm: "10px", md: "40px",lg:"50px" }}>
         <Why/>
         <Trending/>
-        <Singlecourse/>
+        {/* <Singlecourse/> */}
         </Box>
         
-     
+     <Footer/>
       </Box>
     </div>
   );
