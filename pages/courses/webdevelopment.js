@@ -6,11 +6,10 @@ import Singlecourse from '../../Components/single-course/Singlecourse'
 function webdevelopment() {
   return (
     <Box>
-
-      <Header/>
-      <Singlecourse  />
+      <Header />
+      <Singlecourse />
     </Box>
-  )
+  );
 }
 
 export default webdevelopment

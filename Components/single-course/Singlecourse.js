@@ -1,6 +1,6 @@
 import React from "react";
 
-function Singlecourse(courseTitle) {
+function Singlecourse() {
   return (
     <div>
       <section className="single-course-container">
