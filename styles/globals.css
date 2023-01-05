@@ -348,4 +348,28 @@ a {
 
 .course-cart-button:hover {
   transform: scale(1.054);
+}
+
+.course-text {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: #1d2b5f;
+  line-height: 2.5em;
+}
+
+.course-text-left {
+  font-family: Manrope, sans-serif !important;
+  padding: 0 1rem 0 5rem;
+  font-size: 3.8rem;
+  font-weight: bold;
+  line-height: 1.12em;
+}
+
+.course-text-right {
+  font-family: Manrope, sans-serif !important;
+  width: 50%;
+  color: #4b4e59;
+  padding-right: 1rem;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=globals.css.map */
