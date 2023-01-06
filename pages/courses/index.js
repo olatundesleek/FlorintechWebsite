@@ -4,6 +4,7 @@ import CourseTab from "../../Components/Coursetab/CourseTab";
 import Header from "../../Components/Header";
 import images from "../../Components/images.json";
 import { Flex } from "@chakra-ui/react";
+import NewsLetter from "./NewsLetter";
 const webdevelopment = images[0].webdevelopment;
 const desktoppublishing = images[1].desktoppublishing;
 const certifiedgraphicsprofessional = images[2].certifiedgraphicsprofessional;
@@ -50,7 +51,7 @@ function index() {
         <CourseTab
           to="courses/advancegraphicsdesign"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
-          courseTitle="Certified Graphics Design"
+          courseTitle="Graphics Design"
           courseImage={certifiedgraphicsprofessional}
           price="50000"
         />
@@ -104,6 +105,7 @@ function index() {
           price="50000"
         />
       </Grid>
+      <NewsLetter />
     </Box>
   );
 }

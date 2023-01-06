@@ -351,3 +351,75 @@ a {
 padding-right: 1rem;
 font-size:1.5rem ;
 }
+// the newsletter css
+
+.newsletter-icons{
+  height: 110px;
+  width: 110px;
+  padding: 2rem;
+  color: #1d2b5f;
+  border : 1px solid #000;
+  border-radius: 50%;
+}
+.newsletter-icons-play{
+  height: 110px;
+  width: 110px;
+  margin-right: 1.5rem;
+  padding: 1rem;
+  background-color: #eef0f5;
+  color: #1d2b5f;
+  border : 1px solid #000;
+  border-radius: 50%;
+}
+.browse-course{
+  width: 70%;
+  background-color: #1d2b5f;
+  color: #fff;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.browse-title h1{
+  font-size: 2rem;
+  font-family: Manrope, sans-serif !important;
+  margin-bottom: .5rem;
+}
+.browse-text{
+  font-family: Manrope, sans-serif !important;
+  margin-bottom:3rem;
+}
+.browse-text-text{
+  font-family: Manrope, sans-serif !important;
+
+}
+.browse-link{
+background-color: #fff;
+font-family: Manrope, sans-serif !important;
+font-size: 1.7rem;
+padding: 1rem 1.5rem;
+border-radius: 40px;
+color: #1d2b5f;
+font-weight: bold;
+}
+.browse-link:hover{
+  background-color: #1d2b5f;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.newsletter-input{
+  border: 1px solid #000;
+  padding: .5rem 1rem;
+  border-radius: 50px;
+  color: #1d2b5f !important;
+  font-weight:bold;
+  font-size: 1.5rem;
+  margin-left: 7rem;
+  width: 70%;
+  margin-bottom: 1.5rem;
+}
+$phone-width: 500px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+@media screen and (max-width:#{$tablet-width}) {
+  
+}
