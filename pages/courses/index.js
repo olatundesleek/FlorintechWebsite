@@ -5,8 +5,16 @@ import Header from "../../Components/Header";
 import images from "../../Components/images.json";
 import { Flex } from "@chakra-ui/react";
 const webdevelopment = images[0].webdevelopment;
-const certifiedgraphicsprofessional = images[2].certifiedgraphicsprofessional;
 const desktoppublishing = images[1].desktoppublishing;
+const certifiedgraphicsprofessional = images[2].certifiedgraphicsprofessional;
+const autocadspecialist = images[3].autocadspecialist;
+const businesselectronicaccounting = images[4].businesselectronicaccounting;
+const computernetworking = images[5].computernetworking;
+const computerprogramming = images[6].computerprogramming;
+const databaseadministraction = images[7].databaseadministraction;
+const officeapplication = images[8].officeapplication;
+const digitalmedia = images[9].digitalmedia;
+const computersecurity = images[10].computersecurity;
 
 function index() {
   return (
@@ -57,42 +65,42 @@ function index() {
           to="courses/webdevelopment"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Office Application"
-          courseImage={webdevelopment}
+          courseImage={officeapplication}
           price="50000"
         />
         <CourseTab
           to="courses/webdevelopment"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Business Accounting"
-          courseImage={webdevelopment}
+          courseImage={businesselectronicaccounting}
           price="50000"
         />
         <CourseTab
           to="courses/webdevelopment"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Computer Programming"
-          courseImage={webdevelopment}
+          courseImage={computerprogramming}
           price="50000"
         />
         <CourseTab
           to="courses/webdevelopment"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Digital Media"
-          courseImage={webdevelopment}
+          courseImage={digitalmedia}
           price="50000"
         />
         <CourseTab
           to="courses/webdevelopment"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Computer Networking"
-          courseImage={webdevelopment}
+          courseImage={computernetworking}
           price="50000"
         />
         <CourseTab
           to="courses/webdevelopment"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
-          courseTitle="Computer Engineering"
-          courseImage={webdevelopment}
+          courseTitle="Computer-Engr & I.T Security Mgmt"
+          courseImage={computersecurity}
           price="50000"
         />
       </Grid>
