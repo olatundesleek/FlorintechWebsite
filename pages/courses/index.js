@@ -5,7 +5,8 @@ import Header from "../../Components/Header";
 import images from "../../Components/images.json";
 import { Flex } from "@chakra-ui/react";
 const webdevelopment = images[0].webdevelopment;
-const desktoppublishing = images[0].desktoppublishing;
+const certifiedgraphicsprofessional = images[2].certifiedgraphicsprofessional;
+const desktoppublishing = images[1].desktoppublishing;
 
 function index() {
   return (
@@ -23,7 +24,7 @@ function index() {
           non diam ipsum, augue amet amet. At nisl amet consectetur tincidunt.
         </Box>
       </Flex>
-      {/* end of the courses text */}
+      {/*  the courses images */}
       <Grid
         templateColumns="repeat(3, 1fr)"
         mr={10}
@@ -39,14 +40,14 @@ function index() {
           price="50000"
         />
         <CourseTab
-          to="courses/webdevelopment"
+          to="courses/advancegraphicsdesign"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
-          courseTitle="Computer Programming"
-          courseImage={webdevelopment}
+          courseTitle="Certified Graphics Design"
+          courseImage={certifiedgraphicsprofessional}
           price="50000"
         />
         <CourseTab
-          to="courses/webdevelopment"
+          to="courses/desktoppublishing"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Desktop Publishing"
           courseImage={desktoppublishing}
@@ -69,7 +70,28 @@ function index() {
         <CourseTab
           to="courses/webdevelopment"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
-          courseTitle="Certified Graphic Pro"
+          courseTitle="Computer Programming"
+          courseImage={webdevelopment}
+          price="50000"
+        />
+        <CourseTab
+          to="courses/webdevelopment"
+          courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
+          courseTitle="Digital Media"
+          courseImage={webdevelopment}
+          price="50000"
+        />
+        <CourseTab
+          to="courses/webdevelopment"
+          courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
+          courseTitle="Computer Networking"
+          courseImage={webdevelopment}
+          price="50000"
+        />
+        <CourseTab
+          to="courses/webdevelopment"
+          courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
+          courseTitle="Computer Engineering"
           courseImage={webdevelopment}
           price="50000"
         />
