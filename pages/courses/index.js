@@ -50,7 +50,7 @@ function index() {
           price="50000"
         />
         <CourseTab
-          to="courses/advancegraphicsdesign"
+          to="courses/advancedgraphicsdesign"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Graphics Design"
           courseImage={certifiedgraphicsprofessional}
