@@ -34,7 +34,7 @@ const NewsLetter = () => {
             rounded="md"
             bg="white"
           >
-            <Flex m={5} padding={10}>
+            <Flex m={5} padding={10} className="join-message">
               <Box>
                 <BiEnvelope fontSize={20} className="newsletter-icons" />
               </Box>

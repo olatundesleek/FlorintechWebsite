@@ -443,4 +443,64 @@ a {
   margin-left: 7rem;
   width: 70%;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .course-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .course-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .courses-card {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+  .browse-course {
+    width: 100%;
+  }
+  .course-text-right {
+    margin-top: 3rem;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .course-card {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    place-items: center !important;
+  }
+  .course-text-left {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .browse-course {
+    flex-wrap: wrap;
+  }
+  .browse-title h1 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  .browse-link {
+    font-size: 1rem;
+  }
+  .join-message {
+    flex-wrap: wrap;
+  }
+  .newsletter-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .browse-text-text {
+    font-size: 0.9rem !important;
+    width: 100%;
+  }
 }/*# sourceMappingURL=globals.css.map */

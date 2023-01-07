@@ -40,6 +40,7 @@ function index() {
         ml={10}
         rowGap={7}
         placeItems="center"
+        className="courses-card"
       >
         <CourseTab
           to="courses/webdevelopment"
