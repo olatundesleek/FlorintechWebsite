@@ -4,7 +4,7 @@ import CourseTab from "../../Components/Coursetab/CourseTab";
 import Header from "../../Components/Header";
 import images from "../../Components/images.json";
 import { Flex } from "@chakra-ui/react";
-import NewsLetter from "./NewsLetter";
+import NewsLetter from "../../Components/NewsLetter";
 const webdevelopment = images[0].webdevelopment;
 const desktoppublishing = images[1].desktoppublishing;
 const certifiedgraphicsprofessional = images[2].certifiedgraphicsprofessional;

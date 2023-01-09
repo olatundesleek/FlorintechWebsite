@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Flex, Text } from "@chakra-ui/react";
 import { BsPlayCircle } from "react-icons/bs";
 import { BiEnvelope } from "react-icons/bi";
+import Link from "next/link";
 
 const NewsLetter = () => {
   return (
@@ -23,9 +24,12 @@ const NewsLetter = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo
                 purus gravida orci interdum egestas.
               </Text>
-              <a href="/" className="browse-link">
+              <Link href="/">
+              <a className="browse-link">
                 Browse Courses
               </a>
+              </Link>
+             
             </Box>
           </Flex>
           <Box
