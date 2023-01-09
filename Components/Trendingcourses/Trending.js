@@ -9,12 +9,13 @@ const webdevelopment = images[0].webdevelopment;
 function Trending() {
   return (
     <Box className='trending-section'>
-<Flex className='trending-section-header' alignItems="center">
-    <Box className='trending-section-title-image'><Image width="700px" height="300px" className="trending-Image" src={trendingImg} /></Box>
-    <Box className='trending-section-title-text'><h2>Checkout our premium trending courses</h2></Box>
-</Flex>
+      <Flex justifyContent="center" width="100%">
 
-<Grid templateColumns='repeat(3, 1fr)' gap={1}>
+    
+    <Box className='trending-section-title-text'><h2>Checkout our premium trending courses</h2></Box>
+
+</Flex>
+<Grid templateColumns={{base:'1fr',sm:'1fr',md:'1fr 1fr',lg:'repeat(3, 1fr)'}} gap={5} justifyContent="center" spacing="10">
 
 <GridItem>
 <CourseTab

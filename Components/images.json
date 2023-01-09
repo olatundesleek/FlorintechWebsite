@@ -1,11 +1,38 @@
 [
-    {
-      "webdevelopment": "/images/webdevelopment.jpg"
-    },
-    {
-      "desktoppublishing": "/images/DesktopPublishing.jpg"
-    }
-  ]
+  {
+    "webdevelopment": "/images/webdevelopment.jpg"
+  },
+  {
+    "desktoppublishing": "/images/DesktopPublishing.jpg"
+  },
+  {
+    "certifiedgraphicsprofessional": "/images/certifiedgraphicsprofessional.jpg"
+  },
+  {
+    "autocadspecialist": "/images/autocadspecialist.jpg"
+  },
+  {
+    "businesselectronicaccounting": "/images/businesselectronicaccounting.jpeg"
+  },
+  {
+    "computernetworking": "/images/computernetworking.jpg"
+  },
+  {
+    "computerprogramming": "/images/computerprogramming.jpg"
+  },
+  {
+    "databaseadministraction": "/images/databaseadministraction.jpg"
+  },
+  {
+    "officeapplication": "/images/officeapplication.jpg"
+  },
+  {
+    "digitalmedia": "/images/digitalmedia.jpg"
+  },
+  {
+    "computersecurity": "/images/computersecurity.jpg"
+  }
+]
   
    
     

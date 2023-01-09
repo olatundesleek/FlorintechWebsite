@@ -1,8 +1,10 @@
 import { Flex, Box } from "@chakra-ui/react";
-import MyNavLink from "next/link";
+
 import Hamburger from "../Hamburger/Hamburger";
 import Mobilemenu from "../Mobilemenu/Mobilemenu";
 import { useState } from "react";
+import MenuItems from "../MenuItems";
+
 
 function Navmenu() {
   const [isActive, setIsActive] = useState(false);
@@ -34,7 +36,9 @@ function Navmenu() {
         wrap="wrap"
         d={{ base: "none", md: "flex" }}
       >
-        <MyNavLink href="/">
+
+<MenuItems/>
+        {/* <MyNavLink href="/">
           <a className="link">HOME</a>
         </MyNavLink>
         <MyNavLink href="courses">
@@ -57,7 +61,7 @@ function Navmenu() {
         </MyNavLink>
         <MyNavLink href="/">
           <a className="link">FAQ</a>
-        </MyNavLink>
+        </MyNavLink> */}
       </Flex>
 
      

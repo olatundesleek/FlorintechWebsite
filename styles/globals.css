@@ -208,26 +208,63 @@ a {
   margin: 40px 0;
   padding: 0 40px;
 }
-.trending-section .trending-Image {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 .trending-section-header {
   width: 60%;
-  border-radius: 24px;
-  margin: 20px 0;
-  box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
-}
-.trending-section-title-images {
-  align-items: center;
 }
 .trending-section-title-text {
+  margin: 50px 0;
   color: #fff;
   border-radius: 0 24px 24px 0;
 }
 .trending-section h2 {
-  font-size: 60px;
+  font-size: 30px;
   padding: 0 20px;
+}
+
+.footer {
+  background-image: radial-gradient(circle, #083b6b, #092038);
+  padding: 50px 90px;
+}
+.footer h2 {
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+.footer p {
+  color: #ffffff;
+}
+.footer-writeup {
+  flex: 1;
+}
+.footer-links {
+  flex: 1;
+}
+.footer-tools {
+  padding: 10px 20px;
+}
+.footer-tools a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-pages {
+  padding: 10px 20px;
+}
+.footer-pages a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-socials {
+  padding: 10px 20px;
+}
+.footer-socials a {
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer-socials li {
+  padding: 0 0 20px 0;
 }
 
 .single-course-container {
@@ -344,4 +381,159 @@ a {
 
 .course-cart-button:hover {
   transform: scale(1.054);
+}
+
+.course-text {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  color: #1d2b5f;
+  line-height: 2.5em;
+}
+
+.course-text-left {
+  font-family: Manrope, sans-serif !important;
+  padding: 0 1rem 0 5rem;
+  font-size: 3.8rem;
+  font-weight: bold;
+  line-height: 1.12em;
+}
+
+.course-text-right {
+  font-family: Manrope, sans-serif !important;
+  width: 50%;
+  color: #4b4e59;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.newsletter-icons {
+  height: 110px;
+  width: 110px;
+  padding: 2rem;
+  color: #1d2b5f;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.newsletter-icons-play {
+  height: 110px;
+  width: 110px;
+  margin-right: 1.5rem;
+  padding: 1rem;
+  background-color: #eef0f5;
+  color: #083b6b;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.browse-course {
+  width: 70%;
+  background-color: #083b6b;
+  color: #fff;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.browse-title h1 {
+  font-size: 2rem;
+  font-family: Manrope, sans-serif !important;
+  margin-bottom: 0.5rem;
+}
+
+.browse-text {
+  font-family: Manrope, sans-serif !important;
+  margin-bottom: 3rem;
+}
+
+.browse-text-text {
+  font-family: Manrope, sans-serif !important;
+}
+
+.browse-link {
+  background-color: #fff;
+  font-family: Manrope, sans-serif !important;
+  font-size: 1.7rem;
+  padding: 1rem 1.5rem;
+  border-radius: 40px;
+  color: #1d2b5f;
+  font-weight: bold;
+}
+
+.browse-link:hover {
+  background-color: #083b6b;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.newsletter-input {
+  border: 1px solid #000;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  color: #1d2b5f !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 7rem;
+  width: 70%;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .course-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .course-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .courses-card {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+  .browse-course {
+    width: 100%;
+  }
+  .course-text-right {
+    margin-top: 3rem;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .course-card {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    place-items: center !important;
+  }
+  .course-text-left {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .browse-course {
+    flex-wrap: wrap;
+  }
+  .browse-title h1 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  .browse-link {
+    font-size: 1rem;
+  }
+  .join-message {
+    flex-wrap: wrap;
+  }
+  .newsletter-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .browse-text-text {
+    font-size: 0.9rem !important;
+    width: 100%;
+  }
 }/*# sourceMappingURL=globals.css.map */

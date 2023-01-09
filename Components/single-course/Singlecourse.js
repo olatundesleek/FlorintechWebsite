@@ -7,7 +7,7 @@ function Singlecourse() {
         <div className="single-course-inner">
           <div className="single-course-content">
             <div>
-              <h1>Advanced Funnel Optimization</h1>
+              <h1></h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 sem at tortor egestas posuere sed
