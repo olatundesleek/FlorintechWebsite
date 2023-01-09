@@ -217,7 +217,13 @@ a {
 
 
 .footer{
-  background-image: radial-gradient(circle, #083b6b, #092038);padding: 0 90px;h2{color: #fff;padding: 10px 20px;font-size: 25px;}p{color: #ffffff;}
+  background-image: radial-gradient(circle, #083b6b, #092038);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
+&-writeup{flex: 1}
+&-links{flex: 1;}
+&-tools{padding: 10px 20px; a{color: #ffffff;font-size: 20px;}}
+&-pages{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
+&-socials {padding: 10px 20px;a{color: #ffffff;font-size: 20px;display: flex;align-items: center;}li{padding: 0 0 20px 0;}}
+
 }
 
 
@@ -367,13 +373,13 @@ font-size:1.5rem ;
   margin-right: 1.5rem;
   padding: 1rem;
   background-color: #eef0f5;
-  color: #1d2b5f;
+  color: #083b6b;
   border : 1px solid #000;
   border-radius: 50%;
 }
 .browse-course{
   width: 70%;
-  background-color: #1d2b5f;
+  background-color: #083b6b;
   color: #fff;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -401,7 +407,7 @@ color: #1d2b5f;
 font-weight: bold;
 }
 .browse-link:hover{
-  background-color: #1d2b5f;
+  background-color: #083b6b;
   color: #fff;
   border: 2px solid #fff;
 }

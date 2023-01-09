@@ -223,15 +223,48 @@ a {
 
 .footer {
   background-image: radial-gradient(circle, #083b6b, #092038);
-  padding: 0 90px;
+  padding: 50px 90px;
 }
 .footer h2 {
+  font-weight: bold;
   color: #fff;
   padding: 10px 20px;
-  font-size: 25px;
+  font-size: 22px;
 }
 .footer p {
   color: #ffffff;
+}
+.footer-writeup {
+  flex: 1;
+}
+.footer-links {
+  flex: 1;
+}
+.footer-tools {
+  padding: 10px 20px;
+}
+.footer-tools a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-pages {
+  padding: 10px 20px;
+}
+.footer-pages a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-socials {
+  padding: 10px 20px;
+}
+.footer-socials a {
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer-socials li {
+  padding: 0 0 20px 0;
 }
 
 .single-course-container {
@@ -389,14 +422,14 @@ a {
   margin-right: 1.5rem;
   padding: 1rem;
   background-color: #eef0f5;
-  color: #1d2b5f;
+  color: #083b6b;
   border: 1px solid #000;
   border-radius: 50%;
 }
 
 .browse-course {
   width: 70%;
-  background-color: #1d2b5f;
+  background-color: #083b6b;
   color: #fff;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -428,7 +461,7 @@ a {
 }
 
 .browse-link:hover {
-  background-color: #1d2b5f;
+  background-color: #083b6b;
   color: #fff;
   border: 2px solid #fff;
 }
