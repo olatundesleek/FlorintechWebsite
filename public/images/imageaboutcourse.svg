@@ -1,0 +1,19 @@
+<svg width="784" height="435" viewBox="0 0 784 435" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="784" height="435" fill="#1D2B5F"/>
+<rect x="64" y="64" width="365" height="307" rx="11" fill="#1D2B5F" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line x1="96.5" y1="309.5" x2="394.5" y2="309.5" stroke="#6877AF" stroke-width="3" stroke-linecap="round"/>
+<line x1="99.5" y1="96.5" x2="179.5" y2="96.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="122.5" y1="322.5" x2="122.5" y2="342.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="172.5" y1="322.5" x2="172.5" y2="334.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="222.5" y1="322.5" x2="222.5" y2="342.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="272.5" y1="322.5" x2="272.5" y2="334.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="322.5" y1="322.5" x2="322.5" y2="342.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="372.5" y1="322.5" x2="372.5" y2="334.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="99.5" y1="136.5" x2="214.5" y2="136.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="99.5" y1="112.5" x2="249.5" y2="112.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<path d="M97 286C113.972 258.543 126.95 185.818 162.391 199.175C197.831 212.533 213.805 276.204 291.175 276.204C368.546 276.204 383.022 153.314 396 103" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<path d="M741 218C741 294.768 678.768 357 602 357C525.232 357 463 294.768 463 218C463 141.232 525.232 79 602 79C678.768 79 741 141.232 741 218ZM510.68 218C510.68 268.434 551.566 309.32 602 309.32C652.434 309.32 693.32 268.434 693.32 218C693.32 167.566 652.434 126.68 602 126.68C551.566 126.68 510.68 167.566 510.68 218Z" fill="#1D2B5F" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line x1="604" y1="80" x2="604" y2="125" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line x1="476.266" y1="158.503" x2="519.124" y2="180.31" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line x1="674.294" y1="276.597" x2="707.869" y2="307.175" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>
