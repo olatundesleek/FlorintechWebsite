@@ -1,7 +1,7 @@
 import React from "react";
 import images from "../images.json";
 import { Box, Flex, Link } from "@chakra-ui/react";
-import imgesing from "../../public/images/imageaboutcourse.svg";
+// import imgesing from "../../public/images/imageaboutcourse.svg";
 const autocadspecialist = images[3].autocadspecialist;
 const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
@@ -13,7 +13,7 @@ function Singlecourse() {
           <div className="single-course-content">
             <Box>
               <h1 className="single-page-ads">
-                Ultimate Facebook Ads Advance Course{" "}
+                Ultimate Facebook Ads Advance Course
               </h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
@@ -53,43 +53,52 @@ function Singlecourse() {
             </Flex>
 
             <Box>
-              <h1 className="about-teacher-title-sec">What’s this course about?</h1>
+              <h1 className="about-teacher-title-sec">
+                What’s this course about?
+              </h1>
               <div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate adipisci fuga nam veniam perferendis, quidem
-                  recusandae cum voluptatem debitis. Enim omnis illum laboriosam
-                  dolorem blanditiis neque repellat voluptas! Enim, autem?
+                  Lorem ipsum dolor <strong>sit amet consectetur </strong>
+                  adipisicing elit. Cupiditate adipisci fuga nam veniam
+                  perferendis,
+                  <strong> quidem recusandae cum voluptatem</strong>
+                  debitis. Enim omnis illum laboriosam dolorem blanditiis neque
+                  repellat voluptas! Enim, autem?
                 </p>
                 <br />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                  voluptate et maiores quasi amet iste sunt eligendi repudiandae
-                  quisquam consequatur!
+                  Lorem ipsum dolor <strong>sit amet consectetur</strong>
+                  adipisicing elit. Autem voluptate et maiores quasi amet iste
+                  sunt eligendi <strong>repudiandae </strong>quisquam
+                  consequatur!
                 </p>
                 <br />
                 <ul className="single-list">
                   <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet <strong>consectetur</strong>
+                    adipisicing elit.
                   </li>
                   <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum <strong>dolor sit amet</strong> consectetur
+                    adipisicing elit.
                   </li>
                   <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur
+                    <strong>adipisicing elit</strong>.
                   </li>
                 </ul>
                 <br />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                  atque nulla veritatis dolorem esse ad quibusdam ipsam
-                  doloribus, dolor vero voluptates alias porro mollitia
-                  architecto ex magni magnam? Aut, consequatur.
+                  Lorem ipsum dolor sit <strong>amet consectetur</strong>
+                  adipisicing elit. Optio atque nulla veritatis dolorem esse ad
+                  quibusdam <strong>ipsam doloribus</strong>, dolor vero
+                  voluptates alias porro mollitia architecto ex magni magnam?
+                  Aut, consequatur.
                 </p>
               </div>
+            </Box>
+            <Box>
+
             </Box>
           </div>
           {/* the right side of the single page of the courses */}
