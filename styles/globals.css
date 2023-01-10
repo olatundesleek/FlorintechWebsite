@@ -589,10 +589,36 @@ a {
   list-style-type: disc;
 }
 
+.single-list-two li {
+  text-align: center;
+  list-style-type: decimal;
+  margin-bottom: 1rem;
+}
+
 .about-teacher-title-sec {
   font-size: 2.5rem !important;
   color: #1d2b5f !important;
   font-weight: bold;
   font-family: Manrope, sans-serif !important;
   margin: 5rem 0 1rem;
+}
+
+.join-class {
+  padding: 0.8rem 2rem;
+  background-color: #083b6b;
+  color: #eef0f5 !important;
+  border-radius: 50px;
+  font-family: Manrope, sans-serif !important;
+  text-decoration: none !important;
+  font-weight: 800;
+  font-size: 1.5rem !important;
+  transform-style: preserve-3d;
+}
+
+.join-class:hover {
+  transform: scale(1.054) !important;
+}
+
+.last-text {
+  margin-bottom: 3rem;
 }/*# sourceMappingURL=globals.css.map */

@@ -1,7 +1,8 @@
 import React from "react";
 import images from "../images.json";
 import { Box, Flex, Link } from "@chakra-ui/react";
-// import imgesing from "../../public/images/imageaboutcourse.svg";
+import NewsLetter from "./../NewsLetter";
+import Footer from "./../Footer/Footer";
 const autocadspecialist = images[3].autocadspecialist;
 const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
@@ -23,7 +24,6 @@ function Singlecourse() {
                 src={businesselectronicaccounting}
                 className="single-page-image"
               />
-              {/* <img src={imgesing} className="single-page-image" /> */}
             </Box>
             <Flex
               justify="space-around"
@@ -97,8 +97,59 @@ function Singlecourse() {
                 </p>
               </div>
             </Box>
+            <Box boxShadow="md" rounded="md" bg="white">
+              <img src={autocadspecialist} className="single-page-image" />
+              <div style={{ padding: "2.5rem 0" }}>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Harum reiciendis cupiditate asperiores nulla hic quidem ab,
+                  voluptatem voluptatibus accusamus ea est eum soluta maiores
+                  deleniti ratione laudantium. Modi, sequi quasi.
+                </p>
+              </div>
+            </Box>
             <Box>
-
+              <h1 className="about-teacher-title-sec">What you’ll learn</h1>
+              <div className="last-text">
+                <p>
+                  Lorem ipsum dolor <strong>sit amet consectetur </strong>
+                  adipisicing elit. Cupiditate adipisci fuga nam veniam
+                  perferendis,
+                  <strong> quidem recusandae cum voluptatem</strong>
+                  debitis. Enim omnis illum laboriosam dolorem blanditiis neque
+                  repellat voluptas! Enim, autem?
+                </p>
+                <br />
+                <ul className="single-list-two">
+                  <li>
+                    Lorem ipsum dolor sit amet <strong>consectetur</strong>
+                    adipisicing elit.
+                  </li>
+                  <li>
+                    Lorem ipsum <strong>dolor sit amet</strong> consectetur
+                    adipisicing elit.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur
+                    <strong>adipisicing elit</strong>.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur
+                    <strong>adipisicing elit</strong>.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur
+                    <strong>adipisicing elit</strong>.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur
+                    <strong>adipisicing elit</strong>.
+                  </li>
+                </ul>
+              </div>
+              <Link href="/" className="join-class">
+                <a>Join the Class</a>
+              </Link>
             </Box>
           </div>
           {/* the right side of the single page of the courses */}
@@ -121,6 +172,8 @@ function Singlecourse() {
           </div>
         </div>
       </section>
+      <NewsLetter />
+      <Footer />
     </div>
   );
 }
