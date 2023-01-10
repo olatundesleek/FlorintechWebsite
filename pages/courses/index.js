@@ -9,8 +9,6 @@ import Footer from "../../Components/Footer/Footer";
 const webdevelopment = images[0].webdevelopment;
 const desktoppublishing = images[1].desktoppublishing;
 const certifiedgraphicsprofessional = images[2].certifiedgraphicsprofessional;
-const autocadspecialist = images[3].autocadspecialist;
-const businesselectronicaccounting = images[4].businesselectronicaccounting;
 const computernetworking = images[5].computernetworking;
 const computerprogramming = images[6].computerprogramming;
 const databaseadministration = images[7].databaseadministration;
