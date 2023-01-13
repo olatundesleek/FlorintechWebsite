@@ -13,6 +13,7 @@ import Singlecourse from "../Components/single-course/Singlecourse";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer/Footer";
 import NewsLetter from "../Components/NewsLetter";
+import Testimonial from "../Components/Testimonial/Testimonial";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -32,6 +33,7 @@ export default function Home() {
         <Box className="page-main-content" padding={{ base: "10px", sm: "10px", md: "40px",lg:"50px" }}>
         <Why/>
         <Trending/>
+        <Testimonial/>
         {/* <Singlecourse/> */}
         </Box>
        <NewsLetter/> 
