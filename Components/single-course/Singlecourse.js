@@ -1,8 +1,11 @@
 import React from "react";
 import images from "../images.json";
-import { Box, Flex, Link } from "@chakra-ui/react";
+import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import NewsLetter from "./../NewsLetter";
 import Footer from "./../Footer/Footer";
+import { FaPlay } from "react-icons/fa";
+import { BsFileEarmarkFill } from "react-icons/bs";
+import { BiTimeFive } from "react-icons/bi";
 const autocadspecialist = images[3].autocadspecialist;
 const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
@@ -153,24 +156,66 @@ function Singlecourse() {
             </Box>
           </div>
           {/* the right side of the single page of the courses */}
-          <div className="single-course-content-two">
-            <div className="header">Get this Course</div>
-            <div className="content">
-              Augue neque gravida in fermentum et sollicitudin ac orci. Velit
-              egestas dui id
+          <div>
+            <div className="single-course-content-two">
+              <div className="header">Get this Course</div>
+              <div className="content">
+                Augue neque gravida in fermentum et sollicitudin ac orci. Velit
+                egestas dui id
+              </div>
+              <div>
+                <select id="select-courses" className="select-course">
+                  <option selected>Course</option>
+                </select>
+              </div>
+              <div className="course-amount">
+                <span className="amount"> $ 699.00 USD</span>
+                <span className="discount">$ 1,200.00 USD</span>
+              </div>
+              <button className="course-cart-button">Add to cart</button>
             </div>
-            <div>
-              <select id="select-courses" className="select-course">
-                <option selected>Course</option>
-              </select>
-            </div>
-            <div className="course-amount">
-              <span className="amount"> $ 699.00 USD</span>
-              <span className="discount">$ 1,200.00 USD</span>
-            </div>
-            <button className="course-cart-button">Add to cart</button>
           </div>
         </div>
+        {/* the "what is include part of the single course page " */}
+        <Box>
+          <div className="about-teacher-title-sec">What’s included?</div>
+          <Flex justify="center" alignItems="center">
+            <FaPlay />
+            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+              Video's: 6
+            </Text>
+          </Flex>
+          <Flex justify="center" alignItems="center">
+            <BsFileEarmarkFill />
+            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+              Downloadable Files: 6
+            </Text>
+          </Flex>
+          <Flex justify="center" alignItems="center">
+            <BiTimeFive />
+            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+              Duration: 5hr 40min
+            </Text>
+          </Flex>
+          <Flex justify="center" alignItems="center">
+            <FaPlay />
+            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+              Access Anywhere
+            </Text>
+          </Flex>
+          <Flex justify="center" alignItems="center">
+            <FaPlay />
+            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+              Certificate of Completion
+            </Text>
+          </Flex>
+          <Flex justify="center" alignItems="center">
+            <FaPlay />
+            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+              Lifetime Access
+            </Text>
+          </Flex>
+        </Box>
       </section>
       <NewsLetter />
       <Footer />
