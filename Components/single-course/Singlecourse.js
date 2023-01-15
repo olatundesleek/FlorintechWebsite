@@ -3,9 +3,10 @@ import images from "../images.json";
 import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import NewsLetter from "./../NewsLetter";
 import Footer from "./../Footer/Footer";
-import { FaPlay } from "react-icons/fa";
-import { BsFileEarmarkFill } from "react-icons/bs";
+import { FaPlay, FaAward } from "react-icons/fa";
+import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
+import { TiArrowSync } from "react-icons/ti";
 const autocadspecialist = images[3].autocadspecialist;
 const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
@@ -156,61 +157,62 @@ function Singlecourse() {
             </Box>
           </div>
           {/* the right side of the single page of the courses */}
-          <div>
-            <div className="single-course-content-two">
-              <div className="header">Get this Course</div>
-              <div className="content">
-                Augue neque gravida in fermentum et sollicitudin ac orci. Velit
-                egestas dui id
-              </div>
-              <div>
-                <select id="select-courses" className="select-course">
-                  <option selected>Course</option>
-                </select>
-              </div>
-              <div className="course-amount">
-                <span className="amount"> $ 699.00 USD</span>
-                <span className="discount">$ 1,200.00 USD</span>
-              </div>
-              <button className="course-cart-button">Add to cart</button>
+          {/* <div> */}
+          <div className="single-course-content-two">
+            <div className="header">Get this Course</div>
+            <div className="content">
+              Augue neque gravida in fermentum et sollicitudin ac orci. Velit
+              egestas dui id
             </div>
+            <div>
+              <select id="select-courses" className="select-course">
+                <option selected>Course</option>
+              </select>
+            </div>
+            <div className="course-amount">
+              <span className="amount"> $ 699.00 USD</span>
+              <span className="discount">$ 1,200.00 USD</span>
+            </div>
+            <button className="course-cart-button">Add to cart</button>
           </div>
+          {/* </div> */}
+          <p>lorem5</p>
         </div>
         {/* the "what is include part of the single course page " */}
-        <Box>
+        <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem">
           <div className="about-teacher-title-sec">What’s included?</div>
-          <Flex justify="center" alignItems="center">
+          <Flex alignItems="center">
             <FaPlay />
             <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-              Video's: 6
+              Video's: <bold className="about-teacher-title">6</bold>
             </Text>
           </Flex>
-          <Flex justify="center" alignItems="center">
+          <Flex alignItems="center">
             <BsFileEarmarkFill />
             <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-              Downloadable Files: 6
+              Downloadable Files: <bold className="about-teacher-title">6</bold>
             </Text>
           </Flex>
-          <Flex justify="center" alignItems="center">
+          <Flex alignItems="center">
             <BiTimeFive />
             <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-              Duration: 5hr 40min
+              Duration: <bold className="about-teacher-title">5hr 40min</bold>
             </Text>
           </Flex>
-          <Flex justify="center" alignItems="center">
-            <FaPlay />
+          <Flex alignItems="center">
+            <BsFileMinusFill />
             <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
               Access Anywhere
             </Text>
           </Flex>
-          <Flex justify="center" alignItems="center">
-            <FaPlay />
+          <Flex alignItems="center">
+            <FaAward />
             <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
               Certificate of Completion
             </Text>
           </Flex>
-          <Flex justify="center" alignItems="center">
-            <FaPlay />
+          <Flex alignItems="center">
+            <TiArrowSync />
             <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
               Lifetime Access
             </Text>
