@@ -7,19 +7,18 @@ import { FaPlay, FaAward } from "react-icons/fa";
 import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 import { TiArrowSync } from "react-icons/ti";
+// import advancedgrahicsdesign from "./../"
 const autocadspecialist = images[3].autocadspecialist;
 const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
-function Singlecourse() {
+function Singlecourse(props) {
   return (
     <div>
       <section className="single-course-container">
         <div className="single-course-inner">
           <div className="single-course-content">
             <Box>
-              <h1 className="single-page-ads">
-                Ultimate Facebook Ads Advance Course
-              </h1>
+              <h1 className="single-page-ads">{props.title}</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 sem at tortor egestas posuere sed
@@ -55,7 +54,7 @@ function Singlecourse() {
                 </Link>
               </Box>
             </Flex>
-
+{/* <ComputerNetworking /> */}
             <Box>
               <h1 className="about-teacher-title-sec">
                 What’s this course about?

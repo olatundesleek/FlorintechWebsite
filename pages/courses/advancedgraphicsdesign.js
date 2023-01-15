@@ -7,7 +7,7 @@ function advancedgraphicsdesign() {
   return (
     <Box>
       <Header />
-      <Singlecourse />
+      <Singlecourse title="Ultimate Facebook Ads Advance Course" />
     </Box>
   );
 }
