@@ -8,10 +8,11 @@ import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 import { TiArrowSync } from "react-icons/ti";
 // import advancedgrahicsdesign from "./../"
+import advancedgraphicsdesign from "./../../pages/courses/advancedgraphicsdesign";
 const autocadspecialist = images[3].autocadspecialist;
 const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
-function Singlecourse(props) {
+const Singlecourse = (props) => {
   return (
     <div>
       <section className="single-course-container">
@@ -54,7 +55,7 @@ function Singlecourse(props) {
                 </Link>
               </Box>
             </Flex>
-{/* <ComputerNetworking /> */}
+            {/* <advancedgraphicsdesign/> */}
             <Box>
               <h1 className="about-teacher-title-sec">
                 What’s this course about?
@@ -222,6 +223,6 @@ function Singlecourse(props) {
       <Footer />
     </div>
   );
-}
+};
 
 export default Singlecourse;

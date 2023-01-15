@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
+
 function advancedgraphicsdesign() {
   return (
     <Box>
