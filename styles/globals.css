@@ -545,11 +545,16 @@ a {
 }
 
 .testimonial-slider-container {
-  width: 60%;
+  width: 70%;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   height: auto;
+}
+@media screen and (max-width: 500px) {
+  .testimonial-slider-container {
+    width: 80%;
+  }
 }
 
 .testimonial-slide {
@@ -561,11 +566,13 @@ a {
   align-items: center;
 }
 .testimonial-slide .leftquote {
-  flex-basis: 10%;
+  flex-basis: 20%;
+  width: 100%;
 }
 .testimonial-slide .rightquote {
-  flex-basis: 10%;
+  flex-basis: 20%;
   align-items: flex-end;
+  width: 100%;
 }
 .testimonial-slide svg {
   fill: #ffffff;
@@ -579,4 +586,5 @@ a {
   line-height: 25px;
   color: #ffffff;
   padding: 20px;
+  text-align: center;
 }/*# sourceMappingURL=globals.css.map */

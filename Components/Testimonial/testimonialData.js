@@ -13,12 +13,15 @@ photo:"/images/2.jpeg"}
 review:"I enrolled in Florintech computer college a few weeks back. So far, the learning environment has been intellectually stimulating. The owner has a very versatile knowledge in the use of computer applications, and most importantly, he knows how to transfer this knowledge with ease.",
 photo:"/images/2.jpeg"}
 ,
-{name:"John Test",
-review:"test test test test test test tes test tes tes tesste steste",
+{name:"Promise Ekomaye",
+review:"I enrolled in Florintech computer college a few weeks back. So far, the learning environment has been intellectually stimulating. The owner has a very versatile knowledge in the use of computer applications, and most importantly, he knows how to transfer this knowledge with ease.",
 photo:"/images/2.jpeg"}
 ,
-{name:"John Test",
-review:"test test test test test test tes test tes tes te sste stes",
+{name:"Stanley Ogaga",
+review:"Arguably the best computer school in Ojo. The environment is conducive for learning and growing.I probably would refer family and friends",
+photo:"/images/2.jpeg"},
+{name:"Bright Beulah",
+review:"It was worth every while, the instructors took time to explain nd If I want to know more about computer ,I won't hesitate to go back",
 photo:"/images/2.jpeg"}
 
 

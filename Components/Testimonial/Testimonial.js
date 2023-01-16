@@ -26,7 +26,7 @@ setTimeout(() => {
       <h2 className="testimonial-title">Testimonial</h2>
       <Flex justifyContent="center">
         <Flex justifyContent="center" className="testimonial-slider-container">
-          <Flex>
+          <Flex width="100%">
             {reviewData.map((data) => {
               return (<Box className="testimonial-slide" transform="auto" translateX={-slideIndex +"00%"}>
                 <Flex >
@@ -39,8 +39,9 @@ setTimeout(() => {
                   </Flex>
                  
                 </Flex>
-                <Flex justifyContent="center" marginTop="50px"> <Image width="100px" height="100px" src={data.photo} /></Flex>
-               
+                <Flex justifyContent="center"  marginTop="50px"> <Image  width="100px" height="100px"  src={data.photo} />
+               </Flex>
+               <h2 color="#ffffff">{data.name}</h2>
                 </Box>
               );
             })}

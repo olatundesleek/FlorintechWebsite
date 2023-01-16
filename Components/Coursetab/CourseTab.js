@@ -17,7 +17,7 @@ const CourseTab = ({ courseTitle,courseText,to,price,courseImage }) => {
 <Image className='course-image' src={courseImage}
       alt="Picture of the author"
       width={500}
-      height={500} />
+      height={400} />
 
 
 </Box>
