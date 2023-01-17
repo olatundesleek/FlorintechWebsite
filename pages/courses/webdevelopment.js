@@ -7,7 +7,7 @@ function webdevelopment() {
   return (
     <Box>
       <Header />
-      <Singlecourse />
+      <Singlecourse courseTitle="Ultimate Facebook Ads Advance Course" />
     </Box>
   );
 }

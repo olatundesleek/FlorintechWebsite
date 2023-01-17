@@ -17,7 +17,7 @@ function Trending() {
 </Flex>
 <Grid templateColumns={{base:'1fr',sm:'1fr',md:'1fr 1fr',lg:'repeat(3, 1fr)'}} gap={5} justifyContent="center" spacing="10">
 
-<GridItem>
+<GridItem display="flex" justifyContent="center">
 <CourseTab
         to="/webdevelopment"
         courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -26,7 +26,7 @@ function Trending() {
         price="50000"
       />
 </GridItem>
-<GridItem>
+<GridItem display="flex" justifyContent="center">
 <CourseTab
         to="/uiux"
         courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -35,7 +35,7 @@ function Trending() {
         price="80,000"
       />
 </GridItem>
-<GridItem>
+<GridItem display="flex" justifyContent="center">
 <CourseTab
         to="/Graphics Design Professional"
         courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit."

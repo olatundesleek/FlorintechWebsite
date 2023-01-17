@@ -10,12 +10,12 @@ import {FiLinkedin} from "react-icons/fi"
 function Footer() {
   return (
     <Box className="footer">
-      <Flex>
-        <Box className="footer-writeup">
+      <Flex flexDirection={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="center">
+        <Flex className="footer-writeup" justifyContent="center" flexDirection="column">
           <Brand />
           <h2>Copyright © Florintech Computer College </h2>
-        </Box>
-        <Flex className="footer-links">
+        </Flex>
+        <Flex className="footer-links"  justifyContent="center" flexDirection={{base:"column",sm:"column",md:"row",lg:"row"}}>
           <Box>
             <h2>PAGES</h2>
             <Box className="footer-pages">

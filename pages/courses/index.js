@@ -5,6 +5,7 @@ import Header from "../../Components/Header";
 import images from "../../Components/images.json";
 import { Flex } from "@chakra-ui/react";
 import NewsLetter from "../../Components/NewsLetter";
+
 import Footer from "../../Components/Footer/Footer";
 const webdevelopment = images[0].webdevelopment;
 const desktoppublishing = images[1].desktoppublishing;
