@@ -11,7 +11,7 @@ const NewsLetter = () => {
         <Flex
           justify="center"
           align="center"
-          m={20}
+          m={{ base: 5, sm: 5, md:20,lg:20 }}
           className="course-container"
         >
           <Flex m={0} padding={10} className="browse-course">
