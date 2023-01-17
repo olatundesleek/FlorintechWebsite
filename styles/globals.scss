@@ -168,7 +168,7 @@ a {
 
   .image-wrapper {
     position: relative;
-    height: 250px;
+    height: 200px;
     overflow: hidden;
     -webkit-transform: translate(0px, 0px);
     -ms-transform: translate(0px, 0px);
@@ -219,7 +219,10 @@ a {
 
 .footer{
   background-image: radial-gradient(circle, #083b6b, #092038);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
-&-writeup{flex: 1}
+  @media screen and (max-width:#{$phone-width}) {
+    padding: 10px 20px;
+  }
+  &-writeup{flex: 1}
 &-links{flex: 1;}
 &-tools{padding: 10px 20px; a{color: #ffffff;font-size: 20px;}}
 &-pages{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
