@@ -19,7 +19,10 @@ const Singlecourse = (props) => {
         <div className="single-course-inner">
           <div className="single-course-content">
             <Box>
-              <h1 className="single-page-ads">{props.title}</h1>
+              {/* <h1 className="single-page-ads">{props.title}</h1> */}
+              <h1 className="single-page-ads">
+                Ultimate Facebook Ads Advance Course
+              </h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 sem at tortor egestas posuere sed
