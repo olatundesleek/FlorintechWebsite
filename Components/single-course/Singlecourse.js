@@ -7,9 +7,7 @@ import { FaPlay, FaAward } from "react-icons/fa";
 import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 import { TiArrowSync } from "react-icons/ti";
-// import advancedgrahicsdesign from "./../"
-import advancedgraphicsdesign from "./../../pages/courses/advancedgraphicsdesign";
-const autocadspecialist = images[3].autocadspecialist;
+import AboutTeacher from "../AboutTeacher";
 const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
 const Singlecourse = (props) => {
@@ -32,32 +30,8 @@ const Singlecourse = (props) => {
                 className="single-page-image"
               />
             </Box>
-            <Flex
-              justify="space-around"
-              mt={10}
-              className="about-teacher-container"
-              boxShadow="md"
-              rounded="md"
-              bg="white"
-            >
-              <Box>
-                <img
-                  src={autocadspecialist}
-                  alt="Person"
-                  className="person-image"
-                />
-              </Box>
-              <Box className="about-teacher">
-                <h1 className="about-teacher-title">About the teacher</h1>
-                <p mt={5}>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Quasi quas ipsum ducimus inventore totam corporis unde.
-                </p>
-                <Link href="/" className="about-link">
-                  <a>Learn more</a>
-                </Link>
-              </Box>
-            </Flex>
+            {/* the about teacher */}
+            <AboutTeacher />
             {/* <advancedgraphicsdesign/> */}
             <Box>
               <h1 className="about-teacher-title-sec">
@@ -105,7 +79,7 @@ const Singlecourse = (props) => {
               </div>
             </Box>
             <Box boxShadow="md" rounded="md" bg="white">
-              <img src={autocadspecialist} className="single-page-image" />
+              {/* <img src={autocadspecialist} className="single-page-image" /> */}
               <div style={{ padding: "2.5rem 0" }}>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -179,49 +153,50 @@ const Singlecourse = (props) => {
               </div>
               <button className="course-cart-button">Add to cart</button>
             </div>
-            <p>lorem5</p>
+            {/* the "what is include part of the single course page " */}
+            <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem">
+              <div className="about-teacher-title-sec">What’s included?</div>
+              <Flex alignItems="center">
+                <FaPlay />
+                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                  Video's: <bold className="about-teacher-title">6</bold>
+                </Text>
+              </Flex>
+              <Flex alignItems="center">
+                <BsFileEarmarkFill />
+                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                  Downloadable Files:{" "}
+                  <bold className="about-teacher-title">6</bold>
+                </Text>
+              </Flex>
+              <Flex alignItems="center">
+                <BiTimeFive />
+                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                  Duration:{" "}
+                  <bold className="about-teacher-title">5hr 40min</bold>
+                </Text>
+              </Flex>
+              <Flex alignItems="center">
+                <BsFileMinusFill />
+                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                  Access Anywhere
+                </Text>
+              </Flex>
+              <Flex alignItems="center">
+                <FaAward />
+                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                  Certificate of Completion
+                </Text>
+              </Flex>
+              <Flex alignItems="center">
+                <TiArrowSync />
+                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                  Lifetime Access
+                </Text>
+              </Flex>
+            </Box>
           </Box>
         </div>
-        {/* the "what is include part of the single course page " */}
-        <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem">
-          <div className="about-teacher-title-sec">What’s included?</div>
-          <Flex alignItems="center">
-            <FaPlay />
-            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-              Video's: <bold className="about-teacher-title">6</bold>
-            </Text>
-          </Flex>
-          <Flex alignItems="center">
-            <BsFileEarmarkFill />
-            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-              Downloadable Files: <bold className="about-teacher-title">6</bold>
-            </Text>
-          </Flex>
-          <Flex alignItems="center">
-            <BiTimeFive />
-            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-              Duration: <bold className="about-teacher-title">5hr 40min</bold>
-            </Text>
-          </Flex>
-          <Flex alignItems="center">
-            <BsFileMinusFill />
-            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-              Access Anywhere
-            </Text>
-          </Flex>
-          <Flex alignItems="center">
-            <FaAward />
-            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-              Certificate of Completion
-            </Text>
-          </Flex>
-          <Flex alignItems="center">
-            <TiArrowSync />
-            <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-              Lifetime Access
-            </Text>
-          </Flex>
-        </Box>
       </section>
       <NewsLetter />
       <Footer />
