@@ -4,7 +4,7 @@ import { Box, Flex, Link } from "@chakra-ui/react";
 import Image from "next/image";
 const autocadspecialist = images[3].autocadspecialist;
 
-const AboutTeacher = () => {
+const AboutTeacher = ({ teacherTitle, teacherName, teacherText }) => {
   return (
     <div>
       <Flex
@@ -25,11 +25,9 @@ const AboutTeacher = () => {
           />
         </Box>
         <Box className="about-teacher">
-          <h1 className="about-teacher-title">About the teacher</h1>
-          <p mt={5}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quas
-            ipsum ducimus inventore totam corporis unde.
-          </p>
+          <h1 className="about-teacher-title"> {teacherTitle} </h1>
+          <h3 className="about-teacher-title"> {teacherName} </h3>
+          <p mt={5}>{teacherText}</p>
           <Link href="/" className="about-link">
             <a>Learn more</a>
           </Link>

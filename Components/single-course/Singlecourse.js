@@ -1,5 +1,6 @@
 import React from "react";
 import images from "../images.json";
+import Image from "next/image";
 import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import NewsLetter from "./../NewsLetter";
 import Footer from "./../Footer/Footer";
@@ -8,18 +9,20 @@ import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 import { TiArrowSync } from "react-icons/ti";
 import AboutTeacher from "../AboutTeacher";
+const autocadspecialist = images[3].autocadspecialist;
 const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
-const Singlecourse = (props) => {
+const Singlecourse = ({ courseTitle }) => {
   return (
     <div>
       <section className="single-course-container">
         <div className="single-course-inner">
           <div className="single-course-content">
             <Box>
-              {/* <h1 className="single-page-ads">{props.title}</h1> */}
+              {/* <h1 className="single-page-ads">{courseTitle}</h1> */}
               <h1 className="single-page-ads">
-                Ultimate Facebook Ads Advance Course
+                {/* Ultimate Facebook Ads Advance Course */}
+                {courseTitle}
               </h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
@@ -31,7 +34,12 @@ const Singlecourse = (props) => {
               />
             </Box>
             {/* the about teacher */}
-            <AboutTeacher />
+            <AboutTeacher
+              teacherTitle="About the teacher"
+              teacherName="JOHN SMILGA"
+              teacherText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quas
+            ipsum ducimus inventore totam corporis unde."
+            />
             {/* <advancedgraphicsdesign/> */}
             <Box>
               <h1 className="about-teacher-title-sec">
@@ -79,7 +87,7 @@ const Singlecourse = (props) => {
               </div>
             </Box>
             <Box boxShadow="md" rounded="md" bg="white">
-              {/* <img src={autocadspecialist} className="single-page-image" /> */}
+              <img src={autocadspecialist} className="single-page-image" />
               <div style={{ padding: "2.5rem 0" }}>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
