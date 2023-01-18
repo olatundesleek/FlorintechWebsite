@@ -12,22 +12,33 @@ import AboutTeacher from "../AboutTeacher";
 const autocadspecialist = images[3].autocadspecialist;
 const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
-const Singlecourse = ({ courseTitle }) => {
+const Singlecourse = ({
+  courseTitle,
+  courseDetails,
+  aboutCourse,
+  aboutCourseText,
+  listOne,
+  listTwo,
+  listThree,
+  aboutCourseTextTwo,
+  whatToLearn,
+  whatToLearnText,
+  whatToLearnListOne,
+  whatToLearnListTwo,
+  whatToLearnListThree,
+  whatToLearnListFour,
+  whatToLearnListFive,
+  whatToLearnListSix,
+  joinClass,
+}) => {
   return (
     <div>
       <section className="single-course-container">
         <div className="single-course-inner">
           <div className="single-course-content">
             <Box>
-              {/* <h1 className="single-page-ads">{courseTitle}</h1> */}
-              <h1 className="single-page-ads">
-                {/* Ultimate Facebook Ads Advance Course */}
-                {courseTitle}
-              </h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                sem at tortor egestas posuere sed
-              </p>
+              <h1 className="single-page-ads">{courseTitle}</h1>
+              <p>{courseDetails}</p>
               <img
                 src={businesselectronicaccounting}
                 className="single-page-image"
@@ -37,53 +48,23 @@ const Singlecourse = ({ courseTitle }) => {
             <AboutTeacher
               teacherTitle="About the teacher"
               teacherName="JOHN SMILGA"
-              teacherText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quas
+              teacherText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quas Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, officiis.
             ipsum ducimus inventore totam corporis unde."
             />
-            {/* <advancedgraphicsdesign/> */}
+            {/* end of about teacher */}
             <Box>
-              <h1 className="about-teacher-title-sec">
-                What’s this course about?
-              </h1>
+              <h1 className="about-teacher-title-sec">{aboutCourse}</h1>
               <div>
-                <p>
-                  Lorem ipsum dolor <strong>sit amet consectetur </strong>
-                  adipisicing elit. Cupiditate adipisci fuga nam veniam
-                  perferendis,
-                  <strong> quidem recusandae cum voluptatem</strong>
-                  debitis. Enim omnis illum laboriosam dolorem blanditiis neque
-                  repellat voluptas! Enim, autem?
-                </p>
-                <br />
-                <p>
-                  Lorem ipsum dolor <strong>sit amet consectetur</strong>
-                  adipisicing elit. Autem voluptate et maiores quasi amet iste
-                  sunt eligendi <strong>repudiandae </strong>quisquam
-                  consequatur!
-                </p>
+                <p>{aboutCourseText}</p>
                 <br />
                 <ul className="single-list">
-                  <li>
-                    Lorem ipsum dolor sit amet <strong>consectetur</strong>
-                    adipisicing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum <strong>dolor sit amet</strong> consectetur
-                    adipisicing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur
-                    <strong>adipisicing elit</strong>.
-                  </li>
+                  <li>{listOne}</li>
+
+                  {<li>{listTwo}</li>}
+                  {<li>{listThree}</li>}
                 </ul>
                 <br />
-                <p>
-                  Lorem ipsum dolor sit <strong>amet consectetur</strong>
-                  adipisicing elit. Optio atque nulla veritatis dolorem esse ad
-                  quibusdam <strong>ipsam doloribus</strong>, dolor vero
-                  voluptates alias porro mollitia architecto ex magni magnam?
-                  Aut, consequatur.
-                </p>
+                <p>{aboutCourseTextTwo}</p>
               </div>
             </Box>
             <Box boxShadow="md" rounded="md" bg="white">
@@ -98,46 +79,25 @@ const Singlecourse = ({ courseTitle }) => {
               </div>
             </Box>
             <Box>
-              <h1 className="about-teacher-title-sec">What you’ll learn</h1>
+              <h1 className="about-teacher-title-sec">{whatToLearn} </h1>
               <div className="last-text">
-                <p>
-                  Lorem ipsum dolor <strong>sit amet consectetur </strong>
-                  adipisicing elit. Cupiditate adipisci fuga nam veniam
-                  perferendis,
-                  <strong> quidem recusandae cum voluptatem</strong>
-                  debitis. Enim omnis illum laboriosam dolorem blanditiis neque
-                  repellat voluptas! Enim, autem?
-                </p>
+                <p>{whatToLearnText}</p>
                 <br />
                 <ul className="single-list-two">
-                  <li>
-                    Lorem ipsum dolor sit amet <strong>consectetur</strong>
-                    adipisicing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum <strong>dolor sit amet</strong> consectetur
-                    adipisicing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur
-                    <strong>adipisicing elit</strong>.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur
-                    <strong>adipisicing elit</strong>.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur
-                    <strong>adipisicing elit</strong>.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur
-                    <strong>adipisicing elit</strong>.
-                  </li>
+                  <li>{whatToLearnListOne}</li>
+                  <li>{whatToLearnListTwo}</li>
+
+                  <li>{whatToLearnListThree}</li>
+
+                  <li>{whatToLearnListFour}</li>
+
+                  <li>{whatToLearnListFive}</li>
+
+                  <li>{whatToLearnListSix}</li>
                 </ul>
               </div>
               <Link href="/" className="join-class">
-                <a>Join the Class</a>
+                <a>{joinClass} </a>
               </Link>
             </Box>
           </div>

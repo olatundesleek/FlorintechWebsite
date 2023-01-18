@@ -1,6 +1,6 @@
 import React from "react";
 import images from "./images.json";
-import { Box, Flex, Link } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import Image from "next/image";
 const autocadspecialist = images[3].autocadspecialist;
 
@@ -28,9 +28,6 @@ const AboutTeacher = ({ teacherTitle, teacherName, teacherText }) => {
           <h1 className="about-teacher-title"> {teacherTitle} </h1>
           <h3 className="about-teacher-title"> {teacherName} </h3>
           <p mt={5}>{teacherText}</p>
-          <Link href="/" className="about-link">
-            <a>Learn more</a>
-          </Link>
         </Box>
       </Flex>
     </div>
@@ -38,3 +35,4 @@ const AboutTeacher = ({ teacherTitle, teacherName, teacherText }) => {
 };
 
 export default AboutTeacher;
+
