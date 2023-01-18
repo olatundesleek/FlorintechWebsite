@@ -1,7 +1,7 @@
+import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
-import React from "react";
-import Brand from "../Brand/Brand";
+import Brand from "./Brand/Brand";
 import { FiFacebook} from "react-icons/fi"
 import { FiTwitter} from "react-icons/fi"
 import {FiYoutube} from "react-icons/fi"

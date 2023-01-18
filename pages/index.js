@@ -11,9 +11,10 @@ import CourseTab from "../Components/Coursetab/CourseTab";
 import Trending from "../Components/Trendingcourses/Trending";
 import Singlecourse from "../Components/single-course/Singlecourse";
 import Header from "../Components/Header";
-import Footer from "../Components/Footer/Footer";
+
 import NewsLetter from "../Components/NewsLetter";
 import Testimonial from "../Components/Testimonial/Testimonial";
+import Footer from "../Components/Footer";
 export default function Home() {
   return (
     <div className={styles.container}>

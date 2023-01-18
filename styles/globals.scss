@@ -156,6 +156,11 @@ a {
     color: #ffffff;
     font-size: 22px;
     font-weight: bold;
+   
+    @media screen and (max-width:#{$phone-width}) {
+      font-size: 18px;
+      }
+  
   }
   .courseprice,
   .learnmore {
@@ -183,9 +188,13 @@ a {
 .page-main-content {
   padding: 0 40px;
   background-image: radial-gradient(circle, #083b6b, #092038);
+  
 }
 .course-main-content {
-  padding: 38px 2vw 34px;
+  padding: 20px 2vw 34px;
+  @media screen and (max-width:#{$phone-width}) {
+    padding: 10px 1vw 20px;
+    }
   .divider {overflow: hidden;
     height: 2px;
     width: 100%;
@@ -193,10 +202,11 @@ a {
     margin-bottom: 25px;
     background-color: #eef0f5;
     &-content{transition:0.5s;background-color: #ddbc65;height: 100%;width: 100%;transform: translateX(-500px) ;opacity:0;}
+  
+  
   }
 }
-.trending-section {margin: 40px 0;
-  padding: 0 40px;
+.trending-section {
  
   &-header {
     width: 60%;
@@ -346,6 +356,8 @@ a {
   margin-bottom: 7rem;
   color:#1d2b5f;
   line-height:2.5em;
+
+
 }
 .course-text-left{
   font-family: Manrope, sans-serif !important;
@@ -460,7 +472,7 @@ $desktop-width: 1024px;
     display: grid !important;
     grid-template-columns: 1fr !important;
     place-items: center !important;
-  }
+}
   .course-text-left{
     font-size: 2rem;
     width: 100%;
@@ -506,7 +518,7 @@ $desktop-width: 1024px;
 svg{fill: #ffffff;}
 .quote{font-size:35px;width: 100%;}
 h2{font-size: 20px;line-height: 25px;color: #ffffff;padding: 20px;text-align: center;
-@media screen and (max-width:#{$phonw-width}) {
+@media screen and (max-width:#{$phone-width}) {
   padding: 5px;
 }}
 

@@ -12,13 +12,13 @@ function Mobilemenu() {
   <MyNavLink href="/">
     <a className="link">HOME</a>
   </MyNavLink>
-  <MyNavLink href="/">
+  <MyNavLink href="/courses">
     <a className="link">COURSES</a>
   </MyNavLink>
-  <MyNavLink href="/">
+  <MyNavLink href="/#testimonial">
     <a className="link">TESTIMONIAL</a>
   </MyNavLink>
-  <MyNavLink href="/">
+  <MyNavLink href="/tutorial">
     <a className="link">TUTORIALS</a>
   </MyNavLink>
   <MyNavLink href="/">
@@ -27,10 +27,10 @@ function Mobilemenu() {
   <MyNavLink href="/">
     <a className="link">LOCATIONS</a>
   </MyNavLink>
-  <MyNavLink href="/">
+  <MyNavLink href="/aboutus">
     <a className="link">ABOUT US</a>
   </MyNavLink>
-  <MyNavLink href="/">
+  <MyNavLink href="/faq">
     <a className="link">FAQ</a>
   </MyNavLink>
 </Flex>

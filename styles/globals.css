@@ -146,7 +146,7 @@ a {
   transition: 0.5s;
   overflow: hidden;
   max-height: 800px;
-  width: 400px;
+  width: 350px;
   background-image: radial-gradient(circle, #083b6b, #092038);
   box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
   border-radius: 24px;
@@ -162,6 +162,11 @@ a {
   font-size: 22px;
   font-weight: bold;
 }
+@media screen and (max-width: 500px) {
+  .course-card .coursetext {
+    font-size: 18px;
+  }
+}
 .course-card .courseprice,
 .course-card .learnmore {
   color: #ffffff;
@@ -170,7 +175,7 @@ a {
 }
 .course-card .image-wrapper {
   position: relative;
-  height: 250px;
+  height: 200px;
   overflow: hidden;
   transform: translate(0px, 0px);
 }
@@ -186,7 +191,12 @@ a {
 }
 
 .course-main-content {
-  padding: 38px 2vw 34px;
+  padding: 20px 2vw 34px;
+}
+@media screen and (max-width: 500px) {
+  .course-main-content {
+    padding: 10px 1vw 20px;
+  }
 }
 .course-main-content .divider {
   overflow: hidden;
@@ -205,10 +215,6 @@ a {
   opacity: 0;
 }
 
-.trending-section {
-  margin: 40px 0;
-  padding: 0 40px;
-}
 .trending-section-header {
   width: 60%;
 }
@@ -234,6 +240,11 @@ a {
 }
 .footer p {
   color: #ffffff;
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    padding: 10px 20px;
+  }
 }
 .footer-writeup {
   flex: 1;
@@ -565,6 +576,9 @@ a {
   flex-shrink: 0;
   align-items: center;
 }
+.testimonial-slide Image {
+  border-radius: 50px;
+}
 .testimonial-slide .leftquote {
   flex-basis: 20%;
   width: 100%;
@@ -587,4 +601,9 @@ a {
   color: #ffffff;
   padding: 20px;
   text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .testimonial-slide h2 {
+    padding: 5px;
+  }
 }/*# sourceMappingURL=globals.css.map */

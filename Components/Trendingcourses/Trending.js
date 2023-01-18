@@ -15,9 +15,9 @@ function Trending() {
     <Box className='trending-section-title-text'><h2>Checkout our premium trending courses</h2></Box>
 
 </Flex>
-<Grid templateColumns={{base:'1fr',sm:'1fr',md:'1fr 1fr',lg:'repeat(3, 1fr)'}} gap={5} justifyContent="center" spacing="10">
+<Flex justifyContent={{base:"center",sm:"center",md:"center",lg:"center"}} flexFlow="wrap" p={{base:0,sm:0,md:0,lg:0,xl:0}}>
 
-<GridItem display="flex" justifyContent="center">
+<Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
 <CourseTab
         to="/webdevelopment"
         courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -25,8 +25,8 @@ function Trending() {
         courseImage={webdevelopment}
         price="50000"
       />
-</GridItem>
-<GridItem display="flex" justifyContent="center">
+</Flex>
+<Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
 <CourseTab
         to="/uiux"
         courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -34,8 +34,8 @@ function Trending() {
         courseImage={webdevelopment}
         price="80,000"
       />
-</GridItem>
-<GridItem display="flex" justifyContent="center">
+</Flex>
+<Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
 <CourseTab
         to="/Graphics Design Professional"
         courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit."
@@ -43,9 +43,9 @@ function Trending() {
         courseImage={webdevelopment}
         price="50000"
       />
-</GridItem>
+</Flex>
 
-</Grid>
+</Flex>
     </Box>
   )
 }
