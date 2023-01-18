@@ -12,7 +12,7 @@
     "autocadspecialist": "/images/autocadspecialist.jpg"
   },
   {
-    "businesselectronicaccounting": "/images/businesselectronicaccounting.jpeg"
+    "businesselectronicaccounting": "/images/businesselectronicaccounting.jpg"
   },
   {
     "computernetworking": "/images/computernetworking.jpg"
@@ -21,7 +21,7 @@
     "computerprogramming": "/images/computerprogramming.jpg"
   },
   {
-    "databaseadministraction": "/images/databaseadministraction.jpg"
+    "databaseadministration": "/images/databaseadministration.jpg"
   },
   {
     "officeapplication": "/images/officeapplication.jpg"
@@ -33,6 +33,7 @@
     "computersecurity": "/images/computersecurity.jpg"
   }
 ]
+
   
    
     

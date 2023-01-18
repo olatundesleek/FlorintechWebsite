@@ -5,15 +5,13 @@ import Header from "../../Components/Header";
 import images from "../../Components/images.json";
 import { Flex } from "@chakra-ui/react";
 import NewsLetter from "../../Components/NewsLetter";
-import Footer from "../Components/Footer/Footer";
+import Footer from "../../Components/Footer";
 const webdevelopment = images[0].webdevelopment;
 const desktoppublishing = images[1].desktoppublishing;
 const certifiedgraphicsprofessional = images[2].certifiedgraphicsprofessional;
-const autocadspecialist = images[3].autocadspecialist;
-const businesselectronicaccounting = images[4].businesselectronicaccounting;
 const computernetworking = images[5].computernetworking;
 const computerprogramming = images[6].computerprogramming;
-const databaseadministraction = images[7].databaseadministraction;
+const databaseadministration = images[7].databaseadministration;
 const officeapplication = images[8].officeapplication;
 const digitalmedia = images[9].digitalmedia;
 const computersecurity = images[10].computersecurity;
@@ -33,30 +31,30 @@ function index() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod vitae
           non diam ipsum, augue amet amet. At nisl amet consectetur tincidunt.
         </Box>
-      </Flex>
+      </Flex >
       {/*  the courses images */}
-      <Grid
-        templateColumns="repeat(3, 1fr)"
-        mr={10}
-        ml={10}
-        rowGap={7}
-        placeItems="center"
-        className="courses-card"
+      <Flex
+       justifyContent={{base:"center",sm:"center",md:"center",lg:"center"}} flexFlow="wrap" p={{base:0,sm:0,md:0,lg:0,xl:0}}
       >
-        <CourseTab
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0"> 
+          <CourseTab
           to="courses/webdevelopment"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Web Development"
           courseImage={webdevelopment}
           price="50000"
-        />
-        <CourseTab
+        /></Flex>
+       <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
+       <CourseTab
           to="courses/advancegraphicsdesign"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Graphics Design"
           courseImage={certifiedgraphicsprofessional}
           price="50000"
         />
+
+       </Flex>
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
         <CourseTab
           to="courses/desktoppublishing"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -64,49 +62,63 @@ function index() {
           courseImage={desktoppublishing}
           price="50000"
         />
+        </Flex>
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
         <CourseTab
-          to="courses/webdevelopment"
+          to="courses/OfficeApplication"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Office Application"
           courseImage={officeapplication}
           price="50000"
         />
+
+        </Flex>
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
         <CourseTab
-          to="courses/webdevelopment"
+          to="courses/DatabaseAdministration"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
-          courseTitle="Business Accounting"
-          courseImage={businesselectronicaccounting}
+          courseTitle="Database Administration"
+          courseImage={databaseadministration}
           price="50000"
         />
+        </Flex>
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
         <CourseTab
-          to="courses/webdevelopment"
+          to="courses/ComputerProgramming"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Computer Programming"
           courseImage={computerprogramming}
           price="50000"
         />
+        </Flex>
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
         <CourseTab
-          to="courses/webdevelopment"
+          to="courses/DigitalMedia"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Digital Media"
           courseImage={digitalmedia}
           price="50000"
         />
+        </Flex>
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
         <CourseTab
-          to="courses/webdevelopment"
+          to="courses/ComputerNetworking"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Computer Networking"
           courseImage={computernetworking}
           price="50000"
         />
+        </Flex>
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
         <CourseTab
-          to="courses/webdevelopment"
+          to="courses/ComputerSecurity"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
           courseTitle="Computer-Engr & I.T Security Mgmt"
           courseImage={computersecurity}
           price="50000"
         />
-      </Grid>
+        </Flex>
+      </Flex>
       <NewsLetter />
       <Footer />
     </Box>

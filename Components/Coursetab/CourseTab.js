@@ -17,7 +17,7 @@ const CourseTab = ({ courseTitle,courseText,to,price,courseImage }) => {
 <Image className='course-image' src={courseImage}
       alt="Picture of the author"
       width={500}
-      height={400} />
+      height={300} />
 
 
 </Box>
@@ -27,7 +27,7 @@ const CourseTab = ({ courseTitle,courseText,to,price,courseImage }) => {
 <Box className="divider">
   <Box className='divider-content'></Box>
 </Box>
-<Flex justifyContent="space-between">
+<Flex padding="0 20px" justifyContent="space-between">
 <Box><h3 className='learnmore'>Learn more</h3></Box>
 <Box><h3 className='courseprice'>NGN{price}</h3></Box>
 
