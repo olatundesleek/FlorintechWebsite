@@ -1,5 +1,4 @@
 import React from "react";
-import images from "../images.json";
 import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import NewsLetter from "../../Components/NewsLetter";
 import Footer from "../../Components/Footer";
