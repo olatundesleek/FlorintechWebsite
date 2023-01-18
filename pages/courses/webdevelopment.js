@@ -1,16 +1,18 @@
 import { Box } from '@chakra-ui/react'
 import React from 'react'
-import Header from '../../Components/Header'
-import Singlecourse from '../../Components/single-course/Singlecourse'
+import images from "../../Components/images.json";
+const webdevelopmentImage = images[0].webdevelopment;
+import Header from "../../Components/Header";
+import Singlecourse from "../../Components/single-course/Singlecourse";
 
 function webdevelopment() {
   return (
     <Box>
       <Header />
       <Singlecourse
-        courseTitle="Ultimate web Development Ads Advance Course"
+        courseTitle="Ultimate web Development Advance Course"
         courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
-        aboutCourse="What’s this course about?"
+        courseImage={webdevelopmentImage}
         aboutCourseText=" Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Cupiditate adipisci fuga nam veniam
         perferendis,
@@ -32,7 +34,6 @@ function webdevelopment() {
         quibusdam ipsam doloribus, dolor vero
         voluptates alias porro mollitia architecto ex magni magnam?
         Aut, consequatur."
-        whatToLearn="What you’ll learn"
         whatToLearnText="  Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Cupiditate adipisci fuga nam veniam
         perferendis,
@@ -51,7 +52,10 @@ function webdevelopment() {
         adipisicing elit."
         whatToLearnListSix="Lorem ipsum dolor sit amet consectetur
         adipisicing elit."
-        joinClass="Join the Class"
+        secondImageText="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Harum reiciendis cupiditate asperiores nulla hic quidem ab,
+        voluptatem voluptatibus accusamus ea est eum soluta maiores
+        deleniti ratione laudantium. Modi, sequi quasi."
       />
     </Box>
   );

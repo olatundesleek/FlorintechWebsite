@@ -1,6 +1,5 @@
 import React from "react";
 import images from "../images.json";
-import Image from "next/image";
 import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import NewsLetter from "./../NewsLetter";
 import Footer from "./../Footer/Footer";
@@ -9,19 +8,16 @@ import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 import { TiArrowSync } from "react-icons/ti";
 import AboutTeacher from "../AboutTeacher";
-const autocadspecialist = images[3].autocadspecialist;
-const businesselectronicaccounting = images[4].businesselectronicaccounting;
 
 const Singlecourse = ({
   courseTitle,
   courseDetails,
-  aboutCourse,
+  courseImage,
   aboutCourseText,
   listOne,
   listTwo,
   listThree,
   aboutCourseTextTwo,
-  whatToLearn,
   whatToLearnText,
   whatToLearnListOne,
   whatToLearnListTwo,
@@ -29,7 +25,7 @@ const Singlecourse = ({
   whatToLearnListFour,
   whatToLearnListFive,
   whatToLearnListSix,
-  joinClass,
+  secondImageText,
 }) => {
   return (
     <div>
@@ -39,10 +35,7 @@ const Singlecourse = ({
             <Box>
               <h1 className="single-page-ads">{courseTitle}</h1>
               <p>{courseDetails}</p>
-              <img
-                src={businesselectronicaccounting}
-                className="single-page-image"
-              />
+              <img src={courseImage} className="single-page-image" />
             </Box>
             {/* the about teacher */}
             <AboutTeacher
@@ -53,7 +46,9 @@ const Singlecourse = ({
             />
             {/* end of about teacher */}
             <Box>
-              <h1 className="about-teacher-title-sec">{aboutCourse}</h1>
+              <h1 className="about-teacher-title-sec">
+                What’s this course about?
+              </h1>
               <div>
                 <p>{aboutCourseText}</p>
                 <br />
@@ -68,18 +63,13 @@ const Singlecourse = ({
               </div>
             </Box>
             <Box boxShadow="md" rounded="md" bg="white">
-              <img src={autocadspecialist} className="single-page-image" />
+              <img src={courseImage} className="single-page-image" />
               <div style={{ padding: "2.5rem 0" }}>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Harum reiciendis cupiditate asperiores nulla hic quidem ab,
-                  voluptatem voluptatibus accusamus ea est eum soluta maiores
-                  deleniti ratione laudantium. Modi, sequi quasi.
-                </p>
+                <p>{secondImageText}</p>
               </div>
             </Box>
             <Box>
-              <h1 className="about-teacher-title-sec">{whatToLearn} </h1>
+              <h1 className="about-teacher-title-sec">What you’ll learn </h1>
               <div className="last-text">
                 <p>{whatToLearnText}</p>
                 <br />
@@ -97,7 +87,7 @@ const Singlecourse = ({
                 </ul>
               </div>
               <Link href="/" className="join-class">
-                <a>{joinClass} </a>
+                <a>Join the Class </a>
               </Link>
             </Box>
           </div>
