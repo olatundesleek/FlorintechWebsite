@@ -7,7 +7,7 @@ import { FaPlay, FaAward } from "react-icons/fa";
 import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 import { TiArrowSync } from "react-icons/ti";
-import AboutTeacher from "../AboutTeacher";
+import AboutTeacher from "../../Components/AboutTeacher";
 
 const Singlecourse = ({
   courseTitle,
