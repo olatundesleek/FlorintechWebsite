@@ -100,16 +100,12 @@ const Singlecourse = ({
                 Augue neque gravida in fermentum et sollicitudin ac orci. Velit
                 egestas dui id
               </div>
-              <div>
-                <select id="select-courses" className="select-course">
-                  <option selected>Course</option>
-                </select>
-              </div>
+
               <div className="course-amount">
                 <span className="amount"> $ 699.00 USD</span>
                 <span className="discount">$ 1,200.00 USD</span>
               </div>
-              <button className="course-cart-button">Add to cart</button>
+              <button className="course-cart-button">Join the Class </button>
             </div>
             {/* the "what is include part of the single course page " */}
             <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem">
@@ -123,14 +119,14 @@ const Singlecourse = ({
               <Flex alignItems="center">
                 <BsFileEarmarkFill />
                 <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-                  Downloadable Files:{" "}
+                  Downloadable Files:
                   <bold className="about-teacher-title">6</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <BiTimeFive />
                 <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
-                  Duration:{" "}
+                  Duration:
                   <bold className="about-teacher-title">5hr 40min</bold>
                 </Text>
               </Flex>

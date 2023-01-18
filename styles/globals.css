@@ -682,7 +682,7 @@ a {
   transform-style: preserve-3d;
 }
 
-.join-class:hover {
+.join-class a:hover {
   transform: scale(1.054) !important;
 }
 
