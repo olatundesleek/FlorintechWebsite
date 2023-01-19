@@ -95,7 +95,8 @@ const Singlecourse = ({
           {/* <div> */}
           <Box>
             <div className="single-course-content-two">
-              <div className="course-header">Get this Course</div>
+              {/* <div className="course-header">Get this Course</div> */}
+              <div className="about-teacher-title-sec">Get this Course</div>
               <div className="content">
                 Augue neque gravida in fermentum et sollicitudin ac orci. Velit
                 egestas dui id

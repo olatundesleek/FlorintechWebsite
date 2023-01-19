@@ -258,8 +258,7 @@ a {
 }
 .single-course-inner {
   display: flex;
-  width: 90%;
-  
+  width: 100%;
 }
 .single-course-content {
   flex: 1;
@@ -281,7 +280,8 @@ a {
   font-weight: 600;
 }
 .single-course-content-two {
-  width: 330px;
+  // width: 330px;
+  width: 408px;
   flex-shrink: 0;
   background-color: #ffffff;
   display: flex;
@@ -612,6 +612,13 @@ h2{font-size: 20px;line-height: 25px;color: #ffffff;padding: 20px;text-align: ce
 .last-text {
   margin-bottom: 3rem;
 }
+@media screen and (max-width:#{$tablet-width}) {
+ 
+  .single-course-container{
+    flex-direction:column;
+  
+  }
+}
 // faq css frequently questions
 main {
   min-height: 100vh;
@@ -690,7 +697,18 @@ main {
 }
 
 @media screen and (max-width:#{$tablet-width}) {
-  .section {
-    width: 95vw;
+  .single-course-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
   }
+  // .single-course-inner {
+  //   // display: flex;
+  //   width: 100%;
+  // }
 }
+
+

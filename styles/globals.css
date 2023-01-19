@@ -293,7 +293,7 @@ a {
 
 .single-course-inner {
   display: flex;
-  width: 90%;
+  width: 100%;
 }
 
 .single-course-content {
@@ -320,7 +320,7 @@ a {
 }
 
 .single-course-content-two {
-  width: 330px;
+  width: 408px;
   flex-shrink: 0;
   background-color: #ffffff;
   display: flex;
@@ -696,6 +696,11 @@ a {
   margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 768px) {
+  .single-course-container {
+    flex-direction: column;
+  }
+}
 main {
   min-height: 100vh;
   display: flex;
@@ -780,7 +785,12 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  .section {
-    width: 95vw;
+  .single-course-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
   }
 }/*# sourceMappingURL=globals.css.map */
