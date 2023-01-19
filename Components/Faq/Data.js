@@ -24,5 +24,15 @@ const questions = [
     title: "When do I recieve a password ordered by letter?",
     info: "Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ",
   },
+  {
+    id: 6,
+    title: "When do I recieve a password ordered by letter?",
+    info: "Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ",
+  },
+  {
+    id: 7,
+    title: "Whose birth number can I use?",
+    info: "Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.",
+  },
 ];
 export default questions;

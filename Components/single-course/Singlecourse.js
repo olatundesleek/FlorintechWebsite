@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import NewsLetter from "../../Components/NewsLetter";
+import Faq from "../../Components/Faq/Faq";
 import Footer from "../../Components/Footer";
 import { FaPlay, FaAward } from "react-icons/fa";
 import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
@@ -151,6 +152,7 @@ const Singlecourse = ({
           </Box>
         </div>
       </section>
+      <Faq />
       <NewsLetter />
       <Footer />
     </div>
