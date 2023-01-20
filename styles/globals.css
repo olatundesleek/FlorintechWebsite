@@ -790,7 +790,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
     margin: auto;
+  }
+  .single-course-content > div h1 {
+    font-size: 40px;
   }
 }/*# sourceMappingURL=globals.css.map */
