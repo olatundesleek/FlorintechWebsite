@@ -34,7 +34,7 @@ function Topnav() {
             <BsPencil /> Register
           </a>
         </Link>
-        <Link href="/">
+        <Link href="/verifycertificate">
           <a className="link">
             <AiOutlineSafetyCertificate /> Verify Certificate
           </a>

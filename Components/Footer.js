@@ -32,7 +32,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/testimonial">
+                  <Link href="/#testimonial">
                     <a>TESTIMONIAL</a>
                   </Link>
                 </li>

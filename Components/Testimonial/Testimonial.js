@@ -21,7 +21,7 @@ setTimeout(() => {
 
   return (
    
-    <Box marginTop="150px">
+    <Box marginTop="150px" id="testimonial">
        {console.log(slideIndex)}
       <h2 className="testimonial-title">Testimonial</h2>
       <Flex justifyContent="center">
