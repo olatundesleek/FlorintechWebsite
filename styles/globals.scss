@@ -258,7 +258,7 @@ a {
 }
 .single-course-inner {
   display: flex;
-  width: 100%;
+  width: 90%;
 }
 .single-course-content {
   flex: 1;
@@ -280,7 +280,6 @@ a {
   font-weight: 600;
 }
 .single-course-content-two {
-  // width: 330px;
   width: 408px;
   flex-shrink: 0;
   background-color: #ffffff;
@@ -708,6 +707,13 @@ main {
   }
   .single-course-content > div h1 {
     font-size: 40px;
+  }
+  .single-course-content-two {
+    width: 408px;
+  }
+  .single-course-inner {
+    
+    width: 100%;
   }
  
 }

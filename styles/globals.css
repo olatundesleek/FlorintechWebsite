@@ -293,7 +293,7 @@ a {
 
 .single-course-inner {
   display: flex;
-  width: 100%;
+  width: 90%;
 }
 
 .single-course-content {
@@ -796,5 +796,11 @@ main {
   }
   .single-course-content > div h1 {
     font-size: 40px;
+  }
+  .single-course-content-two {
+    width: 408px;
+  }
+  .single-course-inner {
+    width: 100%;
   }
 }/*# sourceMappingURL=globals.css.map */

@@ -55,8 +55,8 @@ const Singlecourse = ({
                 <ul className="single-list">
                   <li>{listOne}</li>
 
-                  {<li>{listTwo}</li>}
-                  {<li>{listThree}</li>}
+                  <li>{listTwo}</li>
+                  <li>{listThree}</li>
                 </ul>
                 <br />
                 <p>{aboutCourseTextTwo}</p>
