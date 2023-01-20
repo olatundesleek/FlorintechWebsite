@@ -3,25 +3,37 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Header from "../Components/Header";
 
-const verifyCert = () =>{
-  let  cc = {cert_number:"229906MN"}
-  // setVerifying(true)
-fetch(`https://florintechcomputercollege.com/api/api_verifycertificate.php`,{
+async function verifyCert () {
+   let  cc = "229906MN"
+ let bodyContent = new FormData()
+ bodyContent.append("cert_number",cc)
+
+ let response = await fetch(`https://florintechcomputercollege.com/api/api_verifycertificate.php`,{
  
   // cert_number:"229906MN",
   
     method: 'POST', 
     
   
-  body: JSON.stringify(cc),
-}).then((a)=>{return a.json()}).then((result)=>{
-  
- console.log((result));
-  
-  ;})
+  body:bodyContent,
+})
 
-  console.log("working");
+let data = await response.json()
+console.log(data);
+
 }
+  // setVerifying(true)
+ 
+
+
+// .then((a)=>{return a.json()}).then((result)=>{
+  
+//  console.log((result));
+  
+//   ;})
+
+//   console.log("working");
+// }
 
 function verifycertificate() {
   const [setVerifying,verifying] = useState(false)
