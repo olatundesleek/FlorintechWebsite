@@ -86,9 +86,11 @@ const Singlecourse = ({
                   <li>{whatToLearnListSix}</li>
                 </ul>
               </div>
+              <div className="join-class-container">
               <Link href="/" className="join-class">
                 <a>Join the Class </a>
               </Link>
+             </div>
             </Box>
           </div>
           {/* the right side of the single page of the courses */}

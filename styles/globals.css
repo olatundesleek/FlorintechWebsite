@@ -836,4 +836,13 @@ main {
     color: #083b6b;
     display: block;
   }
+  .join-class {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem !important;
+    margin: auto;
+    width: 65%;
+  }
 }/*# sourceMappingURL=globals.css.map */
