@@ -113,39 +113,99 @@ const Singlecourse = ({
               <div className="about-teacher-title-sec">What’s included?</div>
               <Flex alignItems="center">
                 <FaPlay />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "25px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Video's: <bold className="about-teacher-title">6</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <BsFileEarmarkFill />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "25px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Downloadable Files:
                   <bold className="about-teacher-title">6</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <BiTimeFive />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "25px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Duration:
                   <bold className="about-teacher-title">5hr 40min</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <BsFileMinusFill />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "25px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Access Anywhere
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <FaAward />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "25px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Certificate of Completion
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <TiArrowSync />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "25px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Lifetime Access
                 </Text>
               </Flex>

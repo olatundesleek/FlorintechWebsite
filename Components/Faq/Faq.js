@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import data from "./data";
 import SingleQuestion from "./Questions";
-function App() {
+function Faq() {
   const [questions, setQuestions] = useState(data);
   return (
     <main>
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Faq;
