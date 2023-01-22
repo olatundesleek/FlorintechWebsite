@@ -359,8 +359,6 @@ a {
   margin-bottom: 7rem;
   color:#1d2b5f;
   line-height:2.5em;
-
-
 }
 .course-text-left{
   font-family: Manrope, sans-serif !important;
@@ -370,14 +368,15 @@ a {
   line-height: 1.12em;
 }
 .course-text-right{
-  font-family: Manrope, sans-serif !important;
+font-family: Manrope, sans-serif !important;
  width: 50%;
  color:#4b4e59;
 padding-right: 1rem;
 font-size:1.5rem ;
 }
-// the newsletter css
 
+
+// the newsletter css
 .newsletter-icons{
   height: 110px;
   width: 110px;
@@ -460,7 +459,6 @@ $desktop-width: 1024px;
   .courses-card{
     display: grid !important;
     grid-template-columns: 1fr !important;
-   
   }
   .browse-course{
     width: 100%;
@@ -479,7 +477,6 @@ $desktop-width: 1024px;
   .course-text-left{
     font-size: 2rem;
     width: 100%;
-    
   }
   .browse-course{
    flex-wrap: wrap;
@@ -494,7 +491,7 @@ $desktop-width: 1024px;
   .join-message{
     flex-wrap: wrap;
   }
-.newsletter-input{
+  .newsletter-input{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -613,10 +610,8 @@ h2{font-size: 20px;line-height: 25px;color: #ffffff;padding: 20px;text-align: ce
   margin-bottom: 3rem;
 }
 @media screen and (max-width:#{$tablet-width}) {
- 
   .single-course-container{
     flex-direction:column;
-  
   }
 }
 // faq css frequently questions
@@ -714,10 +709,13 @@ main {
   .single-course-inner {
     width: 100%;
   }
+  // subject to review on the dom
+  .browse-link{
+    font-size: 1rem !important;
+    }
  
 }
 @media screen and (max-width:#{$phone-width}) {
- 
   .about-teacher-title {
     font-size: 20px !important;
   }
@@ -737,7 +735,7 @@ main {
   }
   .course-amount {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
   }
   .course-amount .amount {
     font-size: 25px;
@@ -804,6 +802,7 @@ main {
  
   
 }
+
 
 
 

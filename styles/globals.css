@@ -804,6 +804,9 @@ main {
   .single-course-inner {
     width: 100%;
   }
+  .browse-link {
+    font-size: 1rem !important;
+  }
 }
 @media screen and (max-width: 500px) {
   .about-teacher-title {
@@ -825,7 +828,7 @@ main {
   }
   .course-amount {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
   }
   .course-amount .amount {
     font-size: 25px;
