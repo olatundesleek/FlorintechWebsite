@@ -717,10 +717,7 @@ main {
  
 }
 @media screen and (max-width:#{$phone-width}) {
-  .about-teacher-title-sec{
-    font-size: 2.3rem !important;
-    text-align: center;
-  }
+ 
   .about-teacher-title {
     font-size: 20px !important;
   }
@@ -750,7 +747,6 @@ main {
   }
 
   .join-class {
-    
     display: flex;
     justify-content: center;
     text-align: center;
@@ -758,16 +754,13 @@ main {
     font-size: 1rem !important;
     margin: auto;
     width: 65%;
-    
   }
   .question h4 {
     text-transform: none;
     line-height: 1.3;
     font-size: 1rem;
   }
-  .single-course-content{
-    text-align: center;
-  }
+  
   .single-list{
     display: flex;
     justify-content: center;
@@ -788,6 +781,17 @@ main {
     width: 100%;
     border-radius: 20px;
     height: 271px;
+  }
+
+  .about-teacher-title-sec {
+    font-size: 2rem !important;
+    color: #1d2b5f !important;
+    font-weight: bold;
+    font-family: Manrope, sans-serif !important;
+   
+  }
+  .single-course-content > div h1 {
+    font-size: 30px;
   }
  
   
