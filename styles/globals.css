@@ -825,7 +825,7 @@ main {
   }
   .course-amount {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
   }
   .course-amount .amount {
     font-size: 25px;
@@ -875,5 +875,13 @@ main {
   }
   .single-course-content > div h1 {
     font-size: 30px;
+  }
+  .single-course-content-two .content {
+    margin: 5px 0;
+    text-align: left;
+  }
+  .discount {
+    text-decoration: line-through;
+    margin-left: 12px;
   }
 }/*# sourceMappingURL=globals.css.map */
