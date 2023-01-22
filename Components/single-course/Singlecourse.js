@@ -87,10 +87,10 @@ const Singlecourse = ({
                 </ul>
               </div>
               <div className="join-class-container">
-              <Link href="/" className="join-class">
-                <a>Join the Class </a>
-              </Link>
-             </div>
+                <Link href="/" className="join-class">
+                  <a>Join the Class </a>
+                </Link>
+              </div>
             </Box>
           </div>
           {/* the right side of the single page of the courses */}
@@ -183,9 +183,9 @@ const Singlecourse = ({
                 <FaAward />
                 <Text
                   fontSize={{
-                    base: "25px",
-                    sm: "25px",
-                    md: "25px",
+                    base: "23px",
+                    sm: "23px",
+                    md: "23px",
                     lg: "30px",
                   }}
                   color="gray"
