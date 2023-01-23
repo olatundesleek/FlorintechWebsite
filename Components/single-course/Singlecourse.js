@@ -119,7 +119,7 @@ const Singlecourse = ({
                   fontSize={{
                     base: "25px",
                     sm: "25px",
-                    md: "25px",
+                    md: "30px",
                     lg: "30px",
                   }}
                   color="gray"
@@ -135,7 +135,7 @@ const Singlecourse = ({
                   fontSize={{
                     base: "25px",
                     sm: "25px",
-                    md: "25px",
+                    md: "30px",
                     lg: "30px",
                   }}
                   color="gray"
@@ -152,7 +152,7 @@ const Singlecourse = ({
                   fontSize={{
                     base: "25px",
                     sm: "25px",
-                    md: "25px",
+                    md: "30px",
                     lg: "30px",
                   }}
                   color="gray"
@@ -169,7 +169,7 @@ const Singlecourse = ({
                   fontSize={{
                     base: "25px",
                     sm: "25px",
-                    md: "25px",
+                    md: "30px",
                     lg: "30px",
                   }}
                   color="gray"
@@ -185,7 +185,7 @@ const Singlecourse = ({
                   fontSize={{
                     base: "23px",
                     sm: "23px",
-                    md: "23px",
+                    md: "30px",
                     lg: "30px",
                   }}
                   color="gray"
@@ -201,7 +201,7 @@ const Singlecourse = ({
                   fontSize={{
                     base: "25px",
                     sm: "25px",
-                    md: "25px",
+                    md: "30px",
                     lg: "30px",
                   }}
                   color="gray"

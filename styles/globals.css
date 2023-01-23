@@ -804,6 +804,14 @@ main {
   .single-course-inner {
     width: 100%;
   }
+  .single-page-image {
+    margin: 1.5rem 4.5rem;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .about-teacher-title-sec {
+    font-size: 3rem !important;
+  }
   .browse-link {
     font-size: 1rem !important;
   }
@@ -865,7 +873,7 @@ main {
     font-weight: 600;
   }
   .single-page-image {
-    margin: 1.5rem 16px;
+    margin: 1.5rem 40px;
     width: 100%;
     border-radius: 20px;
     height: 271px;
