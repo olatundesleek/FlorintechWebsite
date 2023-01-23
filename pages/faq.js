@@ -1,10 +1,13 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import Faq from "../Components/Faq/Faq";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 
 const faq = () => {
   return (
     <>
+      <Header />
       <Box className="faq-container">
         <h3>FAQs</h3>
         <h1>Got a question? I have answers.</h1>
@@ -17,6 +20,7 @@ const faq = () => {
         </p>
       </Box>
       <Faq />
+      <Footer />
     </>
   );
 };
