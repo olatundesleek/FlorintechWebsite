@@ -2,7 +2,7 @@ const questions = [
   {
     id: 1,
     title: "Do I have to allow the use of cookies?",
-    info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta molestias nobis. Aliquid alias rerum porro eaque inventore nam, ducimus error dignissimos fugiat reiciendis commodi quidem ipsam enim veniam, temporibus iste, facilis voluptate libero mollitia nobis. Laboriosam ratione officia excepturi! Repellendus ratione id aut earum sed ipsa natus sit necessitatibus.",
   },
   {
     id: 2,
@@ -36,3 +36,4 @@ const questions = [
   },
 ];
 export default questions;
+<p></p>;

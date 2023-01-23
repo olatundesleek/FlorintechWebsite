@@ -10,6 +10,7 @@ import { TiArrowSync } from "react-icons/ti";
 import AboutTeacher from "../../Components/AboutTeacher";
 
 const Singlecourse = ({
+  //passed the below items as props
   courseTitle,
   courseDetails,
   courseImage,
@@ -94,10 +95,9 @@ const Singlecourse = ({
             </Box>
           </div>
           {/* the right side of the single page of the courses */}
-          {/* <div> */}
+
           <Box>
             <div className="single-course-content-two">
-              {/* <div className="course-header">Get this Course</div> */}
               <div className="about-teacher-title-sec">Get this Course</div>
               <div className="content">
                 Augue neque gravida in fermentum et sollicitudin ac orci. Velit
