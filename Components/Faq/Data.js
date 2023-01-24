@@ -1,4 +1,4 @@
-const questions = [
+const myQuestionData = [
   {
     id: 1,
     title: "Do I have to allow the use of cookies?",
@@ -35,4 +35,4 @@ const questions = [
     info: "Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.",
   },
 ];
-export default questions;
+export default myQuestionData;

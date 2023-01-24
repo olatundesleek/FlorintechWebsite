@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import data from "../../Components/Faq/data";
+import data from "./Data";
 
-
-import Question from "../../Components/Faq/questions"
-
-
+import Question from "./Question";
+console.log(data);
 function Faq() {
   const [questions, setQuestions] = useState(data);
   return (
@@ -13,7 +11,7 @@ function Faq() {
         <h3>Frequently Asked Questions About Florintech Computer College</h3>
         <section className="info">
           {questions.map((question) => {
-            return <Question key={question.id} {...question} />;
+           return <Question key={question.id} {...question}  />;
           })}
         </section>
       </div>
