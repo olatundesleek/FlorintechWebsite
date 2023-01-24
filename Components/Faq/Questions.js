@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
+
+
+
+
 const Question = ({ title, info }) => {
   const [showInfo, setShowInfo] = useState(false);
 

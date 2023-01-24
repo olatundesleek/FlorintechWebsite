@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 
 import Header from "../Components/Header";
-import Verification from "../Components/verification";
+import Verification from "../Components/Verification";
 import Head from "next/head";
 
 function verifycertificate() {
