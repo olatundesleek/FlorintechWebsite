@@ -10,6 +10,7 @@ const AboutTeacher = ({ teacherTitle, teacherName, teacherText }) => {
       <Flex
         justify="space-around"
         mt={10}
+        pl={20}
         className="about-teacher-container"
         boxShadow="md"
         rounded="md"
@@ -19,6 +20,7 @@ const AboutTeacher = ({ teacherTitle, teacherName, teacherText }) => {
           <Image
             width="200px"
             height="200px"
+            ml={20}
             src={autocadspecialist}
             alt="Person"
             className="person-image"

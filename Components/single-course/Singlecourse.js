@@ -1,7 +1,7 @@
 import React from "react";
-import images from "../images.json";
 import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import NewsLetter from "../../Components/NewsLetter";
+// import Faq from "../../Components/Faq/Faq";
 import Footer from "../../Components/Footer";
 import { FaPlay, FaAward } from "react-icons/fa";
 import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
@@ -10,6 +10,7 @@ import { TiArrowSync } from "react-icons/ti";
 import AboutTeacher from "../../Components/AboutTeacher";
 
 const Singlecourse = ({
+  //passed the below items as props
   courseTitle,
   courseDetails,
   courseImage,
@@ -55,8 +56,8 @@ const Singlecourse = ({
                 <ul className="single-list">
                   <li>{listOne}</li>
 
-                  {<li>{listTwo}</li>}
-                  {<li>{listThree}</li>}
+                  <li>{listTwo}</li>
+                  <li>{listThree}</li>
                 </ul>
                 <br />
                 <p>{aboutCourseTextTwo}</p>
@@ -86,16 +87,18 @@ const Singlecourse = ({
                   <li>{whatToLearnListSix}</li>
                 </ul>
               </div>
-              <Link href="/" className="join-class">
-                <a>Join the Class </a>
-              </Link>
+              <div className="join-class-container">
+                <Link href="/" className="join-class">
+                  <a>Join the Class </a>
+                </Link>
+              </div>
             </Box>
           </div>
           {/* the right side of the single page of the courses */}
-          {/* <div> */}
+
           <Box>
             <div className="single-course-content-two">
-              <div className="course-header">Get this Course</div>
+              <div className="about-teacher-title-sec">Get this Course</div>
               <div className="content">
                 Augue neque gravida in fermentum et sollicitudin ac orci. Velit
                 egestas dui id
@@ -112,39 +115,99 @@ const Singlecourse = ({
               <div className="about-teacher-title-sec">What’s included?</div>
               <Flex alignItems="center">
                 <FaPlay />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "30px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Video's: <bold className="about-teacher-title">6</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <BsFileEarmarkFill />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "30px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Downloadable Files:
                   <bold className="about-teacher-title">6</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <BiTimeFive />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "30px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Duration:
                   <bold className="about-teacher-title">5hr 40min</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <BsFileMinusFill />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "30px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Access Anywhere
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <FaAward />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "23px",
+                    sm: "23px",
+                    md: "30px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Certificate of Completion
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <TiArrowSync />
-                <Text fontSize="30px" color="gray" ml={8} fontWeight={700}>
+                <Text
+                  fontSize={{
+                    base: "25px",
+                    sm: "25px",
+                    md: "30px",
+                    lg: "30px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={700}
+                >
                   Lifetime Access
                 </Text>
               </Flex>
@@ -152,6 +215,7 @@ const Singlecourse = ({
           </Box>
         </div>
       </section>
+      {/* <Faq /> */}
       <NewsLetter />
       <Footer />
     </div>
