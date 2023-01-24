@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import data from "./data";
+import data from "../../Components/Faq/data";
 
 
-import Question from "./questions"
+import Question from "../../Components/Faq/questions"
 
 
 function Faq() {
