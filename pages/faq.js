@@ -1,4 +1,5 @@
 import { Box } from "@chakra-ui/react";
+import Head from "next/head";
 import React from "react";
 import Faq from "../Components/Faq/Faq";
 import Footer from "../Components/Footer";
@@ -7,6 +8,9 @@ import Header from "../Components/Header";
 const faq = () => {
   return (
     <>
+    <Head>
+      
+    </Head>
       <Header />
       <Box className="faq-container">
         <h3>FAQs</h3>
