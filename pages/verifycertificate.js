@@ -3,40 +3,51 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Header from "../Components/Header";
 
-async function verifyCert () {
-   let  cc = "229906MN"
- let bodyContent = new FormData()
- bodyContent.append("cert_number",cc)
-
- let response = await fetch(`https://florintechcomputercollege.com/api/api_verifycertificate.php`,{
- 
-  // cert_number:"229906MN",
-  
-    method: 'POST', 
-    
-  
-  body:bodyContent,
-})
-
-let data = await response.json()
-console.log(data);
-
-}
-  // setVerifying(true)
- 
-
-
-// .then((a)=>{return a.json()}).then((result)=>{
-  
-//  console.log((result));
-  
-//   ;})
-
-//   console.log("working");
-// }
-
 function verifycertificate() {
-  const [setVerifying,verifying] = useState(false)
+  let certificateNo;
+
+
+  const [isVerifying, setIsVerifying] = useState(false);
+  const [error, setError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+  const handleChange = (event) => {
+    certificateNo = event.target.value;
+  };
+  // function to make an api call
+  const verifyCert = async () => {
+    console.log(certificateNo);
+    setIsVerifying(true);
+
+    console.log(isVerifying);
+    let bodyContent = new FormData();
+    bodyContent.append("cert_number", certificateNo);
+
+    let response = await fetch(
+      `https://florintechcomputercollege.com/api/api_verifycertificate.php`,
+      {
+        // cert_number:"229906MN",
+
+        method: "POST",
+
+        body: bodyContent,
+      }
+    );
+
+    let data = await response.json();
+    console.log(data);
+
+    if(data.error){
+      setError(true)
+     setErrorMessage(data.error)
+      console.log("na himm"+ errorMessage);
+    }
+    else {
+      setError(false)
+    }
+
+    setIsVerifying(false);
+  };
+
   return (
     <Box>
       <Head>
@@ -50,19 +61,48 @@ function verifycertificate() {
       <Header />
       <Flex justifyContent="center">
         <Box>
-          <Text fontSize="30px">Verify Certificate</Text>
+<Flex justifyContent="center">
+<Box className="verification">
+            <Box className="verification-title"> <Text fontSize="30px">Verify Certificate</Text></Box>
+         <Text className="text">Certificate Number</Text>
           <Input
+          
+          marginTop={5}
+          maxWidth={300}
+            onChange={handleChange}
             placeholder="Enter Certificate Number"
             variant="outline"
-          
+            color="black"
+            fontWeight="bolder"
           />
-          <Button  variant="outline"
+         {error ? <Text m={5} className="error">{errorMessage}</Text>: ""}
+          {isVerifying ? (
+            <Button
+              variant="outline"
+              isLoading
+              onClick={verifyCert}
+              m={20}
+              textAlign="center"
+              loadingText="verifying.."
+              colorScheme="teal"
+            >
+              Verify
+            </Button>
+          ) : (
+            <Button
+              variant="outline"
+              onClick={verifyCert}
+              m="40px"
+              textAlign="center"
+              colorScheme="teal"
+            >
+              Verify
+            </Button>
+          )}
+          </Box>
+</Flex>
+       
          
-          onClick={verifyCert}
-           m="40px" 
-           textAlign="center"
-            loadingText="verifying.."
-            colorScheme="teal">Verify</Button>
         </Box>
       </Flex>
     </Box>

@@ -611,6 +611,26 @@ a {
   }
 }
 
+.verification {
+  box-shadow: 1px 1px 1px 1px #d6d4d4;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.verification-title {
+  background-color: rgb(205, 205, 205);
+}
+.verification .text {
+  color: #083b6b;
+  margin-top: 20px;
+}
+.verification .error {
+  color: red;
+  font-size: 20px;
+}
+
 .single-page-image {
   margin: 2.5rem 0;
   height: 450px;

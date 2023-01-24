@@ -528,6 +528,15 @@ h2{font-size: 20px;line-height: 25px;color: #ffffff;padding: 20px;text-align: ce
 
 }
 
+// verification page
+
+.verification{box-shadow: 1px 1px 1px 1px  #d6d4d4;
+border-radius: 10px;width: 450px;text-align: center;
+&-title{background-color:rgb(205, 205, 205) ;}color: #ffffff;font-weight: bolder;
+.text{color: #083b6b;margin-top: 20px;}
+.error{color:red;font-size: 20px;}}
+
+
 .single-page-image {
   margin: 2.5rem 0;
   height: 450px;
