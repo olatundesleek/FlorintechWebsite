@@ -36,4 +36,3 @@ const questions = [
   },
 ];
 export default questions;
-<p></p>;
