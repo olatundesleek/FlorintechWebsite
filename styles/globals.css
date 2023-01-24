@@ -6,6 +6,7 @@
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -289,6 +290,7 @@ a {
   font-family: sans-serif;
   color: #083b6b;
   font-size: 20px;
+  overflow: hidden;
 }
 
 .single-course-inner {
@@ -320,7 +322,7 @@ a {
 }
 
 .single-course-content-two {
-  width: 330px;
+  width: 408px;
   flex-shrink: 0;
   background-color: #ffffff;
   display: flex;
@@ -610,6 +612,26 @@ a {
   }
 }
 
+.verification {
+  box-shadow: 1px 1px 1px 1px #d6d4d4;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.verification-title {
+  background-color: rgb(205, 205, 205);
+}
+.verification .text {
+  color: #083b6b;
+  margin-top: 20px;
+}
+.verification .error {
+  color: red;
+  font-size: 20px;
+}
+
 .single-page-image {
   margin: 2.5rem 0;
   height: 450px;
@@ -694,4 +716,243 @@ a {
 
 .last-text {
   margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .single-course-container {
+    flex-direction: column;
+  }
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  margin: 5rem auto;
+  background-color: #083b6b;
+  color: #eef0f5;
+  border-radius: 0.25rem;
+  padding: 2.5rem 2rem;
+  display: grid;
+  gap: 1rem 2rem;
+}
+
+.container h3 {
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: Manrope, sans-serif !important;
+}
+
+.question {
+  padding: 1rem 1.5rem;
+  border: 2px solid #eae6eb;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 7px 24px 0 rgba(86, 87, 90, 0.06);
+}
+
+.question h4 {
+  text-transform: none;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.question p {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  font-family: Manrope, sans-serif !important;
+}
+
+.question header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question header h4 {
+  margin-bottom: 0;
+}
+
+.btn {
+  background: transparent;
+  border-color: transparent;
+  width: 2.3rem;
+  height: 2.3rem;
+  background: #eae6eb;
+  font-family: Manrope, sans-serif !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #b4345c;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #eae6eb;
+}
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.faq-container {
+  text-align: center;
+  padding: 5rem 0 2rem 0;
+}
+
+.faq-container p {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-family: Manrope, sans-serif !important;
+}
+
+.faq-container h3 {
+  font-family: Manrope, sans-serif !important;
+  font-size: 1rem;
+  font-weight: 600;
+  color: grey;
+}
+
+.faq-container h1 {
+  font-weight: 600;
+  font-family: Manrope, sans-serif !important;
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  color: #1d2b5f !important;
+}
+
+@media screen and (max-width: 768px) {
+  .faq-container p {
+    width: 80%;
+  }
+  .single-course-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .single-course-content > div h1 {
+    font-size: 40px;
+  }
+  .single-course-content-two {
+    width: 408px;
+  }
+  .single-course-inner {
+    width: 100%;
+  }
+  .single-page-image {
+    margin: 1.5rem 4.5rem;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .about-teacher-title-sec {
+    font-size: 3rem !important;
+  }
+  .browse-link {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .faq-container h1 {
+    font-size: 1.5rem;
+  }
+  .about-teacher-title {
+    font-size: 20px !important;
+  }
+  .faq-container p {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .container h3 {
+    font-size: 1.5rem;
+  }
+  .course-cart-button {
+    border-radius: 80px;
+    font-size: 1em;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px 14px;
+  }
+  .course-amount {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .course-amount .amount {
+    font-size: 25px;
+    font-weight: bold;
+    color: #083b6b;
+    display: block;
+  }
+  .join-class {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem !important;
+    margin: auto;
+    width: 65%;
+  }
+  .question h4 {
+    text-transform: none;
+    line-height: 1.3;
+    font-size: 1rem;
+  }
+  .single-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
+  .single-course-content > div > p {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .single-page-image {
+    margin: 1.5rem 40px;
+    width: 100%;
+    border-radius: 20px;
+    height: 271px;
+  }
+  .about-teacher-title-sec {
+    font-size: 2rem !important;
+    color: #1d2b5f !important;
+    font-weight: bold;
+    font-family: Manrope, sans-serif !important;
+  }
+  .single-course-content > div h1 {
+    font-size: 30px;
+  }
+  .single-course-content-two .content {
+    margin: 5px 0;
+    text-align: left;
+  }
+  .discount {
+    text-decoration: line-through;
+    margin-left: 12px;
+  }
 }/*# sourceMappingURL=globals.css.map */

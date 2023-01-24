@@ -4,7 +4,7 @@ import { BsPencil } from "react-icons/bs";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { BsCardChecklist } from "react-icons/bs";
 import Link from "next/link";
-import { useState } from "react";
+
 function Topnav() {
   return (
     <Flex
@@ -34,7 +34,7 @@ function Topnav() {
             <BsPencil /> Register
           </a>
         </Link>
-        <Link href="/">
+        <Link href="/verifycertificate">
           <a className="link">
             <AiOutlineSafetyCertificate /> Verify Certificate
           </a>
