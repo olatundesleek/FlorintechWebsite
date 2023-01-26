@@ -1,19 +1,12 @@
-import { Box } from "@chakra-ui/react";
-import Head from "next/head";
 import React from "react";
-import Contact from "../Components/Contact/contact";
-import Faq from "../Components/Faq/Faq";
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
+import { Box } from "@chakra-ui/react";
 
-const faq = () => {
+const Contact = () => {
   return (
     <>
-      <Head></Head>
-      <Header />
       <Box className="faq-container">
-        <h3>FAQs</h3>
-        <h1>Got a question? I have answers.</h1>
+        <h3>Contact</h3>
+        <h1>Get in touch.</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
           aspernatur voluptatem commodi quis. Dolorem nulla officiis quae ullam?
@@ -22,11 +15,12 @@ const faq = () => {
           reiciendis hic quidem perspiciatis.
         </p>
       </Box>
-      <Faq />
-      <Contact />
-      <Footer />
+      <Box>
+        <Box></Box>
+        <Box></Box>
+      </Box>
     </>
   );
 };
 
-export default faq;
+export default Contact;
