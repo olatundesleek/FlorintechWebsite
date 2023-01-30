@@ -143,7 +143,7 @@ a {
   transition: 0.5s;
   overflow: hidden;
   max-height: 800px;
-  width: 350px;
+  width: 320px;
   background-image: radial-gradient(circle, #083b6b, #092038);
   box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
  
@@ -194,7 +194,7 @@ a {
 .course-main-content {
   padding: 20px 2vw 34px;
   @media screen and (max-width:#{$phone-width}) {
-    padding: 10px 1vw 20px;
+    padding: 10px 20px;
     }
   .divider {overflow: hidden;
     height: 2px;
@@ -502,6 +502,7 @@ $desktop-width: 1024px;
 }
 }
 .testimonial-title{text-align: center;font-size: 40px;color: #ffffff;}
+.testimonial-image{border-radius: 100px;}
 .testimonial-slider-container{width: 70%;justify-content: center;align-items: center;overflow: hidden;height: auto;
   @media screen and (max-width:#{$phone-width}) {
    

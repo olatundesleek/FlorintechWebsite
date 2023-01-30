@@ -87,7 +87,7 @@ function Slider() {
             <Box d="flex" justifyContent="center">
               <Linkbtn
                 caption="Courses"
-                to="Courses"
+                to="/courses"
                 className="register-action"
                 borderRadius="md"
                 bg="none"

@@ -147,7 +147,7 @@ a {
   transition: 0.5s;
   overflow: hidden;
   max-height: 800px;
-  width: 350px;
+  width: 320px;
   background-image: radial-gradient(circle, #083b6b, #092038);
   box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
   border-radius: 24px;
@@ -196,7 +196,7 @@ a {
 }
 @media screen and (max-width: 500px) {
   .course-main-content {
-    padding: 10px 1vw 20px;
+    padding: 10px 20px;
   }
 }
 .course-main-content .divider {
@@ -557,6 +557,10 @@ a {
   text-align: center;
   font-size: 40px;
   color: #ffffff;
+}
+
+.testimonial-image {
+  border-radius: 100px;
 }
 
 .testimonial-slider-container {
