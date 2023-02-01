@@ -3,9 +3,9 @@ export const menuData = [
     {name:"COURSES",path:"/courses"},
     {name:"TESTIMONIAL",path:"/#testimonial"},
     {name:"TUTORIAL",path:"/tutorial"},
-    {name:"BLOG",path:"blog"},
-    {name:"LOCATION",path:"location"},
-    {name:"ABOUT US",path:"aboutus"},
+    {name:"BLOG",path:"https://blog.florintechcomputercollege.com"},
+    {name:"CONTACT US",path:"/contactus"},
+    {name:"ABOUT US",path:"/aboutus"},
     {name:"FAQ",path:"/faq"},
 
 ]

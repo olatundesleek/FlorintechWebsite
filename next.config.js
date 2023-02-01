@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true,
-}
+  images: {
+    protocol: 'http',
+    domains: ['admin.florintechcomputercollege.com', 'florintechcomputercollege.com'],
+  },
+};
