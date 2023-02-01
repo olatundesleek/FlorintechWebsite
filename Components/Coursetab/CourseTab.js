@@ -27,7 +27,7 @@ const CourseTab = ({ courseTitle,courseText,to,price,courseImage }) => {
 <Box className="divider">
   <Box className='divider-content'></Box>
 </Box>
-<Flex padding="0 20px" justifyContent="space-between">
+<Flex justifyContent="space-between">
 <Box><h3 className='learnmore'>Learn more</h3></Box>
 <Box><h3 className='courseprice'>NGN{price}</h3></Box>
 
