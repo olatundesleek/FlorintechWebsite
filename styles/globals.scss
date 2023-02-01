@@ -1277,3 +1277,80 @@ $top-clip-orange-two-bottom: polygon(
 
 
 
+
+.contactus{
+
+  .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #083b6b;
+    height: 400px;
+
+  }
+  .banner span{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  .wrapper-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+
+    @media screen and (max-width:#{$phone-width}) {
+      
+    }
+
+    .banner-openday{
+      border: 2px solid red;
+      width: 400px;
+      height: 400px;
+      margin: 0 3rem;
+    }
+    .banner-location{
+      position: relative;
+      width: 400px;
+      height: 400px;
+      .frame-wrapper{
+        position: absolute;
+        background-color: rgb(118, 154, 244);
+        width: 100px;
+        height: 200px;
+        top: -1.3rem;
+        z-index: -5;
+        right: -2rem;;
+      }
+    }
+    
+   
+  }
+  .icon-container{
+    display: flex;
+    justify-content: space-around;
+    color: #348aed;
+    
+    margin: 3rem;
+    .address-con{
+   path{stroke:#348aed}
+
+display: flex;
+
+    }
+    .email-con{
+      display: flex;
+      
+    }
+    .phone-con{
+      display: flex;
+    }
+    span{
+      color: #000000;
+    }
+
+  }
+
+}
+

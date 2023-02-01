@@ -27,7 +27,7 @@ function Footer() {
                 </li>
              
                 <li>
-                  <Link href="/course">
+                  <Link href="/courses">
                     <a>COURSE</a>
                   </Link>
                 </li>
@@ -42,12 +42,12 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="https://blog.florintechcomputercollege.com">
                     <a>BLOG</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/location">
+                  <Link href="/contactus">
                     <a>LOCATION</a>
                   </Link>
                 </li>
@@ -72,7 +72,7 @@ function Footer() {
           <Box className="footer-tools">
           <ul>
             <li>
-              <Link href="/">
+              <Link href="/verifycertificate">
 <a>VERIFY CERTIFICATE</a>
               </Link>
             </li>

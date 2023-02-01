@@ -1286,4 +1286,64 @@ main {
     right: 7%;
     position: absolute;
   }
+}
+.contactus .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #083b6b;
+  height: 400px;
+}
+.contactus .banner span {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #fff;
+}
+.contactus .wrapper-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+.contactus .wrapper-contact .banner-openday {
+  border: 2px solid red;
+  width: 400px;
+  height: 400px;
+  margin: 0 3rem;
+}
+.contactus .wrapper-contact .banner-location {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.contactus .wrapper-contact .banner-location .frame-wrapper {
+  position: absolute;
+  background-color: rgb(118, 154, 244);
+  width: 100px;
+  height: 200px;
+  top: -1.3rem;
+  z-index: -5;
+  right: -2rem;
+}
+.contactus .icon-container {
+  display: flex;
+  justify-content: space-around;
+  color: #348aed;
+  margin: 3rem;
+}
+.contactus .icon-container .address-con {
+  display: flex;
+}
+.contactus .icon-container .address-con path {
+  stroke: #348aed;
+}
+.contactus .icon-container .email-con {
+  display: flex;
+}
+.contactus .icon-container .phone-con {
+  display: flex;
+}
+.contactus .icon-container span {
+  color: #000000;
 }/*# sourceMappingURL=globals.css.map */
