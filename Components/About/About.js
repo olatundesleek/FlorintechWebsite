@@ -1,12 +1,12 @@
 import { Box } from "@chakra-ui/react";
-
 import React from "react";
-// import Header from "../Header";
 
 const About = () => {
   return (
     <>
+      <Box>
         <h1>About</h1>
+      </Box>
     </>
   );
 };
