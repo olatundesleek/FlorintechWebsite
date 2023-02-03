@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import About from "../Components/About/About";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const about = () => {
   return (
@@ -16,6 +17,7 @@ const about = () => {
       </Head>
       <Header />
       <About />
+      <Footer />
     </div>
   );
 };
