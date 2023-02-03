@@ -10,12 +10,28 @@ import {FiLinkedin} from "react-icons/fi"
 function Footer() {
   return (
     <Box className="footer">
-      <Flex flexDirection={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="center">
-        <Flex className="footer-writeup" justifyContent="center" flexDirection="column">
+      <Flex
+        flexDirection={{
+          base: "column",
+          sm: "column",
+          md: "column",
+          lg: "row",
+        }}
+        justifyContent="center"
+      >
+        <Flex
+          className="footer-writeup"
+          justifyContent="center"
+          flexDirection="column"
+        >
           <Brand />
           <h2>Copyright © Florintech Computer College </h2>
         </Flex>
-        <Flex className="footer-links"  justifyContent="center" flexDirection={{base:"column",sm:"column",md:"row",lg:"row"}}>
+        <Flex
+          className="footer-links"
+          justifyContent="center"
+          flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
+        >
           <Box>
             <h2>PAGES</h2>
             <Box className="footer-pages">
@@ -25,7 +41,7 @@ function Footer() {
                     <a>HOME</a>
                   </Link>
                 </li>
-             
+
                 <li>
                   <Link href="/course">
                     <a>COURSE</a>
@@ -52,7 +68,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/aboutus">
+                  <Link href="/about">
                     <a>ABOUT US</a>
                   </Link>
                 </li>
@@ -63,62 +79,63 @@ function Footer() {
                 </li>
               </ul>
             </Box>
-         
           </Box>
 
-
-          <Box >
-          <h2>TOOLS</h2>   
-          <Box className="footer-tools">
-          <ul>
-            <li>
-              <Link href="/">
-<a>VERIFY CERTIFICATE</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-<a>ONLINE REGISTERATION</a>
-              </Link>
-            </li>
-          </ul>
-          </Box>
+          <Box>
+            <h2>TOOLS</h2>
+            <Box className="footer-tools">
+              <ul>
+                <li>
+                  <Link href="/">
+                    <a>VERIFY CERTIFICATE</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/">
+                    <a>ONLINE REGISTERATION</a>
+                  </Link>
+                </li>
+              </ul>
             </Box>
-
+          </Box>
 
           <Box>
             <h2>SOCIALS</h2>
             <Box className="footer-socials">
-<ul>
-  <li>
-    <Link href="https://facebook.com/florintechcomputercollege">
-    <a>
-<FiFacebook/>FACEBOOK
-    </a>
-    </Link>
-  </li>
-  <li>
-    <Link href="https://twitter.com/florintechcc">
-    <a>
-<FiTwitter/>TWITTER
-    </a>
-    </Link>
-  </li>
-  <li>
-    <Link href="https://linkedin.com/florintechcc">
-    <a>
-<FiLinkedin/>LINKEDIN
-    </a>
-    </Link>
-  </li>
-  <li>
-    <Link href="/">
-    <a>
-<FiYoutube/>YOUTUBE
-    </a>
-    </Link>
-  </li>
-</ul>
+              <ul>
+                <li>
+                  <Link href="https://facebook.com/florintechcomputercollege">
+                    <a>
+                      <FiFacebook />
+                      FACEBOOK
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://twitter.com/florintechcc">
+                    <a>
+                      <FiTwitter />
+                      TWITTER
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://linkedin.com/florintechcc">
+                    <a>
+                      <FiLinkedin />
+                      LINKEDIN
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/">
+                    <a>
+                      <FiYoutube />
+                      YOUTUBE
+                    </a>
+                  </Link>
+                </li>
+              </ul>
             </Box>
           </Box>
         </Flex>
