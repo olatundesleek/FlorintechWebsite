@@ -4,7 +4,7 @@ import Header from "../../Components/Header";
 import Verification from "../../Components/Verification";
 import Head from "next/head";
 
-function verifycertificate() {
+function Verifycertificate() {
 
 
  
@@ -26,4 +26,4 @@ function verifycertificate() {
   </Box>);
  }
 
-export default verifycertificate
+export default Verifycertificate

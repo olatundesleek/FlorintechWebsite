@@ -1292,7 +1292,10 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #083b6b;
+  background-color: #092038;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
   height: 400px;
 }
 .contactus .banner span {
@@ -1307,10 +1310,12 @@ main {
   margin: 3rem;
 }
 .contactus .wrapper-contact .banner-openday {
-  border: 2px solid red;
+  border-radius: 5px;
+  color: black;
   width: 400px;
   height: 400px;
   margin: 0 3rem;
+  font-size: 1.6rem;
 }
 .contactus .wrapper-contact .banner-location {
   position: relative;
@@ -1319,9 +1324,9 @@ main {
 }
 .contactus .wrapper-contact .banner-location .frame-wrapper {
   position: absolute;
-  background-color: rgb(118, 154, 244);
-  width: 100px;
-  height: 200px;
+  background-color: #092038;
+  width: 200px;
+  height: 300px;
   top: -1.3rem;
   z-index: -5;
   right: -2rem;
@@ -1346,4 +1351,11 @@ main {
 }
 .contactus .icon-container span {
   color: #000000;
+}
+.contactus .days {
+  color: black;
+}
+.contactus .active {
+  background-color: #092038;
+  color: white;
 }/*# sourceMappingURL=globals.css.map */
