@@ -30,7 +30,7 @@ function contactus() {
   return (
    <Box className='contactus'>
     <Header />
-   <Banner/>
+   <Banner pageName="Contact us" pageDetails="this is a test content to follow conract us"/>
 
     <Flex flexDirection={{base:"column",sm:"column",md:"row",lg:"row"}} className='wrapper-contact'>
      <Box className='banner-openday' m={{base:20,sm:20,md:0,lg:0}}>

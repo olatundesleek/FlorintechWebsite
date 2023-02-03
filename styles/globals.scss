@@ -1275,28 +1275,29 @@ $top-clip-orange-two-bottom: polygon(
     
 }
 
-
-
-
-.contactus{
-
-  .banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #092038;
-    color:white;
-    font-size: 3rem;
-    font-weight: 600;
-    height: 400px;
-
-  }
-  .banner span{
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #092038;
+  color:white;
+  font-size: 3rem;
+  font-weight: 600;
+  height: 400px;
+  span{
     font-size: 4rem;
     font-weight: 600;
     color: #fff;
   }
+
+}
+
+
+.contactus{
+
+
+ 
   .wrapper-contact{
     display: flex;
     justify-content: center;

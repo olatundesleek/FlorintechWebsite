@@ -1287,7 +1287,7 @@ main {
     position: absolute;
   }
 }
-.contactus .banner {
+.banner {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1298,11 +1298,12 @@ main {
   font-weight: 600;
   height: 400px;
 }
-.contactus .banner span {
+.banner span {
   font-size: 4rem;
   font-weight: 600;
   color: #fff;
 }
+
 .contactus .wrapper-contact {
   display: flex;
   justify-content: center;
