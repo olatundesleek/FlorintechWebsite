@@ -9,7 +9,14 @@ import Header from "../Components/Header";
 const faq = () => {
   return (
     <>
-      <Head></Head>
+      <Head>
+        <title>Faq | Florintech Computer College</title>
+        <meta
+          name="courses"
+          content="you can select from our wide range of courses"
+        />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
       <Header />
       <Box className="faq-container">
         <h3>FAQs</h3>
