@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import Head from "next/head";
 import React from "react";
-import Contact from "../Components/Contact/contact";
+import About from "../Components/About/About";
 import Faq from "../Components/Faq/Faq";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
@@ -23,7 +23,7 @@ const faq = () => {
         </p>
       </Box>
       <Faq />
-      <Contact />
+      <About />
       <Footer />
     </>
   );
