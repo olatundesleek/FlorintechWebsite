@@ -23,9 +23,9 @@ function index() {
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">
         <Box>
-          <Text className="course-text-left">
-            Browse my premium marketing courses
-          </Text>
+          <h1 className="course-text-left">
+           Courses
+          </h1>
         </Box>
         <Box className="course-text-right">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod vitae

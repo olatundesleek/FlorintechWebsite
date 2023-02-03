@@ -1275,25 +1275,29 @@ $top-clip-orange-two-bottom: polygon(
     
 }
 
-
-
-
-.contactus{
-
-  .banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #083b6b;
-    height: 400px;
-
-  }
-  .banner span{
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #092038;
+  color:white;
+  font-size: 3rem;
+  font-weight: 600;
+  height: 400px;
+  span{
     font-size: 4rem;
     font-weight: 600;
     color: #fff;
   }
+
+}
+
+
+.contactus{
+
+
+ 
   .wrapper-contact{
     display: flex;
     justify-content: center;
@@ -1305,10 +1309,15 @@ $top-clip-orange-two-bottom: polygon(
     }
 
     .banner-openday{
-      border: 2px solid red;
+      // border: 2px solid red;
+      // background-color: #0b1c30;
+      // box-shadow: 2px 2px 2px 2px grey ,-2px -2px 2px 2px grey;
+      border-radius: 5px;
+      color: black;
       width: 400px;
       height: 400px;
       margin: 0 3rem;
+      font-size: 1.6rem;
     }
     .banner-location{
       position: relative;
@@ -1316,14 +1325,15 @@ $top-clip-orange-two-bottom: polygon(
       height: 400px;
       .frame-wrapper{
         position: absolute;
-        background-color: rgb(118, 154, 244);
-        width: 100px;
-        height: 200px;
+        background-color: #092038;
+        width: 200px;
+        height: 300px;
         top: -1.3rem;
         z-index: -5;
         right: -2rem;;
       }
     }
+   
     
    
   }
@@ -1350,6 +1360,14 @@ display: flex;
       color: #000000;
     }
 
+  }
+  .days{
+    
+    color: black;
+  }
+   .active{
+    background-color: #092038;
+    color: white;
   }
 
 }

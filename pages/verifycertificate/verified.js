@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 
  
-  function verified() {
+  function Verified() {
     const router = useRouter();
     
     const [studentDetails, setStudentDetails] = useState({});
@@ -49,4 +49,4 @@ import { useEffect } from "react";
   );
 }
 
-export default verified;
+export default Verified;
