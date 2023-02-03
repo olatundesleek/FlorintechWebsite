@@ -989,4 +989,28 @@ main {
   color: #000 !important;
   font-family: Manrope, sans-serif !important;
   letter-spacing: 2px;
+}
+
+.award__class {
+  width: 250px;
+  background-color: #edeff5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  margin: 1rem;
+}
+
+.award__class h2 {
+  color: #083b6b;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.award__class p {
+  font-family: Manrope, sans-serif !important;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  color: #000 !important;
 }/*# sourceMappingURL=globals.css.map */

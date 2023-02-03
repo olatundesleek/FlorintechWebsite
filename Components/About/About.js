@@ -28,9 +28,21 @@ const About = () => {
                 temporibus magni quo amet, perferendis commodi aut error
                 doloribus ex at nostrum deserunt!
               </p>
+              <h3>Founder/CEO</h3>
             </Box>
           </Flex>
         </Box>
+        {/* end of the about page */}
+        <Flex>
+          <Box className="award__class">
+            <h2>2 345</h2>
+            <p>Certificate/Award</p>
+          </Box>
+          <Box className="award__class">
+            <h2>2 345</h2>
+            <p>Certificate/Award</p>
+          </Box>
+        </Flex>
       </Box>
     </>
   );
