@@ -858,9 +858,9 @@ main {
 .about-container{
   margin: 5rem 0;
   justify-content: center;
-display: grid;
-place-items: center;
-grid-auto-columns: 1fr 1fr;
+  display: grid;
+  place-items: center;
+  grid-auto-columns: 1fr 1fr;
 }
 .about__container__text{
   width:550px;
@@ -910,8 +910,23 @@ grid-auto-columns: 1fr 1fr;
 }
 .award__class:hover{
   color:#ffffff !important;
-  transform:scale(.9);
-  background-color: #083b6b;
+  transform:scale(0.9);
+  transition: 0.5s;
+  // background-color: #083b6b;
+}
+.container2{
+  margin: 2rem 0;
+  justify-content: center;
+  display: grid;
+  place-items: center;
+  grid-auto-columns: 1fr 1fr;
+}
+.about__client h2{
+text-align: center;
+color: #083b6b;
+font-family: Manrope, sans-serif !important;
+text-transform: capitalize;
+font-size: 2.5rem;
 }
 
 
