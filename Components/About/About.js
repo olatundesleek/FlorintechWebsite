@@ -1,5 +1,6 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import Image from "next/image";
+import Link from "next/link";
 import aboutUs from "../../public/images/2.jpeg";
 import aboutUs2 from "../../public/images/businesselectronicaccounting.jpg";
 import React from "react";
@@ -82,6 +83,28 @@ const About = () => {
             </Flex>
           </Box>
         </Box>
+        <div className="about__banner">
+          <Image
+            className="banner__img"
+            src="/images/computerprogramming.jpg"
+            alt="Cartoon graduates jump with happiness"
+            quality="100"
+            layout="responsive"
+            position="relative"
+            height="40vh"
+            width="100%"
+          />
+          <Box className="about__banner__text">
+            <h2> Building a Better Future</h2>
+            <p>
+              Help us safeguard the air we breathe, the water we drink, and the
+              places we treasure.
+            </p>
+            <Link href="/contact">
+              <button>CONTACT US</button>
+            </Link>
+          </Box>
+        </div>
       </Box>
     </>
   );
