@@ -893,7 +893,9 @@ grid-auto-columns: 1fr 1fr;
   flex-direction: column;
   align-items: center;
   padding:4rem;
-  margin: 1rem;
+  border-radius: 5px;
+  margin: 4rem 1rem ;
+  cursor: pointer;
 }
 .award__class h2{
   color: #083b6b;
@@ -904,7 +906,12 @@ grid-auto-columns: 1fr 1fr;
   font-family: Manrope, sans-serif !important;
   font-size: 1.5rem;
   letter-spacing: 3px;
-  color: #000 !important;
+  color: #000 ;
+}
+.award__class:hover{
+  color:#ffffff !important;
+  transform:scale(.9);
+  background-color: #083b6b;
 }
 
 

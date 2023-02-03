@@ -999,7 +999,9 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 4rem;
-  margin: 1rem;
+  border-radius: 5px;
+  margin: 4rem 1rem;
+  cursor: pointer;
 }
 
 .award__class h2 {
@@ -1012,5 +1014,11 @@ main {
   font-family: Manrope, sans-serif !important;
   font-size: 1.5rem;
   letter-spacing: 3px;
-  color: #000 !important;
+  color: #000;
+}
+
+.award__class:hover {
+  color: #ffffff !important;
+  transform: scale(0.9);
+  background-color: #083b6b;
 }/*# sourceMappingURL=globals.css.map */

@@ -33,14 +33,22 @@ const About = () => {
           </Flex>
         </Box>
         {/* end of the about page */}
-        <Flex>
+        <Flex justifyContent="center">
           <Box className="award__class">
             <h2>2 345</h2>
-            <p>Certificate/Award</p>
+            <p>Certificates Awards</p>
           </Box>
           <Box className="award__class">
-            <h2>2 345</h2>
-            <p>Certificate/Award</p>
+            <h2>6 320</h2>
+            <p>Dedicated Teachers</p>
+          </Box>
+          <Box className="award__class">
+            <h2>1 045</h2>
+            <p>Successful Campaign</p>
+          </Box>
+          <Box className="award__class">
+            <h2>3 305</h2>
+            <p>Dedicated Volunteers</p>
           </Box>
         </Flex>
       </Box>
