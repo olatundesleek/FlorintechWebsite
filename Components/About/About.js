@@ -100,8 +100,8 @@ const About = () => {
               Help us safeguard the air we breathe, the water we drink, and the
               places we treasure.
             </p>
-            <Link href="/contact">
-              <button>CONTACT US</button>
+            <Link href="/contact" passHref>
+              <button className="about__btn">CONTACT US</button>
             </Link>
           </Box>
         </div>

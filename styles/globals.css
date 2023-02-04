@@ -1046,9 +1046,31 @@ main {
 }
 
 .about__banner__text {
+  font-family: Manrope, sans-serif !important;
   display: grid;
   place-items: center;
   position: absolute;
   z-index: 10;
   color: #eef0f5;
+  bottom: 20%;
+  left: 30%;
+}
+
+.about__banner__text p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  width: 60%;
+  text-align: center;
+}
+
+.about__banner__text h2 {
+  font-size: 2rem;
+  font-family: Manrope, sans-serif;
+  padding-top: 2rem;
+}
+
+.about__btn {
+  background-color: #1d2b5f;
+  color: #eae6eb;
+  padding: 1.2rem 2rem;
 }/*# sourceMappingURL=globals.css.map */
