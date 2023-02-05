@@ -10,7 +10,15 @@ const About = () => {
     <>
       <Box>
         <Box className="about-container">
-          <Flex justifyContent="around">
+          <Flex
+            justifyContent="around"
+            flexDirection={{
+              base: "column",
+              sm: "column",
+              md: "column",
+              lg: "row",
+            }}
+          >
             <Image
               src={aboutUs}
               alt="About Us Image"
@@ -35,10 +43,18 @@ const About = () => {
           </Flex>
         </Box>
         {/* end of the about page  and begin the award */}
-        <Flex justifyContent="center">
+        <Flex
+          justifyContent="center"
+          flexDirection={{
+            base: "column",
+            sm: "column",
+            md: "column",
+            lg: "row",
+          }}
+        >
           <Box className="award__class">
             <h2>2 345</h2>
-            <p>Certificates Awards</p>
+            <p>Certificates & Awards</p>
           </Box>
           <Box className="award__class">
             <h2>6 320</h2>
@@ -57,7 +73,15 @@ const About = () => {
         <Box className="about__client">
           <h2>Our Client's Stories</h2>
           <Box className="about-container container2">
-            <Flex justifyContent="around">
+            <Flex
+              justifyContent="around"
+              flexDirection={{
+                base: "column",
+                sm: "column",
+                md: "column",
+                lg: "row",
+              }}
+            >
               <Image
                 src={aboutUs2}
                 alt="About Us Image"
