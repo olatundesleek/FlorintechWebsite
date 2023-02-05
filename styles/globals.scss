@@ -766,8 +766,9 @@ main {
     font-size: 20px !important;
   }
   .faq-container p{
-    width: 100%;
-    padding: .5rem;
+      width: 100%;
+      padding: 1rem;
+      text-align: left;
   }
   .container h3 {
     font-size: 1.5rem;
@@ -967,6 +968,69 @@ font-size: 2.5rem;
   background-color: red;
   border: 1px solid red;
 }
+@media screen and (max-width:#{$phone-width}) {
+  .about__container__text p {
+  padding: 1.8rem;
+  }
+  .about__container__text h1 {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .about__container__text h3 {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  }
+  .about__image{
+    // padding: 2rem;
+    width: 300px;
+    height: 300px;
+  }
+  .about__client h2{
+    font-size: 2rem;
+  }
+  .about__banner__text{
+    font-family: Manrope, sans-serif !important;
+display: grid;
+place-items: center;
+position: absolute;
+z-index: 10;
+color: #eef0f5;
+    bottom: 17%;
+    left: 3%;
+  }
+  .about__banner__text p {
+   
+    font-size: 1.2rem;
+    width: 60%;
+    text-align: center;
+  }
+  .award__class {
+    // width: 250px;
+    background-color: #edeff5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 5px;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    width: 92%;
+  }
+  
+  .about__btn{
+    background-color: #1d2b5f;
+color: #eae6eb;
+padding: 1rem 1rem;
+border-radius: 5px;
+border: 1px solid #1d2b5f;
+margin-bottom: 1rem;
+  }
+  .about-container{
+    margin: 2rem 0;
+  }
+}
+
 
 
 

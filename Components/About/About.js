@@ -83,6 +83,7 @@ const About = () => {
               }}
             >
               <Image
+                className="about__image"
                 src={aboutUs2}
                 alt="About Us Image"
                 width={550}
@@ -115,7 +116,7 @@ const About = () => {
             quality="100"
             layout="responsive"
             position="relative"
-            height="40vh"
+            height="60vh"
             width="100%"
           />
           <Box className="about__banner__text">
