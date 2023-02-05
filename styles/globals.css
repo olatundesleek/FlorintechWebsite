@@ -815,8 +815,8 @@ main {
   display: flex;
   justify-content: center;
   margin: auto;
-  width: 50%;
-  text-align: center;
+  width: 80%;
+  text-align: left;
   font-family: Manrope, sans-serif !important;
 }
 
@@ -993,7 +993,6 @@ main {
 }
 
 .award__class {
-  width: 250px;
   background-color: #edeff5;
   display: flex;
   justify-content: center;
@@ -1085,6 +1084,45 @@ main {
   border: 1px solid red;
 }
 
+@media screen and (max-width: 768px) {
+  .faq-container p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    font-family: Manrope, sans-serif !important;
+  }
+  .about-container {
+    margin: 2rem 0;
+  }
+  .about__container__text {
+    width: 620px;
+    height: 550px;
+    margin: 0 0 0 1rem;
+  }
+  .award__class {
+    background-color: #edeff5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 5px;
+    margin: 2rem 1rem;
+    cursor: pointer;
+  }
+  .about__banner__text {
+    font-family: Manrope, sans-serif !important;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    z-index: 10;
+    color: #eef0f5;
+    bottom: 14%;
+    left: 12%;
+  }
+}
 @media screen and (max-width: 500px) {
   .about__container__text p {
     padding: 1.8rem;
@@ -1129,7 +1167,6 @@ main {
     border-radius: 5px;
     margin: 1rem 1rem;
     cursor: pointer;
-    width: 92%;
   }
   .about__btn {
     background-color: #1d2b5f;
