@@ -993,6 +993,7 @@ main {
 }
 
 .award__class {
+  width: 250px;
   background-color: #edeff5;
   display: flex;
   justify-content: center;
