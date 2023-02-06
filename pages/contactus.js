@@ -9,7 +9,7 @@ import {HiOutlineMailOpen} from "react-icons/hi"
 import{GrLocation} from "react-icons/gr"
 import Link from 'next/link';
 import Banner from '../Components/Banner';
-function contactus() {
+function Contactus() {
     const [getDays , setGetDays]= useState()
 
     function activateDays(){
@@ -132,4 +132,4 @@ function contactus() {
   )
 }
 
-export default contactus
+export default Contactus
