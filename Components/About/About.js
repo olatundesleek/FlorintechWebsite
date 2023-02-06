@@ -71,7 +71,7 @@ const About = () => {
         </Flex>
         {/* begin of the textimonail row */}
         <Box className="about__client">
-          <h2>Our Client's Stories</h2>
+          <h2>Our Clients Stories</h2>
           <Box className="about-container container2">
             <Flex
               justifyContent="around"
@@ -125,7 +125,7 @@ const About = () => {
               Help us safeguard the air we breathe, the water we drink, and the
               places we treasure.
             </p>
-            <Link href="/contact" passHref>
+            <Link href="/contactus">
               <button className="about__btn">CONTACT US</button>
             </Link>
           </Box>

@@ -10,7 +10,7 @@ import{GrLocation} from "react-icons/gr"
 import Link from 'next/link';
 import Banner from '../Components/Banner';
 function Contactus() {
-  const [getDays, setGetDays] = useState();
+    const [getDays , setGetDays]= useState()
 
   function activateDays() {
     let today = new Date();
@@ -135,4 +135,4 @@ function Contactus() {
   );
 }
 
-export default Contactus;
+export default Contactus

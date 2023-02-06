@@ -5,11 +5,11 @@ import About from "../Components/About/About";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
-const about = () => {
+function Aboutus() {
   return (
-    <div>
+    <Box>
       <Head>
-        <title>About | Florintech Computer College</title>
+        <title>About Us | Florintech Computer College</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"
@@ -19,7 +19,7 @@ const about = () => {
       <Header />
       <Box className="faq-container">
         <h3>ABOUT US</h3>
-        <h1>IT solution at it's best.The Future</h1>
+        <h1>IT solution at its best.The Future</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
           aspernatur voluptatem commodi quis. Dolorem nulla officiis quae ullam?
@@ -30,8 +30,8 @@ const about = () => {
       </Box>
       <About />
       <Footer />
-    </div>
+    </Box>
   );
-};
+}
 
-export default about;
+export default Aboutus;
