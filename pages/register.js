@@ -20,7 +20,7 @@ const intialValue = {
   course: "",
   session: "",
 };
-function register() {
+function Register() {
   const [inputs, setInputs] = useState(intialValue);
   const [selected, setSelected] = useState();
   const handleSelected = (e) => {
@@ -186,4 +186,4 @@ function register() {
   );
 }
 
-export default register;
+export default Register;
