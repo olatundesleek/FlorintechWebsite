@@ -1,16 +1,15 @@
-import { Box } from "@chakra-ui/react";
-import Head from "next/head";
 import React from "react";
+import Head from "next/head";
+import { Box } from "@chakra-ui/react";
 import About from "../Components/About/About";
-import Faq from "../Components/Faq/Faq";
-import Footer from "../Components/Footer";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
-const faq = () => {
+function Aboutus() {
   return (
-    <>
+    <Box>
       <Head>
-        <title>Faq | Florintech Computer College</title>
+        <title>About Us | Florintech Computer College</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"
@@ -19,8 +18,8 @@ const faq = () => {
       </Head>
       <Header />
       <Box className="faq-container">
-        <h3>FAQs</h3>
-        <h1>Got a question? I have answers.</h1>
+        <h3>ABOUT US</h3>
+        <h1>IT solution at its best.The Future</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
           aspernatur voluptatem commodi quis. Dolorem nulla officiis quae ullam?
@@ -29,11 +28,10 @@ const faq = () => {
           reiciendis hic quidem perspiciatis.
         </p>
       </Box>
-      <Faq />
       <About />
       <Footer />
-    </>
+    </Box>
   );
-};
+}
 
-export default faq;
+export default Aboutus;

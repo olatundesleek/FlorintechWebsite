@@ -821,7 +821,7 @@ main {
   justify-content: center;
   margin: auto;
   width: 50%;
-  text-align: center;
+  text-align: left;
   font-family: Manrope, sans-serif !important;
 }
 
@@ -883,7 +883,8 @@ main {
   }
   .faq-container p {
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
+    text-align: left;
   }
   .container h3 {
     font-size: 1.5rem;
@@ -959,6 +960,242 @@ main {
   .discount {
     text-decoration: line-through;
     margin-left: 12px;
+  }
+}
+.about-container {
+  margin: 5rem 0;
+  justify-content: center;
+  display: grid;
+  place-items: center;
+  grid-auto-columns: 1fr 1fr;
+}
+
+.about__container__text {
+  width: 550px;
+  height: 550px;
+  margin: 0 0 0 3rem;
+}
+
+.about__container__text h3 {
+  margin: 2rem 0;
+  color: #1d2b5f !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  font-family: Manrope, sans-serif !important;
+}
+
+.about__container__text h1 {
+  font-weight: bold;
+  font-family: Manrope, sans-serif !important;
+  font-size: 2.5rem;
+}
+
+.about__container__text p {
+  color: #000 !important;
+  font-family: Manrope, sans-serif !important;
+  letter-spacing: 2px;
+}
+
+.award__class {
+  width: 250px;
+  background-color: #edeff5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  border-radius: 5px;
+  margin: 4rem 1rem;
+  cursor: pointer;
+}
+
+.award__class h2 {
+  color: #083b6b;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.award__class p {
+  font-family: Manrope, sans-serif !important;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+.award__class:hover {
+  color: #ffffff !important;
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.container2 {
+  margin: 2rem 0;
+  justify-content: center;
+  display: grid;
+  place-items: center;
+  grid-auto-columns: 1fr 1fr;
+}
+
+.about__client h2 {
+  text-align: center;
+  color: #083b6b;
+  font-family: Manrope, sans-serif !important;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+.banner__img {
+  height: 40vh;
+  width: 100%;
+  position: relative;
+}
+
+.about__banner__text {
+  font-family: Manrope, sans-serif !important;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  z-index: 10;
+  color: #eef0f5;
+  bottom: 23%;
+  left: 30%;
+}
+
+.about__banner__text p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  width: 60%;
+  text-align: center;
+}
+
+.about__banner__text h2 {
+  font-size: 2rem;
+  font-family: Manrope, sans-serif;
+  padding-top: 2rem;
+}
+
+.about__btn {
+  background-color: #1d2b5f;
+  color: #eae6eb;
+  padding: 1.2rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #1d2b5f;
+}
+
+.about__btn:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+  background-color: red;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 768px) {
+  .faq-container p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    font-family: Manrope, sans-serif !important;
+  }
+  .about-container {
+    margin: 2rem 0;
+  }
+  .about__container__text {
+    width: 620px;
+    height: 550px;
+    margin: 0 0 0 1rem;
+  }
+  .award__class {
+    background-color: #edeff5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 5px;
+    margin: 2rem 1rem;
+    cursor: pointer;
+  }
+  .about__banner__text {
+    font-family: Manrope, sans-serif !important;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    z-index: 10;
+    color: #eef0f5;
+    bottom: 20%;
+    left: 12%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about__container__text {
+    width: 100%;
+    text-align: left;
+    margin: 0px 0 0 1rem;
+  }
+  .about__container__text h1 {
+    font-size: 1rem;
+  }
+  .about__container__text h3 {
+    font-size: 1.2rem;
+  }
+  .about__image {
+    width: 300px;
+    height: 300px;
+  }
+  .about__client h2 {
+    font-size: 2rem;
+  }
+  .about__banner__text {
+    font-family: Manrope, sans-serif !important;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    z-index: 10;
+    color: #eef0f5;
+    bottom: 18%;
+    left: 3%;
+  }
+  .about__banner__text p {
+    font-size: 1.2rem;
+    width: 60%;
+    text-align: center;
+  }
+  .award__class {
+    background-color: #edeff5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 5px;
+    margin: 1rem 1rem;
+    cursor: pointer;
+  }
+  .about__btn {
+    background-color: #1d2b5f;
+    color: #eae6eb;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #1d2b5f;
+    margin-bottom: 1rem;
+  }
+  .about-container {
+    margin: 2rem 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about__banner__text {
+    font-family: Manrope, sans-serif !important;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    z-index: 10;
+    color: #eef0f5;
+    bottom: 18%;
+    left: 3%;
   }
 }
 .overall {
