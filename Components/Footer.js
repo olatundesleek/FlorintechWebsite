@@ -43,7 +43,7 @@ function Footer() {
                 </li>
 
                 <li>
-                  <Link href="/course">
+                  <Link href="/courses">
                     <a>COURSE</a>
                   </Link>
                 </li>
@@ -58,12 +58,12 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="https://blog.florintechcomputercollege.com">
                     <a>BLOG</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/location">
+                  <Link href="/contactus">
                     <a>LOCATION</a>
                   </Link>
                 </li>
@@ -86,7 +86,7 @@ function Footer() {
             <Box className="footer-tools">
               <ul>
                 <li>
-                  <Link href="/">
+                  <Link href="/verifycertificate">
                     <a>VERIFY CERTIFICATE</a>
                   </Link>
                 </li>
@@ -98,47 +98,47 @@ function Footer() {
               </ul>
             </Box>
           </Box>
-
-          <Box>
-            <h2>SOCIALS</h2>
-            <Box className="footer-socials">
-              <ul>
-                <li>
-                  <Link href="https://facebook.com/florintechcomputercollege">
-                    <a>
-                      <FiFacebook />
-                      FACEBOOK
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://twitter.com/florintechcc">
-                    <a>
-                      <FiTwitter />
-                      TWITTER
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://linkedin.com/florintechcc">
-                    <a>
-                      <FiLinkedin />
-                      LINKEDIN
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    <a>
-                      <FiYoutube />
-                      YOUTUBE
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-            </Box>
-          </Box>
         </Flex>
+
+        <Box>
+          <h2>SOCIALS</h2>
+          <Box className="footer-socials">
+            <ul>
+              <li>
+                <Link href="https://facebook.com/florintechcomputercollege">
+                  <a>
+                    <FiFacebook />
+                    FACEBOOK
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://twitter.com/florintechcc">
+                  <a>
+                    <FiTwitter />
+                    TWITTER
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://linkedin.com/florintechcc">
+                  <a>
+                    <FiLinkedin />
+                    LINKEDIN
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a>
+                    <FiYoutube />
+                    YOUTUBE
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </Box>
+        </Box>
       </Flex>
     </Box>
   );

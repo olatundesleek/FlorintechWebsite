@@ -22,12 +22,13 @@ setTimeout(() => {
   return (
    
     <Box marginTop="150px" id="testimonial">
-       {console.log(slideIndex)}
+    
       <h2 className="testimonial-title">Testimonial</h2>
       <Flex justifyContent="center">
         <Flex justifyContent="center" className="testimonial-slider-container">
           <Flex width="100%">
             {reviewData.map((data) => {
+              console.log(data.photo);
               return (<Box className="testimonial-slide" transform="auto" translateX={-slideIndex +"00%"}>
                 <Flex >
                   <Flex className="leftquote">
@@ -39,7 +40,7 @@ setTimeout(() => {
                   </Flex>
                  
                 </Flex>
-                <Flex justifyContent="center"  marginTop="50px"> <Image  width="100px" height="100px"  src={data.photo} />
+                <Flex justifyContent="center"  marginTop="50px"> <Image className="testimonial-image" src={data.photo} width="150px" height="150px"   />
                </Flex>
                <h2 color="#ffffff">{data.name}</h2>
                 </Box>

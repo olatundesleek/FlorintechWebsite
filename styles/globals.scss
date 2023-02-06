@@ -143,7 +143,7 @@ a {
   transition: 0.5s;
   overflow: hidden;
   max-height: 800px;
-  width: 350px;
+  width: 320px;
   background-image: radial-gradient(circle, #083b6b, #092038);
   box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
  
@@ -194,7 +194,7 @@ a {
 .course-main-content {
   padding: 20px 2vw 34px;
   @media screen and (max-width:#{$phone-width}) {
-    padding: 10px 1vw 20px;
+    padding: 10px 20px;
     }
   .divider {overflow: hidden;
     height: 2px;
@@ -502,6 +502,7 @@ $desktop-width: 1024px;
 }
 }
 .testimonial-title{text-align: center;font-size: 40px;color: #ffffff;}
+.testimonial-image{border-radius: 100px;}
 .testimonial-slider-container{width: 70%;justify-content: center;align-items: center;overflow: hidden;height: auto;
   @media screen and (max-width:#{$phone-width}) {
    
@@ -1083,7 +1084,521 @@ font-size: 2.5rem;
   }
 }
 
+// certificate
+// color
+$border-color-one: orange;
+$border-color-two: rgb(5, 5, 40);
+$secondary-color: red;
+$primary-color: whitesmoke;
+
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+// font-size
+
+$all-p: 1.4rem;
+
+// clipath-one
+$top-clip-parth-1: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+$top-clip-parth-blue: polygon(
+  0 26%,
+  0 0,
+  35% 0%,
+  53% 0,
+  53% 5%,
+  5% 5%,
+  5% 44%,
+  0 44%
+);
+
+$top-clip-orange-one: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+$top-clip-orange-two: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+
+// clipath-two
+$top-clip-parth-2: polygon(
+  100% 43%,
+  99% 42%,
+  99% 99%,
+  69% 99%,
+  69% 100%,
+  100% 100%
+);
+$top-clip-parth-blue-2: polygon(
+  55% 95%,
+  96% 95%,
+  96% 45%,
+  100% 45%,
+  100% 78%,
+  100% 100%,
+  85% 100%,
+  56% 100%
+);
+$top-clip-orange-one-bottom: polygon(
+  53% 100%,
+  100% 100%,
+  100% 61%,
+  99% 62%,
+  99% 99%,
+  92% 99%,
+  53% 99%
+);
+
+$top-clip-orange-two-bottom: polygon(
+  63% 100%,
+  100% 100%,
+  100% 63%,
+  99% 64%,
+  99% 100%,
+  100% 99%,
+  63% 99%
+);
+
+.overall {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 78%;
+  height: auto;
+  position: relative;
+  box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
+  margin-top: 3rem;
+  // padding: 3rem;
+
+  .first-border {
+    clip-path: $top-clip-parth-1;
+    background-color: $border-color-one;
+    width: 91%;
+    height: 60vh;
+    position: absolute;
+    left: 4%;
+    top: 0.1%;
+    // padding: 3rem;
+    padding-top: 3rem;
+  }
+
+  .container {
+    border: 2px solid$border-color-one;
+    width: 80%;
+    margin: 1.5rem 0;
+
+    .blue-con {
+      clip-path: $top-clip-parth-blue;
+      background-color: $border-color-two;
+      width: 85%;
+      height: 80vh;
+      position: absolute;
+      top: 1.5%;
+      left: 6%;
+    }
+    .orange-con1 {
+      clip-path: $top-clip-orange-one;
+      background-color: $border-color-one;
+      width: 75%;
+      height: 80vh;
+      position: absolute;
+      top: 4.5%;
+      left: 11%;
+    }
+    .orange-con2 {
+      clip-path: $top-clip-orange-two;
+      background-color: $border-color-one;
+      width: 70%;
+      height: 80vh;
+      position: absolute;
+      left: 13%;
+      top: 6%;
+    }
+    .proud {
+        text-align: center;
+      font-size: 1rem;
+      margin: 2rem 3rem;
+  
+      font-weight: 500;
+      
+    }
+
+    .logo-photo-cotainer {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 2rem 0;
+
+     
+      .passport {
+        height: 80px;
+        width: 50px;
+        border: 1px solid rgb(168, 27, 27);
+
+      }
+      .certi {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        div {
+          font-size: 4rem;
+          font-weight: 500;
+          letter-spacing: 2px;
+        }
+        span {
+          font-size: 1.5rem;
+          letter-spacing: 5px;
+          font-weight: 500;
+        }
+      }
+    }
+    
+    .user-name hr {
+      width: 70%;margin: auto;
+    }
+    .user-name span {
+      font-family: "Allura", cursive;
+      font-size: 3rem;
+      font-weight: 500;
+      text-align: center;
+      margin-left: 2.3rem;
+      padding: 0;
+    }
+    .date-signature {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      margin: 3rem 0.7rem 0 0.7rem
+    }
+    .comment {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      text-align: center;
+      margin: 10px;
+    }
+
+    // .comment p {
+    //   width: 65%;
+    //   font-size: 16px;
+    // }
+    .blue-con2 {
+      clip-path: $top-clip-parth-blue-2;
+      background-color: $border-color-two;
+      width: 91%;
+      height: 82vh;
+      bottom: 2%;
+      right: 8.8%;
+      position: absolute;
+    }
+    .orange1 {
+      clip-path: $top-clip-orange-one-bottom;
+      width: 91%;
+      background-color: $border-color-one;
+      height: 82vh;
+      bottom: 6%;
+      right: 12.7%;
+      position: absolute;
+    }
+    .orange2 {
+      clip-path: $top-clip-orange-two-bottom;
+      width: 91%;
+      background-color: $border-color-one;
+      height: 82vh;
+      bottom: 7%;
+      right: 14%;
+      position: absolute;
+    }
+  }
+  .first-border2 {
+    clip-path: $top-clip-parth-2;
+    background-color: $border-color-one;
+    width: 91%;
+    height: 82vh;
+    bottom: 0.7%;
+    right: 7%;
+    position: absolute;
+  }
+}
 
 
+@media only screen and (max-width:600px){
+    .overall {
+            background-color: $primary-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 96%;
+            height: auto;
+            position: relative;
+            box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
+            margin-top: 3rem;
+            // padding: 3rem;
+    
+            .first-border {
+                clip-path: $top-clip-parth-1;
+                background-color: $border-color-one;
+                width: 91%;
+                height: 60vh;
+                position: absolute;
+                left: 4%;
+                top: 0.1%;
+                // padding: 3rem;
+                padding-top: 3rem;
+            }
+    
+            .container {
+                border: 2px solid$border-color-one;
+                width: 80%;
+                margin: 1.5rem 0;
+    
+                .blue-con {
+                    clip-path: $top-clip-parth-blue;
+                    background-color: $border-color-two;
+                    width: 85%;
+                    height: 80vh;
+                    position: absolute;
+                    top: 1.5%;
+                    left: 6%;
+                }
+    
+                .orange-con1 {
+                    clip-path: $top-clip-orange-one;
+                    background-color: $border-color-one;
+                    width: 75%;
+                    height: 80vh;
+                    position: absolute;
+                    top: 7%;
+                    left: 11%;
+                }
+    
+                .orange-con2 {
+                    clip-path: $top-clip-orange-two;
+                    background-color: $border-color-one;
+                    width: 70%;
+                    height: 80vh;
+                    position: absolute;
+                    left: 13%;
+                    top: 8.4%;
+                }
+    
+                .proud {
+                    font-size: 1rem;
+                    margin: 2rem 2rem;
+                    letter-spacing: 0px;
+                    font-weight: 500;
+                }
+    
+                .logo-photo-cotainer {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin: 2rem 0;
+    
+                    .logo {
+                        max-width: 54%;
+                    }
+    
+                    .passport {
+                        max-width: 50%;
+                    }
+    
+                    .certi {
+                        width: auto;
+                        display: flex;
+                        flex-direction: column;
+    
+                        div {
+                            font-size: 2rem;
+                            font-weight: 500;
+                            letter-spacing: 2px;
+                        }
+    
+                        span {
+                            font-size: 1rem;
+                            letter-spacing: 2px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .user-name{text-align: center;
+                  hr {
+                    width: 250px;
+                }
+                span {
+                  font-family: "Allura", cursive;
+                  font-size: 4rem;
+                  font-weight: 500;
+                  margin: 0;
+                  padding: 0;
+              }
+                }
+    
+             
+    
+            
+    
+                .date-signature {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-weight: 600;
+                    margin: 3rem;
+                }
+    
+                .comment {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    margin: 10px;
+                }
+    
+                .comment p {
+                    width: 65%;
+                    font-size: 16px;
+                }
+    
+                .blue-con2 {
+                    clip-path: $top-clip-parth-blue-2;
+                    background-color: $border-color-two;
+                    width: 91%;
+                    height: 82vh;
+                    bottom: 2%;
+                    right: 8.8%;
+                    position: absolute;
+                }
+    
+                .orange1 {
+                    clip-path: $top-clip-orange-one-bottom;
+                    width: 91%;
+                    background-color: $border-color-one;
+                    height: 82vh;
+                    bottom: 7%;
+                    right: 12.7%;
+                    position: absolute;
+                }
+    
+                .orange2 {
+                    clip-path: $top-clip-orange-two-bottom;
+                    width: 91%;
+                    background-color: $border-color-one;
+                    height: 82vh;
+                    bottom: 8.5%;
+                    right: 14%;
+                    position: absolute;
+                }
+            }
+    
+            .first-border2 {
+                clip-path: $top-clip-parth-2;
+                background-color: $border-color-one;
+                width: 91%;
+                height: 82vh;
+                bottom: 0.7%;
+                right: 7%;
+                position: absolute;
+            }
+        }
+    
+}
 
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #092038;
+  color:white;
+  font-size: 3rem;
+  font-weight: 600;
+  height: 400px;
+  span{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+}
+
+
+.contactus{
+
+
+ 
+  .wrapper-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+
+    @media screen and (max-width:#{$phone-width}) {
+      
+    }
+
+    .banner-openday{
+      // border: 2px solid red;
+      // background-color: #0b1c30;
+      // box-shadow: 2px 2px 2px 2px grey ,-2px -2px 2px 2px grey;
+      border-radius: 5px;
+      color: black;
+      width: 400px;
+      height: 400px;
+      margin: 0 3rem;
+      font-size: 1.6rem;
+    }
+    .banner-location{
+      position: relative;
+      width: 400px;
+      height: 400px;
+      .frame-wrapper{
+        position: absolute;
+        background-color: #092038;
+        width: 200px;
+        height: 300px;
+        top: -1.3rem;
+        z-index: -5;
+        right: -2rem;;
+      }
+    }
+   
+    
+   
+  }
+  .icon-container{
+    display: flex;
+    justify-content: space-around;
+    color: #348aed;
+    
+    margin: 3rem;
+    .address-con{
+   path{stroke:#348aed}
+
+display: flex;
+
+    }
+    .email-con{
+      display: flex;
+      
+    }
+    .phone-con{
+      display: flex;
+    }
+    span{
+      color: #000000;
+    }
+
+  }
+  .days{
+    
+    color: black;
+  }
+   .active{
+    background-color: #092038;
+    color: white;
+  }
+
+}
 

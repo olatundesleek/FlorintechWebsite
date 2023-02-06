@@ -29,7 +29,7 @@ function Topnav() {
 
       <Spacer />
       <Flex justifyContent={{ base: "center" }}>
-        <Link href="/">
+        <Link href="/register">
           <a className="link">
             <BsPencil /> Register
           </a>

@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Courses | Florintech Computer College</title>
+        <title>Homepage | Florintech Computer College</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"

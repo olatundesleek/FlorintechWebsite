@@ -17,13 +17,13 @@ function Mobilemenu() {
         <MyNavLink href="/tutorial">
           <a className="link">TUTORIALS</a>
         </MyNavLink>
-        <MyNavLink href="/">
+        <MyNavLink href="https://blog.florintechcomputercollege.com">
           <a className="link">BLOG</a>
         </MyNavLink>
-        <MyNavLink href="/">
-          <a className="link">LOCATIONS</a>
+        <MyNavLink href="/contactus">
+          <a className="link">CONTACT US</a>
         </MyNavLink>
-        <MyNavLink href="/about">
+        <MyNavLink href="/aboutus">
           <a className="link">ABOUT US</a>
         </MyNavLink>
         <MyNavLink href="/faq">

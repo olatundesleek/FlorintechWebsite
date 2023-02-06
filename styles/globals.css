@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 * {
   border: 1px solid red;
   padding: 0;
@@ -147,7 +148,7 @@ a {
   transition: 0.5s;
   overflow: hidden;
   max-height: 800px;
-  width: 350px;
+  width: 320px;
   background-image: radial-gradient(circle, #083b6b, #092038);
   box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
   border-radius: 24px;
@@ -196,7 +197,7 @@ a {
 }
 @media screen and (max-width: 500px) {
   .course-main-content {
-    padding: 10px 1vw 20px;
+    padding: 10px 20px;
   }
 }
 .course-main-content .divider {
@@ -557,6 +558,10 @@ a {
   text-align: center;
   font-size: 40px;
   color: #ffffff;
+}
+
+.testimonial-image {
+  border-radius: 100px;
 }
 
 .testimonial-slider-container {
@@ -1192,4 +1197,403 @@ main {
     bottom: 18%;
     left: 3%;
   }
+}
+.overall {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 78%;
+  height: auto;
+  position: relative;
+  box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
+  margin-top: 3rem;
+}
+.overall .first-border {
+  -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+          clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+  background-color: orange;
+  width: 91%;
+  height: 60vh;
+  position: absolute;
+  left: 4%;
+  top: 0.1%;
+  padding-top: 3rem;
+}
+.overall .container {
+  border: 2px solid orange;
+  width: 80%;
+  margin: 1.5rem 0;
+}
+.overall .container .blue-con {
+  -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+          clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+  background-color: rgb(5, 5, 40);
+  width: 85%;
+  height: 80vh;
+  position: absolute;
+  top: 1.5%;
+  left: 6%;
+}
+.overall .container .orange-con1 {
+  -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+          clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+  background-color: orange;
+  width: 75%;
+  height: 80vh;
+  position: absolute;
+  top: 4.5%;
+  left: 11%;
+}
+.overall .container .orange-con2 {
+  -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+          clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+  background-color: orange;
+  width: 70%;
+  height: 80vh;
+  position: absolute;
+  left: 13%;
+  top: 6%;
+}
+.overall .container .proud {
+  text-align: center;
+  font-size: 1rem;
+  margin: 2rem 3rem;
+  font-weight: 500;
+}
+.overall .container .logo-photo-cotainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+.overall .container .logo-photo-cotainer .passport {
+  height: 80px;
+  width: 50px;
+  border: 1px solid rgb(168, 27, 27);
+}
+.overall .container .logo-photo-cotainer .certi {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.overall .container .logo-photo-cotainer .certi div {
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.overall .container .logo-photo-cotainer .certi span {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+.overall .container .user-name hr {
+  width: 70%;
+  margin: auto;
+}
+.overall .container .user-name span {
+  font-family: "Allura", cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 2.3rem;
+  padding: 0;
+}
+.overall .container .date-signature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin: 3rem 0.7rem 0 0.7rem;
+}
+.overall .container .comment {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+.overall .container .blue-con2 {
+  -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+          clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+  background-color: rgb(5, 5, 40);
+  width: 91%;
+  height: 82vh;
+  bottom: 2%;
+  right: 8.8%;
+  position: absolute;
+}
+.overall .container .orange1 {
+  -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+          clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+  width: 91%;
+  background-color: orange;
+  height: 82vh;
+  bottom: 6%;
+  right: 12.7%;
+  position: absolute;
+}
+.overall .container .orange2 {
+  -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+          clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+  width: 91%;
+  background-color: orange;
+  height: 82vh;
+  bottom: 7%;
+  right: 14%;
+  position: absolute;
+}
+.overall .first-border2 {
+  -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+          clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+  background-color: orange;
+  width: 91%;
+  height: 82vh;
+  bottom: 0.7%;
+  right: 7%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .overall {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    height: auto;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
+    margin-top: 3rem;
+  }
+  .overall .first-border {
+    -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+            clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+    background-color: orange;
+    width: 91%;
+    height: 60vh;
+    position: absolute;
+    left: 4%;
+    top: 0.1%;
+    padding-top: 3rem;
+  }
+  .overall .container {
+    border: 2px solid orange;
+    width: 80%;
+    margin: 1.5rem 0;
+  }
+  .overall .container .blue-con {
+    -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+            clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+    background-color: rgb(5, 5, 40);
+    width: 85%;
+    height: 80vh;
+    position: absolute;
+    top: 1.5%;
+    left: 6%;
+  }
+  .overall .container .orange-con1 {
+    -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+            clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+    background-color: orange;
+    width: 75%;
+    height: 80vh;
+    position: absolute;
+    top: 7%;
+    left: 11%;
+  }
+  .overall .container .orange-con2 {
+    -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+            clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+    background-color: orange;
+    width: 70%;
+    height: 80vh;
+    position: absolute;
+    left: 13%;
+    top: 8.4%;
+  }
+  .overall .container .proud {
+    font-size: 1rem;
+    margin: 2rem 2rem;
+    letter-spacing: 0px;
+    font-weight: 500;
+  }
+  .overall .container .logo-photo-cotainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  .overall .container .logo-photo-cotainer .logo {
+    max-width: 54%;
+  }
+  .overall .container .logo-photo-cotainer .passport {
+    max-width: 50%;
+  }
+  .overall .container .logo-photo-cotainer .certi {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .overall .container .logo-photo-cotainer .certi div {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  .overall .container .logo-photo-cotainer .certi span {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  .overall .container .user-name {
+    text-align: center;
+  }
+  .overall .container .user-name hr {
+    width: 250px;
+  }
+  .overall .container .user-name span {
+    font-family: "Allura", cursive;
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  }
+  .overall .container .date-signature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin: 3rem;
+  }
+  .overall .container .comment {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  .overall .container .comment p {
+    width: 65%;
+    font-size: 16px;
+  }
+  .overall .container .blue-con2 {
+    -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+            clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+    background-color: rgb(5, 5, 40);
+    width: 91%;
+    height: 82vh;
+    bottom: 2%;
+    right: 8.8%;
+    position: absolute;
+  }
+  .overall .container .orange1 {
+    -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+            clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+    width: 91%;
+    background-color: orange;
+    height: 82vh;
+    bottom: 7%;
+    right: 12.7%;
+    position: absolute;
+  }
+  .overall .container .orange2 {
+    -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+            clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+    width: 91%;
+    background-color: orange;
+    height: 82vh;
+    bottom: 8.5%;
+    right: 14%;
+    position: absolute;
+  }
+  .overall .first-border2 {
+    -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+            clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+    background-color: orange;
+    width: 91%;
+    height: 82vh;
+    bottom: 0.7%;
+    right: 7%;
+    position: absolute;
+  }
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #092038;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  height: 400px;
+}
+.banner span {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.contactus .wrapper-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+.contactus .wrapper-contact .banner-openday {
+  border-radius: 5px;
+  color: black;
+  width: 400px;
+  height: 400px;
+  margin: 0 3rem;
+  font-size: 1.6rem;
+}
+.contactus .wrapper-contact .banner-location {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.contactus .wrapper-contact .banner-location .frame-wrapper {
+  position: absolute;
+  background-color: #092038;
+  width: 200px;
+  height: 300px;
+  top: -1.3rem;
+  z-index: -5;
+  right: -2rem;
+}
+.contactus .icon-container {
+  display: flex;
+  justify-content: space-around;
+  color: #348aed;
+  margin: 3rem;
+}
+.contactus .icon-container .address-con {
+  display: flex;
+}
+.contactus .icon-container .address-con path {
+  stroke: #348aed;
+}
+.contactus .icon-container .email-con {
+  display: flex;
+}
+.contactus .icon-container .phone-con {
+  display: flex;
+}
+.contactus .icon-container span {
+  color: #000000;
+}
+.contactus .days {
+  color: black;
+}
+.contactus .active {
+  background-color: #092038;
+  color: white;
 }/*# sourceMappingURL=globals.css.map */

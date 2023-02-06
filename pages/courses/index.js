@@ -23,9 +23,9 @@ function index() {
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">
         <Box>
-          <Text className="course-text-left">
-            Browse my premium marketing courses
-          </Text>
+          <h1 className="course-text-left">
+           Courses
+          </h1>
         </Box>
         <Box className="course-text-right">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod vitae
@@ -36,7 +36,7 @@ function index() {
       <Flex
        justifyContent={{base:"center",sm:"center",md:"center",lg:"center"}} flexFlow="wrap" p={{base:0,sm:0,md:0,lg:0,xl:0}}
       >
-        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0"> 
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="20px 0"> 
           <CourseTab
           to="courses/webdevelopment"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -44,7 +44,7 @@ function index() {
           courseImage={webdevelopment}
           price="50000"
         /></Flex>
-       <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
+       <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="20px 0">
        <CourseTab
           to="courses/advancegraphicsdesign"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -54,7 +54,7 @@ function index() {
         />
 
        </Flex>
-        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="20px 0">
         <CourseTab
           to="courses/desktoppublishing"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -63,7 +63,7 @@ function index() {
           price="50000"
         />
         </Flex>
-        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="20px 0">
         <CourseTab
           to="courses/OfficeApplication"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -73,7 +73,7 @@ function index() {
         />
 
         </Flex>
-        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="20px 0">
         <CourseTab
           to="courses/DatabaseAdministration"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -82,7 +82,7 @@ function index() {
           price="50000"
         />
         </Flex>
-        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="20px 0">
         <CourseTab
           to="courses/ComputerProgramming"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -91,7 +91,7 @@ function index() {
           price="50000"
         />
         </Flex>
-        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="20px 0">
         <CourseTab
           to="courses/DigitalMedia"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -100,7 +100,7 @@ function index() {
           price="50000"
         />
         </Flex>
-        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="20px 0">
         <CourseTab
           to="courses/ComputerNetworking"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
@@ -109,7 +109,7 @@ function index() {
           price="50000"
         />
         </Flex>
-        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="40px 0">
+        <Flex justifyContent="center" p={{base:0,sm:5,md:10,lg:10}} width={{base:"100%",sm:"auto"}} margin="20px 0">
         <CourseTab
           to="courses/ComputerSecurity"
           courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
