@@ -1601,4 +1601,26 @@ display: flex;
   }
 
 }
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem 0;
+  .register-img{
+    height: 500px;
+    width: 400px;
+    
+
+    
+  }
+  .form{
+    // height: 500px;
+    width: 400px;
+    input{
+      margin: 1rem 0;
+      padding: 0.5rem
+    }
+  }
+
+}
 
