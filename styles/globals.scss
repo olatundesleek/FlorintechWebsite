@@ -1614,7 +1614,7 @@ display: flex;
     
   }
   .form{
-    // height: 500px;
+   
     width: 400px;
     input{
       margin: 1rem 0;
@@ -1622,5 +1622,29 @@ display: flex;
     }
   }
 
+}
+.wrapper-video{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+            
+
+  .card-container{
+  border: 1px solid rgb(248, 240, 240);
+  border-radius: 4px;
+  width: 330px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 1rem;
+  margin: 1rem;
+  .video-con{
+  width: 300px;
+  height: 300px;
+
+
+  }
 }
 
