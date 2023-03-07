@@ -9,9 +9,6 @@ import {
   Button,
 } from "@chakra-ui/react/dist/chakra-ui-react.cjs";
 import Link from "next/link";
-// import logo from "../assets/webdevelopment.jpg";
-// import Image from "next/image";
-// import Link from './Link/Link';
 
 const TutorialCard = ({ img, info, children, title, to }) => {
   return (

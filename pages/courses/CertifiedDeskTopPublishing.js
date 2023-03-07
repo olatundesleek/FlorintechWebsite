@@ -6,7 +6,7 @@ const certifiedgraphicsprofessionalImg =
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-function advancedgraphicsdesign() {
+function CertifiedDeskTopPublishing() {
   return (
     <Box>
       <Header />
@@ -57,9 +57,10 @@ function advancedgraphicsdesign() {
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+        coursePrice="40,000"
       />
     </Box>
   );
 }
 
-export default advancedgraphicsdesign;
+export default CertifiedDeskTopPublishing;

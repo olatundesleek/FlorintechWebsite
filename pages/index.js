@@ -28,17 +28,18 @@ export default function Home() {
       </Head>
 
       <Box listStyleType="none" textDecoration="none" m={0}>
-       
-        <Header/>
+        <Header />
         <Slider />
-        <Box className="page-main-content" padding={{ base: "10px", sm: "10px", md: "40px",lg:"50px" }}>
-        <Why/>
-        <Trending/>
-        <Testimonial/>
-        {/* <Singlecourse/> */}
+        <Box
+          className="page-main-content"
+          padding={{ base: "10px", sm: "10px", md: "40px", lg: "50px" }}
+        >
+          <Why />
+          <Trending />
+          <Testimonial />
         </Box>
-       <NewsLetter/> 
-     <Footer/>
+        <NewsLetter />
+        <Footer />
       </Box>
     </div>
   );

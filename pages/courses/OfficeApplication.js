@@ -57,6 +57,7 @@ const OfficeApplication = () => {
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+          coursePrice="40,000"
         />
       </Box>
     </div>

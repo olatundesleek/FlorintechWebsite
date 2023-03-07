@@ -385,7 +385,8 @@ a {
 }
 
 .single-course-content > div {
-  width: 80%;
+  width: 91%;
+  padding: 30px;
 }
 
 .single-course-content > div h1 {
@@ -422,7 +423,7 @@ a {
   background-color: #fff;
   -webkit-box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
           box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
-  padding: 9px .8rem;
+  padding: 9px 0.8rem;
   height: 500px;
   margin-top: 4rem;
 }
@@ -553,7 +554,7 @@ a {
 .browse-title h1 {
   font-size: 2rem;
   font-family: Manrope, sans-serif !important;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .browse-text {
@@ -583,7 +584,7 @@ a {
 
 .newsletter-input {
   border: 1px solid #000;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 50px;
   color: #1d2b5f !important;
   font-weight: bold;
@@ -651,7 +652,7 @@ a {
   }
   .browse-title h1 {
     font-size: 1rem;
-    margin: .5rem 0;
+    margin: 0.5rem 0;
   }
   .browse-link {
     font-size: 1rem;
@@ -659,6 +660,9 @@ a {
   .join-message {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .newsletter-input {
     display: -webkit-box;
@@ -675,7 +679,7 @@ a {
     font-size: 1rem;
   }
   .browse-text-text {
-    font-size: .9rem !important;
+    font-size: 0.9rem !important;
     width: 100%;
   }
 }
@@ -766,8 +770,8 @@ a {
 }
 
 .verification {
-  -webkit-box-shadow: 1px 1px 1px 1px  #d6d4d4;
-          box-shadow: 1px 1px 1px 1px  #d6d4d4;
+  -webkit-box-shadow: 1px 1px 1px 1px #d6d4d4;
+          box-shadow: 1px 1px 1px 1px #d6d4d4;
   border-radius: 10px;
   width: 450px;
   text-align: center;
@@ -797,7 +801,9 @@ a {
 }
 
 .about-teacher-container {
-  padding: 1rem 0.3rem;
+  width: 100%;
+  margin: 0;
+  padding: 26px;
 }
 
 .person-image {
@@ -1157,7 +1163,7 @@ main {
     font-weight: 600;
   }
   .single-page-image {
-    margin: 1.5rem 40px;
+    margin: 1.5rem 1px;
     width: 100%;
     border-radius: 20px;
     height: 271px;

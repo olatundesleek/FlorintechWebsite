@@ -7,34 +7,35 @@ const autocadspecialist = images[3].autocadspecialist;
 const AboutTeacher = ({ teacherTitle, teacherName, teacherText }) => {
   return (
     <div>
-      <Flex
+      <Box
         justify="space-around"
         mt={10}
-        pl={20}
+        pl={{ sm: 0, md: 10, lg: 20 }}
         className="about-teacher-container"
         boxShadow="md"
         rounded="md"
         bg="white"
       >
-        <Box>
-          <Image
-            width="200px"
-            height="200px"
-            ml={20}
-            src={autocadspecialist}
-            alt="Person"
-            className="person-image"
-          />
-        </Box>
-        <Box className="about-teacher">
-          <h1 className="about-teacher-title"> {teacherTitle} </h1>
-          <h3 className="about-teacher-title"> {teacherName} </h3>
-          <p mt={5}>{teacherText}</p>
-        </Box>
-      </Flex>
+        <Flex alignItems="center" width="100%">
+          <Box>
+            <Image
+              width="80px"
+              height="80px"
+              ml={20}
+              src={autocadspecialist}
+              alt="Person"
+              className="person-image"
+            />
+          </Box>
+          <Box className="about-teacher">
+            <h1 className="about-teacher-title"> {teacherTitle} </h1>
+            <h3 className="about-teacher-title"> {teacherName} </h3>
+          </Box>
+        </Flex>
+        <p mt={5}>{teacherText}</p>
+      </Box>
     </div>
   );
 };
 
 export default AboutTeacher;
-
