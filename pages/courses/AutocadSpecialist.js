@@ -5,13 +5,13 @@ const databaseadministrationImg = images[7].databaseadministration;
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-const DatabaseAdministration = () => {
+const AutoCadSpecialist = () => {
   return (
     <div>
       <Box>
         <Header />
         <Singlecourse
-          courseTitle="Ultimate Database Administration Course"
+          courseTitle="AutoCad Specialist Course"
           courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
           courseImage={databaseadministrationImg}
           aboutCourseText=" Lorem ipsum dolor sit amet consectetur
@@ -57,10 +57,11 @@ const DatabaseAdministration = () => {
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+          coursePrice="100,000"
         />
       </Box>
     </div>
   );
 };
 
-export default DatabaseAdministration;
+export default AutoCadSpecialist;

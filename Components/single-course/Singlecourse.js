@@ -11,6 +11,7 @@ import AboutTeacher from "../../Components/AboutTeacher";
 
 const Singlecourse = ({
   //passed the below items as props
+  coursePrice,
   courseTitle,
   courseDetails,
   courseImage,
@@ -63,12 +64,12 @@ const Singlecourse = ({
                 <p>{aboutCourseTextTwo}</p>
               </div>
             </Box>
-            <Box boxShadow="md" rounded="md" bg="white">
+            {/* <Box boxShadow="md" rounded="md" bg="white">
               <img src={courseImage} className="single-page-image" />
               <div style={{ padding: "2.5rem 0" }}>
                 <p>{secondImageText}</p>
               </div>
-            </Box>
+            </Box> */}
             <Box>
               <h1 className="about-teacher-title-sec">What you’ll learn </h1>
               <div className="last-text">
@@ -105,30 +106,14 @@ const Singlecourse = ({
               </div>
 
               <div className="course-amount">
-                <span className="amount"> $ 699.00 USD</span>
-                <span className="discount">$ 1,200.00 USD</span>
+                <span className="amount"> {coursePrice}Naira</span>
               </div>
               <button className="course-cart-button">Join the Class </button>
             </div>
             {/* the "what is include part of the single course page " */}
             <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem">
               <div className="about-teacher-title-sec">What’s included?</div>
-              <Flex alignItems="center">
-                <FaPlay />
-                <Text
-                  fontSize={{
-                    base: "25px",
-                    sm: "25px",
-                    md: "30px",
-                    lg: "30px",
-                  }}
-                  color="gray"
-                  ml={8}
-                  fontWeight={700}
-                >
-                  Video's: <bold className="about-teacher-title">6</bold>
-                </Text>
-              </Flex>
+
               <Flex alignItems="center">
                 <BsFileEarmarkFill />
                 <Text
@@ -142,8 +127,7 @@ const Singlecourse = ({
                   ml={8}
                   fontWeight={700}
                 >
-                  Downloadable Files:
-                  <bold className="about-teacher-title">6</bold>
+                  Downloadable Files
                 </Text>
               </Flex>
               <Flex alignItems="center">
@@ -195,28 +179,13 @@ const Singlecourse = ({
                   Certificate of Completion
                 </Text>
               </Flex>
-              <Flex alignItems="center">
-                <TiArrowSync />
-                <Text
-                  fontSize={{
-                    base: "25px",
-                    sm: "25px",
-                    md: "30px",
-                    lg: "30px",
-                  }}
-                  color="gray"
-                  ml={8}
-                  fontWeight={700}
-                >
-                  Lifetime Access
-                </Text>
-              </Flex>
             </Box>
           </Box>
         </div>
       </section>
       {/* <Faq /> */}
       <NewsLetter />
+
       <Footer />
     </div>
   );

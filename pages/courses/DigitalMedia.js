@@ -57,6 +57,7 @@ const DigitalMedia = () => {
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+          coursePrice="30,000"
         />
       </Box>
     </div>

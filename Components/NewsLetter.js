@@ -9,27 +9,18 @@ const NewsLetter = () => {
     <>
       <Box>
         <Flex
-          justify="center"
+          justify="between"
           align="center"
-          m={{ base: 5, sm: 5, md:20,lg:20 }}
+          m={{ base: 5, sm: 5, md: 3, lg: 3 }}
           className="course-container"
         >
           <Flex m={0} padding={10} className="browse-course">
-            <Box>
-              <BsPlayCircle fontSize={20} className="newsletter-icons-play" />
-            </Box>
             <Box className="browse-title">
               <h1>Browse marketing courses</h1>
               <Text fontSize="xl" className="browse-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo
                 purus gravida orci interdum egestas.
               </Text>
-              <Link href="/">
-              <a className="browse-link">
-                Browse Courses
-              </a>
-              </Link>
-             
             </Box>
           </Flex>
           <Box
@@ -38,7 +29,7 @@ const NewsLetter = () => {
             rounded="md"
             bg="white"
           >
-            <Flex m={5} padding={10} className="join-message">
+            <Flex m={5} className="join-message">
               <Box>
                 <BiEnvelope fontSize={20} className="newsletter-icons" />
               </Box>

@@ -1,5 +1,5 @@
-import { Box } from '@chakra-ui/react'
-import React from 'react'
+import { Box } from "@chakra-ui/react";
+import React from "react";
 import images from "../../Components/images.json";
 const webdevelopmentImage = images[0].webdevelopment;
 import Header from "../../Components/Header";
@@ -56,9 +56,10 @@ function webdevelopment() {
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+        coursePrice="50,000"
       />
     </Box>
   );
 }
 
-export default webdevelopment
+export default webdevelopment;

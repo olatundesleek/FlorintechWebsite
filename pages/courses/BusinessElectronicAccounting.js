@@ -1,19 +1,19 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import images from "../../Components/images.json";
-const computersecurityImg = images[10].computersecurity;
+const computernetworkingImg = images[5].computernetworking;
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-const ComputerSecurity = () => {
+const BusinessElectronicAccounting = () => {
   return (
     <div>
       <Box>
         <Header />
         <Singlecourse
-          courseTitle="Ultimate Computer Engineering & IT Security Management"
+          courseTitle="BusinessElectronicAccounting"
           courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
-          courseImage={computersecurityImg}
+          courseImage={computernetworkingImg}
           aboutCourseText=" Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Cupiditate adipisci fuga nam veniam
         perferendis,
@@ -57,11 +57,11 @@ const ComputerSecurity = () => {
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
-          coursePrice="70,000"
+          coursePrice="50,000"
         />
       </Box>
     </div>
   );
 };
 
-export default ComputerSecurity;
+export default BusinessElectronicAccounting;

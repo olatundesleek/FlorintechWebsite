@@ -2,10 +2,10 @@ import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
 import Brand from "./Brand/Brand";
-import { FiFacebook} from "react-icons/fi"
-import { FiTwitter} from "react-icons/fi"
-import {FiYoutube} from "react-icons/fi"
-import {FiLinkedin} from "react-icons/fi"
+import { FiFacebook } from "react-icons/fi";
+import { FiTwitter } from "react-icons/fi";
+import { FiYoutube } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
 
 function Footer() {
   return (
@@ -30,7 +30,7 @@ function Footer() {
         <Flex
           className="footer-links"
           justifyContent="center"
-          flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
+          flexDirection={{ base: "row", sm: "column", md: "row", lg: "row" }}
         >
           <Box>
             <h2>PAGES</h2>
