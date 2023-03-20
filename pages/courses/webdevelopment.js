@@ -26,25 +26,15 @@ function webdevelopment() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web development. We offer flexible class schedules to accommodate your busy lifestyle.
         
         Enroll now and start building your future in web development with Florintech Computer College!"
-        whatToLearnText="Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Cupiditate adipisci fuga nam veniam
-        perferendis,
-         quidem recusandae cum voluptatem
-        debitis. Enim omnis illum laboriosam dolorem blanditiis neque
-        repellat voluptas! Enim, autem?"
-        whatToLearnListOne="Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-        whatToLearnListTwo="Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-        whatToLearnListThree="Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-        whatToLearnListFour="Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-        whatToLearnListFive="Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-        whatToLearnListSix="Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-        coursePrice="50,000"
+        coursePrice="#50,000"
+        courseOutline={[
+          "HTML5.",
+          "CSS",
+          "Javascripts.",
+          "Bootstrap(css framwork)",
+          "JQuery.",
+          "Introduction to content management system(CMS).",
+        ]}
       />
     </Box>
   );

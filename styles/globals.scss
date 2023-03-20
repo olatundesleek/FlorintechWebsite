@@ -2,9 +2,7 @@ $phone-width: 500px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   border: 1px solid red;
@@ -14,13 +12,12 @@ $desktop-width: 1024px;
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
- 
 }
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -151,29 +148,29 @@ a {
 .course-card {
   transition: 0.5s;
   overflow: hidden;
-  max-height: 800px;
+  max-height: 600px;
   width: 320px;
   background-image: radial-gradient(circle, #083b6b, #092038);
   box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
 
   .coursetitle {
     color: #ffffff;
-    font-size: 35px;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 800;
   }
   .coursetext {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 
     @media screen and (max-width:#{$phone-width}) {
-      font-size: 18px;
+      font-size: 14px;
     }
   }
   .courseprice,
   .learnmore {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
   }
   border-radius: 24px;
@@ -676,7 +673,6 @@ $desktop-width: 1024px;
 }
 
 .single-list-two li {
- 
   list-style-type: decimal;
   margin-bottom: 1rem;
 }

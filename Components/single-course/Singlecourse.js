@@ -17,14 +17,7 @@ const Singlecourse = ({
   courseImage,
   aboutCourseText,
   aboutCourseTextTwo,
-  whatToLearnText,
-  whatToLearnListOne,
-  whatToLearnListTwo,
-  whatToLearnListThree,
-  whatToLearnListFour,
-  whatToLearnListFive,
-  whatToLearnListSix,
-  secondImageText,
+  courseOutline,
 }) => {
   return (
     <div>
@@ -37,12 +30,12 @@ const Singlecourse = ({
               <img src={courseImage} className="single-page-image" />
             </Box>
             {/* the about teacher */}
-            <AboutTeacher
+            {/* <AboutTeacher
               teacherTitle="About the teacher"
               teacherName="JOHN SMILGA"
               teacherText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quas Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, officiis.
             ipsum ducimus inventore totam corporis unde."
-            />
+            /> */}
             {/* end of about teacher */}
             <Box>
               <h1 className="about-teacher-title-sec">
@@ -50,7 +43,7 @@ const Singlecourse = ({
               </h1>
               <div>
                 <p>{aboutCourseText}</p>
-               
+
                 <p>{aboutCourseTextTwo}</p>
               </div>
             </Box>
@@ -63,23 +56,16 @@ const Singlecourse = ({
             <Box>
               <h1 className="about-teacher-title-sec">What you’ll learn </h1>
               <div className="last-text">
-                <p>{whatToLearnText}</p>
-                <br />
+                {/* <br /> */}
+
                 <ul className="single-list-two">
-                  <li>{whatToLearnListOne}</li>
-                  <li>{whatToLearnListTwo}</li>
-
-                  <li>{whatToLearnListThree}</li>
-
-                  <li>{whatToLearnListFour}</li>
-
-                  
-
-                
+                  {courseOutline.map((outline, index) => {
+                    return <li key={index}>{outline}</li>;
+                  })}
                 </ul>
               </div>
               <div className="join-class-container">
-                <Link href="/" className="join-class">
+                <Link href="/register" className="join-class">
                   <a>Register Now </a>
                 </Link>
               </div>
@@ -89,7 +75,9 @@ const Singlecourse = ({
 
           <Box>
             <div className="single-course-content-two">
-              <div className="about-teacher-title-sec">Get this Course</div>
+              <div className="about-teacher-title-sec">
+                Register for this Course
+              </div>
               <div className="content">
                 Augue neque gravida in fermentum et sollicitudin ac orci. Velit
                 egestas dui id
@@ -98,8 +86,11 @@ const Singlecourse = ({
               <div className="course-amount">
                 <span className="amount"> {coursePrice}Naira</span>
               </div>
-              <Link href="/register"><a><button className="course-cart-button">Register Now </button></a></Link>
-              
+              <Link href="/register">
+                <a>
+                  <button className="course-cart-button">Register Now </button>
+                </a>
+              </Link>
             </div>
             {/* the "what is include part of the single course page " */}
             <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem">
@@ -135,7 +126,7 @@ const Singlecourse = ({
                   fontWeight={700}
                 >
                   Duration:
-                  <bold className="about-teacher-title">5hr 40min</bold>
+                  <bold className="about-teacher-title"> 4 Months</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">
@@ -183,4 +174,3 @@ const Singlecourse = ({
 };
 
 export default Singlecourse;
-
