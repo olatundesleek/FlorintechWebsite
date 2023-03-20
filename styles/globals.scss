@@ -2,7 +2,10 @@ $phone-width: 500px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
 
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&family=Inter:wght@300&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 * {
   border: 1px solid red;
   padding: 0;
@@ -11,12 +14,13 @@ $desktop-width: 1024px;
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
+ 
 }
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -159,7 +163,7 @@ a {
   }
   .coursetext {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
 
     @media screen and (max-width:#{$phone-width}) {
@@ -672,7 +676,7 @@ $desktop-width: 1024px;
 }
 
 .single-list-two li {
-  text-align: center;
+ 
   list-style-type: decimal;
   margin-bottom: 1rem;
 }
@@ -682,7 +686,7 @@ $desktop-width: 1024px;
   color: #1d2b5f !important;
   font-weight: bold;
   font-family: Manrope, sans-serif !important;
-  margin: 5rem 0 1rem;
+  margin: 1rem 0 1rem;
 }
 
 .join-class {

@@ -16,9 +16,6 @@ const Singlecourse = ({
   courseDetails,
   courseImage,
   aboutCourseText,
-  listOne,
-  listTwo,
-  listThree,
   aboutCourseTextTwo,
   whatToLearnText,
   whatToLearnListOne,
@@ -36,7 +33,7 @@ const Singlecourse = ({
           <div className="single-course-content">
             <Box>
               <h1 className="single-page-ads">{courseTitle}</h1>
-              <p>{courseDetails}</p>
+              {/* <p>{courseDetails}</p> */}
               <img src={courseImage} className="single-page-image" />
             </Box>
             {/* the about teacher */}
@@ -53,14 +50,7 @@ const Singlecourse = ({
               </h1>
               <div>
                 <p>{aboutCourseText}</p>
-                <br />
-                <ul className="single-list">
-                  <li>{listOne}</li>
-
-                  <li>{listTwo}</li>
-                  <li>{listThree}</li>
-                </ul>
-                <br />
+               
                 <p>{aboutCourseTextTwo}</p>
               </div>
             </Box>
@@ -83,14 +73,14 @@ const Singlecourse = ({
 
                   <li>{whatToLearnListFour}</li>
 
-                  <li>{whatToLearnListFive}</li>
+                  
 
-                  <li>{whatToLearnListSix}</li>
+                
                 </ul>
               </div>
               <div className="join-class-container">
                 <Link href="/" className="join-class">
-                  <a>Join the Class </a>
+                  <a>Register Now </a>
                 </Link>
               </div>
             </Box>
@@ -108,7 +98,8 @@ const Singlecourse = ({
               <div className="course-amount">
                 <span className="amount"> {coursePrice}Naira</span>
               </div>
-              <button className="course-cart-button">Join the Class </button>
+              <Link href="/register"><a><button className="course-cart-button">Register Now </button></a></Link>
+              
             </div>
             {/* the "what is include part of the single course page " */}
             <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem">
@@ -192,3 +183,4 @@ const Singlecourse = ({
 };
 
 export default Singlecourse;
+

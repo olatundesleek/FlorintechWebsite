@@ -30,7 +30,7 @@ function Trending() {
           margin="20px 0"
         >
           <CourseTab
-            to="/webdevelopment"
+            to="courses/webdevelopment"
             courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
             courseTitle="web development"
             courseImage={webdevelopment}
@@ -44,7 +44,7 @@ function Trending() {
           margin="20px 0"
         >
           <CourseTab
-            to="/uiux"
+            to="courses/uiux"
             courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
             courseTitle="UI/UX"
             courseImage={webdevelopment}
@@ -58,7 +58,7 @@ function Trending() {
           margin="20px 0"
         >
           <CourseTab
-            to="/Graphics Design Professional"
+            to="courses/certifiedgraphicsprofessional"
             courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit."
             courseTitle="Graphics Design Professional"
             courseImage={webdevelopment}
