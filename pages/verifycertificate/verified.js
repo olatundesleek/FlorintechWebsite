@@ -21,6 +21,7 @@ import { useEffect } from "react";
       }else {
         setStudentDetails(studentCertDetails)
         setIsVerified(true)
+        localStorage.removeItem("studentcert")
       }
      
   
@@ -40,6 +41,7 @@ import { useEffect } from "react";
     
   return (
     <Box>
+     
       <Header />
       <Flex justifyContent="center">
       {isVerified ?  <Certificate firstName={firstName} middleName={middleName} lastName={lastName} course={course} passport={passportImg} duration={duration} certNum={certNum} completionDate={completionDate} />:""}

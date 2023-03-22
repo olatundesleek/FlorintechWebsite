@@ -1,5 +1,4 @@
 import { Box } from "@chakra-ui/react";
-
 import Header from "../../Components/Header";
 import Verification from "../../Components/Verification";
 import Head from "next/head";
@@ -21,7 +20,7 @@ function Verifycertificate() {
     <Header/>
     <Verification />
     
-    
+    { console.log(process.env.NEXT_PUBLIC_GREETING)}
    
   </Box>);
  }

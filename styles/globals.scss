@@ -606,8 +606,11 @@ $desktop-width: 1024px;
 .verification {
   box-shadow: 1px 1px 1px 1px #d6d4d4;
   border-radius: 10px;
-  width: 450px;
+  max-width: 450px;
   text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 90%;
   &-title {
     background-color: rgb(205, 205, 205);
   }

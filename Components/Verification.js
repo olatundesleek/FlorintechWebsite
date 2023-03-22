@@ -2,8 +2,39 @@ import { Box, Input, Flex, Text, Button } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Certificate from "./Certificate";
-
+import ReCAPTCHA from "react-google-recaptcha";
 function Verification() {
+  const SECRET = "6LcNXykaAAAAAPBGLmn0ot_lm3GpZUqTUj5YLeI-";
+
+  function getBody(token) {
+    return { secret: SECRET, response: token };
+  }
+
+  async function onChange(token) {
+    let reCaptchaResponse = await fetch(
+      `https://www.google.com/recaptcha/api/siteverify`,
+      {
+        method: "POST",
+        "Content-Type": "application/json",
+        body: getBody(token),
+        // headers: {
+        //   secret: SECRET,
+        //   response: token,
+        // },
+      }
+    );
+
+    const userResponse = await reCaptchaResponse.json();
+
+    // console.log("Captcha token:", token);
+    // let reCaptchaResponse = await fetch("http://localhost:3000/api/hello", {
+    //   method: "POST",
+    //   body: { token },
+    // });
+
+    // let userResponse = await reCaptchaResponse.json();
+    console.log(userResponse);
+  }
   const router = useRouter();
 
   const [isVerifying, setIsVerifying] = useState(false);
@@ -18,10 +49,8 @@ function Verification() {
   };
   // function to make an api call
   const verifyCert = async () => {
- 
     setIsVerifying(true);
 
-    
     let bodyContent = new FormData();
     bodyContent.append("cert_number", certificateNo);
 
@@ -29,7 +58,6 @@ function Verification() {
       `https://florintechcomputercollege.com/api/api_verifycertificate.php`,
       {
         // cert_number:"229906MN",
-
         method: "POST",
 
         body: bodyContent,
@@ -37,17 +65,14 @@ function Verification() {
     );
 
     let data = await response.json();
-  
 
     if (data.error) {
       setCertificateAvailable(false);
       setError(true);
       setErrorMessage(data.error);
-   
     } else {
+      console.log(data.date_of_completion);
 
-      console.log(data.date_of_completion)
-   
       let studentCertificateInfo = {
         firstName: data.firstname,
         middleName: data.middle_name,
@@ -56,9 +81,12 @@ function Verification() {
         duration: data.course_duration,
         passportImg: data.passport,
         certNum: data.certificate_no,
-        completionDate:data.date_of_completion
+        completionDate: data.date_of_completion,
       };
-      localStorage.setItem("studentcert",JSON.stringify(studentCertificateInfo) )
+      localStorage.setItem(
+        "studentcert",
+        JSON.stringify(studentCertificateInfo)
+      );
       setError(false);
       setCertificateAvailable(true);
       router.push("/verifycertificate/verified");
@@ -77,7 +105,8 @@ function Verification() {
                 <Text fontSize="30px">Verify Certificate</Text>
               </Box>
               <Text className="text">Certificate Number</Text>
-              <Input autoComplete="true"
+              <Input
+                autoComplete="true"
                 marginTop={5}
                 maxWidth={300}
                 onChange={handleChange}
@@ -85,6 +114,10 @@ function Verification() {
                 variant="outline"
                 color="black"
                 fontWeight="bolder"
+              />
+              <ReCAPTCHA
+                sitekey="6Lcv9WIkAAAAAOFni6Z8dVRJ7QUsJdHsgFjNZ4QA"
+                onChange={onChange}
               />
               {error ? (
                 <Text m={5} className="error">
