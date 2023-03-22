@@ -69,7 +69,7 @@ function index() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/CertifiedGraphicsProfessional"
+            to="courses/certifiedgraphicsprofessional"
             courseText=" we offer comprehensive training programs for aspiring graphics professionals. Our courses are designed to help individuals develop the skills and knowledge needed to become certified graphics professionals.
 
 Our Certified Graphics Professional program is designed to provide students with a deep understanding of graphic design principles and software tools. Through a combination of classroom instruction, hands-on exercises, and real-world projects, students will learn how to create high-quality graphics that meet the needs of clients and customers.
@@ -105,7 +105,7 @@ Our instructors are experienced professionals with years of experience in the de
           margin="20px 0"
         >
           <CourseTab
-            to="courses/OfficeApplication"
+            to="courses/officeapplication"
             courseText="Office applications are an essential part of any modern workplace, and mastering them is a must for anyone who wants to succeed in their career."
             courseTitle="Office Application"
             courseImage={officeapplication}
@@ -119,7 +119,7 @@ Our instructors are experienced professionals with years of experience in the de
           margin="20px 0"
         >
           <CourseTab
-            to="courses/AutocadSpecialist"
+            to="courses/autocadspecialist"
             courseText="AutoCAD is a computer-aided design (CAD) software used by architects, engineers, and designers to create precise 2D and 3D drawings. It is a versatile tool that allows users to design everything from buildings and infrastructure to mechanical parts and products.
 
 Why Become an AutoCAD Specialist?
@@ -140,7 +140,7 @@ At Florintech Computer College, our AutoCAD Specialist program is designed to gi
           margin="20px 0"
         >
           <CourseTab
-            to="courses/CertifiedDeskTopPublishing"
+            to="courses/certifieddesktoppublishing"
             courseText="Welcome to Florintech Computer College, your one-stop solution for professional desktop publishing training and certification. Our Certified Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing.
 
 Desktop publishing has become an essential skill in today's fast-paced digital world. Whether you're creating brochures, flyers, newsletters, or other marketing materials, having a strong understanding of desktop publishing tools and techniques is crucial. That's where our Certified Desktop Publishing program comes in.
@@ -162,7 +162,7 @@ Upon completion of our program, you'll be awarded a Certified Desktop Publishing
           margin="20px 0"
         >
           <CourseTab
-            to="courses/DigitalMediaAndWebDevelopnment"
+            to="courses/digitalmediaandwebdevelopnment"
             courseText="Digital media is a term that encompasses a wide range of digital technologies, including social media, mobile applications, digital advertising, and more. Our courses cover a variety of topics related to digital media, including social media marketing, digital branding, and content creation.
 
 In addition to digital media, we also offer courses in web development. With more and more businesses relying on their online presence to reach customers, web development is a rapidly growing field. Our courses cover a variety of web development languages and technologies, including HTML, CSS, JavaScript, and more.
@@ -182,7 +182,7 @@ We offer a range of programs and courses to suit your needs, including flexible 
           margin="20px 0"
         >
           <CourseTab
-            to="courses/BusinessElectronicAccounting"
+            to="courses/businesselectronicaccounting"
             courseText="we offer a range of courses that are designed to help individuals acquire the skills and knowledge needed to succeed in electronic accounting. Our courses cover the following areas:
 
 Accounting software: We offer courses on popular accounting software such as QuickBooks, Xero, and MYOB. Our courses cover everything from basic bookkeeping to advanced financial reporting.
@@ -202,7 +202,7 @@ Financial analysis: Our financial analysis courses cover the techniques and tool
           margin="20px 0"
         >
           <CourseTab
-            to="courses/OfficeInformationMgt"
+            to="courses/officeinformationmgt"
             courseText="Welcome to our website dedicated to Office Information Management, where we explore the importance of efficient information management in the workplace, and how it can be achieved using modern technologies and strategies. In this page, we will specifically highlight the benefits of Office Information Management for Florintech Computer College.
 
 At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students.
@@ -222,7 +222,27 @@ One of the key benefits of our Office Information Management system is improved 
           margin="20px 0"
         >
           <CourseTab
-            to="courses/UIUX"
+            to="courses/uiux"
+            courseText="we believe that a great user experience is at the heart of every successful product, website, or app. Our UI/UX courses cover everything from design principles and user research to wireframing and prototyping, ensuring that our students have a solid foundation in all aspects of UI/UX design.
+
+Our instructors are seasoned professionals with years of experience in the industry. They bring real-world examples and hands-on experience to the classroom, giving our students a glimpse into what it's like to work as a UI/UX designer.
+
+Whether you're a seasoned professional looking to enhance your skills or a beginner just starting out, our UI/UX courses cater to all skill levels. Our small class sizes ensure that each student receives individual attention and support throughout their learning journey.
+
+At Florintech, we believe in providing a holistic learning experience."
+            courseTitle="UI/UX"
+            courseImage={computersecurity}
+            price="80000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/digitalmedia"
             courseText="Welcome to our website dedicated to Office Information Management, where we explore the importance of efficient information management in the workplace, and how it can be achieved using modern technologies and strategies. In this page, we will specifically highlight the benefits of Office Information Management for Florintech Computer College.
 
 At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students.
@@ -230,9 +250,9 @@ At Florintech Computer College, we recognize the importance of efficient informa
 To achieve these goals, we have implemented an Office Information Management system that is tailored to our specific needs and requirements. This system encompasses a range of software, hardware, and policies that allow us to collect, store, process, and share information securely and efficiently.
 
 One of the key benefits of our Office Information Management system is improved productivity.."
-            courseTitle="Office Information Management"
+            courseTitle="Digital Media"
             courseImage={computersecurity}
-            price="80000"
+            price="50000"
           />
         </Flex>
       </Flex>

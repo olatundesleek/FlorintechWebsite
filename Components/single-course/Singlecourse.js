@@ -78,10 +78,10 @@ const Singlecourse = ({
               <div className="about-teacher-title-sec">
                 Register for this Course
               </div>
-              <div className="content">
+              {/* <div className="content">
                 Augue neque gravida in fermentum et sollicitudin ac orci. Velit
                 egestas dui id
-              </div>
+              </div> */}
 
               <div className="course-amount">
                 <span className="amount"> {coursePrice}Naira</span>
@@ -100,14 +100,14 @@ const Singlecourse = ({
                 <BsFileEarmarkFill />
                 <Text
                   fontSize={{
-                    base: "25px",
-                    sm: "25px",
-                    md: "30px",
-                    lg: "30px",
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
                   }}
                   color="gray"
                   ml={8}
-                  fontWeight={700}
+                  fontWeight={500}
                 >
                   Downloadable Files
                 </Text>
@@ -116,14 +116,14 @@ const Singlecourse = ({
                 <BiTimeFive />
                 <Text
                   fontSize={{
-                    base: "25px",
-                    sm: "25px",
-                    md: "30px",
-                    lg: "30px",
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
                   }}
                   color="gray"
                   ml={8}
-                  fontWeight={700}
+                  fontWeight={500}
                 >
                   Duration:
                   <bold className="about-teacher-title"> 4 Months</bold>
@@ -133,14 +133,14 @@ const Singlecourse = ({
                 <BsFileMinusFill />
                 <Text
                   fontSize={{
-                    base: "25px",
-                    sm: "25px",
-                    md: "30px",
-                    lg: "30px",
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
                   }}
                   color="gray"
                   ml={8}
-                  fontWeight={700}
+                  fontWeight={500}
                 >
                   Access Anywhere
                 </Text>
@@ -149,14 +149,14 @@ const Singlecourse = ({
                 <FaAward />
                 <Text
                   fontSize={{
-                    base: "23px",
-                    sm: "23px",
-                    md: "30px",
-                    lg: "30px",
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
                   }}
                   color="gray"
                   ml={8}
-                  fontWeight={700}
+                  fontWeight={500}
                 >
                   Certificate of Completion
                 </Text>

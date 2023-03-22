@@ -241,10 +241,13 @@ a {
     font-weight: bold;
     color: #fff;
     padding: 10px 20px;
-    font-size: 22px;
+    font-size: 20px;
   }
   p {
     color: #ffffff;
+  }
+  li a {
+    font-size: 14px;
   }
   @media screen and (max-width:#{$phone-width}) {
     padding: 10px 20px;
@@ -273,7 +276,7 @@ a {
     padding: 10px 20px;
     a {
       color: #ffffff;
-      font-size: 20px;
+      font-size: 16px;
       display: flex;
       align-items: center;
     }
@@ -332,7 +335,7 @@ a {
   background-color: #fff;
   box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
   padding: 9px 0.8rem;
-  height: 500px;
+  // height: 500px;
   margin-top: 4rem;
 }
 .single-course-content-two .course-header {
@@ -640,7 +643,7 @@ $desktop-width: 1024px;
   margin-top: 1rem;
 }
 .about-teacher-title {
-  font-size: 30px !important;
+  font-size: 20px !important;
   color: #1d2b5f !important;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -678,7 +681,7 @@ $desktop-width: 1024px;
 }
 
 .about-teacher-title-sec {
-  font-size: 2.5rem !important;
+  font-size: 2rem !important;
   color: #1d2b5f !important;
   font-weight: bold;
   font-family: Manrope, sans-serif !important;

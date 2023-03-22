@@ -53,7 +53,13 @@ function Trending() {
         >
           <CourseTab
             to="courses/uiux"
-            courseText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos dignissimos tempora odit consectetur, libero natus, quam magni distinctio animi quasi odio nemo quaerat veritatis velit voluptatem ullam maiores. Minima."
+            courseText="Florintech Computer College is a leading institution that provides students with the skills and knowledge necessary to succeed in the digital media industry. The college offers various courses, ranging from web development and graphic design to digital marketing and video production.
+
+One of the unique aspects of Florintech Computer College is its focus on hands-on learning. Students have access to state-of-the-art facilities and equipment, including high-end computers, cameras, and software. This allows them to gain practical experience and develop their skills in real-world scenarios.
+
+The college also places a significant emphasis on industry partnerships, ensuring that students have access to relevant and up-to-date knowledge. Florintech Computer College has established partnerships with various digital media companies, providing students with internship opportunities and exposure to industry experts.
+
+In addition to its academic programs, Florintech Computer College also offers a range of extracurricular activities."
             courseTitle="UI/UX"
             courseImage={webdevelopment}
             price="80,000"
@@ -67,7 +73,7 @@ function Trending() {
         >
           <CourseTab
             to="courses/certifiedgraphicsprofessional"
-            courseText="Welcome to Florintech Computer College, your one-stop solution for professional desktop publishing training and certification. Our Certified Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing
+            courseText="Florintech Computer College, your one-stop solution for professional desktop publishing training and certification. Our Certified Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing
 
 Desktop publishing has become an essential skill in today's fast-paced digital world. Whether you're creating brochures, flyers, newsletters, or other marketing materials, having a strong understanding of desktop publishing tools and techniques is crucial. That's where our Certified Desktop Publishing program comes in.
 

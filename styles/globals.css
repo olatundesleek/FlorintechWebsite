@@ -293,11 +293,15 @@ a {
   font-weight: bold;
   color: #fff;
   padding: 10px 20px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .footer p {
   color: #ffffff;
+}
+
+.footer li a {
+  font-size: 14px;
 }
 
 @media screen and (max-width: 500px) {
@@ -342,7 +346,7 @@ a {
 
 .footer-socials a {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,7 +428,6 @@ a {
   -webkit-box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
           box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
   padding: 9px 0.8rem;
-  height: 500px;
   margin-top: 4rem;
 }
 
@@ -815,7 +818,7 @@ a {
 }
 
 .about-teacher-title {
-  font-size: 30px !important;
+  font-size: 20px !important;
   color: #1d2b5f !important;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -853,7 +856,7 @@ a {
 }
 
 .about-teacher-title-sec {
-  font-size: 2.5rem !important;
+  font-size: 2rem !important;
   color: #1d2b5f !important;
   font-weight: bold;
   font-family: Manrope, sans-serif !important;
