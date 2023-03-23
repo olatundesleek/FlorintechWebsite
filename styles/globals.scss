@@ -2,9 +2,7 @@ $phone-width: 500px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   border: 1px solid red;
@@ -14,13 +12,12 @@ $desktop-width: 1024px;
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
- 
 }
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -679,7 +676,6 @@ $desktop-width: 1024px;
 }
 
 .single-list-two li {
- 
   list-style-type: decimal;
   margin-bottom: 1rem;
 }

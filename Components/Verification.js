@@ -2,38 +2,34 @@ import { Box, Input, Flex, Text, Button } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Certificate from "./Certificate";
+import axios, { isCancel, AxiosError } from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
+
 function Verification() {
   const SECRET = "6LcNXykaAAAAAPBGLmn0ot_lm3GpZUqTUj5YLeI-";
+  const [isBot, setisBot] = useState(true);
 
   function getBody(token) {
     return { secret: SECRET, response: token };
   }
 
   async function onChange(token) {
-    let reCaptchaResponse = await fetch(
-      `https://www.google.com/recaptcha/api/siteverify`,
-      {
-        method: "POST",
-        "Content-Type": "application/json",
-        body: getBody(token),
-        // headers: {
-        //   secret: SECRET,
-        //   response: token,
-        // },
+    let reCaptchaResponse = await axios({
+      method: "post",
+      url: `https://www.google.com/recaptcha/api/siteverify`,
+      withCredentials: false,
+      params: {
+        secret: "6Lcv9WIkAAAAAEzbavXoe83h8G6nHDiXPbyQq1QB",
+        response: token,
+      },
+    }).then(function (response) {
+      console.log(response);
+      if (response.data.success == true) {
+        setisBot(false);
+      } else {
+        setisBot(true);
       }
-    );
-
-    const userResponse = await reCaptchaResponse.json();
-
-    // console.log("Captcha token:", token);
-    // let reCaptchaResponse = await fetch("http://localhost:3000/api/hello", {
-    //   method: "POST",
-    //   body: { token },
-    // });
-
-    // let userResponse = await reCaptchaResponse.json();
-    console.log(userResponse);
+    });
   }
   const router = useRouter();
 
@@ -54,7 +50,7 @@ function Verification() {
     let bodyContent = new FormData();
     bodyContent.append("cert_number", certificateNo);
 
-    let response = await fetch(
+    let response = await axios.post(
       `https://florintechcomputercollege.com/api/api_verifycertificate.php`,
       {
         // cert_number:"229906MN",
@@ -126,8 +122,10 @@ function Verification() {
               ) : (
                 ""
               )}
+
               {isVerifying ? (
                 <Button
+                  disabled={isBot}
                   variant="outline"
                   isLoading
                   onClick={verifyCert}
@@ -140,6 +138,7 @@ function Verification() {
                 </Button>
               ) : (
                 <Button
+                  disabled={isBot}
                   variant="outline"
                   onClick={verifyCert}
                   m="40px"
