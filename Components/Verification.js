@@ -4,16 +4,12 @@ import { useState } from "react";
 import Certificate from "./Certificate";
 import axios, { isCancel, AxiosError } from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
+import Banner from "../Components/Banner";
 
 function Verification() {
-  const SECRET = "6LcNXykaAAAAAPBGLmn0ot_lm3GpZUqTUj5YLeI-";
   const [isBot, setisBot] = useState(true);
 
-  function getBody(token) {
-    return { secret: SECRET, response: token };
-  }
-
-  async function onChange(token) {
+  async function onCaptchaChange(token) {
     let reCaptchaResponse = await axios({
       method: "post",
       url: `https://www.google.com/recaptcha/api/siteverify`,
@@ -42,6 +38,8 @@ function Verification() {
 
   const handleChange = (event) => {
     certificateNo = event.target.value;
+
+    console.log(certificateNo);
   };
   // function to make an api call
   const verifyCert = async () => {
@@ -50,18 +48,19 @@ function Verification() {
     let bodyContent = new FormData();
     bodyContent.append("cert_number", certificateNo);
 
-    let response = await axios.post(
+    console.log("this is the cern nunmber" + bodyContent.values);
+    // cert_number:"229906MN",
+    let verificationResponse = await fetch(
       `https://florintechcomputercollege.com/api/api_verifycertificate.php`,
       {
-        // cert_number:"229906MN",
         method: "POST",
 
         body: bodyContent,
       }
     );
 
-    let data = await response.json();
-
+    let data = await verificationResponse.json();
+    console.log(data);
     if (data.error) {
       setCertificateAvailable(false);
       setError(true);
@@ -92,67 +91,77 @@ function Verification() {
   };
   return (
     <Box>
-      <Flex justifyContent="center">
-        <Box>
-          <Flex justifyContent="center">
-            <Box className="verification">
-              <Box className="verification-title">
-                {" "}
-                <Text fontSize="30px">Verify Certificate</Text>
-              </Box>
-              <Text className="text">Certificate Number</Text>
-              <Input
-                autoComplete="true"
-                marginTop={5}
-                maxWidth={300}
-                onChange={handleChange}
-                placeholder="Enter Certificate Number"
-                variant="outline"
-                color="black"
-                fontWeight="bolder"
-              />
-              <ReCAPTCHA
-                sitekey="6Lcv9WIkAAAAAOFni6Z8dVRJ7QUsJdHsgFjNZ4QA"
-                onChange={onChange}
-              />
-              {error ? (
-                <Text m={5} className="error">
-                  {errorMessage}
-                </Text>
-              ) : (
-                ""
-              )}
+      <Banner
+        pageName="Verify Certificate"
+        pageDetails="Enter student certificate numer to verify student certificate"
+      />
+      <Box m={20}>
+        <Flex justifyContent="center">
+          <Box>
+            <Flex justifyContent="center">
+              <Box className="verification">
+                <Box className="verification-title">
+                  <Text fontSize="30px">Verify Certificate</Text>
+                </Box>
+                <Text className="text">Certificate Number</Text>
+                <form>
+                  <Input
+                    required
+                    disabled={isBot}
+                    autoComplete="true"
+                    marginTop={5}
+                    maxWidth={300}
+                    onChange={handleChange}
+                    placeholder="Enter Certificate Number"
+                    variant="outline"
+                    color="black"
+                    fontWeight="bolder"
+                    mb={7}
+                  />
+                  <ReCAPTCHA
+                    sitekey="6Lcv9WIkAAAAAOFni6Z8dVRJ7QUsJdHsgFjNZ4QA"
+                    onChange={onCaptchaChange}
+                  />
+                  {error ? (
+                    <Text m={5} className="error">
+                      {errorMessage}
+                    </Text>
+                  ) : (
+                    ""
+                  )}
 
-              {isVerifying ? (
-                <Button
-                  disabled={isBot}
-                  variant="outline"
-                  isLoading
-                  onClick={verifyCert}
-                  m={20}
-                  textAlign="center"
-                  loadingText="verifying.."
-                  colorScheme="teal"
-                >
-                  Verify
-                </Button>
-              ) : (
-                <Button
-                  disabled={isBot}
-                  variant="outline"
-                  onClick={verifyCert}
-                  m="40px"
-                  textAlign="center"
-                  colorScheme="teal"
-                >
-                  Verify
-                </Button>
-              )}
-            </Box>
-          </Flex>
-        </Box>
-      </Flex>
-      {/* {certificateAvailable ?  <Certificate />: ""} */}
+                  {isVerifying ? (
+                    <Button
+                      disabled={isBot}
+                      variant="outline"
+                      isLoading
+                      onClick={verifyCert}
+                      m={3}
+                      textAlign="center"
+                      loadingText="verifying.."
+                      colorScheme="teal"
+                    >
+                      Verify
+                    </Button>
+                  ) : (
+                    <Button
+                      disabled={isBot}
+                      variant="outline"
+                      onClick={verifyCert}
+                      m={3}
+                      textAlign="center"
+                      colorScheme="teal"
+                    >
+                      Verify
+                    </Button>
+                  )}
+                </form>
+              </Box>
+            </Flex>
+          </Box>
+        </Flex>
+        {/* {certificateAvailable ?  <Certificate />: ""} */}
+      </Box>
     </Box>
   );
 }

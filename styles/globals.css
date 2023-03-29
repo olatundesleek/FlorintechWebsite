@@ -147,7 +147,7 @@ a {
 .course-card {
   transition: 0.5s;
   overflow: hidden;
-  max-height: 800px;
+  max-height: 600px;
   width: 320px;
   background-image: radial-gradient(circle, #083b6b, #092038);
   box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
@@ -156,23 +156,23 @@ a {
 }
 .course-card .coursetitle {
   color: #ffffff;
-  font-size: 35px;
-  font-weight: bolder;
+  font-size: 20px;
+  font-weight: 800;
 }
 .course-card .coursetext {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 }
 @media screen and (max-width: 500px) {
   .course-card .coursetext {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 .course-card .courseprice,
 .course-card .learnmore {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
 }
 .course-card .image-wrapper {
@@ -238,10 +238,13 @@ a {
   font-weight: bold;
   color: #fff;
   padding: 10px 20px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .footer p {
   color: #ffffff;
+}
+.footer li a {
+  font-size: 14px;
 }
 @media screen and (max-width: 500px) {
   .footer {
@@ -273,7 +276,7 @@ a {
 }
 .footer-socials a {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
   display: flex;
   align-items: center;
 }
@@ -335,7 +338,6 @@ a {
   background-color: #fff;
   box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
   padding: 9px 0.8rem;
-  height: 500px;
   margin-top: 4rem;
 }
 
@@ -626,7 +628,8 @@ a {
   text-align: center;
   color: #ffffff;
   font-weight: bolder;
-  width: 90%;
+  width: 100%;
+  padding: 30px;
   color: #ffffff;
   font-weight: bolder;
 }
@@ -664,7 +667,7 @@ a {
 }
 
 .about-teacher-title {
-  font-size: 30px !important;
+  font-size: 20px !important;
   color: #1d2b5f !important;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -702,7 +705,7 @@ a {
 }
 
 .about-teacher-title-sec {
-  font-size: 2.5rem !important;
+  font-size: 2rem !important;
   color: #1d2b5f !important;
   font-weight: bold;
   font-family: Manrope, sans-serif !important;
@@ -1204,7 +1207,7 @@ main {
     left: 3%;
   }
 }
-.overall {
+.certificate-overall {
   background-color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -1215,7 +1218,7 @@ main {
   box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
   margin-top: 3rem;
 }
-.overall .first-border {
+.certificate-overall .first-border {
   -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
           clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
   background-color: orange;
@@ -1226,12 +1229,15 @@ main {
   top: 0.1%;
   padding-top: 3rem;
 }
-.overall .container {
+.certificate-overall .certificate-container {
   border: 2px solid orange;
   width: 80%;
   margin: 1.5rem 0;
+  color: #000000;
+  padding: 2.5rem 2rem;
+  background-color: none !important;
 }
-.overall .container .blue-con {
+.certificate-overall .certificate-container .blue-con {
   -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
           clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
   background-color: rgb(5, 5, 40);
@@ -1241,7 +1247,7 @@ main {
   top: 1.5%;
   left: 6%;
 }
-.overall .container .orange-con1 {
+.certificate-overall .certificate-container .orange-con1 {
   -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
           clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
   background-color: orange;
@@ -1251,7 +1257,7 @@ main {
   top: 4.5%;
   left: 11%;
 }
-.overall .container .orange-con2 {
+.certificate-overall .certificate-container .orange-con2 {
   -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
           clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
   background-color: orange;
@@ -1261,46 +1267,46 @@ main {
   left: 13%;
   top: 6%;
 }
-.overall .container .proud {
+.certificate-overall .certificate-container .proud {
   text-align: center;
   font-size: 1rem;
   margin: 2rem 3rem;
   font-weight: 500;
 }
-.overall .container .logo-photo-cotainer {
+.certificate-overall .certificate-container .logo-photo-cotainer {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 2rem 0;
 }
-.overall .container .logo-photo-cotainer .passport {
+.certificate-overall .certificate-container .logo-photo-cotainer .passport {
   height: 80px;
   width: 50px;
   border: 1px solid rgb(168, 27, 27);
 }
-.overall .container .logo-photo-cotainer .certi {
+.certificate-overall .certificate-container .logo-photo-cotainer .certi {
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.overall .container .logo-photo-cotainer .certi div {
+.certificate-overall .certificate-container .logo-photo-cotainer .certi div {
   font-size: 4rem;
   font-weight: 500;
   letter-spacing: 2px;
 }
-.overall .container .logo-photo-cotainer .certi span {
+.certificate-overall .certificate-container .logo-photo-cotainer .certi span {
   font-size: 1.5rem;
   letter-spacing: 5px;
   font-weight: 500;
 }
-.overall .container .user-name hr {
+.certificate-overall .certificate-container .user-name hr {
   width: 70%;
   margin: auto;
 }
-.overall .container .user-name span {
+.certificate-overall .certificate-container .user-name span {
   font-family: "Allura", cursive;
   font-size: 3rem;
   font-weight: 500;
@@ -1308,14 +1314,14 @@ main {
   margin-left: 2.3rem;
   padding: 0;
 }
-.overall .container .date-signature {
+.certificate-overall .certificate-container .date-signature {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: 600;
   margin: 3rem 0.7rem 0 0.7rem;
 }
-.overall .container .comment {
+.certificate-overall .certificate-container .comment {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -1324,7 +1330,7 @@ main {
   text-align: center;
   margin: 10px;
 }
-.overall .container .blue-con2 {
+.certificate-overall .certificate-container .blue-con2 {
   -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
           clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
   background-color: rgb(5, 5, 40);
@@ -1334,7 +1340,7 @@ main {
   right: 8.8%;
   position: absolute;
 }
-.overall .container .orange1 {
+.certificate-overall .certificate-container .orange1 {
   -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
           clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
   width: 91%;
@@ -1344,7 +1350,7 @@ main {
   right: 12.7%;
   position: absolute;
 }
-.overall .container .orange2 {
+.certificate-overall .certificate-container .orange2 {
   -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
           clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
   width: 91%;
@@ -1354,7 +1360,7 @@ main {
   right: 14%;
   position: absolute;
 }
-.overall .first-border2 {
+.certificate-overall .first-border2 {
   -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
           clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
   background-color: orange;
@@ -1367,7 +1373,7 @@ main {
 
 @media only screen and (max-width: 600px) {
   .overall {
-    background-color: whitesmoke;
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1642,4 +1648,8 @@ main {
 .card-container .video-con {
   width: 300px;
   height: 300px;
+}
+
+.rc-anchor-checkbox-label {
+  width: 100px;
 }/*# sourceMappingURL=globals.css.map */

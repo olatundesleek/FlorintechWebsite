@@ -148,29 +148,29 @@ a {
 .course-card {
   transition: 0.5s;
   overflow: hidden;
-  max-height: 800px;
+  max-height: 600px;
   width: 320px;
   background-image: radial-gradient(circle, #083b6b, #092038);
   box-shadow: 0 7px 24px 0 rgba(255, 255, 255, 0.06);
 
   .coursetitle {
     color: #ffffff;
-    font-size: 35px;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 800;
   }
   .coursetext {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 
     @media screen and (max-width:#{$phone-width}) {
-      font-size: 18px;
+      font-size: 14px;
     }
   }
   .courseprice,
   .learnmore {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
   }
   border-radius: 24px;
@@ -241,10 +241,13 @@ a {
     font-weight: bold;
     color: #fff;
     padding: 10px 20px;
-    font-size: 22px;
+    font-size: 20px;
   }
   p {
     color: #ffffff;
+  }
+  li a {
+    font-size: 14px;
   }
   @media screen and (max-width:#{$phone-width}) {
     padding: 10px 20px;
@@ -273,7 +276,7 @@ a {
     padding: 10px 20px;
     a {
       color: #ffffff;
-      font-size: 20px;
+      font-size: 16px;
       display: flex;
       align-items: center;
     }
@@ -332,7 +335,7 @@ a {
   background-color: #fff;
   box-shadow: 0 7px 24px 0 rgba(29, 43, 95, 0.06);
   padding: 9px 0.8rem;
-  height: 500px;
+  // height: 500px;
   margin-top: 4rem;
 }
 .single-course-content-two .course-header {
@@ -607,7 +610,8 @@ $desktop-width: 1024px;
   text-align: center;
   color: #ffffff;
   font-weight: bolder;
-  width: 90%;
+  width: 100%;
+  padding: 30px;
   &-title {
     background-color: rgb(205, 205, 205);
   }
@@ -643,7 +647,7 @@ $desktop-width: 1024px;
   margin-top: 1rem;
 }
 .about-teacher-title {
-  font-size: 30px !important;
+  font-size: 20px !important;
   color: #1d2b5f !important;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -681,7 +685,7 @@ $desktop-width: 1024px;
 }
 
 .about-teacher-title-sec {
-  font-size: 2.5rem !important;
+  font-size: 2rem !important;
   color: #1d2b5f !important;
   font-weight: bold;
   font-family: Manrope, sans-serif !important;
@@ -1173,6 +1177,7 @@ $border-color-one: orange;
 $border-color-two: rgb(5, 5, 40);
 $secondary-color: red;
 $primary-color: whitesmoke;
+$certificate-text-color: #000000;
 
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 
@@ -1235,7 +1240,7 @@ $top-clip-orange-two-bottom: polygon(
   63% 99%
 );
 
-.overall {
+.certificate-overall {
   background-color: $primary-color;
   display: flex;
   justify-content: center;
@@ -1259,10 +1264,13 @@ $top-clip-orange-two-bottom: polygon(
     padding-top: 3rem;
   }
 
-  .container {
+  .certificate-container {
     border: 2px solid$border-color-one;
     width: 80%;
     margin: 1.5rem 0;
+    color: $certificate-text-color;
+    padding: 2.5rem 2rem;
+    background-color: none !important;
 
     .blue-con {
       clip-path: $top-clip-parth-blue;
@@ -1404,7 +1412,7 @@ $top-clip-orange-two-bottom: polygon(
 
 @media only screen and (max-width: 600px) {
   .overall {
-    background-color: $primary-color;
+    background-color: $certificate-text-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1702,4 +1710,9 @@ $top-clip-orange-two-bottom: polygon(
     width: 300px;
     height: 300px;
   }
+}
+
+// recaptcha
+.rc-anchor-checkbox-label {
+  width: 100px;
 }

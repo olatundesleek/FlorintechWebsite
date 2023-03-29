@@ -9,9 +9,16 @@ import {
   RadioGroup,
   Stack,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import axios, { isCancel, AxiosError } from "axios";
+import ReCAPTCHA from "react-google-recaptcha";
+
 import Banner from "../Components/Banner";
 import Header from "../Components/Header";
+import images from "../Components/images.json";
+import Footer from "../Components/Footer";
+import { useState } from "react";
+const desktoppublishingImg = images[1].desktoppublishing;
+
 const intialValue = {
   firstname: "",
   lastname: "",
@@ -20,7 +27,29 @@ const intialValue = {
   course: "",
   session: "",
 };
+
 function Register() {
+  const [isBot, setisBot] = useState(true);
+
+  async function onCaptchaChange(token) {
+    let reCaptchaResponse = await axios({
+      method: "post",
+      url: `https://www.google.com/recaptcha/api/siteverify`,
+      withCredentials: false,
+      params: {
+        secret: "6Lcv9WIkAAAAAEzbavXoe83h8G6nHDiXPbyQq1QB",
+        response: token,
+      },
+    }).then(function (response) {
+      console.log(response);
+      if (response.data.success == true) {
+        setisBot(false);
+      } else {
+        setisBot(true);
+      }
+    });
+  }
+
   const [inputs, setInputs] = useState(intialValue);
   const [selected, setSelected] = useState();
   const handleSelected = (e) => {
@@ -44,12 +73,12 @@ function Register() {
       <Header />
       <Banner
         pageName="Register"
-        pageDetails="this is a test content to follow conract us"
+        pageDetails="Register online for your prefered course"
       />
 
       <Flex justifyContent="center" bg="gray.200" w="100%">
         <Flex
-          bg="gray"
+          bg={"grey"}
           w="70%"
           width={{ base: "100%", md: "70%" }}
           m={7}
@@ -65,7 +94,10 @@ function Register() {
               xl: "row",
             }}
           >
-            <Box className="register-img" bg="blue.100">
+            <Box
+              className="register-img"
+              backgroundImage={desktoppublishingImg}
+            >
               {/* <Box className="register-con"></Box> */}
             </Box>
             <Box className="register-form" m={5}>
@@ -173,8 +205,11 @@ function Register() {
                     </Stack>
                   </RadioGroup>
                 </Box>
-
-                <Button colorScheme="blue" type="submit">
+                <ReCAPTCHA
+                  sitekey="6Lcv9WIkAAAAAOFni6Z8dVRJ7QUsJdHsgFjNZ4QA"
+                  onChange={onCaptchaChange}
+                />
+                <Button colorScheme="blue" type="submit" disabled={isBot}>
                   Register
                 </Button>
               </form>
@@ -182,6 +217,7 @@ function Register() {
           </Flex>
         </Flex>
       </Flex>
+      <Footer />
     </Box>
   );
 }
