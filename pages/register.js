@@ -32,22 +32,31 @@ function Register() {
   const [isBot, setisBot] = useState(true);
 
   async function onCaptchaChange(token) {
-    let reCaptchaResponse = await axios({
-      method: "post",
-      url: `https://www.google.com/recaptcha/api/siteverify`,
-      withCredentials: false,
-      params: {
-        secret: "6Lcv9WIkAAAAAEzbavXoe83h8G6nHDiXPbyQq1QB",
-        response: token,
-      },
-    }).then(function (response) {
-      console.log(response);
-      if (response.data.success == true) {
-        setisBot(false);
-      } else {
-        setisBot(true);
-      }
-    });
+    console.log(token);
+    if (token !== null) {
+      setisBot(false);
+    } else {
+      setisBot(true);
+    }
+
+    // call to verify token from user token from google
+
+    // let reCaptchaResponse = await axios({
+    //   method: "post",
+    //   url: `https://www.google.com/recaptcha/api/siteverify`,
+    //   withCredentials: false,
+    //   params: {
+    //     secret: "6Lcv9WIkAAAAAEzbavXoe83h8G6nHDiXPbyQq1QB",
+    //     response: token,
+    //   },
+    // }).then(function (response) {
+    //   console.log(response);
+    //   if (response.data.success == true) {
+    //     setisBot(false);
+    //   } else {
+    //     setisBot(true);
+    //   }
+    // });
   }
 
   const [inputs, setInputs] = useState(intialValue);
@@ -55,11 +64,18 @@ function Register() {
   const handleSelected = (e) => {
     setSelected(e.target.value);
   };
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setInputs({ ...inputs, [name]: value });
+    console.log(inputs);
   };
+
+  const postRegisterationDetails = axios({
+    method: "post",
+    url: `https://florintechcomputercollege.com/api/api_register.php`,
+    withCredentials: false,
+    params: {},
+  }).then();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -205,10 +221,12 @@ function Register() {
                     </Stack>
                   </RadioGroup>
                 </Box>
-                <ReCAPTCHA
-                  sitekey="6Lcv9WIkAAAAAOFni6Z8dVRJ7QUsJdHsgFjNZ4QA"
-                  onChange={onCaptchaChange}
-                />
+                <Box margin="20px 0px">
+                  <ReCAPTCHA
+                    sitekey="6Lcv9WIkAAAAAOFni6Z8dVRJ7QUsJdHsgFjNZ4QA"
+                    onChange={onCaptchaChange}
+                  />
+                </Box>
                 <Button colorScheme="blue" type="submit" disabled={isBot}>
                   Register
                 </Button>

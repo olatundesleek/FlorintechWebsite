@@ -18,7 +18,6 @@ function Verifycertificate() {
       <Header />
       <Verification />
       <Footer />
-      {console.log(process.env.NEXT_PUBLIC_GREETING)}
     </Box>
   );
 }

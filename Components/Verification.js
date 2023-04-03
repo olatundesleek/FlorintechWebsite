@@ -10,22 +10,31 @@ function Verification() {
   const [isBot, setisBot] = useState(true);
 
   async function onCaptchaChange(token) {
-    let reCaptchaResponse = await axios({
-      method: "post",
-      url: `https://www.google.com/recaptcha/api/siteverify`,
-      withCredentials: false,
-      params: {
-        secret: "6Lcv9WIkAAAAAEzbavXoe83h8G6nHDiXPbyQq1QB",
-        response: token,
-      },
-    }).then(function (response) {
-      console.log(response);
-      if (response.data.success == true) {
-        setisBot(false);
-      } else {
-        setisBot(true);
-      }
-    });
+    console.log(token);
+    if (token !== null) {
+      setisBot(false);
+    } else {
+      setisBot(true);
+    }
+
+    // call to verify token from user token from google
+
+    // let reCaptchaResponse = await axios({
+    //   method: "post",
+    //   url: `https://www.google.com/recaptcha/api/siteverify`,
+    //   withCredentials: false,
+    //   params: {
+    //     secret: "6Lcv9WIkAAAAAEzbavXoe83h8G6nHDiXPbyQq1QB",
+    //     response: token,
+    //   },
+    // }).then(function (response) {
+    //   console.log(response);
+    //   if (response.data.success == true) {
+    //     setisBot(false);
+    //   } else {
+    //     setisBot(true);
+    //   }
+    // });
   }
   const router = useRouter();
 
@@ -120,6 +129,7 @@ function Verification() {
                   />
                   <ReCAPTCHA
                     sitekey="6Lcv9WIkAAAAAOFni6Z8dVRJ7QUsJdHsgFjNZ4QA"
+                    // {process.env.NEXT_PUBLIC_CAPTCHASITEKEY}
                     onChange={onCaptchaChange}
                   />
                   {error ? (
