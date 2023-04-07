@@ -23,17 +23,22 @@ const intialValue = {
   firstname: "",
   lastname: "",
   email: "",
-  number: "",
+  phonenumber: "",
   course: "",
   session: "",
+  recaptcharesponse: "",
 };
-
+let token;
 function Register() {
   const [isBot, setisBot] = useState(true);
 
-  async function onCaptchaChange(token) {
-    console.log(token);
-    if (token !== null) {
+  async function onCaptchaChange(userToken) {
+    setInputs((current) => ({
+      ...current,
+      recaptcharesponse: userToken,
+    }));
+
+    if (userToken !== null) {
       setisBot(false);
     } else {
       setisBot(true);
@@ -63,26 +68,53 @@ function Register() {
   const [selected, setSelected] = useState();
   const handleSelected = (e) => {
     setSelected(e.target.value);
+    setInputs((current) => ({
+      ...current,
+      session: e.target.value,
+    }));
   };
   const handleChange = (e) => {
     const { name, value } = e.target;
     setInputs({ ...inputs, [name]: value });
+
     console.log(inputs);
   };
 
-  const postRegisterationDetails = axios({
-    method: "post",
-    url: `https://florintechcomputercollege.com/api/api_register.php`,
-    withCredentials: false,
-    params: {},
-  }).then();
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     let inputValue = inputs;
-    let selectedValue = selected;
-    console.log(inputValue);
-    console.log(selectedValue);
+    let data = JSON.stringify(inputValue);
+
+    console.log(data);
+
+    // let userData = new FormData();
+    // userData.append(JSON.stringify(inputValue));
+
+    // let registerStudent = await fetch(
+    //   `https://florintechcomputercollege.com/api/api_register.php`,
+    //   {
+    //     method: "POST",
+
+    //     body: studentDetails,
+    //   }
+    // )
+    //   .then(data)
+    //   .then((d) => {
+    //     return d.json();
+    //   });
+    fetch("https://florintechcomputercollege.com/api/api_register.php", {
+      method: "POST",
+      body: data,
+      // headers: {
+      //   "Content-type": "application/json; charset=UTF-8",
+      // },
+    })
+      .then((data) => {
+        return data.json();
+      })
+      .then((res) => {
+        console.log(res);
+      });
   };
   return (
     <Box>
@@ -122,6 +154,7 @@ function Register() {
               </Heading>
               <form className="form" onSubmit={handleSubmit}>
                 <Input
+                  color="white"
                   placeholder="Enter your Firstname"
                   name="firstname"
                   value={inputs.firstname}
@@ -138,18 +171,24 @@ function Register() {
                   onChange={handleChange}
                 />
                 <Input
+                  required
+                  color="white"
                   placeholder="Phone number"
-                  name="number"
+                  name="phonenumber"
                   value={inputs.number}
                   onChange={handleChange}
                 />
                 <Input
+                  color="white"
                   placeholder="Enter your Email"
                   name="email"
                   value={inputs.email}
                   onChange={handleChange}
                 />
                 <Select
+                  required
+                  className="course-select"
+                  color="white"
                   placeholder="Select course"
                   mb={5}
                   name="course"
@@ -198,6 +237,7 @@ function Register() {
                   <RadioGroup>
                     <Stack direction="column">
                       <Radio
+                        required
                         value="Morning(9am-12:30pm)"
                         onChange={handleSelected}
                         checked={selected === "Morning(9am-12:30pm)"}
@@ -205,6 +245,7 @@ function Register() {
                         Morning(9am-12:30pm)
                       </Radio>
                       <Radio
+                        required
                         value="Afternoon(1pm-4pm)"
                         onChange={handleSelected}
                         checked={selected === "Afternoon(1pm-4pm)"}
@@ -212,6 +253,7 @@ function Register() {
                         Afternoon(1pm-4pm)
                       </Radio>
                       <Radio
+                        required
                         value="Evening(5;30pm-7pm)"
                         onChange={handleSelected}
                         checked={selected === "Evening(5;30pm"}

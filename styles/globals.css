@@ -1628,6 +1628,10 @@ main {
   padding: 0.5rem;
 }
 
+.course-select option {
+  background-color: #a8a8a8 !important;
+}
+
 .wrapper-video {
   display: flex;
   justify-content: center;
