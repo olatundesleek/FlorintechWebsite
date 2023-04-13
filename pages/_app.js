@@ -1,10 +1,10 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import React from "react"
+import React from "react";
 import "../styles/globals.css";
-export const appContext = React.createContext(false)
-let isHamburgerActive = false
+export const appContext = React.createContext(false);
+let isHamburgerActive = false;
 import { extendTheme } from "@chakra-ui/react";
-
+import { ToastContainer, toast } from "react-toastify";
 const theme = extendTheme({
   colors: {
     primary: {
@@ -26,15 +26,13 @@ const theme = extendTheme({
   },
 });
 
-
-
 function MyApp({ Component, pageProps }) {
   return (
     <appContext.Provider>
-    <ChakraProvider theme={theme}>
-      <Component {...pageProps} />
-    </ChakraProvider>
-    </appContext.Provider >
+      <ChakraProvider theme={theme}>
+        <Component {...pageProps} />
+      </ChakraProvider>
+    </appContext.Provider>
   );
 }
 

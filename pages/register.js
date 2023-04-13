@@ -11,12 +11,13 @@ import {
 } from "@chakra-ui/react";
 import axios, { isCancel, AxiosError } from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
-
+import { ToastContainer, toast } from "react-toastify";
 import Banner from "../Components/Banner";
 import Header from "../Components/Header";
 import images from "../Components/images.json";
 import Footer from "../Components/Footer";
 import { useState } from "react";
+import "react-toastify/dist/ReactToastify.css";
 const desktoppublishingImg = images[1].desktoppublishing;
 
 const intialValue = {
@@ -31,6 +32,7 @@ const intialValue = {
 let token;
 function Register() {
   const [isBot, setisBot] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   async function onCaptchaChange(userToken) {
     setInputs((current) => ({
@@ -43,25 +45,6 @@ function Register() {
     } else {
       setisBot(true);
     }
-
-    // call to verify token from user token from google
-
-    // let reCaptchaResponse = await axios({
-    //   method: "post",
-    //   url: `https://www.google.com/recaptcha/api/siteverify`,
-    //   withCredentials: false,
-    //   params: {
-    //     secret: "6Lcv9WIkAAAAAEzbavXoe83h8G6nHDiXPbyQq1QB",
-    //     response: token,
-    //   },
-    // }).then(function (response) {
-    //   console.log(response);
-    //   if (response.data.success == true) {
-    //     setisBot(false);
-    //   } else {
-    //     setisBot(true);
-    //   }
-    // });
   }
 
   const [inputs, setInputs] = useState(intialValue);
@@ -82,29 +65,25 @@ function Register() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
     let inputValue = inputs;
-    let data = JSON.stringify(inputValue);
+    let data = inputValue;
 
     console.log(data);
 
-    // let userData = new FormData();
-    // userData.append(JSON.stringify(inputValue));
+    let bodyContent = new FormData();
 
-    // let registerStudent = await fetch(
-    //   `https://florintechcomputercollege.com/api/api_register.php`,
-    //   {
-    //     method: "POST",
+    bodyContent.append("firstname", inputs.firstname);
+    bodyContent.append("lastname", inputs.lastname);
+    bodyContent.append("email", inputs.email);
+    bodyContent.append("phonenumber", inputs.phonenumber);
+    bodyContent.append("course", inputs.course);
+    bodyContent.append("session", inputs.session);
+    bodyContent.append("recaptcharesponse", inputs.recaptcharesponse);
 
-    //     body: studentDetails,
-    //   }
-    // )
-    //   .then(data)
-    //   .then((d) => {
-    //     return d.json();
-    //   });
     fetch("https://florintechcomputercollege.com/api/api_register.php", {
       method: "POST",
-      body: data,
+      body: bodyContent,
       // headers: {
       //   "Content-type": "application/json; charset=UTF-8",
       // },
@@ -113,7 +92,30 @@ function Register() {
         return data.json();
       })
       .then((res) => {
-        console.log(res);
+        setLoading(false);
+        if (res.error) {
+          toast.error(res.message, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
+        } else {
+          toast.success(res.message, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
+        }
       });
   };
   return (
@@ -269,7 +271,13 @@ function Register() {
                     onChange={onCaptchaChange}
                   />
                 </Box>
-                <Button colorScheme="blue" type="submit" disabled={isBot}>
+                <Button
+                  isLoading={loading}
+                  loadingText="Registering"
+                  colorScheme="blue"
+                  type="submit"
+                  disabled={isBot}
+                >
                   Register
                 </Button>
               </form>
@@ -278,6 +286,7 @@ function Register() {
         </Flex>
       </Flex>
       <Footer />
+      <ToastContainer />
     </Box>
   );
 }
