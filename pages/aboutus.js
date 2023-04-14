@@ -34,7 +34,7 @@ function Aboutus() {
         </p>
         <p style={{ fontSize: "19px" }}>
           we understand that many of our students have busy lives outside of
-          school. That's why we offer flexible scheduling options, including
+          school. That is why we offer flexible scheduling options, including
           online courses and evening classes, to accommodate a variety of
           lifestyles. We also offer personalized academic advising, tutoring
           services, and career counseling to help students stay on track and
