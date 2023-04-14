@@ -23,13 +23,15 @@ function Slider() {
         >
           <Text
             fontSize={{ base: "20px", sm: "35px", md: "50px" }}
-            color="#fff" fontWeight="bold"
+            color="#fff"
+            fontWeight="bold"
           >
             Start Learning With Florintech
           </Text>
           <Text
             fontSize={{ base: "15px", sm: "25px", md: "30px" }}
-            color="#fff" fontWeight="bold"
+            color="#fff"
+            fontWeight="bold"
           >
             With Over 100 free tutorial Videos
           </Text>
@@ -37,7 +39,7 @@ function Slider() {
             <Box d="flex" justifyContent="center">
               <Linkbtn
                 caption="Tutorials"
-                to="whatsapp"
+                to="tutorial"
                 className="register-action"
                 borderRadius="md"
                 bg="none"
@@ -49,7 +51,7 @@ function Slider() {
               />
               <Linkbtn
                 caption="Register"
-                to="whatsapp"
+                to="register"
                 // className="register-action"
                 borderRadius="md"
                 bg="#092038"
@@ -73,13 +75,15 @@ function Slider() {
         >
           <Text
             fontSize={{ base: "20px", sm: "35px", md: "50px" }}
-            color="#fff" fontWeight="bold"
+            color="#fff"
+            fontWeight="bold"
           >
             Jumpstart Your Career
           </Text>
           <Text
             fontSize={{ base: "15px", sm: "25px", md: "30px" }}
-            color="#fff" fontWeight="bold"
+            color="#fff"
+            fontWeight="bold"
           >
             Thousands of People Already Registered
           </Text>
@@ -99,7 +103,7 @@ function Slider() {
               />
               <Linkbtn
                 caption="Register"
-                to="Register"
+                to="register"
                 // className="register-action"
                 borderRadius="md"
                 bg="#092038"
@@ -123,13 +127,15 @@ function Slider() {
         >
           <Text
             fontSize={{ base: "20px", sm: "35px", md: "50px" }}
-            color="#fff" fontWeight="bold"
+            color="#fff"
+            fontWeight="bold"
           >
             Problems Making A choice?
           </Text>
           <Text
             fontSize={{ base: "15px", sm: "25px", md: "30px" }}
-            color="#fff" fontWeight="bold"
+            color="#fff"
+            fontWeight="bold"
           >
             Talk to a course Advisor
           </Text>
@@ -137,7 +143,7 @@ function Slider() {
             <Box d="flex" justifyContent="center">
               <Linkbtn
                 caption="Click to call"
-                to="whatsapp"
+                to="tel:+2349024702192"
                 className="register-action"
                 borderRadius="md"
                 bg="none"
@@ -149,8 +155,7 @@ function Slider() {
               />
               <Linkbtn
                 caption="whatsapp"
-                to="whatsapp"
-                // className="register-action"
+                to="https://wa.me/+2349024702192"
                 borderRadius="md"
                 bg="#91d573"
                 color="white"

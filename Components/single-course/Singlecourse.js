@@ -13,21 +13,11 @@ const Singlecourse = ({
   //passed the below items as props
   coursePrice,
   courseTitle,
-  courseDetails,
+
   courseImage,
   aboutCourseText,
-  listOne,
-  listTwo,
-  listThree,
-  aboutCourseTextTwo,
-  whatToLearnText,
-  whatToLearnListOne,
-  whatToLearnListTwo,
-  whatToLearnListThree,
-  whatToLearnListFour,
-  whatToLearnListFive,
-  whatToLearnListSix,
-  secondImageText,
+  courseDuration,
+  courseOutline,
 }) => {
   return (
     <div>
@@ -36,32 +26,25 @@ const Singlecourse = ({
           <div className="single-course-content">
             <Box>
               <h1 className="single-page-ads">{courseTitle}</h1>
-              <p>{courseDetails}</p>
+              {/* <p>{courseDetails}</p> */}
               <img src={courseImage} className="single-page-image" />
             </Box>
             {/* the about teacher */}
-            <AboutTeacher
+            {/* <AboutTeacher
               teacherTitle="About the teacher"
               teacherName="JOHN SMILGA"
               teacherText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quas Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, officiis.
             ipsum ducimus inventore totam corporis unde."
-            />
+            /> */}
             {/* end of about teacher */}
             <Box>
-              <h1 className="about-teacher-title-sec">
+              <h3 className="about-teacher-title-sec">
                 What’s this course about?
-              </h1>
+              </h3>
               <div>
                 <p>{aboutCourseText}</p>
-                <br />
-                <ul className="single-list">
-                  <li>{listOne}</li>
 
-                  <li>{listTwo}</li>
-                  <li>{listThree}</li>
-                </ul>
-                <br />
-                <p>{aboutCourseTextTwo}</p>
+                {/* <p>{aboutCourseTextTwo}</p> */}
               </div>
             </Box>
             {/* <Box boxShadow="md" rounded="md" bg="white">
@@ -73,24 +56,17 @@ const Singlecourse = ({
             <Box>
               <h1 className="about-teacher-title-sec">What you’ll learn </h1>
               <div className="last-text">
-                <p>{whatToLearnText}</p>
-                <br />
+                {/* <br /> */}
+
                 <ul className="single-list-two">
-                  <li>{whatToLearnListOne}</li>
-                  <li>{whatToLearnListTwo}</li>
-
-                  <li>{whatToLearnListThree}</li>
-
-                  <li>{whatToLearnListFour}</li>
-
-                  <li>{whatToLearnListFive}</li>
-
-                  <li>{whatToLearnListSix}</li>
+                  {courseOutline.map((outline, index) => {
+                    return <li key={index}>{outline}</li>;
+                  })}
                 </ul>
               </div>
               <div className="join-class-container">
-                <Link href="/" className="join-class">
-                  <a>Join the Class </a>
+                <Link href="/register" className="join-class">
+                  <a>Register Now </a>
                 </Link>
               </div>
             </Box>
@@ -99,16 +75,22 @@ const Singlecourse = ({
 
           <Box>
             <div className="single-course-content-two">
-              <div className="about-teacher-title-sec">Get this Course</div>
-              <div className="content">
+              <div className="about-teacher-title-sec">
+                Register for this Course
+              </div>
+              {/* <div className="content">
                 Augue neque gravida in fermentum et sollicitudin ac orci. Velit
                 egestas dui id
-              </div>
+              </div> */}
 
               <div className="course-amount">
                 <span className="amount"> {coursePrice}Naira</span>
               </div>
-              <button className="course-cart-button">Join the Class </button>
+              <Link href="/register">
+                <a>
+                  <button className="course-cart-button">Register Now </button>
+                </a>
+              </Link>
             </div>
             {/* the "what is include part of the single course page " */}
             <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem">
@@ -118,14 +100,14 @@ const Singlecourse = ({
                 <BsFileEarmarkFill />
                 <Text
                   fontSize={{
-                    base: "25px",
-                    sm: "25px",
-                    md: "30px",
-                    lg: "30px",
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
                   }}
                   color="gray"
                   ml={8}
-                  fontWeight={700}
+                  fontWeight={500}
                 >
                   Downloadable Files
                 </Text>
@@ -134,31 +116,31 @@ const Singlecourse = ({
                 <BiTimeFive />
                 <Text
                   fontSize={{
-                    base: "25px",
-                    sm: "25px",
-                    md: "30px",
-                    lg: "30px",
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
                   }}
                   color="gray"
                   ml={8}
-                  fontWeight={700}
+                  fontWeight={500}
                 >
                   Duration:
-                  <bold className="about-teacher-title">5hr 40min</bold>
+                  <bold className="about-teacher-title">{courseDuration}</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">
                 <BsFileMinusFill />
                 <Text
                   fontSize={{
-                    base: "25px",
-                    sm: "25px",
-                    md: "30px",
-                    lg: "30px",
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
                   }}
                   color="gray"
                   ml={8}
-                  fontWeight={700}
+                  fontWeight={500}
                 >
                   Access Anywhere
                 </Text>
@@ -167,14 +149,14 @@ const Singlecourse = ({
                 <FaAward />
                 <Text
                   fontSize={{
-                    base: "23px",
-                    sm: "23px",
-                    md: "30px",
-                    lg: "30px",
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
                   }}
                   color="gray"
                   ml={8}
-                  fontWeight={700}
+                  fontWeight={500}
                 >
                   Certificate of Completion
                 </Text>

@@ -31,12 +31,14 @@ const TutorialCard = ({ img, info, children, title, to }) => {
       </Stack>
       <Divider />
       <Box>
-        <Link href="/" passHref legacyBehavior>
-          <ButtonGroup spacing="2" m={2}>
-            <Button variant="solid" colorScheme="blue">
-              {children}
-            </Button>
-          </ButtonGroup>
+        <Link href={to} passHref legacyBehavior>
+          <a>
+            <ButtonGroup spacing="2" m={2}>
+              <Button variant="solid" colorScheme="blue">
+                {children}
+              </Button>
+            </ButtonGroup>
+          </a>
         </Link>
       </Box>
     </Box>

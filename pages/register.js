@@ -9,47 +9,126 @@ import {
   RadioGroup,
   Stack,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import axios, { isCancel, AxiosError } from "axios";
+import ReCAPTCHA from "react-google-recaptcha";
+import { ToastContainer, toast } from "react-toastify";
 import Banner from "../Components/Banner";
 import Header from "../Components/Header";
+import images from "../Components/images.json";
+import Footer from "../Components/Footer";
+import { useState } from "react";
+import "react-toastify/dist/ReactToastify.css";
+const desktoppublishingImg = images[1].desktoppublishing;
+
 const intialValue = {
   firstname: "",
   lastname: "",
   email: "",
-  number: "",
+  phonenumber: "",
   course: "",
   session: "",
+  recaptcharesponse: "",
 };
+let token;
 function Register() {
+  const [isBot, setisBot] = useState(true);
+  const [loading, setLoading] = useState(false);
+
+  async function onCaptchaChange(userToken) {
+    setInputs((current) => ({
+      ...current,
+      recaptcharesponse: userToken,
+    }));
+
+    if (userToken !== null) {
+      setisBot(false);
+    } else {
+      setisBot(true);
+    }
+  }
+
   const [inputs, setInputs] = useState(intialValue);
   const [selected, setSelected] = useState();
   const handleSelected = (e) => {
     setSelected(e.target.value);
+    setInputs((current) => ({
+      ...current,
+      session: e.target.value,
+    }));
   };
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setInputs({ ...inputs, [name]: value });
+
+    console.log(inputs);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
     let inputValue = inputs;
-    let selectedValue = selected;
-    console.log(inputValue);
-    console.log(selectedValue);
+    let data = inputValue;
+
+    console.log(data);
+
+    let bodyContent = new FormData();
+
+    bodyContent.append("firstname", inputs.firstname);
+    bodyContent.append("lastname", inputs.lastname);
+    bodyContent.append("email", inputs.email);
+    bodyContent.append("phonenumber", inputs.phonenumber);
+    bodyContent.append("course", inputs.course);
+    bodyContent.append("session", inputs.session);
+    bodyContent.append("recaptcharesponse", inputs.recaptcharesponse);
+
+    fetch("https://florintechcomputercollege.com/api/api_register.php", {
+      method: "POST",
+      body: bodyContent,
+      // headers: {
+      //   "Content-type": "application/json; charset=UTF-8",
+      // },
+    })
+      .then((data) => {
+        return data.json();
+      })
+      .then((res) => {
+        setLoading(false);
+        if (res.error) {
+          toast.error(res.message, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
+        } else {
+          toast.success(res.message, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
+        }
+      });
   };
   return (
     <Box>
       <Header />
       <Banner
         pageName="Register"
-        pageDetails="this is a test content to follow conract us"
+        pageDetails="Register online for your prefered course"
       />
 
       <Flex justifyContent="center" bg="gray.200" w="100%">
         <Flex
-          bg="gray"
+          bg={"grey"}
           w="70%"
           width={{ base: "100%", md: "70%" }}
           m={7}
@@ -65,7 +144,10 @@ function Register() {
               xl: "row",
             }}
           >
-            <Box className="register-img" bg="blue.100">
+            <Box
+              className="register-img"
+              backgroundImage={desktoppublishingImg}
+            >
               {/* <Box className="register-con"></Box> */}
             </Box>
             <Box className="register-form" m={5}>
@@ -74,6 +156,7 @@ function Register() {
               </Heading>
               <form className="form" onSubmit={handleSubmit}>
                 <Input
+                  color="white"
                   placeholder="Enter your Firstname"
                   name="firstname"
                   value={inputs.firstname}
@@ -90,18 +173,24 @@ function Register() {
                   onChange={handleChange}
                 />
                 <Input
+                  required
+                  color="white"
                   placeholder="Phone number"
-                  name="number"
+                  name="phonenumber"
                   value={inputs.number}
                   onChange={handleChange}
                 />
                 <Input
+                  color="white"
                   placeholder="Enter your Email"
                   name="email"
                   value={inputs.email}
                   onChange={handleChange}
                 />
                 <Select
+                  required
+                  className="course-select"
+                  color="white"
                   placeholder="Select course"
                   mb={5}
                   name="course"
@@ -150,6 +239,7 @@ function Register() {
                   <RadioGroup>
                     <Stack direction="column">
                       <Radio
+                        required
                         value="Morning(9am-12:30pm)"
                         onChange={handleSelected}
                         checked={selected === "Morning(9am-12:30pm)"}
@@ -157,6 +247,7 @@ function Register() {
                         Morning(9am-12:30pm)
                       </Radio>
                       <Radio
+                        required
                         value="Afternoon(1pm-4pm)"
                         onChange={handleSelected}
                         checked={selected === "Afternoon(1pm-4pm)"}
@@ -164,6 +255,7 @@ function Register() {
                         Afternoon(1pm-4pm)
                       </Radio>
                       <Radio
+                        required
                         value="Evening(5;30pm-7pm)"
                         onChange={handleSelected}
                         checked={selected === "Evening(5;30pm"}
@@ -173,8 +265,19 @@ function Register() {
                     </Stack>
                   </RadioGroup>
                 </Box>
-
-                <Button colorScheme="blue" type="submit">
+                <Box margin="20px 0px">
+                  <ReCAPTCHA
+                    sitekey="6Lcv9WIkAAAAAOFni6Z8dVRJ7QUsJdHsgFjNZ4QA"
+                    onChange={onCaptchaChange}
+                  />
+                </Box>
+                <Button
+                  isLoading={loading}
+                  loadingText="Registering"
+                  colorScheme="blue"
+                  type="submit"
+                  disabled={isBot}
+                >
                   Register
                 </Button>
               </form>
@@ -182,6 +285,8 @@ function Register() {
           </Flex>
         </Flex>
       </Flex>
+      <Footer />
+      <ToastContainer />
     </Box>
   );
 }

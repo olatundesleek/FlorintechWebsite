@@ -5,6 +5,7 @@ import About from "../Components/About/About";
 import Faq from "../Components/Faq/Faq";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
+import Banner from "../Components/Banner";
 
 const faq = () => {
   return (
@@ -18,19 +19,10 @@ const faq = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <Box className="faq-container">
-        <h3>FAQs</h3>
-        <h1>Got a question? I have answers.</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-          aspernatur voluptatem commodi quis. Dolorem nulla officiis quae ullam?
-          Mollitia cumque odio, laborum in molestias itaque sed deserunt illum
-          accusantium blanditiis dolore adipisci perferendis atque quia eum
-          reiciendis hic quidem perspiciatis.
-        </p>
-      </Box>
+      <Banner pageName="FAQ" pageDetails="frequently asked questions" />
+     
       <Faq />
-      <About />
+     
       <Footer />
     </>
   );
