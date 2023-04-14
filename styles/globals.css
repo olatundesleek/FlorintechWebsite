@@ -776,8 +776,12 @@ a {
   -webkit-box-shadow: 1px 1px 1px 1px #d6d4d4;
           box-shadow: 1px 1px 1px 1px #d6d4d4;
   border-radius: 10px;
-  width: 450px;
+  max-width: 450px;
   text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 100%;
+  padding: 30px;
   color: #ffffff;
   font-weight: bolder;
 }
@@ -1473,7 +1477,7 @@ main {
   }
 }
 
-.overall {
+.certificate-overall {
   background-color: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1492,7 +1496,7 @@ main {
   margin-top: 3rem;
 }
 
-.overall .first-border {
+.certificate-overall .first-border {
   -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
           clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
   background-color: orange;
@@ -1504,13 +1508,16 @@ main {
   padding-top: 3rem;
 }
 
-.overall .container {
+.certificate-overall .certificate-container {
   border: 2px solid orange;
   width: 80%;
   margin: 1.5rem 0;
+  color: #000000;
+  padding: 2.5rem 2rem;
+  background-color: none !important;
 }
 
-.overall .container .blue-con {
+.certificate-overall .certificate-container .blue-con {
   -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
           clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
   background-color: #050528;
@@ -1521,7 +1528,7 @@ main {
   left: 6%;
 }
 
-.overall .container .orange-con1 {
+.certificate-overall .certificate-container .orange-con1 {
   -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
           clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
   background-color: orange;
@@ -1532,7 +1539,7 @@ main {
   left: 11%;
 }
 
-.overall .container .orange-con2 {
+.certificate-overall .certificate-container .orange-con2 {
   -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
           clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
   background-color: orange;
@@ -1543,14 +1550,14 @@ main {
   top: 6%;
 }
 
-.overall .container .proud {
+.certificate-overall .certificate-container .proud {
   text-align: center;
   font-size: 1rem;
   margin: 2rem 3rem;
   font-weight: 500;
 }
 
-.overall .container .logo-photo-cotainer {
+.certificate-overall .certificate-container .logo-photo-cotainer {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1563,13 +1570,13 @@ main {
   margin: 2rem 0;
 }
 
-.overall .container .logo-photo-cotainer .passport {
+.certificate-overall .certificate-container .logo-photo-cotainer .passport {
   height: 80px;
   width: 50px;
   border: 1px solid #a81b1b;
 }
 
-.overall .container .logo-photo-cotainer .certi {
+.certificate-overall .certificate-container .logo-photo-cotainer .certi {
   width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1586,24 +1593,24 @@ main {
           flex-direction: column;
 }
 
-.overall .container .logo-photo-cotainer .certi div {
+.certificate-overall .certificate-container .logo-photo-cotainer .certi div {
   font-size: 4rem;
   font-weight: 500;
   letter-spacing: 2px;
 }
 
-.overall .container .logo-photo-cotainer .certi span {
+.certificate-overall .certificate-container .logo-photo-cotainer .certi span {
   font-size: 1.5rem;
   letter-spacing: 5px;
   font-weight: 500;
 }
 
-.overall .container .user-name hr {
+.certificate-overall .certificate-container .user-name hr {
   width: 70%;
   margin: auto;
 }
 
-.overall .container .user-name span {
+.certificate-overall .certificate-container .user-name span {
   font-family: "Allura", cursive;
   font-size: 3rem;
   font-weight: 500;
@@ -1612,7 +1619,7 @@ main {
   padding: 0;
 }
 
-.overall .container .date-signature {
+.certificate-overall .certificate-container .date-signature {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1626,7 +1633,7 @@ main {
   margin: 3rem 0.7rem 0 0.7rem;
 }
 
-.overall .container .comment {
+.certificate-overall .certificate-container .comment {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1642,7 +1649,7 @@ main {
   margin: 10px;
 }
 
-.overall .container .blue-con2 {
+.certificate-overall .certificate-container .blue-con2 {
   -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
           clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
   background-color: #050528;
@@ -1653,7 +1660,7 @@ main {
   position: absolute;
 }
 
-.overall .container .orange1 {
+.certificate-overall .certificate-container .orange1 {
   -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
           clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
   width: 91%;
@@ -1664,7 +1671,7 @@ main {
   position: absolute;
 }
 
-.overall .container .orange2 {
+.certificate-overall .certificate-container .orange2 {
   -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
           clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
   width: 91%;
@@ -1675,7 +1682,7 @@ main {
   position: absolute;
 }
 
-.overall .first-border2 {
+.certificate-overall .first-border2 {
   -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
           clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
   background-color: orange;
@@ -1688,7 +1695,7 @@ main {
 
 @media only screen and (max-width: 600px) {
   .overall {
-    background-color: whitesmoke;
+    background-color: #000000;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2014,6 +2021,10 @@ main {
   padding: 0.5rem;
 }
 
+.course-select option {
+  background-color: #a8a8a8 !important;
+}
+
 .wrapper-video {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2043,5 +2054,9 @@ main {
 .card-container .video-con {
   width: 300px;
   height: 300px;
+}
+
+.rc-anchor-checkbox-label {
+  width: 100px;
 }
 /*# sourceMappingURL=globals.css.map */

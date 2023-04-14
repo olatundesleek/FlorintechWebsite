@@ -26,6 +26,7 @@ function webdevelopment() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web development. We offer flexible class schedules to accommodate your busy lifestyle.
         
         Enroll now and start building your future in web development with Florintech Computer College!"
+        courseDuration="4 months"
         coursePrice="#50,000"
         courseOutline={[
           "HTML5.",

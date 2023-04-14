@@ -13,10 +13,10 @@ const Singlecourse = ({
   //passed the below items as props
   coursePrice,
   courseTitle,
-  courseDetails,
+
   courseImage,
   aboutCourseText,
-  aboutCourseTextTwo,
+  courseDuration,
   courseOutline,
 }) => {
   return (
@@ -38,13 +38,13 @@ const Singlecourse = ({
             /> */}
             {/* end of about teacher */}
             <Box>
-              <h1 className="about-teacher-title-sec">
+              <h3 className="about-teacher-title-sec">
                 What’s this course about?
-              </h1>
+              </h3>
               <div>
                 <p>{aboutCourseText}</p>
 
-                <p>{aboutCourseTextTwo}</p>
+                {/* <p>{aboutCourseTextTwo}</p> */}
               </div>
             </Box>
             {/* <Box boxShadow="md" rounded="md" bg="white">
@@ -126,7 +126,7 @@ const Singlecourse = ({
                   fontWeight={500}
                 >
                   Duration:
-                  <bold className="about-teacher-title"> 4 Months</bold>
+                  <bold className="about-teacher-title">{courseDuration}</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">

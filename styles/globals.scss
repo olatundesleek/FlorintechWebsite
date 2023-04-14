@@ -606,8 +606,12 @@ $desktop-width: 1024px;
 .verification {
   box-shadow: 1px 1px 1px 1px #d6d4d4;
   border-radius: 10px;
-  width: 450px;
+  max-width: 450px;
   text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 100%;
+  padding: 30px;
   &-title {
     background-color: rgb(205, 205, 205);
   }
@@ -1173,6 +1177,7 @@ $border-color-one: orange;
 $border-color-two: rgb(5, 5, 40);
 $secondary-color: red;
 $primary-color: whitesmoke;
+$certificate-text-color: #000000;
 
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 
@@ -1235,7 +1240,7 @@ $top-clip-orange-two-bottom: polygon(
   63% 99%
 );
 
-.overall {
+.certificate-overall {
   background-color: $primary-color;
   display: flex;
   justify-content: center;
@@ -1259,10 +1264,13 @@ $top-clip-orange-two-bottom: polygon(
     padding-top: 3rem;
   }
 
-  .container {
+  .certificate-container {
     border: 2px solid$border-color-one;
     width: 80%;
     margin: 1.5rem 0;
+    color: $certificate-text-color;
+    padding: 2.5rem 2rem;
+    background-color: none !important;
 
     .blue-con {
       clip-path: $top-clip-parth-blue;
@@ -1404,7 +1412,7 @@ $top-clip-orange-two-bottom: polygon(
 
 @media only screen and (max-width: 600px) {
   .overall {
-    background-color: $primary-color;
+    background-color: $certificate-text-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1682,6 +1690,9 @@ $top-clip-orange-two-bottom: polygon(
     }
   }
 }
+.course-select option {
+  background-color: #a8a8a8 !important;
+}
 .wrapper-video {
   display: flex;
   justify-content: center;
@@ -1702,4 +1713,9 @@ $top-clip-orange-two-bottom: polygon(
     width: 300px;
     height: 300px;
   }
+}
+
+// recaptcha
+.rc-anchor-checkbox-label {
+  width: 100px;
 }

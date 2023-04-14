@@ -15,6 +15,8 @@ const databaseadministration = images[7].databaseadministration;
 const officeapplication = images[8].officeapplication;
 const digitalmedia = images[9].digitalmedia;
 const computersecurity = images[10].computersecurity;
+const ux = images[11].ux;
+const grapic = images[12].graphics;
 
 function index() {
   return (
@@ -78,7 +80,7 @@ The program covers a wide range of topics, including graphic design theory, colo
 
 At the end of the program, students will be prepared to take the Certified Graphics Professional exam."
             courseTitle="Certified Graphics Professional"
-            courseImage={certifiedgraphicsprofessional}
+            courseImage={grapic}
             price="50000"
           />
         </Flex>
@@ -231,7 +233,7 @@ Whether you're a seasoned professional looking to enhance your skills or a begin
 
 At Florintech, we believe in providing a holistic learning experience."
             courseTitle="UI/UX"
-            courseImage={computersecurity}
+            courseImage={ux}
             price="80000"
           />
         </Flex>

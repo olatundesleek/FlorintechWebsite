@@ -62,13 +62,9 @@ function Footer() {
                     <a>BLOG</a>
                   </Link>
                 </li>
+
                 <li>
-                  <Link href="/contactus">
-                    <a>LOCATION</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/about">
+                  <Link href="/aboutus">
                     <a>ABOUT US</a>
                   </Link>
                 </li>

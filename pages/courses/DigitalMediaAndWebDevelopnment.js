@@ -58,6 +58,7 @@ So if you're ready to take your career to the next level, or simply want to lear
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+        courseDuration="4 months"
         coursePrice="70,000"
         courseOutline={[
           "All courses in diploma in digital media",

@@ -69,6 +69,7 @@ Whether you're just starting out in your career or looking to enhance your skill
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
           coursePrice="100,000"
+          courseDuration="4 months"
         />
       </Box>
     </div>

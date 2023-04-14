@@ -1,38 +1,30 @@
 const myQuestionData = [
   {
     id: 1,
-    title: "Do I have to allow the use of cookies?",
-    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta molestias nobis. Aliquid alias rerum porro eaque inventore nam, ducimus error dignissimos fugiat reiciendis commodi quidem ipsam enim veniam, temporibus iste, facilis voluptate libero mollitia nobis. Laboriosam ratione officia excepturi! Repellendus ratione id aut earum sed ipsa natus sit necessitatibus.",
+    title: " What is Florintech Computer College?",
+    info: "Florintech Computer College is an educational institution that offers courses in computer science, information technology, and related fields",
   },
   {
     id: 2,
-    title: "How do I change my My Page password?",
-    info: "Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.",
+    title: "How do I register for a course at Florintech Computer College?",
+    info: "To register for a course at Florintech Computer College, you can visit our website and fill out the online registration form, or you can visit our office and register in person.",
   },
   {
     id: 3,
-    title: "What is BankID?",
-    info: "Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.",
+    title:
+      "What are the requirements for registering at Florintech Computer College?",
+    info: "The requirements for registering at Florintech Computer College may vary depending on the course and program you are interested in",
   },
   {
     id: 4,
-    title: "Whose birth number can I use?",
-    info: "Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.",
+    title:
+      "How much does it cost to register for a course at Florintech Computer College??",
+    info: "The cost of registering for a course at Florintech Computer College varies depending on the program and course you are interested in",
   },
   {
     id: 5,
-    title: "When do I recieve a password ordered by letter?",
-    info: "Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ",
-  },
-  {
-    id: 6,
-    title: "When do I recieve a password ordered by letter?",
-    info: "Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ",
-  },
-  {
-    id: 7,
-    title: "Whose birth number can I use?",
-    info: "Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.",
+    title: "Do you offer one month program?",
+    info: "yes, for only office apllication program",
   },
 ];
 export default myQuestionData;
