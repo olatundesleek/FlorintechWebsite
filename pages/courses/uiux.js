@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import images from "../../Components/images.json";
-const computersecurityImg = images[10].computersecurity;
+const computersecurityImg = images[11].ux;
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
@@ -49,6 +49,7 @@ Enroll now and take the first step towards a rewarding career in UI/UX design!"
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+          courseDuration="4 months"
           coursePrice="70,000"
         />
       </Box>

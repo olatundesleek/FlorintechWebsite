@@ -53,6 +53,7 @@ So why wait? Sign up for our Certified Desktop Publishing program today and take
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+        courseDuration="4 months"
         coursePrice="40,000"
       />
     </Box>

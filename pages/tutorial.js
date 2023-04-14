@@ -10,9 +10,15 @@ const Tutorial = () => {
     <Box>
       <Header />
       <Box className="wrapper-video">
-        {videoCon.map(({ img, textbtn, paragraph, title, index }) => {
+        {videoCon.map(({ img, textbtn, paragraph, title, index, to }) => {
           return (
-            <TutorialCard key={index} img={img} info={paragraph} title={title}>
+            <TutorialCard
+              key={index}
+              img={img}
+              info={paragraph}
+              title={title}
+              to={to}
+            >
               {textbtn}
             </TutorialCard>
           );

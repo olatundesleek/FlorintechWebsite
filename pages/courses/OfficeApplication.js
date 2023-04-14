@@ -55,6 +55,7 @@ So if you want to take your office skills to the next level, enroll in one of ou
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+          courseDuration="4 months"
           coursePrice="40,000"
         />
       </Box>

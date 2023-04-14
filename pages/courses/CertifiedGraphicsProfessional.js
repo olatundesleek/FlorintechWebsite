@@ -35,6 +35,7 @@ If you are interested in pursuing a career in graphic design, we invite you to l
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+        courseDuration="4 months"
         coursePrice="50,000"
         courseOutline={[
           "All courses in desktop publishing ",

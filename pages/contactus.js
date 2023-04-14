@@ -1,16 +1,16 @@
-import { Box,Flex } from '@chakra-ui/react'
-import React ,{useState,useEffect}from 'react'
+import { Box, Flex } from "@chakra-ui/react";
+import React, { useState, useEffect } from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import OpeningDays from '../Components/OpeningDays';
-import {FiPhoneCall} from "react-icons/fi"
+import OpeningDays from "../Components/OpeningDays";
+import { FiPhoneCall } from "react-icons/fi";
 
-import {HiOutlineMailOpen} from "react-icons/hi"
-import{GrLocation} from "react-icons/gr"
-import Link from 'next/link';
-import Banner from '../Components/Banner';
+import { HiOutlineMailOpen } from "react-icons/hi";
+import { GrLocation } from "react-icons/gr";
+import Link from "next/link";
+import Banner from "../Components/Banner";
 function Contactus() {
-    const [getDays , setGetDays]= useState()
+  const [getDays, setGetDays] = useState();
 
   function activateDays() {
     let today = new Date();
@@ -26,10 +26,7 @@ function Contactus() {
   return (
     <Box className="contactus">
       <Header />
-      <Banner
-        pageName="Contact us"
-        pageDetails="this is a test content to follow conract us"
-      />
+      <Banner pageName="Contact us" pageDetails="contact us today" />
 
       <Flex
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
@@ -42,7 +39,6 @@ function Contactus() {
                 justifyContent="space-around"
                 paddingTop="2rem"
                 paddingBottom="2rem"
-                color="green.300"
                 fontWeight="600"
               >
                 <span>Open Day</span>
@@ -123,7 +119,7 @@ function Contactus() {
               <FiPhoneCall fontSize="3rem" style={{ padding: "5px" }} />
               <span>
                 <h2>Phone:</h2>
-                <p>+23408136689745</p>
+                <p>+2349024702192</p>
               </span>
             </Box>
           </a>
@@ -135,4 +131,4 @@ function Contactus() {
   );
 }
 
-export default Contactus
+export default Contactus;

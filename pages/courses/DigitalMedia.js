@@ -57,6 +57,7 @@ If you are interested in learning more about Florintech Computer College and its
         Harum reiciendis cupiditate asperiores nulla hic quidem ab,
         voluptatem voluptatibus accusamus ea est eum soluta maiores
         deleniti ratione laudantium. Modi, sequi quasi."
+          courseDuration="4 months"
           coursePrice="30,000"
         />
       </Box>

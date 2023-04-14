@@ -5,6 +5,9 @@ import trendingImg from "../../assets/trending.png";
 import CourseTab from "../Coursetab/CourseTab";
 import images from "../images.json";
 const webdevelopment = images[0].webdevelopment;
+const ux = images[11].ux;
+const graphic = images[2].certifiedgraphicsprofessional;
+
 // const advancedGraphicsprofession = images[0].webdevelopment;
 function Trending() {
   return (
@@ -61,7 +64,7 @@ The college also places a significant emphasis on industry partnerships, ensurin
 
 In addition to its academic programs, Florintech Computer College also offers a range of extracurricular activities."
             courseTitle="UI/UX"
-            courseImage={webdevelopment}
+            courseImage={ux}
             price="80,000"
           />
         </Flex>
@@ -83,7 +86,7 @@ Our Certified Desktop Publishing program is ideal for both beginners and profess
 
 Upon completion of our program, you'll be awarded a Certified Desktop Publishing certification from Florintech Computer College. This certification is recognized worldwide and is a testament to your skills and knowledge in the field of desktop publishing. Our certification is also a great way to enhance your resume and increase your job prospects in the competitive job market."
             courseTitle="Graphics Design Professional"
-            courseImage={webdevelopment}
+            courseImage={graphic}
             price="50000"
           />
         </Flex>

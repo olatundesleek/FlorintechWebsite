@@ -43,6 +43,8 @@ const Singlecourse = ({
               </h3>
               <div>
                 <p>{aboutCourseText}</p>
+
+                {/* <p>{aboutCourseTextTwo}</p> */}
               </div>
             </Box>
             {/* <Box boxShadow="md" rounded="md" bg="white">
@@ -124,7 +126,7 @@ const Singlecourse = ({
                   fontWeight={500}
                 >
                   Duration:
-                  <bold className="about-teacher-title"> {courseDuration}</bold>
+                  <bold className="about-teacher-title">{courseDuration}</bold>
                 </Text>
               </Flex>
               <Flex alignItems="center">

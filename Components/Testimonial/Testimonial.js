@@ -15,7 +15,7 @@ function Testimonial() {
     } else {
       setSlideIndex(slideIndex + 1);
     }
-  }, 3000);
+  }, 5000);
 
   return (
     <Box marginTop="150px" id="testimonial">
@@ -23,9 +23,10 @@ function Testimonial() {
       <Flex justifyContent="center">
         <Flex justifyContent="center" className="testimonial-slider-container">
           <Flex width="100%">
-            {reviewData.map((data) => {
+            {reviewData.map((data, index) => {
               return (
                 <Box
+                  key={index}
                   className="testimonial-slide"
                   transform="auto"
                   translateX={-slideIndex + "00%"}
