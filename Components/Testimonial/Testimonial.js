@@ -9,40 +9,46 @@ import { transform } from "framer-motion";
 function Testimonial() {
   const [slideIndex, setSlideIndex] = useState(0);
 
-
-setTimeout(() => {
-  if (slideIndex> reviewData.length - 2) {
-    setSlideIndex(0)
-  }
-  else{ setSlideIndex(slideIndex + 1)}
- 
-}, 3000);
-  
+  setTimeout(() => {
+    if (slideIndex > reviewData.length - 2) {
+      setSlideIndex(0);
+    } else {
+      setSlideIndex(slideIndex + 1);
+    }
+  }, 3000);
 
   return (
-   
     <Box marginTop="150px" id="testimonial">
-    
       <h2 className="testimonial-title">Testimonial</h2>
       <Flex justifyContent="center">
         <Flex justifyContent="center" className="testimonial-slider-container">
           <Flex width="100%">
             {reviewData.map((data) => {
-              console.log(data.photo);
-              return (<Box className="testimonial-slide" transform="auto" translateX={-slideIndex +"00%"}>
-                <Flex >
-                  <Flex className="leftquote">
-                    <FaQuoteLeft className="quote" />
+              return (
+                <Box
+                  className="testimonial-slide"
+                  transform="auto"
+                  translateX={-slideIndex + "00%"}
+                >
+                  <Flex>
+                    <Flex className="leftquote">
+                      <FaQuoteLeft className="quote" />
+                    </Flex>
+                    <h2>{data.review}</h2>
+                    <Flex className="rightquote">
+                      <FaQuoteRight className="quote" />
+                    </Flex>
                   </Flex>
-                  <h2>{data.review}</h2>
-                  <Flex className="rightquote">
-                    <FaQuoteRight className="quote" />
+                  <Flex justifyContent="center" marginTop="50px">
+                    {" "}
+                    <Image
+                      className="testimonial-image"
+                      src={data.photo}
+                      width="150px"
+                      height="150px"
+                    />
                   </Flex>
-                 
-                </Flex>
-                <Flex justifyContent="center"  marginTop="50px"> <Image className="testimonial-image" src={data.photo} width="150px" height="150px"   />
-               </Flex>
-               <h2 color="#ffffff">{data.name}</h2>
+                  <h2 color="#ffffff">{data.name}</h2>
                 </Box>
               );
             })}

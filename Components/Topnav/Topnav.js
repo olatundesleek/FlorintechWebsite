@@ -14,15 +14,15 @@ function Topnav() {
       flexDirection={{ base: "column", md: "row", xl: "row" }}
     >
       <Flex justifyContent={{ base: "center" }}>
-        <Link href="/">
+        <Link href="/courses">
           <a className="link">
             <BsCardChecklist /> Our Course List
           </a>
         </Link>
-        <Link href="/">
+        <Link href="tel:+2349024702192">
           <a className="link">
             <MdPhone />
-            08133689745
+            09024702192
           </a>
         </Link>
       </Flex>
