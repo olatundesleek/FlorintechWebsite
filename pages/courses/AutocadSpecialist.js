@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import images from "../../Components/images.json";
-const databaseadministrationImg = images[7].databaseadministration;
+import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
@@ -12,24 +12,7 @@ const AutoCadSpecialist = () => {
         <Header />
         <Singlecourse
           courseTitle="AutoCad Specialist Course"
-          courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
-          courseImage={databaseadministrationImg}
-          aboutCourseText=" Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Cupiditate adipisci fuga nam veniam
-        perferendis,
-         quidem recusandae cum voluptatem
-        debitis. Enim omnis illum laboriosam dolorem blanditiis neque
-        repellat voluptas! Enim, autem?
-        Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Autem voluptate et maiores quasi amet iste
-        sunt eligendi repudiandaequisquam
-        consequatur!"
-          listOne=" Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-          listTwo=" Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-          listThree=" Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
+          courseImage={courseImages.autocadspecialist}
           aboutCourseTextTwo="Welcome to Florintech Computer College, where we specialize in providing high-quality training and education in AutoCAD. Our team of experts is dedicated to helping students master this powerful software and develop the skills they need to excel in their careers.
 
 What is AutoCAD?

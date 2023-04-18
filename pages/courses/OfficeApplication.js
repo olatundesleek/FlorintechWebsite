@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import images from "../../Components/images.json";
-const officeapplicationImg = images[8].officeapplication;
+import { courseImages } from "../../Components/images";
 import React from "react";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -13,7 +13,7 @@ const OfficeApplication = () => {
         <Singlecourse
           courseTitle="Ultimate Office Application Course"
           courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
-          courseImage={officeapplicationImg}
+          courseImage={courseImages.officeapplication}
           aboutCourseText="Welcome to Florintech Computer College, where we specialize in providing top-notch training in office applications. Our courses are designed to equip you with the skills and knowledge you need to excel in today's fast-paced office environments.
 
 Office applications are an essential part of any modern workplace, and mastering them is a must for anyone who wants to succeed in their career. Whether you are an administrative assistant, a project manager, or a business owner, knowing how to use office applications effectively can save you time and make you more productive.

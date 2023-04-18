@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import images from "../../Components/images.json";
-const computersecurityImg = images[11].ux;
+import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
@@ -13,7 +13,7 @@ const UIUX = () => {
         <Singlecourse
           courseTitle="UI/UX"
           courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
-          courseImage={computersecurityImg}
+          courseImage={courseImages.ux}
           aboutCourseText=" Welcome to Florintech Computer College, where we are dedicated to providing our students with the best education in the fields of UI/UX design. Our comprehensive curriculum is designed to equip students with the knowledge, skills, and tools they need to succeed in the ever-evolving world of design.
 
 At Florintech, we believe that a great user experience is at the heart of every successful product, website, or app. Our UI/UX courses cover everything from design principles and user research to wireframing and prototyping, ensuring that our students have a solid foundation in all aspects of UI/UX design.

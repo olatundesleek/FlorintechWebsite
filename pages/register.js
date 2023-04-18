@@ -14,11 +14,10 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { ToastContainer, toast } from "react-toastify";
 import Banner from "../Components/Banner";
 import Header from "../Components/Header";
-import images from "../Components/images.json";
+import { courseImages } from "../Components/images";
 import Footer from "../Components/Footer";
 import { useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
-const desktoppublishingImg = images[1].desktoppublishing;
 
 const intialValue = {
   firstname: "",
@@ -59,8 +58,6 @@ function Register() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setInputs({ ...inputs, [name]: value });
-
-    console.log(inputs);
   };
 
   const handleSubmit = async (e) => {
@@ -68,8 +65,6 @@ function Register() {
     setLoading(true);
     let inputValue = inputs;
     let data = inputValue;
-
-    console.log(data);
 
     let bodyContent = new FormData();
 
@@ -146,7 +141,7 @@ function Register() {
           >
             <Box
               className="register-img"
-              backgroundImage={desktoppublishingImg}
+              backgroundImage={courseImages.desktoppublishing}
             >
               {/* <Box className="register-con"></Box> */}
             </Box>

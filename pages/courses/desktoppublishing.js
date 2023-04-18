@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import images from "../../Components/images.json";
-const desktoppublishingImg = images[1].desktoppublishing;
+import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
@@ -12,7 +12,7 @@ function desktoppublishing() {
       <Singlecourse
         courseDuration="3 months"
         courseTitle=" Desktop Publishing"
-        courseImage={desktoppublishingImg}
+        courseImage={courseImages.advanceddesktoppublishing}
         aboutCourseText="Welcome to Florintech Computer College's page on desktop publishing! In today's world, creating professional-looking documents is an essential skill for businesses and individuals alike. Whether you're designing a brochure, creating a newsletter, or publishing a book, desktop publishing is the key to producing polished, visually appealing documents.
 
 At Florintech Computer College, we offer comprehensive courses on desktop publishing that cover everything from basic concepts to advanced techniques. Our courses are designed to teach students how to use desktop publishing software to create professional documents with ease and efficiency. We provide hands-on training using the latest software tools and techniques, so you can gain practical experience in the field.

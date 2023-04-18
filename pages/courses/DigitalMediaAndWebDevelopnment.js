@@ -1,8 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import images from "../../Components/images.json";
-const certifiedgraphicsprofessionalImg =
-  images[2].certifiedgraphicsprofessional;
+import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
@@ -13,7 +12,7 @@ function DigitalMediaAndWebDevelopnment() {
       <Singlecourse
         courseTitle=" Digital Media And Web Development"
         courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
-        courseImage={certifiedgraphicsprofessionalImg}
+        courseImage={courseImages.webdevelopment}
         aboutCourseText=" Welcome to Florintech Computer College's page on digital media and web development!
 
 At Florintech Computer College, we understand the importance of staying up-to-date with the latest trends and advancements in technology. That's why we offer a comprehensive range of courses in digital media and web development, designed to equip you with the skills and knowledge you need to succeed in this ever-evolving field.
