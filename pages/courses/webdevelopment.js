@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import images from "../../Components/images.json";
-const webdevelopmentImage = images[0].webdevelopment;
+import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
@@ -12,7 +12,7 @@ function webdevelopment() {
       <Singlecourse
         courseTitle="website Development"
         courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
-        courseImage={webdevelopmentImage}
+        courseImage={courseImages.webdevelopment}
         aboutCourseText="Welcome to Florintech Computer College's Web Development program!
 
         In today's digital age, having a website has become a necessity for businesses and individuals alike. A website not only allows you to reach a wider audience, but it also helps establish credibility and trust with potential customers.
@@ -32,7 +32,7 @@ function webdevelopment() {
           "HTML5.",
           "CSS",
           "Javascripts.",
-          "Bootstrap(css framwork)",
+          "Bootstrap(css framework)",
           "JQuery.",
           "Introduction to content management system(CMS).",
         ]}

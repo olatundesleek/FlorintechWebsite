@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import images from "../../Components/images.json";
-const digitalmediaImg = images[9].digitalmedia;
+import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
@@ -13,7 +13,7 @@ const DigitalMedia = () => {
         <Singlecourse
           courseTitle="Ultimate Digital Media Course"
           courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
-          courseImage={digitalmediaImg}
+          courseImage={courseImages.digitalmedia}
           aboutCourseText="Welcome to our website, where we explore the world of digital media and how it impacts our lives. In this article, we will focus on Florintech Computer College, and how they are preparing students for careers in the ever-evolving field of digital media.
 
 Digital media is a broad term that encompasses various forms of communication, including websites, social media, videos, podcasts, and more. With the rise of the internet, digital media has become an essential part of our daily lives, and it continues to shape the way we interact with the world.

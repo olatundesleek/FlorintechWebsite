@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import images from "../../Components/images.json";
-const computernetworkingImg = images[5].computernetworking;
+import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
@@ -12,8 +12,7 @@ const BusinessElectronicAccounting = () => {
         <Header />
         <Singlecourse
           courseTitle="BusinessElectronicAccounting"
-          courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
-          courseImage={computernetworkingImg}
+          courseImage={courseImages.businesselectronicaccounting}
           aboutCourseText="Welcome to Florintech Computer College's Business Electronic Accounting page. In this page, we will explore the importance of electronic accounting in business and how Florintech Computer College can help you acquire the necessary skills to succeed in this field.
 
 Electronic accounting refers to the use of computer software and digital technologies to manage financial records, track transactions, and prepare financial statements. In today's fast-paced business environment, electronic accounting has become an essential tool for businesses of all sizes. Electronic accounting allows businesses to:
@@ -39,33 +38,12 @@ Our courses are taught by experienced industry professionals who bring real-worl
 In addition to our courses, we also offer career services to help our students find employment in the field of electronic accounting. Our career services include resume writing assistance, interview preparation, and job placement support.
 
 If you are interested in pursuing a career in electronic accounting, Florintech Computer College is the right place for you. Contact us today to learn more about our courses and career services.!"
-          listOne=" Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-          listTwo=" Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-          listThree=" Lorem ipsum dolor sit amet consectetur
-        adipisicing elit."
-          aboutCourseTextTwo="Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Optio atque nulla veritatis dolorem esse ad
-        quibusdam ipsam doloribus, dolor vero
-        voluptates alias porro mollitia architecto ex magni magnam?
-        Aut, consequatur."
-          whatToLearnText="  Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Cupiditate adipisci fuga nam veniam
-        perferendis,
-         quidem recusandae cum voluptatem
-        debitis. Enim omnis illum laboriosam dolorem blanditiis neque
-        repellat voluptas! Enim, autem?"
           courseOutline={[
             "Computer Fundemental",
             "Microsoft office packages",
             "Introductions Peach tree Accounting",
             "Internet Essentials",
           ]}
-          secondImageText="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Harum reiciendis cupiditate asperiores nulla hic quidem ab,
-        voluptatem voluptatibus accusamus ea est eum soluta maiores
-        deleniti ratione laudantium. Modi, sequi quasi."
           courseDuration="4 months"
           coursePrice="50,000"
         />

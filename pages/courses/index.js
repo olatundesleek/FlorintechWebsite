@@ -2,21 +2,10 @@ import { Box, Text, Grid } from "@chakra-ui/react";
 import React from "react";
 import CourseTab from "../../Components/Coursetab/CourseTab";
 import Header from "../../Components/Header";
-import images from "../../Components/images.json";
+import { courseImages } from "../../Components/images";
 import { Flex } from "@chakra-ui/react";
 import NewsLetter from "../../Components/NewsLetter";
 import Footer from "../../Components/Footer";
-const webdevelopment = images[0].webdevelopment;
-const desktoppublishing = images[1].desktoppublishing;
-const certifiedgraphicsprofessional = images[2].certifiedgraphicsprofessional;
-const computernetworking = images[5].computernetworking;
-const computerprogramming = images[6].computerprogramming;
-const databaseadministration = images[7].databaseadministration;
-const officeapplication = images[8].officeapplication;
-const digitalmedia = images[9].digitalmedia;
-const computersecurity = images[10].computersecurity;
-const ux = images[11].ux;
-const grapic = images[12].graphics;
 
 function index() {
   return (
@@ -60,7 +49,7 @@ function index() {
         
         Don't miss this opportunity! Register now to start your journey in the exciting world of web developmen."
             courseTitle="Web Development"
-            courseImage={webdevelopment}
+            courseImage={courseImages.webdevelopment}
             price="50000"
           />
         </Flex>
@@ -80,7 +69,7 @@ The program covers a wide range of topics, including graphic design theory, colo
 
 At the end of the program, students will be prepared to take the Certified Graphics Professional exam."
             courseTitle="Certified Graphics Professional"
-            courseImage={grapic}
+            courseImage={courseImages.graphics}
             price="50000"
           />
         </Flex>
@@ -96,7 +85,7 @@ At the end of the program, students will be prepared to take the Certified Graph
 
 Our instructors are experienced professionals with years of experience in the desktop publishing industry."
             courseTitle="Desktop Publishing"
-            courseImage={desktoppublishing}
+            courseImage={courseImages.desktoppublishing}
             price="30000"
           />
         </Flex>
@@ -110,7 +99,7 @@ Our instructors are experienced professionals with years of experience in the de
             to="courses/officeapplication"
             courseText="Office applications are an essential part of any modern workplace, and mastering them is a must for anyone who wants to succeed in their career."
             courseTitle="Office Application"
-            courseImage={officeapplication}
+            courseImage={courseImages.officeapplication}
             price="15000"
           />
         </Flex>
@@ -131,7 +120,7 @@ Becoming an AutoCAD specialist can open up a world of opportunities in various i
 At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications. Our program covers topics such as:
 ."
             courseTitle="AutoCad Specialist Course"
-            courseImage={databaseadministration}
+            courseImage={courseImages.databaseadministration}
             price="50000"
           />
         </Flex>
@@ -142,18 +131,18 @@ At Florintech Computer College, our AutoCAD Specialist program is designed to gi
           margin="20px 0"
         >
           <CourseTab
-            to="courses/certifieddesktoppublishing"
-            courseText="Welcome to Florintech Computer College, your one-stop solution for professional desktop publishing training and certification. Our Certified Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing.
+            to="courses/advanceddesktoppublishing"
+            courseText="Welcome to Florintech Computer College, your one-stop solution for professional desktop publishing training and certification. Our Advanced Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing.
 
-Desktop publishing has become an essential skill in today's fast-paced digital world. Whether you're creating brochures, flyers, newsletters, or other marketing materials, having a strong understanding of desktop publishing tools and techniques is crucial. That's where our Certified Desktop Publishing program comes in.
+Desktop publishing has become an essential skill in today's fast-paced digital world. Whether you're creating brochures, flyers, newsletters, or other marketing materials, having a strong understanding of desktop publishing tools and techniques is crucial. That's where our Advanced Desktop Publishing program comes in.
 
 At Florintech Computer College, we offer a comprehensive training program that covers all aspects of desktop publishing. Our program includes in-depth training on industry-standard software applications such as Adobe InDesign, Adobe Illustrator, and Adobe Photoshop. You'll learn how to create and design professional-grade documents, layouts, and graphics that meet the highest industry standards.
 
-Our Certified Desktop Publishing program is ideal for both beginners and professionals looking to enhance their skills. Our instructors are industry experts with years of experience in the field, and they'll provide you with practical, hands-on training that will help you master the techniques and tools used in desktop publishing.
+Our Advanced Desktop Publishing program is ideal for both beginners and professionals looking to enhance their skills. Our instructors are industry experts with years of experience in the field, and they'll provide you with practical, hands-on training that will help you master the techniques and tools used in desktop publishing.
 
-Upon completion of our program, you'll be awarded a Certified Desktop Publishing certification from Florintech Computer College. This certification is recognized worldwide and is a testament to your skills and knowledge in the field of desktop publishing. Our certification is also a great way to enhance your resume and increase your job prospects in the competitive job market."
-            courseTitle="Certified Desktop Publishing"
-            courseImage={computerprogramming}
+Upon completion of our program, you'll be awarded a Advanced Desktop Publishing certification from Florintech Computer College. This certification is recognized worldwide and is a testament to your skills and knowledge in the field of desktop publishing. Our certification is also a great way to enhance your resume and increase your job prospects in the competitive job market."
+            courseTitle="Advanced Desktop Publishing"
+            courseImage={courseImages.computerprogramming}
             price="70000"
           />
         </Flex>
@@ -173,7 +162,7 @@ Whether you're looking to start a career in digital media or web development, or
 
 We offer a range of programs and courses to suit your needs, including flexible scheduling options to fit your busy lifestyle."
             courseTitle="Digital Media And Web Development"
-            courseImage={digitalmedia}
+            courseImage={courseImages.digitalmedia}
             price="30000"
           />
         </Flex>
@@ -193,7 +182,7 @@ Taxation: Our taxation courses cover the fundamentals of taxation, including inc
 
 Financial analysis: Our financial analysis courses cover the techniques and tools used to analyze financial data and make informed business decisions."
             courseTitle="Business Electronic Accounting"
-            courseImage={computernetworking}
+            courseImage={courseImages.computernetworking}
             price="70000"
           />
         </Flex>
@@ -213,7 +202,7 @@ To achieve these goals, we have implemented an Office Information Management sys
 
 One of the key benefits of our Office Information Management system is improved productivity.."
             courseTitle="Office Information Management"
-            courseImage={computersecurity}
+            courseImage={courseImages.computersecurity}
             price="50000"
           />
         </Flex>
@@ -233,7 +222,7 @@ Whether you're a seasoned professional looking to enhance your skills or a begin
 
 At Florintech, we believe in providing a holistic learning experience."
             courseTitle="UI/UX"
-            courseImage={ux}
+            courseImage={courseImages.ux}
             price="80000"
           />
         </Flex>
@@ -253,7 +242,7 @@ To achieve these goals, we have implemented an Office Information Management sys
 
 One of the key benefits of our Office Information Management system is improved productivity.."
             courseTitle="Digital Media"
-            courseImage={computersecurity}
+            courseImage={courseImages.computersecurity}
             price="50000"
           />
         </Flex>

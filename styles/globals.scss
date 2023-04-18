@@ -947,6 +947,7 @@ main {
 }
 // About us css
 .about-container {
+  padding: 0 30px;
   margin: 5rem 0;
   justify-content: center;
   display: grid;
@@ -1613,9 +1614,6 @@ $top-clip-orange-two-bottom: polygon(
     align-items: center;
     margin: 3rem;
 
-    @media screen and (max-width:#{$phone-width}) {
-    }
-
     .banner-openday {
       // border: 2px solid red;
       // background-color: #0b1c30;
@@ -1683,10 +1681,19 @@ $top-clip-orange-two-bottom: polygon(
     width: 400px;
   }
   .form {
-    width: 400px;
+    max-width: 400px;
+    padding: 0 20px;
     input {
       margin: 1rem 0;
       padding: 0.5rem;
+    }
+  }
+  label.chakra-radio {
+    color: #ffffff;
+  }
+  @media screen and (max-width:#{$phone-width}) {
+    .register-img {
+      display: none;
     }
   }
 }

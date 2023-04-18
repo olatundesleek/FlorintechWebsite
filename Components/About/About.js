@@ -52,10 +52,11 @@ const About = () => {
         {/* end of the about page  and begin the award */}
         <Flex
           justifyContent="center"
+          flexWrap="wrap"
           flexDirection={{
-            base: "column",
-            sm: "column",
-            md: "column",
+            base: "row",
+            sm: "row",
+            md: "row",
             lg: "row",
           }}
         >
