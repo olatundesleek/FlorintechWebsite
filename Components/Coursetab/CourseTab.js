@@ -5,7 +5,7 @@ import Image from "next/image";
 const CourseTab = ({ courseTitle, courseText, to, price, courseImage }) => {
   return (
     <Box className="course-card">
-      <Link href={to}>
+      <Link legacyBehavior href={to}>
         <a>
           <Box className="image-wrapper">
             <Image

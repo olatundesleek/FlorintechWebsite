@@ -4,9 +4,8 @@ import Link from "next/link";
 function Linkbtn({ caption, to, className, ...rest }) {
   return (
     <Flex>
-   
-      <Box as="button" {...rest} >
-        <Link href={to}>
+      <Box as="button" {...rest}>
+        <Link legacyBehavior href={to}>
           <a>{caption}</a>
         </Link>
       </Box>

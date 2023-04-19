@@ -8,7 +8,7 @@ function MenuItems() {
     <Flex>
       {menuData.map((i, index) => {
         return (
-          <MyNavLink href={i.path} key={index}>
+          <MyNavLink legacyBehavior href={i.path} key={index}>
             <a className="link">{i.name}</a>
           </MyNavLink>
         );

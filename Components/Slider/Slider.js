@@ -36,7 +36,7 @@ function Slider() {
             With Over 100 free tutorial Videos
           </Text>
           <Flex justifyContent="center">
-            <Box d="flex" justifyContent="center">
+            <Flex justifyContent="center">
               <Linkbtn
                 caption="Tutorials"
                 to="tutorial"
@@ -61,7 +61,7 @@ function Slider() {
                 m={3}
                 border="1px #fff solid"
               />
-            </Box>
+            </Flex>
           </Flex>
         </Box>
       </div>
@@ -88,7 +88,7 @@ function Slider() {
             Thousands of People Already Registered
           </Text>
           <Flex justifyContent="center">
-            <Box d="flex" justifyContent="center">
+            <Flex justifyContent="center">
               <Linkbtn
                 caption="Courses"
                 to="/courses"
@@ -113,7 +113,7 @@ function Slider() {
                 m={3}
                 border="1px #fff solid"
               />
-            </Box>
+            </Flex>
           </Flex>
         </Box>
       </div>
@@ -140,7 +140,7 @@ function Slider() {
             Talk to a course Advisor
           </Text>
           <Flex justifyContent="center">
-            <Box d="flex" justifyContent="center">
+            <Flex justifyContent="center">
               <Linkbtn
                 caption="Click to call"
                 to="tel:+2349024702192"
@@ -164,7 +164,7 @@ function Slider() {
                 m={3}
                 border="1px #fff solid"
               />
-            </Box>
+            </Flex>
           </Flex>
         </Box>
       </div>
