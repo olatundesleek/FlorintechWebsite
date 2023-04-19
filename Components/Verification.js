@@ -59,8 +59,17 @@ function Verification() {
 
     console.log("this is the cern nunmber" + bodyContent.values);
     // cert_number:"229906MN",
+    // let verificationResponse = await fetch(
+    //   `https://florintechcomputercollege.com/api/api_verifycertificate.php`,
+    //   {
+    //     method: "POST",
+
+    //     body: bodyContent,
+    //   }
+    // );
     let verificationResponse = await fetch(
       `https://florintechcomputercollege.com/api/api_verifycertificate.php`,
+      
       {
         method: "POST",
 
@@ -155,7 +164,7 @@ function Verification() {
                     </Button>
                   ) : (
                     <Button
-                      disabled={isBot}
+                      isDisabled={isBot}
                       variant="outline"
                       onClick={verifyCert}
                       m={3}

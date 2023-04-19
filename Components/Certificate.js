@@ -30,15 +30,15 @@ function Certificate({
               textAlign="center"
             >
               <Box className="logo">
-                <Image src={logo} alt="logo" width="250px" height="100px" />
+                <Image src={logo} alt="logo" width="250" height="100" />
               </Box>
               <Box className="passport">
                 <Image
                   src={
                     "https://admin.florintechcomputercollege.com/" + passport
                   }
-                  width="100px"
-                  height="100px"
+                  width="100"
+                  height="100"
                   alt="passport"
                   className="passport"
                 />

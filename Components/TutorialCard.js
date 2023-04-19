@@ -7,7 +7,7 @@ import {
   Divider,
   ButtonGroup,
   Button,
-} from "@chakra-ui/react/dist/chakra-ui-react.cjs";
+} from "@chakra-ui/react";
 import Link from "next/link";
 
 const TutorialCard = ({ img, info, children, title, to }) => {

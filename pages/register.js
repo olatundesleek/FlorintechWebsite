@@ -28,7 +28,7 @@ const intialValue = {
   session: "",
   recaptcharesponse: "",
 };
-let token;
+
 function Register() {
   const [isBot, setisBot] = useState(true);
   const [loading, setLoading] = useState(false);
@@ -76,12 +76,11 @@ function Register() {
     bodyContent.append("session", inputs.session);
     bodyContent.append("recaptcharesponse", inputs.recaptcharesponse);
 
+  
     fetch("https://florintechcomputercollege.com/api/api_register.php", {
       method: "POST",
       body: bodyContent,
-      // headers: {
-      //   "Content-type": "application/json; charset=UTF-8",
-      // },
+    
     })
       .then((data) => {
         return data.json();
@@ -154,6 +153,7 @@ function Register() {
                   color="white"
                   placeholder="Enter your Firstname"
                   name="firstname"
+                  _placeholder={{ color: 'white' }}
                   value={inputs.firstname}
                   required
                   onChange={handleChange}
@@ -164,6 +164,7 @@ function Register() {
                   color="white"
                   required
                   name="lastname"
+                  _placeholder={{ color: 'white' }}
                   value={inputs.lastname}
                   onChange={handleChange}
                 />
@@ -171,6 +172,7 @@ function Register() {
                   required
                   color="white"
                   placeholder="Phone number"
+                  _placeholder={{ color: 'white' }}
                   name="phonenumber"
                   value={inputs.number}
                   onChange={handleChange}
@@ -179,6 +181,7 @@ function Register() {
                   color="white"
                   placeholder="Enter your Email"
                   name="email"
+                  _placeholder={{ color: 'white' }}
                   value={inputs.email}
                   onChange={handleChange}
                 />
@@ -271,7 +274,7 @@ function Register() {
                   loadingText="Registering"
                   colorScheme="blue"
                   type="submit"
-                  disabled={isBot}
+                  isDisabled={isBot}
                 >
                   Register
                 </Button>
