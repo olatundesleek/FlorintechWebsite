@@ -14,12 +14,12 @@ function Topnav() {
       flexDirection={{ base: "column", md: "row", xl: "row" }}
     >
       <Flex justifyContent={{ base: "center" }}>
-        <Link href="/courses">
+        <Link legacyBehavior href="/courses">
           <a className="link">
             <BsCardChecklist /> Our Course List
           </a>
         </Link>
-        <Link href="tel:+2349024702192">
+        <Link legacyBehavior href="tel:+2349024702192">
           <a className="link">
             <MdPhone />
             09024702192
@@ -29,12 +29,12 @@ function Topnav() {
 
       <Spacer />
       <Flex justifyContent={{ base: "center" }}>
-        <Link href="/register">
+        <Link legacyBehavior href="/register">
           <a className="link">
             <BsPencil /> Register
           </a>
         </Link>
-        <Link href="/verifycertificate">
+        <Link legacyBehavior href="/verifycertificate">
           <a className="link">
             <AiOutlineSafetyCertificate /> Verify Certificate
           </a>

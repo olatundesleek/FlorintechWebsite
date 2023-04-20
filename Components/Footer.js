@@ -37,39 +37,42 @@ function Footer() {
             <Box className="footer-pages">
               <ul>
                 <li>
-                  <Link href="/">
+                  <Link legacyBehavior href="/">
                     <a>HOME</a>
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="/courses">
+                  <Link legacyBehavior href="/courses">
                     <a>COURSE</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/#testimonial">
+                  <Link legacyBehavior href="/#testimonial">
                     <a>TESTIMONIAL</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/tutorial">
+                  <Link legacyBehavior href="/tutorial">
                     <a>TUTORIAL</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://blog.florintechcomputercollege.com">
+                  <Link
+                    legacyBehavior
+                    href="https://blog.florintechcomputercollege.com"
+                  >
                     <a>BLOG</a>
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="/aboutus">
+                  <Link legacyBehavior href="/aboutus">
                     <a>ABOUT US</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/faq">
+                  <Link legacyBehavior href="/faq">
                     <a>FAQ</a>
                   </Link>
                 </li>
@@ -82,12 +85,12 @@ function Footer() {
             <Box className="footer-tools">
               <ul>
                 <li>
-                  <Link href="/verifycertificate">
+                  <Link legacyBehavior href="/verifycertificate">
                     <a>VERIFY CERTIFICATE</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link legacyBehavior href="/">
                     <a>ONLINE REGISTERATION</a>
                   </Link>
                 </li>
@@ -101,7 +104,10 @@ function Footer() {
           <Box className="footer-socials">
             <ul>
               <li>
-                <Link href="https://facebook.com/florintechcomputercollege">
+                <Link
+                  legacyBehavior
+                  href="https://facebook.com/florintechcomputercollege"
+                >
                   <a>
                     <FiFacebook />
                     FACEBOOK
@@ -109,7 +115,7 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://twitter.com/florintechcc">
+                <Link legacyBehavior href="https://twitter.com/florintechcc">
                   <a>
                     <FiTwitter />
                     TWITTER
@@ -117,7 +123,7 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://linkedin.com/florintechcc">
+                <Link legacyBehavior href="https://linkedin.com/florintechcc">
                   <a>
                     <FiLinkedin />
                     LINKEDIN
@@ -125,7 +131,7 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link legacyBehavior href="/">
                   <a>
                     <FiYoutube />
                     YOUTUBE

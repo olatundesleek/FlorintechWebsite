@@ -65,7 +65,7 @@ const Singlecourse = ({
                 </ul>
               </div>
               <div className="join-class-container">
-                <Link href="/register" className="join-class">
+                <Link legacyBehavior href="/register" className="join-class">
                   <a>Register Now </a>
                 </Link>
               </div>
@@ -86,7 +86,7 @@ const Singlecourse = ({
               <div className="course-amount">
                 <span className="amount"> {coursePrice}Naira</span>
               </div>
-              <Link href="/register">
+              <Link legacyBehavior href="/register">
                 <a>
                   <button className="course-cart-button">Register Now </button>
                 </a>

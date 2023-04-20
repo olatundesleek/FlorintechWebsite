@@ -5,7 +5,6 @@ import Mobilemenu from "../Mobilemenu/Mobilemenu";
 import { useState } from "react";
 import MenuItems from "../MenuItems";
 
-
 function Navmenu() {
   const [isActive, setIsActive] = useState(false);
 
@@ -22,27 +21,22 @@ function Navmenu() {
   return (
     <Box>
       <Flex justifyContent={"right"}>
-         <Hamburger isActiveStatus={isActive} onClick={handletoggle} />
-         </Flex>
-      
-      {isActive?<Mobilemenu/>:""}
-      
-
-    <Flex justifyContent={{ base: "flex-end", sm: "flex-end", md: "center" }}>
-      <Flex
-        // className={isActiveStatus == false ? "hamburger" : "hamburger open"}
-        // d={{ base: "none", md: "flex" }}
-        justifyContent="center"
-        wrap="wrap"
-        d={{ base: "none", md: "flex" }}
-      >
-
-<MenuItems/>
-  
+        <Hamburger isActiveStatus={isActive} onClick={handletoggle} />
       </Flex>
 
-     
-    </Flex>
+      {isActive ? <Mobilemenu /> : ""}
+
+      <Flex justifyContent={{ base: "flex-end", sm: "flex-end", md: "center" }}>
+        <Flex
+          // className={isActiveStatus == false ? "hamburger" : "hamburger open"}
+          // d={{ base: "none", md: "flex" }}
+          justifyContent="center"
+          wrap="wrap"
+          display={{ base: "none", md: "flex" }}
+        >
+          <MenuItems />
+        </Flex>
+      </Flex>
     </Box>
   );
 }

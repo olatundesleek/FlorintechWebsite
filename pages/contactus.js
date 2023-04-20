@@ -91,7 +91,7 @@ function Contactus() {
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
         className="icon-container"
       >
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a>
             <Box className="address-con">
               <GrLocation fontSize="3rem" style={{ padding: "5px" }} />
@@ -102,7 +102,7 @@ function Contactus() {
             </Box>
           </a>
         </Link>
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a>
             <Box className="email-con">
               <HiOutlineMailOpen fontSize="3rem" style={{ padding: "5px" }} />
@@ -113,7 +113,7 @@ function Contactus() {
             </Box>
           </a>
         </Link>
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a>
             <Box className="phone-con">
               <FiPhoneCall fontSize="3rem" style={{ padding: "5px" }} />

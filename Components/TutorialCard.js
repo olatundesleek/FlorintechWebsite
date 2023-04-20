@@ -7,7 +7,7 @@ import {
   Divider,
   ButtonGroup,
   Button,
-} from "@chakra-ui/react/dist/chakra-ui-react.cjs";
+} from "@chakra-ui/react";
 import Link from "next/link";
 
 const TutorialCard = ({ img, info, children, title, to }) => {
@@ -31,7 +31,7 @@ const TutorialCard = ({ img, info, children, title, to }) => {
       </Stack>
       <Divider />
       <Box>
-        <Link href={to} passHref legacyBehavior>
+        <Link legacyBehavior href={to} passHref>
           <a>
             <ButtonGroup spacing="2" m={2}>
               <Button variant="solid" colorScheme="blue">
