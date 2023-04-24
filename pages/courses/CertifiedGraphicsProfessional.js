@@ -31,8 +31,8 @@ If you are interested in pursuing a career in graphic design, we invite you to l
         courseOutline={[
           "All courses in desktop publishing ",
           "All courses in certied desktop publishing ",
-          "Adobe Illusreator",
-          "Certified desktop publishin",
+          "Adobe Illustrator",
+          "Certified desktop publishing",
           "Internet Essential",
         ]}
       />

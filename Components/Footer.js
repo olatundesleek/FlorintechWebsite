@@ -90,7 +90,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/">
+                  <Link legacyBehavior href="/register">
                     <a>ONLINE REGISTERATION</a>
                   </Link>
                 </li>
