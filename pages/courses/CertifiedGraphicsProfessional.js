@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import images from "../../Components/images.json";
+
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -12,7 +12,7 @@ function CertifiedGraphicsProfessional() {
       <Header />
       <Singlecourse
         courseTitle=" Certified Graphics Professional"
-        courseImage={courseImages.certifiedgraphicsprofessional}
+        courseImage={courseImages.graphics}
         aboutCourseText=" Welcome to Florintech Computer College, where we offer comprehensive training programs for aspiring graphics professionals. Our courses are designed to help individuals develop the skills and knowledge needed to become certified graphics professionals.
 
 Our Certified Graphics Professional program is designed to provide students with a deep understanding of graphic design principles and software tools. Through a combination of classroom instruction, hands-on exercises, and real-world projects, students will learn how to create high-quality graphics that meet the needs of clients and customers.
@@ -26,8 +26,6 @@ Our instructors are experienced professionals who have a deep understanding of t
 At Florintech Computer College, we are committed to providing our students with the highest-quality education and training. Our Certified Graphics Professional program is just one example of how we are helping individuals develop the skills and knowledge needed to succeed in today's competitive job market.
 
 If you are interested in pursuing a career in graphic design, we invite you to learn more about our Certified Graphics Professional progra,Contact us today to schedule a consultation or to enroll in our next training session."
-        courseDuration="4 months"
-        coursePrice="50,000"
         courseOutline={[
           "All courses in desktop publishing ",
           "All courses in certied desktop publishing ",
@@ -35,6 +33,8 @@ If you are interested in pursuing a career in graphic design, we invite you to l
           "Certified desktop publishing",
           "Internet Essential",
         ]}
+        coursePrice="50,000"
+        courseDuration="4 months"
       />
     </Box>
   );

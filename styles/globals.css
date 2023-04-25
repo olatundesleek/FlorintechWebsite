@@ -117,7 +117,8 @@ a {
   stroke-width: 1;
   stroke: #ffffff;
 }
-.advantage_lefttab, .advantage_righttab {
+.advantage_lefttab,
+.advantage_righttab {
   padding: 10px;
 }
 .advantage_icon > path {
@@ -362,7 +363,10 @@ a {
   font-size: 28px;
   font-weight: bold;
   color: #083b6b;
-  display: block;
+  display: flex;
+  justify-content: center;
+  width: 96%;
+  padding: 10px;
 }
 
 .discount {
@@ -954,7 +958,7 @@ main {
     height: 271px;
   }
   .about-teacher-title-sec {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     color: #1d2b5f !important;
     font-weight: bold;
     font-family: Manrope, sans-serif !important;
@@ -1140,6 +1144,9 @@ main {
   }
 }
 @media screen and (max-width: 500px) {
+  .card-content-card {
+    margin-top: 15rem;
+  }
   .about__container__text {
     width: 100%;
     text-align: left;
@@ -1221,7 +1228,7 @@ main {
 }
 .certificate-overall .first-border {
   -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
-          clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+  clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
   background-color: orange;
   width: 91%;
   height: 60vh;
@@ -1239,8 +1246,17 @@ main {
   background-color: none !important;
 }
 .certificate-overall .certificate-container .blue-con {
-  -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
-          clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+  -webkit-clip-path: polygon(
+    0 26%,
+    0 0,
+    35% 0%,
+    53% 0,
+    53% 5%,
+    5% 5%,
+    5% 44%,
+    0 44%
+  );
+  clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
   background-color: rgb(5, 5, 40);
   width: 85%;
   height: 80vh;
@@ -1250,7 +1266,7 @@ main {
 }
 .certificate-overall .certificate-container .orange-con1 {
   -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
-          clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+  clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
   background-color: orange;
   width: 75%;
   height: 80vh;
@@ -1260,7 +1276,7 @@ main {
 }
 .certificate-overall .certificate-container .orange-con2 {
   -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
-          clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+  clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
   background-color: orange;
   width: 70%;
   height: 80vh;
@@ -1332,8 +1348,26 @@ main {
   margin: 10px;
 }
 .certificate-overall .certificate-container .blue-con2 {
-  -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
-          clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+  -webkit-clip-path: polygon(
+    55% 95%,
+    96% 95%,
+    96% 45%,
+    100% 45%,
+    100% 78%,
+    100% 100%,
+    85% 100%,
+    56% 100%
+  );
+  clip-path: polygon(
+    55% 95%,
+    96% 95%,
+    96% 45%,
+    100% 45%,
+    100% 78%,
+    100% 100%,
+    85% 100%,
+    56% 100%
+  );
   background-color: rgb(5, 5, 40);
   width: 91%;
   height: 82vh;
@@ -1342,8 +1376,24 @@ main {
   position: absolute;
 }
 .certificate-overall .certificate-container .orange1 {
-  -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
-          clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+  -webkit-clip-path: polygon(
+    53% 100%,
+    100% 100%,
+    100% 61%,
+    99% 62%,
+    99% 99%,
+    92% 99%,
+    53% 99%
+  );
+  clip-path: polygon(
+    53% 100%,
+    100% 100%,
+    100% 61%,
+    99% 62%,
+    99% 99%,
+    92% 99%,
+    53% 99%
+  );
   width: 91%;
   background-color: orange;
   height: 82vh;
@@ -1352,8 +1402,24 @@ main {
   position: absolute;
 }
 .certificate-overall .certificate-container .orange2 {
-  -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
-          clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+  -webkit-clip-path: polygon(
+    63% 100%,
+    100% 100%,
+    100% 63%,
+    99% 64%,
+    99% 100%,
+    100% 99%,
+    63% 99%
+  );
+  clip-path: polygon(
+    63% 100%,
+    100% 100%,
+    100% 63%,
+    99% 64%,
+    99% 100%,
+    100% 99%,
+    63% 99%
+  );
   width: 91%;
   background-color: orange;
   height: 82vh;
@@ -1362,8 +1428,15 @@ main {
   position: absolute;
 }
 .certificate-overall .first-border2 {
-  -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
-          clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+  -webkit-clip-path: polygon(
+    100% 43%,
+    99% 42%,
+    99% 99%,
+    69% 99%,
+    69% 100%,
+    100% 100%
+  );
+  clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
   background-color: orange;
   width: 91%;
   height: 82vh;
@@ -1385,8 +1458,16 @@ main {
     margin-top: 3rem;
   }
   .overall .first-border {
-    -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
-            clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+    -webkit-clip-path: polygon(
+      0 74%,
+      0 0,
+      35% 0%,
+      52% 0,
+      52% 1%,
+      1% 1%,
+      1% 75%
+    );
+    clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
     background-color: orange;
     width: 91%;
     height: 60vh;
@@ -1401,8 +1482,17 @@ main {
     margin: 1.5rem 0;
   }
   .overall .container .blue-con {
-    -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
-            clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+    -webkit-clip-path: polygon(
+      0 26%,
+      0 0,
+      35% 0%,
+      53% 0,
+      53% 5%,
+      5% 5%,
+      5% 44%,
+      0 44%
+    );
+    clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
     background-color: rgb(5, 5, 40);
     width: 85%;
     height: 80vh;
@@ -1411,8 +1501,16 @@ main {
     left: 6%;
   }
   .overall .container .orange-con1 {
-    -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
-            clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+    -webkit-clip-path: polygon(
+      0 35%,
+      0 0,
+      35% 0%,
+      71% 0,
+      71% 1%,
+      1% 1%,
+      1% 35%
+    );
+    clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
     background-color: orange;
     width: 75%;
     height: 80vh;
@@ -1421,8 +1519,16 @@ main {
     left: 11%;
   }
   .overall .container .orange-con2 {
-    -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
-            clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+    -webkit-clip-path: polygon(
+      0 35%,
+      0 0,
+      35% 0%,
+      71% 0,
+      71% 1%,
+      1% 1%,
+      1% 35%
+    );
+    clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
     background-color: orange;
     width: 70%;
     height: 80vh;
@@ -1497,8 +1603,26 @@ main {
     font-size: 16px;
   }
   .overall .container .blue-con2 {
-    -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
-            clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+    -webkit-clip-path: polygon(
+      55% 95%,
+      96% 95%,
+      96% 45%,
+      100% 45%,
+      100% 78%,
+      100% 100%,
+      85% 100%,
+      56% 100%
+    );
+    clip-path: polygon(
+      55% 95%,
+      96% 95%,
+      96% 45%,
+      100% 45%,
+      100% 78%,
+      100% 100%,
+      85% 100%,
+      56% 100%
+    );
     background-color: rgb(5, 5, 40);
     width: 91%;
     height: 82vh;
@@ -1507,8 +1631,24 @@ main {
     position: absolute;
   }
   .overall .container .orange1 {
-    -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
-            clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+    -webkit-clip-path: polygon(
+      53% 100%,
+      100% 100%,
+      100% 61%,
+      99% 62%,
+      99% 99%,
+      92% 99%,
+      53% 99%
+    );
+    clip-path: polygon(
+      53% 100%,
+      100% 100%,
+      100% 61%,
+      99% 62%,
+      99% 99%,
+      92% 99%,
+      53% 99%
+    );
     width: 91%;
     background-color: orange;
     height: 82vh;
@@ -1517,8 +1657,24 @@ main {
     position: absolute;
   }
   .overall .container .orange2 {
-    -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
-            clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+    -webkit-clip-path: polygon(
+      63% 100%,
+      100% 100%,
+      100% 63%,
+      99% 64%,
+      99% 100%,
+      100% 99%,
+      63% 99%
+    );
+    clip-path: polygon(
+      63% 100%,
+      100% 100%,
+      100% 63%,
+      99% 64%,
+      99% 100%,
+      100% 99%,
+      63% 99%
+    );
     width: 91%;
     background-color: orange;
     height: 82vh;
@@ -1527,8 +1683,22 @@ main {
     position: absolute;
   }
   .overall .first-border2 {
-    -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
-            clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+    -webkit-clip-path: polygon(
+      100% 43%,
+      99% 42%,
+      99% 99%,
+      69% 99%,
+      69% 100%,
+      100% 100%
+    );
+    clip-path: polygon(
+      100% 43%,
+      99% 42%,
+      99% 99%,
+      69% 99%,
+      69% 100%,
+      100% 100%
+    );
     background-color: orange;
     width: 91%;
     height: 82vh;
@@ -1586,7 +1756,7 @@ main {
   display: flex;
   justify-content: space-around;
   color: #348aed;
-  margin: 3rem;
+  padding: 20px;
 }
 .contactus .icon-container .address-con {
   display: flex;
@@ -1633,6 +1803,24 @@ main {
   color: #ffffff;
 }
 @media screen and (max-width: 500px) {
+  .contactus .wrapper-contact .banner-location .frame-wrapper {
+    display: none;
+  }
+  .icon-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .icon-container a {
+    padding: 20px;
+  }
+  .banner-location {
+    padding: 0 20px;
+  }
+
+  /* .contactus .wrapper-contact {
+    padding: 0 20px;
+  } */
   .register .register-img {
     display: none;
   }
@@ -1666,4 +1854,4 @@ main {
 
 .rc-anchor-checkbox-label {
   width: 100px;
-}/*# sourceMappingURL=globals.css.map */
+} /*# sourceMappingURL=globals.css.map */
