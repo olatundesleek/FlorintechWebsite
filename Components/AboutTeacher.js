@@ -1,8 +1,8 @@
 import React from "react";
-import images from "./images.json";
+
 import { Box, Flex } from "@chakra-ui/react";
 import Image from "next/image";
-const autocadspecialist = images[3].autocadspecialist;
+
 
 const AboutTeacher = ({ teacherTitle, teacherName, teacherText }) => {
   return (

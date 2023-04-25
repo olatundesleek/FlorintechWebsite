@@ -76,11 +76,9 @@ function Register() {
     bodyContent.append("session", inputs.session);
     bodyContent.append("recaptcharesponse", inputs.recaptcharesponse);
 
-  
     fetch("https://florintechcomputercollege.com/api/api_register.php", {
       method: "POST",
       body: bodyContent,
-    
     })
       .then((data) => {
         return data.json();
@@ -153,7 +151,7 @@ function Register() {
                   color="white"
                   placeholder="Enter your Firstname"
                   name="firstname"
-                  _placeholder={{ color: 'white' }}
+                  _placeholder={{ color: "white" }}
                   value={inputs.firstname}
                   required
                   onChange={handleChange}
@@ -164,7 +162,7 @@ function Register() {
                   color="white"
                   required
                   name="lastname"
-                  _placeholder={{ color: 'white' }}
+                  _placeholder={{ color: "white" }}
                   value={inputs.lastname}
                   onChange={handleChange}
                 />
@@ -172,7 +170,7 @@ function Register() {
                   required
                   color="white"
                   placeholder="Phone number"
-                  _placeholder={{ color: 'white' }}
+                  _placeholder={{ color: "white" }}
                   name="phonenumber"
                   value={inputs.number}
                   onChange={handleChange}
@@ -181,7 +179,7 @@ function Register() {
                   color="white"
                   placeholder="Enter your Email"
                   name="email"
-                  _placeholder={{ color: 'white' }}
+                  _placeholder={{ color: "white" }}
                   value={inputs.email}
                   onChange={handleChange}
                 />
@@ -258,7 +256,7 @@ function Register() {
                         onChange={handleSelected}
                         checked={selected === "Evening(5;30pm"}
                       >
-                        Evening(5;30pm-7pm)
+                        Evening(5:30pm-7pm)
                       </Radio>
                     </Stack>
                   </RadioGroup>
