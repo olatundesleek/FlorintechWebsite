@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Text, But, textDecoration } from "@chakra-ui/react";
 import { BsPlayCircle } from "react-icons/bs";
 import { BiEnvelope } from "react-icons/bi";
 import Link from "next/link";
@@ -18,13 +18,13 @@ const NewsLetter = () => {
             <Box className="browse-title">
               <h1>Blog</h1>
               <Text fontSize="xl" className="browse-text">
-                visit our
-                <span>
+                visit our&nbsp;
+                <span style={{ textDecoration: "underline" }}>
                   <Link href="https://blog.florintechcomputercollege.com">
                     blog
                   </Link>
                 </span>
-                for exciting tech related news
+                &nbsp;for exciting tech related news
               </Text>
             </Box>
           </Flex>

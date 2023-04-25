@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -8,6 +9,26 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function webdevelopment() {
   return (
     <Box>
+      <DefaultSeo
+        title="Web Development | Florintech computer college"
+        description="learn web development at Florintech Computer College"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/courses/webdevelopment/",
+          title: "Web Development | Florintech computer college",
+          description: "learn web development at Florintech Computer College",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/webdevelopment.jpg",
+              width: 800,
+              height: 600,
+              alt: "web development",
+              type: "image/jpeg",
+            },
+          ],
+          siteName: "Florintech Computer College",
+        }}
+        {...SEO}
+      />
       <Header />
       <Singlecourse
         courseTitle="website Development"

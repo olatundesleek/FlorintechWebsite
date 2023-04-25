@@ -9,6 +9,7 @@ import {
   RadioGroup,
   Stack,
 } from "@chakra-ui/react";
+
 import axios, { isCancel, AxiosError } from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 import { ToastContainer, toast } from "react-toastify";
@@ -16,6 +17,8 @@ import Banner from "../Components/Banner";
 import Header from "../Components/Header";
 import { courseImages } from "../Components/images";
 import Footer from "../Components/Footer";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 import { useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -112,6 +115,18 @@ function Register() {
   };
   return (
     <Box>
+      <DefaultSeo
+        title="Register | Florintech computer college"
+        description="This is an online registeration page for new florintech computer college students"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/register/",
+          title: "Florintech Online Registeration",
+          description: "Florintech Online Registeration",
+
+          siteName: "Florintech Computer College",
+        }}
+        {...SEO}
+      />
       <Header />
       <Banner
         pageName="Register"
