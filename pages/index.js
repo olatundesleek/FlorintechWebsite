@@ -20,7 +20,7 @@ import { useState } from "react";
 export default function Home() {
   return (
     <div className={styles.container}>
-       <DefaultSeo
+      <DefaultSeo
         title="Homepage | Florintech computer college"
         description="Welcome to Florintech Computer College"
         openGraph={{
@@ -29,7 +29,7 @@ export default function Home() {
           description: "Florintech Online Registeration",
 
           siteName: "Florintech Computer College",
-           images: [
+          images: [
             {
               url: "https://www.florintechcomputercollege.com/images/logo.png",
               width: 800,
@@ -40,7 +40,7 @@ export default function Home() {
           ],
         }}
         {...SEO}
-      
+      />
       <Head>
         <title>Homepage | Florintech Computer College</title>
         <meta
