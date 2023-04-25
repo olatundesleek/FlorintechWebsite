@@ -15,6 +15,7 @@ import Header from "../Components/Header";
 import NewsLetter from "../Components/NewsLetter";
 import Testimonial from "../Components/Testimonial/Testimonial";
 import Footer from "../Components/Footer";
+import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 import { useState } from "react";
 export default function Home() {
