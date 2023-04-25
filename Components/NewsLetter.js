@@ -16,10 +16,15 @@ const NewsLetter = () => {
         >
           <Flex m={0} padding={10} className="browse-course">
             <Box className="browse-title">
-              <h1>Browse marketing courses</h1>
+              <h1>Blog</h1>
               <Text fontSize="xl" className="browse-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo
-                purus gravida orci interdum egestas.
+                visit our
+                <span>
+                  <Link href="https://blog.florintechcomputercollege.com">
+                    blog
+                  </Link>
+                </span>
+                for exciting tech related news
               </Text>
             </Box>
           </Flex>
@@ -36,8 +41,8 @@ const NewsLetter = () => {
               <Box className="browse-title" ml={10}>
                 <h1>Join our email newsletter</h1>
                 <Text fontSize="xl" className="browse-text-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Commodo purus gravida orci interdum egestas.
+                  subscribe to our newsletter to receive exciting mails about
+                  promos and offers
                 </Text>
               </Box>
             </Flex>
