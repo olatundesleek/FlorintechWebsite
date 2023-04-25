@@ -36,7 +36,7 @@ export default function Home() {
               width: 800,
               height: 600,
               alt: "Florintech Comuter College",
-              type: "image/png",
+              type: "image/jpeg",
             },
           ],
         }}
