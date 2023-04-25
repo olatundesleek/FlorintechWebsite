@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import images from "../../Components/images.json";
+
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -12,8 +12,8 @@ const AutoCadSpecialist = () => {
         <Header />
         <Singlecourse
           courseTitle="AutoCad Specialist Course"
-          courseImage={courseImages.autocadspecialist}
-          aboutCourseTextTwo="Welcome to Florintech Computer College, where we specialize in providing high-quality training and education in AutoCAD. Our team of experts is dedicated to helping students master this powerful software and develop the skills they need to excel in their careers.
+          courseImage={courseImages.autocad}
+          aboutCourseText="Welcome to Florintech Computer College, where we specialize in providing high-quality training and education in AutoCAD. Our team of experts is dedicated to helping students master this powerful software and develop the skills they need to excel in their careers.
 
 What is AutoCAD?
 
@@ -39,20 +39,10 @@ Florintech Computer College is committed to providing high-quality, affordable e
 
 We offer hands-on training that allows students to apply their skills in a practical setting. Our state-of-the-art facilities are equipped with the latest technology and software, ensuring that students have access to the tools they need to succeed.
 
-Whether you're just starting out in your career or looking to enhance your skills, Florintech Computer College can help you achieve your goals. Contact us today to learn more about our AutoCAD Specialist program and how we can help you reach your full potential."
-          whatToLearnText="  Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Cupiditate adipisci fuga nam veniam
-        perferendis,
-         quidem recusandae cum voluptatem
-        debitis. Enim omnis illum laboriosam dolorem blanditiis neque
-        repellat voluptas! Enim, autem?"
+Whether you are just starting out in your career or looking to enhance your skills, Florintech Computer College can help you achieve your goals. Contact us today to learn more about our AutoCAD Specialist program and how we can help you reach your full potential."
           courseOutline={["Autocad 2D", "Autocad 3D"]}
-          secondImageText="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Harum reiciendis cupiditate asperiores nulla hic quidem ab,
-        voluptatem voluptatibus accusamus ea est eum soluta maiores
-        deleniti ratione laudantium. Modi, sequi quasi."
-          coursePrice="100,000"
-          courseDuration="4 months"
+          coursePrice="50000"
+          courseDuration="2 months"
         />
       </Box>
     </div>

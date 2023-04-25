@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import images from "../../Components/images.json";
+
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -44,8 +44,8 @@ If you are interested in pursuing a career in electronic accounting, Florintech 
             "Introductions Peach tree Accounting",
             "Internet Essentials",
           ]}
-          courseDuration="4 months"
           coursePrice="50,000"
+          courseDuration="4 months"
         />
       </Box>
     </div>

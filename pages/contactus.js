@@ -88,7 +88,7 @@ function Contactus() {
         </Box>
       </Flex>
       <Flex
-        flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
+        // flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
         className="icon-container"
       >
         <Link legacyBehavior href="/">

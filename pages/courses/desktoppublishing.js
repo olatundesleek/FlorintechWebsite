@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import images from "../../Components/images.json";
+
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -10,7 +10,6 @@ function desktoppublishing() {
     <Box>
       <Header />
       <Singlecourse
-        courseDuration="3 months"
         courseTitle=" Desktop Publishing"
         courseImage={courseImages.advanceddesktoppublishing}
         aboutCourseText="Welcome to Florintech Computer College's page on desktop publishing! In today's world, creating professional-looking documents is an essential skill for businesses and individuals alike. Whether you're designing a brochure, creating a newsletter, or publishing a book, desktop publishing is the key to producing polished, visually appealing documents.
@@ -35,6 +34,7 @@ In conclusion, desktop publishing is an essential skill for anyone looking to cr
           "Internet Essentials",
         ]}
         coursePrice="30,000"
+        courseDuration="3 months"
       />
     </Box>
   );

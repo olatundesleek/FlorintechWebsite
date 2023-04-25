@@ -13,7 +13,6 @@ const Singlecourse = ({
   //passed the below items as props
   coursePrice,
   courseTitle,
-
   courseImage,
   aboutCourseText,
   courseDuration,
@@ -64,11 +63,11 @@ const Singlecourse = ({
                   })}
                 </ul>
               </div>
-              <div className="join-class-container">
+              {/* <div className="join-class-container">
                 <Link legacyBehavior href="/register" className="join-class">
                   <a>Register Now </a>
                 </Link>
-              </div>
+              </div> */}
             </Box>
           </div>
           {/* the right side of the single page of the courses */}
@@ -78,18 +77,12 @@ const Singlecourse = ({
               <div className="about-teacher-title-sec">
                 Register for this Course
               </div>
-              {/* <div className="content">
-                Augue neque gravida in fermentum et sollicitudin ac orci. Velit
-                egestas dui id
-              </div> */}
 
               <div className="course-amount">
-                <span className="amount"> {coursePrice}Naira</span>
+                <span className="amount">{coursePrice}Naira</span>
               </div>
               <Link legacyBehavior href="/register">
-                <a>
-                  <button className="course-cart-button">Register Now </button>
-                </a>
+                <button className="course-cart-button">Register Now </button>
               </Link>
             </div>
             {/* the "what is include part of the single course page " */}

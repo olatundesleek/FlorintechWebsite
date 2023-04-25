@@ -9,6 +9,7 @@ import {
   RadioGroup,
   Stack,
 } from "@chakra-ui/react";
+
 import axios, { isCancel, AxiosError } from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 import { ToastContainer, toast } from "react-toastify";
@@ -16,6 +17,8 @@ import Banner from "../Components/Banner";
 import Header from "../Components/Header";
 import { courseImages } from "../Components/images";
 import Footer from "../Components/Footer";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 import { useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -76,11 +79,9 @@ function Register() {
     bodyContent.append("session", inputs.session);
     bodyContent.append("recaptcharesponse", inputs.recaptcharesponse);
 
-  
     fetch("https://florintechcomputercollege.com/api/api_register.php", {
       method: "POST",
       body: bodyContent,
-    
     })
       .then((data) => {
         return data.json();
@@ -114,6 +115,18 @@ function Register() {
   };
   return (
     <Box>
+      <DefaultSeo
+        title="Register | Florintech computer college"
+        description="This is an online registeration page for new florintech computer college students"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/register/",
+          title: "Florintech Online Registeration",
+          description: "Florintech Online Registeration",
+
+          siteName: "Florintech Computer College",
+        }}
+        {...SEO}
+      />
       <Header />
       <Banner
         pageName="Register"
@@ -153,7 +166,7 @@ function Register() {
                   color="white"
                   placeholder="Enter your Firstname"
                   name="firstname"
-                  _placeholder={{ color: 'white' }}
+                  _placeholder={{ color: "white" }}
                   value={inputs.firstname}
                   required
                   onChange={handleChange}
@@ -164,7 +177,7 @@ function Register() {
                   color="white"
                   required
                   name="lastname"
-                  _placeholder={{ color: 'white' }}
+                  _placeholder={{ color: "white" }}
                   value={inputs.lastname}
                   onChange={handleChange}
                 />
@@ -172,7 +185,7 @@ function Register() {
                   required
                   color="white"
                   placeholder="Phone number"
-                  _placeholder={{ color: 'white' }}
+                  _placeholder={{ color: "white" }}
                   name="phonenumber"
                   value={inputs.number}
                   onChange={handleChange}
@@ -181,7 +194,7 @@ function Register() {
                   color="white"
                   placeholder="Enter your Email"
                   name="email"
-                  _placeholder={{ color: 'white' }}
+                  _placeholder={{ color: "white" }}
                   value={inputs.email}
                   onChange={handleChange}
                 />
@@ -258,7 +271,7 @@ function Register() {
                         onChange={handleSelected}
                         checked={selected === "Evening(5;30pm"}
                       >
-                        Evening(5;30pm-7pm)
+                        Evening(5:30pm-7pm)
                       </Radio>
                     </Stack>
                   </RadioGroup>

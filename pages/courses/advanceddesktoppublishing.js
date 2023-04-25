@@ -30,8 +30,8 @@ So why wait? Sign up for our Advanced Desktop Publishing program today and take 
           "Adobe Photoshop",
           "ADV CorelL Draw",
         ]}
-        courseDuration="4 months"
         coursePrice="35,000"
+        courseDuration="4 months"
       />
     </Box>
   );
