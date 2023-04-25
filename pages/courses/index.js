@@ -119,7 +119,7 @@ Becoming an AutoCAD specialist can open up a world of opportunities in various i
 
 At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications. Our program covers topics such as:
 ."
-            courseTitle="AutoCad Specialist Course"
+            courseTitle="AutoCad Specialist"
             courseImage={courseImages.databaseadministration}
             price="50000"
           />
@@ -143,7 +143,7 @@ Our Advanced Desktop Publishing program is ideal for both beginners and professi
 Upon completion of our program, you'll be awarded a Advanced Desktop Publishing certification from Florintech Computer College. This certification is recognized worldwide and is a testament to your skills and knowledge in the field of desktop publishing. Our certification is also a great way to enhance your resume and increase your job prospects in the competitive job market."
             courseTitle="Advanced Desktop Publishing"
             courseImage={courseImages.computerprogramming}
-            price="70000"
+            price="35000"
           />
         </Flex>
         <Flex
@@ -163,7 +163,7 @@ Whether you're looking to start a career in digital media or web development, or
 We offer a range of programs and courses to suit your needs, including flexible scheduling options to fit your busy lifestyle."
             courseTitle="Digital Media And Web Development"
             courseImage={courseImages.digitalmedia}
-            price="30000"
+            price="70000"
           />
         </Flex>
         <Flex

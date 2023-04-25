@@ -30,7 +30,7 @@ At Florintech Computer College, we are committed to providing the best education
           "Microsoft Office Packages",
           "Ddobe pagemaker",
           "Corel Draw",
-          "Introduction tO Peachtree accounting",
+          "Introduction to Peachtree accounting",
           "Internet Essentails",
         ]}
         courseDuration="4 months"
