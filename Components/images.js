@@ -7,7 +7,7 @@ export const courseImages = {
 
   autocadspecialist: "/images/autocadspecialist.jpg",
 
-  businesselectronicaccounting: "/images/businesselectronicaccounting.jpg",
+  businesselectronicaccounting: "/images/electronicsbusiness.jpg",
 
   computernetworking: "/images/computernetworking.jpg",
 
@@ -17,7 +17,8 @@ export const courseImages = {
 
   officeapplication: "/images/officeapplication.jpg",
 
-  digitalmedia: "/images/digitalmedia.jpg",
+  digitalmedia: "/images/dg.jpg",
+  officemgt: "/images/officemgt.jpg",
 
   computersecurity: "/images/computersecurity.jpg",
 
@@ -25,4 +26,6 @@ export const courseImages = {
 
   graphics: "/images/graphic-pic.jpg",
   advanceddesktoppublishing: "/images/advanceddesktoppublishing.jpg",
+  autocad: "/images/autocad.jpg",
+  digitalandwebdev2: "/images/digitalandwebdev2.jpg",
 };

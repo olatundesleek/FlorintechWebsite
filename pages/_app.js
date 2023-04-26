@@ -2,9 +2,11 @@ import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import "../styles/globals.css";
 export const appContext = React.createContext(false);
-let isHamburgerActive = false;
+
 import { extendTheme } from "@chakra-ui/react";
-import { ToastContainer, toast } from "react-toastify";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
+import { MessengerChat } from "react-messenger-chat-plugin";
 const theme = extendTheme({
   colors: {
     primary: {
@@ -30,6 +32,18 @@ function MyApp({ Component, pageProps }) {
   return (
     // <appContext.Provider>
     <ChakraProvider theme={theme}>
+      <DefaultSeo {...SEO} />
+      <MessengerChat
+        pageId="575806952943547"
+        language="sv_SE"
+        themeColor={"#000000"}
+        bottomSpacing={300}
+        loggedInGreeting="loggedInGreeting"
+        loggedOutGreeting="loggedOutGreeting"
+        greetingDialogDisplay={"show"}
+        debugMode={true}
+      />
+      ,
       <Component {...pageProps} />
     </ChakraProvider>
     // </appContext.Provider>

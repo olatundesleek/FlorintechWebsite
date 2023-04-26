@@ -8,7 +8,7 @@ import Banner from "../Components/Banner";
 import Image from "next/image";
 function Aboutus() {
   return (
-    <Box>
+    <Box className="about-container-overall">
       <Head>
         <title>About Us | Florintech Computer College</title>
         <meta
@@ -35,17 +35,13 @@ function Aboutus() {
         </p>
         <p style={{ fontSize: "19px" }}>
           we understand that many of our students have busy lives outside of
-          school. That is why we offer flexible scheduling options, including
-          online courses and evening classes, to accommodate a variety of
-          lifestyles. We also offer personalized academic advising, tutoring
-          services, and career counseling to help students stay on track and
-          achieve their goals. In addition to our academic programs, Florintech
-          College offers a range of extracurricular activities and clubs,
-          including student government, athletics, and community service
-          projects. These activities provide students with opportunities to
-          build their leadership skills, make new friends, and give back to
-          their communities. We are proud of our diverse student body, which
-          includes students from all walks of life and backgrounds.
+          school. In addition to our academic programs, Florintech College
+          offers a range of extracurricular activities and clubs, including
+          student government, athletics, and community service projects. These
+          activities provide students with opportunities to build their
+          leadership skills, make new friends, and give back to their
+          communities. We are proud of our diverse student body, which includes
+          students from all walks of life and backgrounds.
         </p>
       </Box>
       <Box className="about-container">
@@ -90,6 +86,7 @@ function Aboutus() {
       {/* end of the about page  and begin the award */}
       <Flex
         justifyContent="center"
+        alignItems="center"
         flexWrap="wrap"
         flexDirection={{
           base: "row",
@@ -97,6 +94,7 @@ function Aboutus() {
           md: "row",
           lg: "row",
         }}
+        className="card-content-card"
       >
         <Box className="award__class">
           <h2>45</h2>

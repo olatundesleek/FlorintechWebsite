@@ -15,9 +15,33 @@ import Header from "../Components/Header";
 import NewsLetter from "../Components/NewsLetter";
 import Testimonial from "../Components/Testimonial/Testimonial";
 import Footer from "../Components/Footer";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
+import { useState } from "react";
 export default function Home() {
   return (
     <div className={styles.container}>
+      <DefaultSeo
+        title="Homepage | Florintech computer college"
+        description="Welcome to Florintech Computer College"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/",
+          title: "Florintech Online Registeration",
+          description: "Florintech Online Registeration",
+
+          siteName: "Florintech Computer College",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/logo.png",
+              width: 800,
+              height: 600,
+              alt: "Florintech Comuter College",
+              type: "image/jpeg",
+            },
+          ],
+        }}
+        {...SEO}
+      />
       <Head>
         <title>Homepage | Florintech Computer College</title>
         <meta

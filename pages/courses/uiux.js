@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import images from "../../Components/images.json";
+
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -12,7 +12,6 @@ const UIUX = () => {
         <Header />
         <Singlecourse
           courseTitle="UI/UX"
-         
           courseImage={courseImages.ux}
           aboutCourseText=" Welcome to Florintech Computer College, where we are dedicated to providing our students with the best education in the fields of UI/UX design. Our comprehensive curriculum is designed to equip students with the knowledge, skills, and tools they need to succeed in the ever-evolving world of design.
 
@@ -27,11 +26,9 @@ At Florintech, we believe in providing a holistic learning experience. That's wh
 So why choose Florintech Computer College for your UI/UX education? With our expert instructors, comprehensive curriculum, and hands-on approach to learning, we are confident that we can help you achieve your goals and set you on the path to success in the exciting field of UI/UX design.
 
 Enroll now and take the first step towards a rewarding career in UI/UX design!"
-         
           courseOutline={["Figma", "Adobe xd", "Adobe Illustrator"]}
-          
-          courseDuration="6 months"
           coursePrice="70,000"
+          courseDuration="6 months"
         />
       </Box>
     </div>

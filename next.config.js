@@ -9,11 +9,11 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  trailingSlash: true,
   images: {
-    unoptimized: false,
-  }
-  // ,
-  // output: 'export',
-}
+    unoptimized: true,
+  },
+  output: "export",
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

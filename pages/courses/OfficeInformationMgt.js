@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import images from "../../Components/images.json";
+
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -11,7 +11,7 @@ function OfficeInformationMgt() {
       <Header />
       <Singlecourse
         courseTitle="Office Information Management"
-        courseImage={courseImages.officeapplication}
+        courseImage={courseImages.officemgt}
         aboutCourseText=" Welcome to our website dedicated to Office Information Management, where we explore the importance of efficient information management in the workplace, and how it can be achieved using modern technologies and strategies. In this page, we will specifically highlight the benefits of Office Information Management for Florintech Computer College.
 
 At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students.
@@ -30,7 +30,7 @@ At Florintech Computer College, we are committed to providing the best education
           "Microsoft Office Packages",
           "Ddobe pagemaker",
           "Corel Draw",
-          "Introduction tO Peachtree accounting",
+          "Introduction to Peachtree accounting",
           "Internet Essentails",
         ]}
         courseDuration="4 months"

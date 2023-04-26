@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import images from "../../Components/images.json";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -8,13 +9,31 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function webdevelopment() {
   return (
     <Box>
+      <DefaultSeo
+        title="Web Development | Florintech computer college"
+        description="learn web development at Florintech Computer College"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/courses/webdevelopment/",
+          title: "Web Development | Florintech computer college",
+          description: "learn web development at Florintech Computer College",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/webdevelopment.jpg",
+              width: 800,
+              height: 600,
+              alt: "web development",
+              type: "image/jpeg",
+            },
+          ],
+          siteName: "Florintech Computer College",
+        }}
+        {...SEO}
+      />
       <Header />
       <Singlecourse
         courseTitle="website Development"
-        courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
         courseImage={courseImages.webdevelopment}
         aboutCourseText="Welcome to Florintech Computer College's Web Development program!
-
         In today's digital age, having a website has become a necessity for businesses and individuals alike. A website not only allows you to reach a wider audience, but it also helps establish credibility and trust with potential customers.
         
         Our Web Development program is designed to equip students with the skills and knowledge necessary to create professional and functional websites. We cover a wide range of topics, including HTML, CSS, JavaScript, and web design principles.
@@ -26,8 +45,6 @@ function webdevelopment() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web development. We offer flexible class schedules to accommodate your busy lifestyle.
         
         Enroll now and start building your future in web development with Florintech Computer College!"
-        courseDuration="4 months"
-        coursePrice="#50,000"
         courseOutline={[
           "HTML5.",
           "CSS",
@@ -36,6 +53,8 @@ function webdevelopment() {
           "JQuery.",
           "Introduction to content management system(CMS).",
         ]}
+        coursePrice="#50,000"
+        courseDuration="4 months"
       />
     </Box>
   );
