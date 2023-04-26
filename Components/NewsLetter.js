@@ -1,10 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box, Button, Flex, Text, But, textDecoration } from "@chakra-ui/react";
 import { BsPlayCircle } from "react-icons/bs";
 import { BiEnvelope } from "react-icons/bi";
 import Link from "next/link";
-
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+const url =
+  "https://florintechcomputercollege.us11.list-manage.com/subscribe/post?u=4944c00554cd45873e202b0ae&amp;id=95058db00b&amp;f_id=001896e0f0";
 const NewsLetter = () => {
+  const SimpleForm = () => <MailchimpSubscribe url={url} />;
+  // const [userEmail, setuserEmail] = useState("");
+  // const [subscribeMessage, setsubscribeMessage] = useState("");
+  // let bodyContent = new FormData();
+  // const handleChange = (e) => {
+  //   setuserEmail(e.target.value);
+  //   console.log(userEmail);
+
+  //   bodyContent.append("email", e.target.value);
+  // };
+
+  //
+  // const subscribe = () => {
+  //   fetch(url, {
+  //     method: "POST",
+  //     body: bodyContent,
+  //   })
+  //     .then((data) => {
+  //       return data.json();
+  //     })
+  //     .then((msg) => {
+  //       console.log(msg);
+  //     });
+  // };
   return (
     <>
       <Box>
@@ -46,13 +72,17 @@ const NewsLetter = () => {
                 </Text>
               </Box>
             </Flex>
+            {/* {subscribeMessage} */}
             <input
               type="email"
               name=""
+              // onChange={handleChange}
               placeholder="Enter Your Email"
               className="newsletter-input"
               required
             />
+            {/* <Button onClick={subscribe}>Subscribe</Button> */}
+            <SimpleForm onSubmitted={(formData) => subscribe(formData)} />
           </Box>
         </Flex>
       </Box>
