@@ -1,16 +1,40 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import { courseImages } from "../../Components/images";
-
+import SEO from "../../next-seo.config";
+import { DefaultSeo } from "next-seo";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
 function advancedDeskTopPublishing() {
   return (
     <Box>
+      <DefaultSeo
+        title="Advanced DeskTop Publishing| Florintech computer college"
+        description="At Florintech Computer College, we offer a comprehensive training program that covers all aspects of desktop publishing. Our program includes in-depth training on industry-standard software applications such as Adobe InDesign, Adobe Illustrator, and Adobe Photoshop. You'll learn how to create and design professional-grade documents, layouts, and graphics that meet the highest industry standards.
+
+Our Advanced Desktop Publishing program is ideal for both beginners and professionals looking to enhance their skills."
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/courses/advanceddesktoppublishing/",
+          title: "Advanced DeskTop Publishing| Florintech computer college",
+          description:
+            " At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications.",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/advanceddesktoppublishing.jpg",
+              width: 800,
+              height: 600,
+              alt: "advancedDeskTopPublishing",
+              type: "image/jpeg",
+            },
+          ],
+          siteName: "Florintech Computer College",
+        }}
+        {...SEO}
+      />
       <Header />
       <Singlecourse
-        courseTitle="Advanced Desktop Publishing "
+        courseTitle="Advanced Desktop Publishing"
         courseImage={courseImages.advanceddesktoppublishing}
         aboutCourseText="Welcome to Florintech Computer College, your one-stop solution for professional desktop publishing training and certification. Our Advanced Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing.
 
