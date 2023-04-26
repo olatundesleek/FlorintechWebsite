@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
         greetingDialogDisplay={"show"}
         debugMode={true}
       />
-      ,
+      
       <Component {...pageProps} />
     </ChakraProvider>
     // </appContext.Provider>

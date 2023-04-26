@@ -54,34 +54,26 @@ const NewsLetter = () => {
               </Text>
             </Box>
           </Flex>
-          <Box
-            className="course-message"
+          <Box 
+            className="course-message newsletter"
             boxShadow="md"
             rounded="md"
             bg="white"
           >
-            <Flex m={5} className="join-message">
+            <Flex m={2} className="join-message">
               <Box>
                 <BiEnvelope fontSize={20} className="newsletter-icons" />
               </Box>
               <Box className="browse-title" ml={10}>
                 <h1>Join our email newsletter</h1>
-                <Text fontSize="xl" className="browse-text-text">
+                <Text fontSize="15px" className="browse-text-text">
                   subscribe to our newsletter to receive exciting mails about
                   promos and offers
                 </Text>
               </Box>
             </Flex>
-            {/* {subscribeMessage} */}
-            <input
-              type="email"
-              name=""
-              // onChange={handleChange}
-              placeholder="Enter Your Email"
-              className="newsletter-input"
-              required
-            />
-            {/* <Button onClick={subscribe}>Subscribe</Button> */}
+           
+          
             <SimpleForm onSubmitted={(formData) => subscribe(formData)} />
           </Box>
         </Flex>
