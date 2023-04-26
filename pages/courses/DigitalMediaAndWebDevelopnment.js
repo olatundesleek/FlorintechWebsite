@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -8,6 +9,28 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function DigitalMediaAndWebDevelopnment() {
   return (
     <Box>
+      <DefaultSeo
+        title="Digital Media And Web Developnment | Florintech computer college"
+        description="At Florintech Computer College, we understand the importance of staying up-to-date with the latest trends and advancements in technology. That's why we offer a comprehensive range of courses in digital media and web development, designed to equip you with the skills and knowledge you need to succeed in this ever-evolving field"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/courses/digitalmediaandwebdevelopnment/",
+          title:
+            "Digital Media And WebDevelopnment | Florintech computer college",
+          description:
+            " At Florintech Computer College, we understand the importance of staying up-to-date with the latest trends and advancements in technology. That's why we offer a comprehensive range of courses in digital media and web development, designed to equip you with the skills and knowledge you need to succeed in this ever-evolving field.",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/digitalandwebdev2.jpg",
+              width: 800,
+              height: 600,
+              alt: "digitalandwebdevelopnment",
+              type: "image/jpeg",
+            },
+          ],
+          siteName: "Florintech Computer College",
+        }}
+        {...SEO}
+      />
       <Header />
       <Singlecourse
         courseTitle=" Digital Media And Web Development"

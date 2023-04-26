@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -9,6 +10,27 @@ const UIUX = () => {
   return (
     <div>
       <Box>
+        <DefaultSeo
+          title="Ui/Ux | Florintech computer college"
+          description=" At florintech computer college we ensure that our students have a solid foundation in all aspects of UI/UX design"
+          openGraph={{
+            url: "https://www.florintechcomputercollege.com/courses/uiux/",
+            title: "Ui/Ux | Florintech computer college",
+            description:
+              " At florintech computer college we ensure that our students have a solid foundation in all aspects of UI/UX design.",
+            images: [
+              {
+                url: "https://www.florintechcomputercollege.com/images/uiux.jpg",
+                width: 800,
+                height: 600,
+                alt: "ui/ux",
+                type: "image/jpeg",
+              },
+            ],
+            siteName: "Florintech Computer College",
+          }}
+          {...SEO}
+        />
         <Header />
         <Singlecourse
           courseTitle="UI/UX"

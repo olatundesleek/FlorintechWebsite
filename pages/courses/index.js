@@ -1,5 +1,7 @@
 import { Box, Text, Grid } from "@chakra-ui/react";
 import React from "react";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 import CourseTab from "../../Components/Coursetab/CourseTab";
 import Header from "../../Components/Header";
 import { courseImages } from "../../Components/images";
@@ -10,6 +12,28 @@ import Footer from "../../Components/Footer";
 function index() {
   return (
     <Box>
+      <DefaultSeo
+        title="Courses | Florintech computer college"
+        description="pick from a list of courses to register at florintech computer college"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/courses/",
+          title: "Courses | Florintech Online Registeration",
+          description:
+            "pick from a list of courses to register at florintech computer college",
+
+          siteName: "Florintech Computer College",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/logo.jpg",
+              width: 800,
+              height: 600,
+              alt: "Florintech Comuter College",
+              type: "image/png",
+            },
+          ],
+        }}
+        {...SEO}
+      />
       <Header />
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">

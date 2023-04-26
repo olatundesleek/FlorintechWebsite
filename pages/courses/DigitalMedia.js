@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -9,6 +10,27 @@ const DigitalMedia = () => {
   return (
     <div>
       <Box>
+        <DefaultSeo
+          title="  Digital Media| Florintech computer college"
+          description=" At Florintech Computer College, we offer a wide range of courses that cover all the major office applications."
+          openGraph={{
+            url: "https://www.florintechcomputercollege.com/courses/digitalmedia/",
+            title: " Digital Media | Florintech computer college",
+            description:
+              " At Florintech Computer College, we offer a wide range of courses that cover all the major office applications.",
+            images: [
+              {
+                url: "https://www.florintechcomputercollege.com/images/dg.jpg",
+                width: 800,
+                height: 600,
+                alt: "digitalmedia",
+                type: "image/jpeg",
+              },
+            ],
+            siteName: "Florintech Computer College",
+          }}
+          {...SEO}
+        />
         <Header />
         <Singlecourse
           courseTitle="Ultimate Digital Media Course"
