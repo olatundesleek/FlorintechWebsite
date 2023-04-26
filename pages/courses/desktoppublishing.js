@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -8,6 +9,27 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function desktoppublishing() {
   return (
     <Box>
+      <DefaultSeo
+        title="Desktop Publishing| Florintech computer college"
+        description="At Florintech Computer College, we offer comprehensive courses on desktop publishing that cover everything from basic concepts to advanced techniques. Our courses are designed to teach students how to use desktop publishing software to create professional documents with ease and efficiency. We provide hands-on training using the latest software tools and techniques, so you can gain practical experience in the field."
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/courses/desktoppublishing/",
+          title: "Desktop Publishing | Florintech computer college",
+          description:
+            " At Florintech Computer College, we offer comprehensive courses on desktop publishing that cover everything from basic concepts to advanced techniques. Our courses are designed to teach students how to use desktop publishing software to create professional documents with ease and efficiency. We provide hands-on training using the latest software tools and techniques, so you can gain practical experience in the field.",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/DesktopPublishing.jpg",
+              width: 800,
+              height: 600,
+              alt: "DesktopPublishing",
+              type: "image/jpeg",
+            },
+          ],
+          siteName: "Florintech Computer College",
+        }}
+        {...SEO}
+      />
       <Header />
       <Singlecourse
         courseTitle=" Desktop Publishing"

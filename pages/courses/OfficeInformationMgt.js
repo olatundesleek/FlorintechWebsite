@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
@@ -8,6 +9,27 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function OfficeInformationMgt() {
   return (
     <Box>
+      <DefaultSeo
+        title="Office Information Managnment | Florintech computer college"
+        description=" At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/courses/officeinformationmgt/",
+          title: "Office information managnment | Florintech computer college",
+          description:
+            " At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students.",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/officemgt.jpg",
+              width: 800,
+              height: 600,
+              alt: "officemgt",
+              type: "image/jpeg",
+            },
+          ],
+          siteName: "Florintech Computer College",
+        }}
+        {...SEO}
+      />
       <Header />
       <Singlecourse
         courseTitle="Office Information Management"
