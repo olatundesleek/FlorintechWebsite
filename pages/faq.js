@@ -14,7 +14,7 @@ const faq = () => {
         <title>Faq | Florintech Computer College</title>
         <meta
           name="courses"
-          content="you can select from our wide range of courses"
+          content="Frequently asked Questions"
         />
         <link rel="icon" href="/favicon.png" />
       </Head>

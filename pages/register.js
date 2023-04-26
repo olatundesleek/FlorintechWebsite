@@ -125,7 +125,7 @@ function Register() {
 
           siteName: "Florintech Computer College",
         }}
-        {...SEO}
+       
       />
       <Header />
       <Banner

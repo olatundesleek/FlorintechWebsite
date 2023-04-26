@@ -10,7 +10,7 @@ const UIUX = () => {
   return (
     <div>
       <Box>
-        <DefaultSeo
+        <DefaultSeo    {...SEO}
           title="Ui/Ux | Florintech computer college"
           description=" At florintech computer college we ensure that our students have a solid foundation in all aspects of UI/UX design"
           openGraph={{
@@ -29,7 +29,7 @@ const UIUX = () => {
             ],
             siteName: "Florintech Computer College",
           }}
-          {...SEO}
+         
         />
         <Header />
         <Singlecourse

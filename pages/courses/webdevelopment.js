@@ -9,7 +9,7 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function webdevelopment() {
   return (
     <Box>
-      <DefaultSeo
+      <DefaultSeo  {...SEO}
         title="Web Development | Florintech computer college"
         description="learn web development at Florintech Computer College"
         openGraph={{
@@ -27,7 +27,7 @@ function webdevelopment() {
           ],
           siteName: "Florintech Computer College",
         }}
-        {...SEO}
+       
       />
       <Header />
       <Singlecourse

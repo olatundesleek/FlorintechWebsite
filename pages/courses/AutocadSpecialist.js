@@ -11,7 +11,7 @@ const AutoCadSpecialist = () => {
   return (
     <div>
       <Box>
-        <DefaultSeo
+        <DefaultSeo   {...SEO}
           title="AutoCad Specialist| Florintech computer college"
           description="At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications."
           openGraph={{
@@ -30,7 +30,7 @@ const AutoCadSpecialist = () => {
             ],
             siteName: "Florintech Computer College",
           }}
-          {...SEO}
+        
         />
         <Header />
         <Singlecourse

@@ -10,7 +10,7 @@ const DigitalMedia = () => {
   return (
     <div>
       <Box>
-        <DefaultSeo
+        <DefaultSeo {...SEO}
           title="  Digital Media| Florintech computer college"
           description=" At Florintech Computer College, we offer a wide range of courses that cover all the major office applications."
           openGraph={{
@@ -29,7 +29,7 @@ const DigitalMedia = () => {
             ],
             siteName: "Florintech Computer College",
           }}
-          {...SEO}
+          
         />
         <Header />
         <Singlecourse

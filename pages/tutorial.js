@@ -5,10 +5,23 @@ import TutorialCard from "../Components/TutorialCard";
 import Footer from "../Components/Footer";
 import { videoCon } from "../Components/TutorialData";
 import Banner from "../Components/Banner";
+import { DefaultSeo } from "next-seo";
 
 const Tutorial = () => {
   return (
     <Box>
+       <DefaultSeo
+        title="Tutorial | Florintech computer college"
+        description="This is free tutorial page for florintech computer college"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/tutorial/",
+          title: "Tutorial | Florintech Computer College",
+          description: "Florintech tutorial page",
+
+          siteName: "Florintech Computer College",
+        }}
+       
+      />
       <Header />
       <Box className="wrapper-video">
         <Banner pageName="Tutorial" pageDetails="learn something new today" />

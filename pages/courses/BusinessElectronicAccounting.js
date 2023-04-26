@@ -10,7 +10,7 @@ const BusinessElectronicAccounting = () => {
   return (
     <div>
       <Box>
-        <DefaultSeo
+        <DefaultSeo {...SEO}
           title="Business Electronic Accounting| Florintech computer college"
           description="Our business management courses cover the principles of business management, including strategic planning, marketing, and project management."
           openGraph={{
@@ -30,7 +30,7 @@ const BusinessElectronicAccounting = () => {
             ],
             siteName: "Florintech Computer College",
           }}
-          {...SEO}
+          
         />
         <Header />
         <Singlecourse

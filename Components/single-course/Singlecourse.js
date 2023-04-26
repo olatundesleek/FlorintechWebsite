@@ -63,14 +63,10 @@ const Singlecourse = ({
                   })}
                 </ul>
               </div>
-              {/* <div className="join-class-container">
-                <Link legacyBehavior href="/register" className="join-class">
-                  <a>Register Now </a>
-                </Link>
-              </div> */}
+           
             </Box>
           </div>
-          {/* the right side of the single page of the courses */}
+         
 
           <Box>
             <div className="single-course-content-two">

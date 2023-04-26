@@ -881,7 +881,7 @@ main {
   }
   .course-amount {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .course-amount .amount {
     font-size: 25px;
@@ -928,7 +928,7 @@ main {
   }
 
   .about-teacher-title-sec {
-    font-size: 2rem !important;
+    font-size: 1rem !important;
     color: #1d2b5f !important;
     font-weight: bold;
     font-family: Manrope, sans-serif !important;
