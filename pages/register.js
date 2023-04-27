@@ -18,7 +18,6 @@ import Header from "../Components/Header";
 import { courseImages } from "../Components/images";
 import Footer from "../Components/Footer";
 import { DefaultSeo } from "next-seo";
-import SEO from "../next-seo.config";
 import { useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
 
