@@ -6,6 +6,7 @@ import Footer from "../Components/Footer";
 import { videoCon } from "../Components/TutorialData";
 import Banner from "../Components/Banner";
 import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 
 const Tutorial = () => {
   return (
