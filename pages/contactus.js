@@ -9,6 +9,8 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { GrLocation } from "react-icons/gr";
 import Link from "next/link";
 import Banner from "../Components/Banner";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 function Contactus() {
   const [getDays, setGetDays] = useState();
 
@@ -25,6 +27,27 @@ function Contactus() {
 
   return (
     <Box className="contactus">
+        <DefaultSeo
+        title="Contact Us | Florintech computer college"
+        description="Florintech Computer College Contact us Page"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/",
+          title: "Contact Us | Florintech Computer College",
+          description: "Florintech Computer College Contact us Page",
+
+          siteName: "Florintech Computer College",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/logo.jpg",
+              width: 800,
+              height: 600,
+              alt: "Florintech Comuter College",
+              type: "image/jpeg",
+            },
+          ],
+        }}
+        {...SEO}
+      />
       <Header />
       <Banner pageName="Contact us" pageDetails="contact us today" />
 

@@ -6,9 +6,31 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import Banner from "../Components/Banner";
 import Image from "next/image";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 function Aboutus() {
   return (
     <Box className="about-container-overall">
+       <DefaultSeo
+        title="About Us | Florintech computer college"
+        description="Florintech Computer College about us Page"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/",
+          title: "About Us | Florintech Computer College",
+          description: "Florintech Computer College Contact us Page",
+
+          siteName: "Florintech Computer College",
+          images: [
+            {
+              url: "https://www.florintechcomputercollege.com/images/logo.jpg",
+              width: 800,
+              height: 600,
+              alt: "Florintech Comuter College",
+              type: "image/jpeg",
+            },
+          ],
+        }}
+        {...SEO} />
       <Head>
         <title>About Us | Florintech Computer College</title>
         <meta

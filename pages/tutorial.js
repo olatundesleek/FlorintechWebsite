@@ -16,12 +16,12 @@ const Tutorial = () => {
         openGraph={{
           url: "https://www.florintechcomputercollege.com/tutorial/",
           title: "Tutorial | Florintech Computer College",
-          description: "Florintech tutorial page",
+          description: "This is a free tutorial page for florintech computer college",
 
           siteName: "Florintech Computer College",
         }}
        
-      />
+        {...SEO}   />
       <Header />
       <Box className="wrapper-video">
         <Banner pageName="Tutorial" pageDetails="learn something new today" />

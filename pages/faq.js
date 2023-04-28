@@ -6,10 +6,23 @@ import Faq from "../Components/Faq/Faq";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Banner from "../Components/Banner";
-
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 const faq = () => {
   return (
     <>
+     <DefaultSeo
+        title="FAQ | Florintech Computer College"
+        description="Frequently Asked Questions"
+        openGraph={{
+          url: "https://www.florintechcomputercollege.com/register/",
+          title: "FAQ | Florintech computer college",
+          description: "Frequently Asked Questions",
+
+          siteName: "Florintech Computer College",
+        }}
+       
+        {...SEO}  />
       <Head>
         <title>Faq | Florintech Computer College</title>
         <meta
