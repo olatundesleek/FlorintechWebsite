@@ -3,7 +3,7 @@ import Header from "../../Components/Header";
 import Verification from "../../Components/Verification";
 import Head from "next/head";
 import Footer from "../../Components/Footer";
-import SEO from "../next-seo.config";
+import SEO from "../../next-seo.config";
 import { DefaultSeo } from "next-seo";
 
 function Verifycertificate() {
