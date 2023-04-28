@@ -33,7 +33,7 @@ function desktoppublishing() {
       <Header />
       <Singlecourse
         courseTitle=" Desktop Publishing"
-        courseImage={courseImages.advanceddesktoppublishing}
+        courseImage={courseImages.desktoppublishing}
         aboutCourseText="Welcome to Florintech Computer College's page on desktop publishing! In today's world, creating professional-looking documents is an essential skill for businesses and individuals alike. Whether you're designing a brochure, creating a newsletter, or publishing a book, desktop publishing is the key to producing polished, visually appealing documents.
 
 At Florintech Computer College, we offer comprehensive courses on desktop publishing that cover everything from basic concepts to advanced techniques. Our courses are designed to teach students how to use desktop publishing software to create professional documents with ease and efficiency. We provide hands-on training using the latest software tools and techniques, so you can gain practical experience in the field.

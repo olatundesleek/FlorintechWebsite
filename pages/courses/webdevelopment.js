@@ -48,7 +48,7 @@ function webdevelopment() {
         courseOutline={[
           "HTML5.",
           "CSS",
-          "Javascripts.",
+          "Javascript.",
           "Bootstrap(css framework)",
           "JQuery.",
           "Introduction to content management system(CMS).",

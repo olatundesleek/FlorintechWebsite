@@ -50,7 +50,7 @@ At Florintech Computer College, we are committed to providing the best education
         courseOutline={[
           "computer Fundementals",
           "Microsoft Office Packages",
-          "Ddobe pagemaker",
+          "Adobe pagemaker",
           "Corel Draw",
           "Introduction to Peachtree accounting",
           "Internet Essentails",

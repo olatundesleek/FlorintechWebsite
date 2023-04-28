@@ -53,7 +53,7 @@ const Singlecourse = ({
               </div>
             </Box> */}
             <Box>
-              <h1 className="about-teacher-title-sec">What you’ll learn </h1>
+              <h1 className="about-teacher-title-sec">Course Outline </h1>
               <div className="last-text">
                 {/* <br /> */}
 

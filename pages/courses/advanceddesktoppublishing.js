@@ -48,11 +48,11 @@ Upon completion of our program, you'll be awarded a Advanced Desktop Publishing 
 
 So why wait? Sign up for our Advanced Desktop Publishing program today and take the first step towards a successful career in digital publishing. With Florintech Computer College, you'll gain the skills and knowledge you need to succeed in today's ever-evolving digital landscape!"
         courseOutline={[
-          "All Courses",
+          "All Courses in Desktop Publishing",
           "Powerpoint",
-          "Powerpoint",
-          "Adobe Photoshop",
-          "ADV CorelL Draw",
+          "ADV Corel Draw",
+          "Adobe Photoshop"
+         
         ]}
         coursePrice="35,000"
         courseDuration="4 months"
