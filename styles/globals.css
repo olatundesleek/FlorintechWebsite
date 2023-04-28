@@ -80,15 +80,23 @@ a {
 .advantage p {
   font-size: 20px;
 }
-.advantage .writecopy {
-  padding: 30px;
+@media screen and (max-width: 500px) {
+  .advantage p {
+    line-height: 2;
+    font-size: 16px;
+  }
 }
-.advantage .writecopy p {
+.advantage .writecopy {
+  padding: 10px;
+}
+.advantage .writecopy h1 {
+  font-size: 20px;
   line-height: 2;
 }
 @media screen and (max-width: 500px) {
-  .advantage .writecopy p {
+  .advantage .writecopy h1 {
     line-height: 2;
+    font-size: 16px;
   }
 }
 .advantage .why {
@@ -126,6 +134,11 @@ a {
 }
 .advantage-subtitle {
   font-size: 30px;
+}
+@media screen and (max-width: 500px) {
+  .advantage-subtitle {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 500px) {
   .advantage {
@@ -228,6 +241,11 @@ a {
 .trending-section h2 {
   font-size: 30px;
   padding: 0 20px;
+}
+@media screen and (max-width: 500px) {
+  .trending-section h2 {
+    font-size: 25px;
+  }
 }
 
 .footer {
@@ -412,7 +430,7 @@ a {
 }
 
 .course-text-left {
-  font-family: Manrope, sans-serif !important;
+  font-family: "Alegreya Sans", sans-serif;
   padding: 0 1rem 0 5rem;
   font-size: 3.8rem;
   font-weight: bold;
@@ -420,7 +438,7 @@ a {
 }
 
 .course-text-right {
-  font-family: Manrope, sans-serif !important;
+  font-family: "Alegreya Sans", sans-serif;
   width: 50%;
   color: #4b4e59;
   padding-right: 1rem;
@@ -432,7 +450,7 @@ a {
   width: 110px;
   padding: 2rem;
   color: #1d2b5f;
-  border: 1px solid #000;
+  border: 1px solid #083b6b;
   border-radius: 50%;
 }
 
@@ -448,31 +466,43 @@ a {
 }
 
 .browse-course {
-  width: 70%;
-  background-color: #083b6b;
+  background-color: #ffffff;
   color: #fff;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
 }
 
-.browse-title h1 {
-  font-size: 2rem;
-  font-family: Manrope, sans-serif !important;
+.browse-title {
+  padding: 0 30px;
+}
+.browse-title p {
+  color: #083b6b;
+  font-size: 18px;
+}
+@media screen and (max-width: 500px) {
+  .browse-title p {
+    font-size: 0.9rem !important;
+  }
+}
+.browse-title h2 {
+  font-size: 25px;
+  font-family: "Alegreya Sans", sans-serif;
   margin-bottom: 0.5rem;
+  color: #083b6b;
 }
 
 .browse-text {
-  font-family: Manrope, sans-serif !important;
+  font-family: "Alegreya Sans", sans-serif;
   margin-bottom: 3rem;
 }
 
 .browse-text-text {
-  font-family: Manrope, sans-serif !important;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 .browse-link {
   background-color: #fff;
-  font-family: Manrope, sans-serif !important;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 1.7rem;
   padding: 1rem 1.5rem;
   border-radius: 40px;
@@ -496,6 +526,10 @@ a {
   margin-left: 7rem;
   width: 70%;
   margin-bottom: 1.5rem;
+}
+
+.join-message {
+  padding: 0 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -533,6 +567,7 @@ a {
   }
   .browse-course {
     flex-wrap: wrap;
+    padding: 0 10px !important;
   }
   .browse-title h1 {
     font-size: 1rem;
@@ -544,6 +579,7 @@ a {
   .join-message {
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0px;
   }
   .newsletter-input {
     display: flex;
@@ -618,6 +654,7 @@ a {
 @media screen and (max-width: 500px) {
   .testimonial-slide h2 {
     padding: 5px;
+    font-size: 16px;
   }
 }
 
@@ -1669,14 +1706,20 @@ main {
 }
 
 .newsletter input {
-  border: 1px solid #000;
+  border: 1px solid #083b6b;
   padding: 0.5rem 1rem;
   border-radius: 50px;
   color: #1d2b5f !important;
   font-weight: bold;
   font-size: 1.5rem;
   margin: 20px 10px;
-  width: 70%;
+  flex: auto;
+}
+.newsletter input ::-moz-placeholder {
+  font-size: small;
+}
+.newsletter input ::placeholder {
+  font-size: small;
 }
 .newsletter button {
   background-color: #083b6b;
@@ -1684,6 +1727,13 @@ main {
   color: #ffffff;
 }
 
-.course-message > div:nth-child(2) > div:nth-child(1) {
+.course-message > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.course-message > div:nth-child(2) div:nth-child(1) {
   text-align: center;
 }/*# sourceMappingURL=globals.css.map */

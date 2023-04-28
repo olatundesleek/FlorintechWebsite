@@ -35,14 +35,13 @@ const NewsLetter = () => {
     <>
       <Box>
         <Flex
-          justify="between"
           align="center"
           m={{ base: 5, sm: 5, md: 3, lg: 3 }}
           className="course-container"
         >
-          <Flex m={0} padding={10} className="browse-course">
+          <Flex m={0} padding={10} className="browse-course" flex="auto">
             <Box className="browse-title">
-              <h1>Blog</h1>
+              <h2>Blog</h2>
               <Text fontSize="xl" className="browse-text">
                 visit our&nbsp;
                 <span style={{ textDecoration: "underline" }}>
@@ -54,28 +53,24 @@ const NewsLetter = () => {
               </Text>
             </Box>
           </Flex>
-          <Box 
-            className="course-message newsletter"
-            boxShadow="md"
-            rounded="md"
-            bg="white"
-          >
-            <Flex m={2} className="join-message">
-              <Box>
-                <BiEnvelope fontSize={20} className="newsletter-icons" />
-              </Box>
-              <Box className="browse-title" ml={10}>
-                <h1>Join our email newsletter</h1>
-                <Text fontSize="15px" className="browse-text-text">
-                  subscribe to our newsletter to receive exciting mails about
-                  promos and offers
-                </Text>
-              </Box>
-            </Flex>
-           
-          
-            <SimpleForm onSubmitted={(formData) => subscribe(formData)} />
-          </Box>
+          <Flex justifyContent="flex-end" flex="auto" alignContent="center">
+            <Box className="course-message newsletter" bg="white" flex="auto">
+              <Flex m={2} className="join-message">
+                <Box>
+                  <BiEnvelope fontSize={20} className="newsletter-icons" />
+                </Box>
+                <Box className="browse-title">
+                  <h2>Join our email newsletter</h2>
+                  <Text fontSize="15px" className="browse-text-text">
+                    subscribe to our newsletter to receive exciting mails about
+                    promos and offers
+                  </Text>
+                </Box>
+              </Flex>
+
+              <SimpleForm onSubmitted={(formData) => subscribe(formData)} />
+            </Box>
+          </Flex>
         </Flex>
       </Box>
     </>

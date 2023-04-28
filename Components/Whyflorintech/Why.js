@@ -6,13 +6,11 @@ import { HiOutlineVideoCamera } from "react-icons/hi";
 
 import { GrCertificate } from "react-icons/gr";
 
-
-
 function Why() {
   return (
     <Box className="advantage">
       <Box className="writecopy">
-        <p>
+        <h1>
           Florintech computer college is a leading computer school that offers
           computer training to businesses, individuals,institutions and
           organizations. It’s a computer training school located at
@@ -24,7 +22,7 @@ function Why() {
           development Office training Computer training amongst others. Still
           have some hesitations whether cooperation with us is worth the
           trouble? Check the benefits of choosing us among others.
-        </p>
+        </h1>
       </Box>
 
       <Box>
@@ -36,12 +34,26 @@ function Why() {
         </Flex>
         <Flex></Flex>
       </Box>
-      <Flex
-        flexDirection="column"
-        className="advantage_main"
-      >
-        <Flex className="left-content"  flexDirection={{ base: "column", sm: "column", md: "column",lg:"row" }}>
-          <Flex  className="advantage_lefttab" flex="50%" flexDirection={{ base: "column", sm: "column", md: "row",lg:"row" }}>
+      <Flex flexDirection="column" className="advantage_main">
+        <Flex
+          className="left-content"
+          flexDirection={{
+            base: "column",
+            sm: "column",
+            md: "column",
+            lg: "row",
+          }}
+        >
+          <Flex
+            className="advantage_lefttab"
+            flex="50%"
+            flexDirection={{
+              base: "column",
+              sm: "column",
+              md: "row",
+              lg: "row",
+            }}
+          >
             <Box>
               <GrWorkshop className="advantage_icon" />
             </Box>
@@ -57,7 +69,16 @@ function Why() {
               </p>
             </Box>
           </Flex>
-          <Flex  className="advantage_lefttab" flex="50%" flexDirection={{ base: "column", sm: "column", md: "row",lg:"row" }}>
+          <Flex
+            className="advantage_lefttab"
+            flex="50%"
+            flexDirection={{
+              base: "column",
+              sm: "column",
+              md: "row",
+              lg: "row",
+            }}
+          >
             <Box>
               <GrCertificate className="advantage_icon" />
             </Box>
@@ -75,8 +96,25 @@ function Why() {
             </Box>
           </Flex>
         </Flex>
-        <Flex className="right-content" flexDirection={{ base: "column", sm: "column", md: "column",lg:"row" }}>
-          <Flex   className="advantage_righttab" flex="50%" flexDirection={{ base: "column", sm: "column", md: "row",lg:"row" }}>
+        <Flex
+          className="right-content"
+          flexDirection={{
+            base: "column",
+            sm: "column",
+            md: "column",
+            lg: "row",
+          }}
+        >
+          <Flex
+            className="advantage_righttab"
+            flex="50%"
+            flexDirection={{
+              base: "column",
+              sm: "column",
+              md: "row",
+              lg: "row",
+            }}
+          >
             <Box>
               <HiOutlineTrendingUp className="advantage_icon" />
             </Box>
@@ -89,22 +127,30 @@ function Why() {
               </p>
             </Box>
           </Flex>
-          <Flex  className="advantage_righttab" flex="50%" flexDirection={{ base: "column", sm: "column", md: "row",lg:"row" }}>
+          <Flex
+            className="advantage_righttab"
+            flex="50%"
+            flexDirection={{
+              base: "column",
+              sm: "column",
+              md: "row",
+              lg: "row",
+            }}
+          >
             <Box>
               <HiOutlineVideoCamera className="advantage_icon" />
             </Box>
             <Box>
               <h2 className="advantage-subtitle">Video Lessons</h2>
               <p>
-               Get ready to be immersed into a world of video
-                guides, referencing and video practices.As this video lesson aid
-                in better understanding and visual retention of information.
+                Get ready to be immersed into a world of video guides,
+                referencing and video practices.As this video lesson aid in
+                better understanding and visual retention of information.
               </p>
             </Box>
           </Flex>
         </Flex>
       </Flex>
-   
     </Box>
   );
 }
