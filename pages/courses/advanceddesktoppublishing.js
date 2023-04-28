@@ -9,7 +9,7 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function advancedDeskTopPublishing() {
   return (
     <Box>
-      <DefaultSeo
+      <DefaultSeo  {...SEO}
         title="Advanced DeskTop Publishing| Florintech computer college"
         description="At Florintech Computer College, we offer a comprehensive training program that covers all aspects of desktop publishing. Our program includes in-depth training on industry-standard software applications such as Adobe InDesign, Adobe Illustrator, and Adobe Photoshop. You'll learn how to create and design professional-grade documents, layouts, and graphics that meet the highest industry standards.
 
@@ -30,7 +30,7 @@ Our Advanced Desktop Publishing program is ideal for both beginners and professi
           ],
           siteName: "Florintech Computer College",
         }}
-        {...SEO}
+       
       />
       <Header />
       <Singlecourse
@@ -48,11 +48,11 @@ Upon completion of our program, you'll be awarded a Advanced Desktop Publishing 
 
 So why wait? Sign up for our Advanced Desktop Publishing program today and take the first step towards a successful career in digital publishing. With Florintech Computer College, you'll gain the skills and knowledge you need to succeed in today's ever-evolving digital landscape!"
         courseOutline={[
-          "All Courses",
+          "All Courses in Desktop Publishing",
           "Powerpoint",
-          "Powerpoint",
-          "Adobe Photoshop",
-          "ADV CorelL Draw",
+          "ADV Corel Draw",
+          "Adobe Photoshop"
+         
         ]}
         coursePrice="35,000"
         courseDuration="4 months"

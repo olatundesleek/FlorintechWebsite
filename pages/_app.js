@@ -35,12 +35,12 @@ function MyApp({ Component, pageProps }) {
       <DefaultSeo {...SEO} />
       <MessengerChat
         pageId="575806952943547"
-        language="sv_SE"
-        themeColor={"#000000"}
-        bottomSpacing={300}
-        loggedInGreeting="loggedInGreeting"
-        loggedOutGreeting="loggedOutGreeting"
-        greetingDialogDisplay={"show"}
+        language="en_US"
+        themeColor={"#ffffff"}
+        bottomSpacing={100}
+        // loggedInGreeting="loggedInGreeting"
+        // loggedOutGreeting="loggedOutGreeting"
+        // greetingDialogDisplay={"show"}
         debugMode={true}
       />
       

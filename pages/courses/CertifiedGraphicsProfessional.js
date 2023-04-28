@@ -10,7 +10,7 @@ import { Link } from "next/link";
 function CertifiedGraphicsProfessional() {
   return (
     <Box>
-      <DefaultSeo
+      <DefaultSeo {...SEO}
         title="Certified Graphics Professional| Florintech computer college"
         description="Our Certified Graphics Professional program is just one example of how we are helping individuals develop the skills and knowledge needed to succeed in today's competitive job market.
 
@@ -32,7 +32,7 @@ If you are interested in pursuing a career in graphic design, we invite you to l
           ],
           siteName: "Florintech Computer College",
         }}
-        {...SEO}
+        
       />
       <Header />
       <Singlecourse

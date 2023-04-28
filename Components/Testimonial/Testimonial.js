@@ -45,8 +45,8 @@ function Testimonial() {
                     <Image
                       className="testimonial-image"
                       src={data.photo}
-                      width="150"
-                      height="150"
+                      width="80"
+                      height="80"
                     />
                   </Flex>
                   <h2 color="#ffffff">{data.name}</h2>

@@ -9,7 +9,7 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function OfficeInformationMgt() {
   return (
     <Box>
-      <DefaultSeo
+      <DefaultSeo    {...SEO}
         title="Office Information Managnment | Florintech computer college"
         description=" At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students"
         openGraph={{
@@ -28,7 +28,7 @@ function OfficeInformationMgt() {
           ],
           siteName: "Florintech Computer College",
         }}
-        {...SEO}
+     
       />
       <Header />
       <Singlecourse
@@ -50,7 +50,7 @@ At Florintech Computer College, we are committed to providing the best education
         courseOutline={[
           "computer Fundementals",
           "Microsoft Office Packages",
-          "Ddobe pagemaker",
+          "Adobe pagemaker",
           "Corel Draw",
           "Introduction to Peachtree accounting",
           "Internet Essentails",

@@ -11,6 +11,7 @@ const OfficeApplication = () => {
     <div>
       <Box>
         <DefaultSeo
+         {...SEO}
           title="Office Application | Florintech computer college"
           description=" At Florintech Computer College, we offer a wide range of courses that cover all the major office applications."
           openGraph={{
@@ -29,11 +30,11 @@ const OfficeApplication = () => {
             ],
             siteName: "Florintech Computer College",
           }}
-          {...SEO}
+         
         />
         <Header />
         <Singlecourse
-          courseTitle="Ultimate Office Application Course"
+          courseTitle="Office Application"
           // courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
           courseImage={courseImages.officeapplication}
           aboutCourseText="Welcome to Florintech Computer College, where we specialize in providing top-notch training in office applications. Our courses are designed to equip you with the skills and knowledge you need to excel in today's fast-paced office environments.
@@ -77,8 +78,8 @@ So if you want to take your office skills to the next level, enroll in one of ou
           // Harum reiciendis cupiditate asperiores nulla hic quidem ab,
           // voluptatem voluptatibus accusamus ea est eum soluta maiores
           // deleniti ratione laudantium. Modi, sequi quasi."
-          coursePrice="40,000"
-          courseDuration="4 months"
+          coursePrice="15,000"
+          courseDuration="1 month"
         />
       </Box>
     </div>

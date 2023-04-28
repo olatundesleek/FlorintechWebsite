@@ -28,11 +28,11 @@ function index() {
               width: 800,
               height: 600,
               alt: "Florintech Comuter College",
-              type: "image/png",
+              type: "image/jpeg",
             },
           ],
         }}
-        {...SEO}
+       
       />
       <Header />
       {/* the courses text */}
