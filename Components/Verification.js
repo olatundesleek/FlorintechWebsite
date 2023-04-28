@@ -48,7 +48,6 @@ function Verification() {
   const handleChange = (event) => {
     certificateNo = event.target.value;
 
-    console.log(certificateNo);
   };
   // function to make an api call
   const verifyCert = async () => {

@@ -1,15 +1,15 @@
 import { Box } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Verification from "../../Components/Verification";
-import Head from "next/head";
+
 import Footer from "../../Components/Footer";
-import SEO from "../../next-seo.config";
-import { DefaultSeo } from "next-seo";
+// import SEO from "../../next-seo.config";
+// import { DefaultSeo } from "next-seo";
 
 function Verifycertificate() {
   return (
     <Box>
-       <DefaultSeo
+       {/* <DefaultSeo
         title="Verify Certificate | Florintech computer college"
         description="Florintech Computer College Certificate Verification"
         openGraph={{
@@ -20,15 +20,15 @@ function Verifycertificate() {
           siteName: "Florintech Computer College",
         }}
        
-        {...SEO}  />
-      <Head>
+        {...SEO}  /> */}
+      {/* <Head>
         <title>verify certificate | Florintech Computer College</title>
         <meta
           name="Florintech Computer College"
           
         />
         <link rel="icon" href="/favicon.png" />
-      </Head>
+      </Head> */}
       <Header />
       <Verification />
       <Footer />

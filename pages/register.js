@@ -17,8 +17,8 @@ import Banner from "../Components/Banner";
 import Header from "../Components/Header";
 import { courseImages } from "../Components/images";
 import Footer from "../Components/Footer";
-import { DefaultSeo } from "next-seo";
-import SEO from "../next-seo.config";
+// import { DefaultSeo } from "next-seo";
+// import SEO from "../next-seo.config";
 
 import { useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
@@ -116,7 +116,7 @@ function Register() {
   };
   return (
     <Box>
-      <DefaultSeo
+      {/* <DefaultSeo
         title="Register | Florintech computer college"
         description="This is the online registeration page for new florintech computer college students"
         openGraph={{
@@ -127,7 +127,7 @@ function Register() {
           siteName: "Florintech Computer College",
         }}
        
-        {...SEO}  />
+        {...SEO}  /> */}
       <Header />
       <Banner
         pageName="Register"
