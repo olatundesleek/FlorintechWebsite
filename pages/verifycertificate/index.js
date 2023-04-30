@@ -9,18 +9,19 @@ import { DefaultSeo } from "next-seo";
 function Verifycertificate() {
   return (
     <Box>
-       <DefaultSeo
+       <DefaultSeo  {...SEO} 
         title="Verify Certificate | Florintech computer college"
         description="Florintech Computer College Certificate Verification"
+        canonical = 'https://www.florintechcomputercollege.com/verifycertificate/'
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/register/",
+          url: "https://www.florintechcomputercollege.com/verifycertificate/",
           title: "Verify Certificate | Florintech Online Registeration",
           description: "Florintech computer college Certificate Verification",
 
           siteName: "Florintech Computer College",
         }}
        
-        {...SEO}  />
+        />
       <Head>
         <title>verify certificate | Florintech Computer College</title>
         <meta

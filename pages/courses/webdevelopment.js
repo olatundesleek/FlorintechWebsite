@@ -12,6 +12,7 @@ function webdevelopment() {
       <DefaultSeo  {...SEO}
         title="Web Development | Florintech computer college"
         description="learn web development at Florintech Computer College"
+        canonical = 'https://www.florintechcomputercollege.com/webdevelopment/'
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/webdevelopment/",
           title: "Web Development | Florintech computer college",

@@ -12,6 +12,7 @@ const UIUX = () => {
       <Box>
         <DefaultSeo    {...SEO}
           title="Ui/Ux | Florintech computer college"
+          canonical="https://www.florintechcomputercollege.com/courses/uiux/"
           description=" At florintech computer college we ensure that our students have a solid foundation in all aspects of UI/UX design"
           openGraph={{
             url: "https://www.florintechcomputercollege.com/courses/uiux/",

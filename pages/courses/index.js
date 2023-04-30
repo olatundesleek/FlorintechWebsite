@@ -12,8 +12,9 @@ import Footer from "../../Components/Footer";
 function index() {
   return (
     <Box>
-      <DefaultSeo
+      <DefaultSeo {...SEO}
         title="Courses | Florintech computer college"
+        canonical="https://www.florintechcomputercollege.com/courses/"
         description="pick from a list of courses to register at florintech computer college"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/",

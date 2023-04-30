@@ -10,6 +10,7 @@ function desktoppublishing() {
   return (
     <Box>
       <DefaultSeo   {...SEO}
+      canonical="https://www.florintechcomputercollege.com/courses/desktoppublishing/"
         title="Desktop Publishing| Florintech computer college"
         description="At Florintech Computer College, we offer comprehensive courses on desktop publishing that cover everything from basic concepts to advanced techniques. Our courses are designed to teach students how to use desktop publishing software to create professional documents with ease and efficiency. We provide hands-on training using the latest software tools and techniques, so you can gain practical experience in the field."
         openGraph={{

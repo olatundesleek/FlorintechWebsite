@@ -11,6 +11,7 @@ function OfficeInformationMgt() {
     <Box>
       <DefaultSeo    {...SEO}
         title="Office Information Managnment | Florintech computer college"
+        canonical="https://www.florintechcomputercollege.com/courses/officeinformationmgt/"
         description=" At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/officeinformationmgt/",

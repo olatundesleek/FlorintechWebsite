@@ -11,7 +11,8 @@ const DigitalMedia = () => {
     <div>
       <Box>
         <DefaultSeo {...SEO}
-          title="  Digital Media| Florintech computer college"
+          title="Digital Media | Florintech computer college"
+          canonical="https://www.florintechcomputercollege.com/courses/digitalmedia/"
           description=" At Florintech Computer College, we offer a wide range of courses that cover all the major office applications."
           openGraph={{
             url: "https://www.florintechcomputercollege.com/courses/digitalmedia/",

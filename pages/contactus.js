@@ -30,8 +30,9 @@ function Contactus() {
         <DefaultSeo
         title="Contact Us | Florintech computer college"
         description="Florintech Computer College Contact us Page"
+        canonical = 'https://www.florintechcomputercollege.com/contactus/'
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/",
+          url: "https://www.florintechcomputercollege.com/contactus/",
           title: "Contact Us | Florintech Computer College",
           description: "Florintech Computer College Contact us Page",
 

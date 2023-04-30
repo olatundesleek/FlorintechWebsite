@@ -11,11 +11,12 @@ import SEO from "../next-seo.config";
 const faq = () => {
   return (
     <>
-     <DefaultSeo
+     <DefaultSeo  {...SEO}
         title="FAQ | Florintech Computer College"
         description="Frequently Asked Questions"
+        canonical = 'https://www.florintechcomputercollege.com/faq/'
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/register/",
+          url: "https://www.florintechcomputercollege.com/faq/",
           title: "FAQ | Florintech computer college",
           description: "Frequently Asked Questions",
 

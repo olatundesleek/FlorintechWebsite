@@ -11,6 +11,7 @@ const BusinessElectronicAccounting = () => {
     <div>
       <Box>
         <DefaultSeo {...SEO}
+        canonical="https://www.florintechcomputercollege.com/courses/businesselectronicaccounting/"
           title="Business Electronic Accounting| Florintech computer college"
           description="Our business management courses cover the principles of business management, including strategic planning, marketing, and project management."
           openGraph={{
