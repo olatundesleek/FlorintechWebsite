@@ -1589,6 +1589,7 @@ main {
   font-size: 3rem;
   font-weight: 600;
   height: 400px;
+  padding: 20px;
 }
 .banner span {
   font-size: 4rem;

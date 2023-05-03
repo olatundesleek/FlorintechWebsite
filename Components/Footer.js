@@ -62,7 +62,7 @@ function Footer() {
                     legacyBehavior
                     href="https://blog.florintechcomputercollege.com"
                   >
-                    <a>BLOG</a>
+                    <a target="_blank">BLOG</a>
                   </Link>
                 </li>
 
@@ -108,7 +108,7 @@ function Footer() {
                   legacyBehavior
                   href="https://facebook.com/florintechcomputercollege"
                 >
-                  <a>
+                  <a target="_blank">
                     <FiFacebook />
                     FACEBOOK
                   </a>
@@ -116,15 +116,15 @@ function Footer() {
               </li>
               <li>
                 <Link legacyBehavior href="https://twitter.com/florintechcc">
-                  <a>
+                  <a target="_blank">
                     <FiTwitter />
                     TWITTER
                   </a>
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="https://linkedin.com/florintechcc">
-                  <a>
+                <Link  legacyBehavior href="https://linkedin.com/company/florintech-computer-college">
+                  <a target="_blank">
                     <FiLinkedin />
                     LINKEDIN
                   </a>
@@ -132,7 +132,7 @@ function Footer() {
               </li>
               <li>
                 <Link legacyBehavior href="/">
-                  <a>
+                  <a target="_blank">
                     <FiYoutube />
                     YOUTUBE
                   </a>

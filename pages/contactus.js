@@ -50,7 +50,7 @@ function Contactus() {
         {...SEO}
       />
       <Header />
-      <Banner pageName="Contact us" pageDetails="contact us today" />
+      <Banner pageName="Contact us" pageDetails="contact us today on our email or phone number,you can also check to see our opening hours" />
 
       <Flex
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
