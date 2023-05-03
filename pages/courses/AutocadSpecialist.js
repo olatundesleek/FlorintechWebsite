@@ -12,6 +12,7 @@ const AutoCadSpecialist = () => {
     <div>
       <Box>
         <DefaultSeo   {...SEO}
+        canonical="https://www.florintechcomputercollege.com/courses/autocadspecialist/"
           title="AutoCad Specialist| Florintech computer college"
           description="At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications."
           openGraph={{

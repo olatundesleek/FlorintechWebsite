@@ -11,18 +11,19 @@ import SEO from "../next-seo.config";
 const Tutorial = () => {
   return (
     <Box>
-       <DefaultSeo
+       <DefaultSeo  {...SEO} 
         title="Tutorial | Florintech computer college"
         description="This is free tutorial page for florintech computer college"
+        canonical = 'https://www.florintechcomputercollege.com/tutorial/'
         openGraph={{
           url: "https://www.florintechcomputercollege.com/tutorial/",
           title: "Tutorial | Florintech Computer College",
           description: "This is a free tutorial page for florintech computer college",
-
+         
           siteName: "Florintech Computer College",
         }}
        
-        {...SEO}   />
+         />
       <Header />
       <Box className="wrapper-video">
         <Banner pageName="Tutorial" pageDetails="learn something new today" />

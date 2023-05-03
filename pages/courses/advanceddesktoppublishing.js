@@ -10,6 +10,7 @@ function advancedDeskTopPublishing() {
   return (
     <Box>
       <DefaultSeo  {...SEO}
+      canonical="https://www.florintechcomputercollege.com/courses/advanceddesktoppublishing/"
         title="Advanced DeskTop Publishing| Florintech computer college"
         description="At Florintech Computer College, we offer a comprehensive training program that covers all aspects of desktop publishing. Our program includes in-depth training on industry-standard software applications such as Adobe InDesign, Adobe Illustrator, and Adobe Photoshop. You'll learn how to create and design professional-grade documents, layouts, and graphics that meet the highest industry standards.
 

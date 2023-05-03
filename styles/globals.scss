@@ -457,6 +457,9 @@ a {
 }
 .browse-title {
   padding: 0 30px;
+  @media screen and (max-width:#{$phone-width}) {
+    padding: 0;
+  }
   p {
     color: #083b6b;
     font-size: 18px;
@@ -474,7 +477,7 @@ a {
 
 .browse-text {
   font-family: "Alegreya Sans", sans-serif;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .browse-text-text {
   font-family: "Alegreya Sans", sans-serif;
@@ -1631,6 +1634,7 @@ $top-clip-orange-two-bottom: polygon(
   font-size: 3rem;
   font-weight: 600;
   height: 400px;
+  padding: 20px;
   span {
     font-size: 4rem;
     font-weight: 600;
@@ -1798,4 +1802,7 @@ $top-clip-orange-two-bottom: polygon(
   padding: 0 30px;
   flex-wrap: wrap;
   justify-content: center;
+  @media screen and (max-width:#{$phone-width}) {
+    padding: 0;
+  }
 }

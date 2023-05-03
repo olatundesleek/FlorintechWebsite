@@ -7,6 +7,12 @@ import { extendTheme } from "@chakra-ui/react";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 import { MessengerChat } from "react-messenger-chat-plugin";
+// import ReactPixel from 'react-facebook-pixel';
+
+
+// ReactPixel.init('2779571125594393', advancedMatching, options);
+
+
 const theme = extendTheme({
   colors: {
     primary: {
@@ -29,6 +35,7 @@ const theme = extendTheme({
 });
 
 function MyApp({ Component, pageProps }) {
+ 
   return (
     // <appContext.Provider>
     <ChakraProvider theme={theme}>

@@ -475,6 +475,11 @@ a {
 .browse-title {
   padding: 0 30px;
 }
+@media screen and (max-width: 500px) {
+  .browse-title {
+    padding: 0;
+  }
+}
 .browse-title p {
   color: #083b6b;
   font-size: 18px;
@@ -493,7 +498,7 @@ a {
 
 .browse-text {
   font-family: "Alegreya Sans", sans-serif;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .browse-text-text {
@@ -1584,6 +1589,7 @@ main {
   font-size: 3rem;
   font-weight: 600;
   height: 400px;
+  padding: 20px;
 }
 .banner span {
   font-size: 4rem;
@@ -1736,4 +1742,9 @@ main {
 }
 .course-message > div:nth-child(2) div:nth-child(1) {
   text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .course-message > div:nth-child(2) {
+    padding: 0;
+  }
 }/*# sourceMappingURL=globals.css.map */

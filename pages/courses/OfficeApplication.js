@@ -13,6 +13,7 @@ const OfficeApplication = () => {
         <DefaultSeo
          {...SEO}
           title="Office Application | Florintech computer college"
+          canonical="https://www.florintechcomputercollege.com/courses/officeapplication/"
           description=" At Florintech Computer College, we offer a wide range of courses that cover all the major office applications."
           openGraph={{
             url: "https://www.florintechcomputercollege.com/courses/officeapplication/",

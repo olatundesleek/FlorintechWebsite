@@ -12,6 +12,7 @@ const UIUX = () => {
       <Box>
         <DefaultSeo    {...SEO}
           title="Ui/Ux | Florintech computer college"
+          canonical="https://www.florintechcomputercollege.com/courses/uiux/"
           description=" At florintech computer college we ensure that our students have a solid foundation in all aspects of UI/UX design"
           openGraph={{
             url: "https://www.florintechcomputercollege.com/courses/uiux/",
@@ -49,7 +50,7 @@ So why choose Florintech Computer College for your UI/UX education? With our exp
 
 Enroll now and take the first step towards a rewarding career in UI/UX design!"
           courseOutline={["Figma", "Adobe xd", "Adobe Illustrator"]}
-          coursePrice="70,000"
+          coursePrice="80,000"
           courseDuration="6 months"
         />
       </Box>

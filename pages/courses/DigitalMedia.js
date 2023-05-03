@@ -11,7 +11,8 @@ const DigitalMedia = () => {
     <div>
       <Box>
         <DefaultSeo {...SEO}
-          title="  Digital Media| Florintech computer college"
+          title="Digital Media | Florintech computer college"
+          canonical="https://www.florintechcomputercollege.com/courses/digitalmedia/"
           description=" At Florintech Computer College, we offer a wide range of courses that cover all the major office applications."
           openGraph={{
             url: "https://www.florintechcomputercollege.com/courses/digitalmedia/",
@@ -33,7 +34,7 @@ const DigitalMedia = () => {
         />
         <Header />
         <Singlecourse
-          courseTitle="Ultimate Digital Media Course"
+          courseTitle="Digital Media"
           // courseDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncsem at tortor egestas posuere sed"
           courseImage={courseImages.digitalmedia}
           aboutCourseText="Welcome to our website, where we explore the world of digital media and how it impacts our lives. In this article, we will focus on Florintech Computer College, and how they are preparing students for careers in the ever-evolving field of digital media.

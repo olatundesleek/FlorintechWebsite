@@ -11,11 +11,12 @@ import SEO from "../next-seo.config";
 function Aboutus() {
   return (
     <Box className="about-container-overall">
-       <DefaultSeo
+       <DefaultSeo {...SEO}
         title="About Us | Florintech computer college"
         description="Florintech Computer College about us Page"
+        canonical = 'https://www.florintechcomputercollege.com/aboutus/'
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/",
+          url: "https://www.florintechcomputercollege.com/aboutus/",
           title: "About Us | Florintech Computer College",
           description: "Florintech Computer College Contact us Page",
 
@@ -30,7 +31,7 @@ function Aboutus() {
             },
           ],
         }}
-        {...SEO} />
+         />
       <Head>
         <title>About Us | Florintech Computer College</title>
         <meta

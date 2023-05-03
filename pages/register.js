@@ -116,9 +116,10 @@ function Register() {
   };
   return (
     <Box>
-      <DefaultSeo
+      <DefaultSeo  {...SEO} 
         title="Register | Florintech computer college"
-        description="This is the online registeration page for new florintech computer college students"
+        description="This is the online registeration page for new florintech computer college students where you can register online for your prefered course"
+        canonical = 'https://www.florintechcomputercollege.com/register/'
         openGraph={{
           url: "https://www.florintechcomputercollege.com/register/",
           title: "Florintech Online Registeration",
@@ -127,11 +128,11 @@ function Register() {
           siteName: "Florintech Computer College",
         }}
        
-        {...SEO}  />
+        />
       <Header />
       <Banner
         pageName="Register"
-        pageDetails="Register online for your prefered course"
+        pageDetails="This is the online registeration page for new florintech computer college students where you can register online for your prefered course"
       />
 
       <Flex justifyContent="center" bg="gray.200" w="100%">

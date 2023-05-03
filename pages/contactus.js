@@ -30,8 +30,9 @@ function Contactus() {
         <DefaultSeo
         title="Contact Us | Florintech computer college"
         description="Florintech Computer College Contact us Page"
+        canonical = 'https://www.florintechcomputercollege.com/contactus/'
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/",
+          url: "https://www.florintechcomputercollege.com/contactus/",
           title: "Contact Us | Florintech Computer College",
           description: "Florintech Computer College Contact us Page",
 
@@ -49,7 +50,7 @@ function Contactus() {
         {...SEO}
       />
       <Header />
-      <Banner pageName="Contact us" pageDetails="contact us today" />
+      <Banner pageName="Contact us" pageDetails="contact us today on our email or phone number,you can also check to see our opening hours" />
 
       <Flex
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
