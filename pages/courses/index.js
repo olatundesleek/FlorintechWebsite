@@ -8,19 +8,21 @@ import { courseImages } from "../../Components/images";
 import { Flex } from "@chakra-ui/react";
 import NewsLetter from "../../Components/NewsLetter";
 import Footer from "../../Components/Footer";
+import Banner from "../../Components/Banner";
 
 function index() {
   return (
     <Box>
-      <DefaultSeo {...SEO}
+      <DefaultSeo
+        {...SEO}
         title="Courses | Florintech computer college"
         canonical="https://www.florintechcomputercollege.com/courses/"
-        description="pick from a list of courses to register at florintech computer college"
+        description="You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/",
           title: "Courses | Florintech Online Registeration",
           description:
-            "pick from a list of courses to register at florintech computer college",
+            "You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos",
 
           siteName: "Florintech Computer College",
           images: [
@@ -33,9 +35,12 @@ function index() {
             },
           ],
         }}
-       
       />
       <Header />
+      <Banner
+        pageName="Courses"
+        pageDetails="You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos"
+      />
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">
         <Box>
@@ -55,6 +60,9 @@ function index() {
         }}
         flexFlow="wrap"
         p={{ base: 0, sm: 0, md: 0, lg: 0, xl: 0 }}
+        // variants={container}
+        // initial="hidden"
+        // animate="visible"
       >
         <Flex
           justifyContent="center"

@@ -27,10 +27,10 @@ function Contactus() {
 
   return (
     <Box className="contactus">
-        <DefaultSeo
+      <DefaultSeo
         title="Contact Us | Florintech computer college"
         description="Florintech Computer College Contact us Page"
-        canonical = 'https://www.florintechcomputercollege.com/contactus/'
+        canonical="https://www.florintechcomputercollege.com/contactus/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/contactus/",
           title: "Contact Us | Florintech Computer College",
@@ -50,7 +50,7 @@ function Contactus() {
         {...SEO}
       />
       <Header />
-      <Banner pageName="Contact us" pageDetails="contact us today" />
+      <Banner pageName="Contact us" pageDetails="contact us today on our email or phone number,you can also check to see our opening hours" />
 
       <Flex
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
@@ -112,7 +112,7 @@ function Contactus() {
         </Box>
       </Flex>
       <Flex
-        // flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
+        flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
         className="icon-container"
       >
         <Link legacyBehavior href="/">
