@@ -6,7 +6,7 @@ import React from "react";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-const OfficeApplication = () => {
+const officeApplication = () => {
   return (
     <div>
       <Box>
@@ -87,4 +87,4 @@ So if you want to take your office skills to the next level, enroll in one of ou
   );
 };
 
-export default OfficeApplication;
+export default officeApplication;

@@ -6,7 +6,7 @@ import { DefaultSeo } from "next-seo";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-function advancedDeskTopPublishing() {
+function advancedDesktopPublishing() {
   return (
     <Box>
       <DefaultSeo  {...SEO}
@@ -62,4 +62,4 @@ So why wait? Sign up for our Advanced Desktop Publishing program today and take 
   );
 }
 
-export default advancedDeskTopPublishing;
+export default advancedDesktopPublishing;

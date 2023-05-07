@@ -6,7 +6,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-function webdevelopment() {
+function webDevelopment() {
   return (
     <Box>
       <DefaultSeo  {...SEO}
@@ -61,4 +61,4 @@ function webdevelopment() {
   );
 }
 
-export default webdevelopment;
+export default webDevelopment;

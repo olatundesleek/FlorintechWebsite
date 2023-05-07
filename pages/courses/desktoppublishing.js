@@ -6,7 +6,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-function desktoppublishing() {
+function desktopPublishing() {
   return (
     <Box>
       <DefaultSeo   {...SEO}
@@ -63,4 +63,4 @@ In conclusion, desktop publishing is an essential skill for anyone looking to cr
   );
 }
 
-export default desktoppublishing;
+export default desktopPublishing;

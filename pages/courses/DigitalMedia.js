@@ -6,7 +6,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-const DigitalMedia = () => {
+const digitalMedia = () => {
   return (
     <div>
       <Box>
@@ -88,4 +88,4 @@ If you are interested in learning more about Florintech Computer College and its
   );
 };
 
-export default DigitalMedia;
+export default digitalMedia;
