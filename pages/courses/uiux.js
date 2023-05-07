@@ -6,7 +6,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-const UIUX = () => {
+function uiux () {
   return (
     <div>
       <Box>
@@ -58,4 +58,4 @@ Enroll now and take the first step towards a rewarding career in UI/UX design!"
   );
 };
 
-export default UIUX;
+export default uiux;

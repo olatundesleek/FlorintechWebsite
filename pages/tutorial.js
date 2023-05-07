@@ -8,7 +8,7 @@ import Banner from "../Components/Banner";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 
-const Tutorial = () => {
+const tutorial = () => {
   return (
     <Box>
        <DefaultSeo  {...SEO} 
@@ -46,4 +46,4 @@ const Tutorial = () => {
   );
 };
 
-export default Tutorial;
+export default tutorial;
