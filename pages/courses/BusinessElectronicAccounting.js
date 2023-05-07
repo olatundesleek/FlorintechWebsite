@@ -6,7 +6,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-function businesselectronicaccounting  () {
+function BusinessElectronicAccounting() {
   return (
     <div>
       <Box>
@@ -76,4 +76,4 @@ If you are interested in pursuing a career in electronic accounting, Florintech 
   );
 };
 
-export default businesselectronicaccounting;
+export default BusinessElectronicAccounting;

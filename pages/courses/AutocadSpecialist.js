@@ -7,7 +7,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-function autocadspecialist() {
+function AutocadSpecialist() {
   return (
     <div>
       <Box>
@@ -73,4 +73,4 @@ Whether you are just starting out in your career or looking to enhance your skil
   );
 };
 
-export default autocadspecialist;
+export default AutocadSpecialist;
