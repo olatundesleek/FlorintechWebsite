@@ -6,7 +6,7 @@ import Footer from "../../Components/Footer";
 import SEO from "../../next-seo.config";
 import { DefaultSeo } from "next-seo";
 
-function verifyCertificate() {
+function VerifyCertificate() {
   return (
     <Box>
        <DefaultSeo  {...SEO} 
@@ -37,4 +37,4 @@ function verifyCertificate() {
   );
 }
 
-export default verifyCertificate;
+export default VerifyCertificate;

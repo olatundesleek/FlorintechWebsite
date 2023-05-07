@@ -33,7 +33,7 @@ const intialValue = {
   recaptcharesponse: "",
 };
 
-function register() {
+function Register() {
   const [isBot, setisBot] = useState(true);
   const [loading, setLoading] = useState(false);
 
@@ -304,4 +304,4 @@ function register() {
   );
 }
 
-export default register;
+export default Register;
