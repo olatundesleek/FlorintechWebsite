@@ -7,7 +7,7 @@ import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 import { Link } from "next/link";
 
-function certifiedGraphicsProfessional() {
+function certifiedgraphicsprofessional() {
   return (
     <Box>
       <DefaultSeo {...SEO}
@@ -66,4 +66,4 @@ If you are interested in pursuing a career in graphic design, we invite you to l
   );
 }
 
-export default certifiedGraphicsProfessional;
+export default certifiedgraphicsprofessional;
