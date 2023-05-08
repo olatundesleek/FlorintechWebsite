@@ -13,8 +13,8 @@ function Why() {
         <h1>
           Florintech computer college is a leading computer school that offers
           computer training to businesses, individuals,institutions and
-          organizations. It’s a computer training school located at
-          Okokomaiko,Ojo,Lagos state. Our main purpose is to help students
+          organizations. It’s a computer training school located in
+          Okokomaiko, Ojo, Lagos state. Our main purpose is to help students
           perform better and have a breaking edge over their competitors. From
           the very basic programs to the most advanced IT training in
           programming languages,we have got you at Florintech computer college.

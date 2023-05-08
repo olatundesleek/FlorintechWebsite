@@ -216,7 +216,7 @@ Taxation: Our taxation courses cover the fundamentals of taxation, including inc
 Financial analysis: Our financial analysis courses cover the techniques and tools used to analyze financial data and make informed business decisions."
             courseTitle="Business Electronic Accounting"
             courseImage={courseImages.businesselectronicaccounting}
-            price="70000"
+            price="40000"
           />
         </Flex>
         <Flex
@@ -276,7 +276,7 @@ To achieve these goals, we have implemented an Office Information Management sys
 One of the key benefits of our Office Information Management system is improved productivity.."
             courseTitle="Digital Media"
             courseImage={courseImages.digitalmedia}
-            price="50000"
+            price="30000"
           />
         </Flex>
       </Flex>
