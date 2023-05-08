@@ -1805,4 +1805,45 @@ $top-clip-orange-two-bottom: polygon(
   @media screen and (max-width:#{$phone-width}) {
     padding: 0;
   }
+  .contactus .wrapper-contact .banner-location .frame-wrapper {
+    display: none;
+  }
+}
+@media screen and (max-width:#{$phone-width}) {
+  .contactus .wrapper-contact .banner-location .frame-wrapper {
+    display: none;
+  }
+  .contactus .icon-container {
+    display: flex;
+    justify-content: space-around;
+    color: #348aed;
+    margin: 1rem;
+    padding-top: 10px;
+  }
+  .contactus .wrapper-contact .banner-openday {
+    border-radius: 5px;
+    color: black;
+    width: 86%;
+    /* height: 400px; */
+    margin: 0 3rem;
+    font-size: 1.6rem;
+  }
+  .contactus .wrapper-contact {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* margin: 3rem; */
+    margin: 0;
+  }
+  .contactus .wrapper-contact .banner-location {
+    /* position: relative; */
+    width: 325px;
+    /* height: 400px; */
+  }
+  .contactus .icon-container a {
+    margin: 5px;
+  }
+  .contactus .icon-container h2 {
+    margin: 5px;
+  }
 }

@@ -6,7 +6,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-function OfficeInformationMgt() {
+function officeinformationmgt () {
   return (
     <Box>
       <DefaultSeo    {...SEO}
@@ -63,4 +63,4 @@ At Florintech Computer College, we are committed to providing the best education
   );
 }
 
-export default OfficeInformationMgt;
+export default officeinformationmgt;

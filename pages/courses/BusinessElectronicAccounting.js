@@ -6,7 +6,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-const BusinessElectronicAccounting = () => {
+function BusinessElectronicAccounting() {
   return (
     <div>
       <Box>

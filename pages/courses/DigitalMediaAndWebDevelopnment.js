@@ -6,7 +6,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-function DigitalMediaAndWebDevelopnment() {
+function digitalmediaandwebdevelopnment() {
   return (
     <Box>
       <DefaultSeo {...SEO}
@@ -60,4 +60,4 @@ So if you're ready to take your career to the next level, or simply want to lear
   );
 }
 
-export default DigitalMediaAndWebDevelopnment;
+export default digitalmediaandwebdevelopnment;

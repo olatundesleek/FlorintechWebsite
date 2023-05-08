@@ -9,10 +9,12 @@ import { Flex } from "@chakra-ui/react";
 import NewsLetter from "../../Components/NewsLetter";
 import Footer from "../../Components/Footer";
 import Banner from "../../Components/Banner";
+
 function index() {
   return (
     <Box>
-      <DefaultSeo {...SEO}
+      <DefaultSeo
+        {...SEO}
         title="Courses | Florintech computer college"
         canonical="https://www.florintechcomputercollege.com/courses/"
         description="You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos"
@@ -33,7 +35,6 @@ function index() {
             },
           ],
         }}
-       
       />
       <Header />
       <Banner
@@ -59,6 +60,9 @@ function index() {
         }}
         flexFlow="wrap"
         p={{ base: 0, sm: 0, md: 0, lg: 0, xl: 0 }}
+        // variants={container}
+        // initial="hidden"
+        // animate="visible"
       >
         <Flex
           justifyContent="center"

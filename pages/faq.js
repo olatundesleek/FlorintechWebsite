@@ -8,7 +8,7 @@ import Header from "../Components/Header";
 import Banner from "../Components/Banner";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
-const faq = () => {
+const SiteFaq = () => {
   return (
     <>
      <DefaultSeo  {...SEO}
@@ -42,4 +42,4 @@ const faq = () => {
   );
 };
 
-export default faq;
+export default SiteFaq;
