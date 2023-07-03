@@ -54,7 +54,7 @@ function WebDevelopment() {
           "JQuery.",
           "Introduction to content management system(CMS).",
         ]}
-        coursePrice="#50,000"
+        coursePrice="#60,000"
         courseDuration="4 months"
       />
     </Box>

@@ -83,7 +83,7 @@ function index() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web developmen."
             courseTitle="Web Development"
             courseImage={courseImages.webdevelopment}
-            price="50000"
+            price="60000"
           />
         </Flex>
         <Flex
@@ -119,7 +119,7 @@ At the end of the program, students will be prepared to take the Certified Graph
 Our instructors are experienced professionals with years of experience in the desktop publishing industry."
             courseTitle="Desktop Publishing"
             courseImage={courseImages.desktoppublishing}
-            price="30000"
+            price="35000"
           />
         </Flex>
         <Flex
@@ -176,7 +176,7 @@ Our Advanced Desktop Publishing program is ideal for both beginners and professi
 Upon completion of our program, you'll be awarded a Advanced Desktop Publishing certification from Florintech Computer College. This certification is recognized worldwide and is a testament to your skills and knowledge in the field of desktop publishing. Our certification is also a great way to enhance your resume and increase your job prospects in the competitive job market."
             courseTitle="Advanced Desktop Publishing"
             courseImage={courseImages.advanceddesktoppublishing}
-            price="35000"
+            price="40000"
           />
         </Flex>
         <Flex
@@ -196,7 +196,7 @@ Whether you're looking to start a career in digital media or web development, or
 We offer a range of programs and courses to suit your needs, including flexible scheduling options to fit your busy lifestyle."
             courseTitle="Digital Media And Web Development"
             courseImage={courseImages.digitalandwebdev2}
-            price="70000"
+            price="85000"
           />
         </Flex>
         <Flex
@@ -216,7 +216,7 @@ Taxation: Our taxation courses cover the fundamentals of taxation, including inc
 Financial analysis: Our financial analysis courses cover the techniques and tools used to analyze financial data and make informed business decisions."
             courseTitle="Business Electronic Accounting"
             courseImage={courseImages.businesselectronicaccounting}
-            price="40000"
+            price="35000"
           />
         </Flex>
         <Flex

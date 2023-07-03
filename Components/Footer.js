@@ -131,7 +131,7 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="/">
+                <Link legacyBehavior href="https://www.youtube.com/@FlorintechComputerCollege">
                   <a target="_blank">
                     <FiYoutube />
                     YOUTUBE

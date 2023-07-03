@@ -53,8 +53,8 @@ So if you're ready to take your career to the next level, or simply want to lear
           "All courses in diploma in digital media",
           "All courses in web development",
         ]}
-        coursePrice="70,000"
-        courseDuration="4 months"
+        coursePrice="#85,000"
+        courseDuration="5 months"
       />
     </Box>
   );

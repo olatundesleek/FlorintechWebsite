@@ -41,7 +41,7 @@ function Trending() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web developmena."
             courseTitle="web development"
             courseImage={courseImages.webdevelopment}
-            price="50000"
+            price="60000"
           />
         </Flex>
         <Flex
@@ -61,7 +61,7 @@ The college also places a significant emphasis on industry partnerships, ensurin
 In addition to its academic programs, Florintech Computer College also offers a range of extracurricular activities."
             courseTitle="UI/UX"
             courseImage={courseImages.ux}
-            price="80,000"
+            price="80000"
           />
         </Flex>
         <Flex

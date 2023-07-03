@@ -68,7 +68,7 @@ If you are interested in pursuing a career in electronic accounting, Florintech 
             "Introductions Peach tree Accounting",
             "Internet Essentials",
           ]}
-          coursePrice="40,000"
+          coursePrice="#35,000"
           courseDuration="2 months"
         />
       </Box>
