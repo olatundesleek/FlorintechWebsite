@@ -35,7 +35,7 @@ function BusinessElectronicAccounting() {
         />
         <Header />
         <Singlecourse
-          courseTitle="BusinessElectronicAccounting"
+          courseTitle="Business Electronic Accounting"
           courseImage={courseImages.businesselectronicaccounting}
           aboutCourseText="Welcome to Florintech Computer College's Business Electronic Accounting page. In this page, we will explore the importance of electronic accounting in business and how Florintech Computer College can help you acquire the necessary skills to succeed in this field.
 
@@ -68,8 +68,8 @@ If you are interested in pursuing a career in electronic accounting, Florintech 
             "Introductions Peach tree Accounting",
             "Internet Essentials",
           ]}
-          coursePrice="40,000"
-          courseDuration="3 months"
+          coursePrice="#35,000"
+          courseDuration="2 months"
         />
       </Box>
     </div>

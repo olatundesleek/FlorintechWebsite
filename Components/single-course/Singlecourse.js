@@ -154,8 +154,7 @@ const Singlecourse = ({
           </Box>
         </div>
       </section>
-      {/* <Faq /> */}
-      <NewsLetter />
+   
 
       <Footer />
     </div>

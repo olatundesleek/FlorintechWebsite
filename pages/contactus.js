@@ -121,12 +121,12 @@ function Contactus() {
               <GrLocation fontSize="3rem" style={{ padding: "5px" }} />
               <span>
                 <h2>Location:</h2>
-                <p>9 kemberi Road okokomiako</p>
+                <p>9 kemberi Road okokomaiko,Ojo,Lagos, NIgeria.</p>
               </span>
             </Box>
           </a>
         </Link>
-        <Link legacyBehavior href="/">
+        <Link legacyBehavior href="mailto:info@florintechcomputercollege.com">
           <a>
             <Box className="email-con">
               <HiOutlineMailOpen fontSize="3rem" style={{ padding: "5px" }} />
@@ -137,7 +137,8 @@ function Contactus() {
             </Box>
           </a>
         </Link>
-        <Link legacyBehavior href="/">
+        <Link legacyBehavior href="tel:+2349024702192
+">
           <a>
             <Box className="phone-con">
               <FiPhoneCall fontSize="3rem" style={{ padding: "5px" }} />

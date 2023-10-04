@@ -52,36 +52,16 @@ In addition to its academic programs, Florintech Computer College also offers a 
 Whether you are interested in pursuing a career in web development, graphic design, or digital marketing, Florintech Computer College provides a solid foundation for success. With its commitment to hands-on learning, industry partnerships, and extracurricular activities, students at Florintech Computer College can gain the skills and experience necessary to thrive in the fast-paced world of digital media.
 
 If you are interested in learning more about Florintech Computer College and its programs, we encourage you to explore our website and contact us for more information.!"
-          //   listOne=" Lorem ipsum dolor sit amet consectetur
-          // adipisicing elit."
-          //   listTwo=" Lorem ipsum dolor sit amet consectetur
-          // adipisicing elit."
-          //   listThree=" Lorem ipsum dolor sit amet consectetur
-          // adipisicing elit."
-          //   aboutCourseTextTwo="Lorem ipsum dolor sit amet consectetur
-          // adipisicing elit. Optio atque nulla veritatis dolorem esse ad
-          // quibusdam ipsam doloribus, dolor vero
-          // voluptates alias porro mollitia architecto ex magni magnam?
-          // Aut, consequatur."
-          //   whatToLearnText="  Lorem ipsum dolor sit amet consectetur
-          // adipisicing elit. Cupiditate adipisci fuga nam veniam
-          // perferendis,
-          //  quidem recusandae cum voluptatem
-          // debitis. Enim omnis illum laboriosam dolorem blanditiis neque
-          // repellat voluptas! Enim, autem?"
+     
           courseOutline={[
-            "internet Essential",
-            "introduction",
+            "introduction to internet Essential",
             "content/keyword marketing",
-            "introduction to online market",
+            "introduction to online marketing",
             "search Engine optimization",
           ]}
-          //   secondImageText="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          // Harum reiciendis cupiditate asperiores nulla hic quidem ab,
-          // voluptatem voluptatibus accusamus ea est eum soluta maiores
-          // deleniti ratione laudantium. Modi, sequi quasi."
-          courseDuration="4 months"
-          coursePrice="30,000"
+        
+          courseDuration="6 weeks"
+          coursePrice="#30,000"
         />
       </Box>
     </div>

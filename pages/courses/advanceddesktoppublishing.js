@@ -55,7 +55,7 @@ So why wait? Sign up for our Advanced Desktop Publishing program today and take 
           "Adobe Photoshop"
          
         ]}
-        coursePrice="35,000"
+        coursePrice="#40,000"
         courseDuration="4 months"
       />
     </Box>

@@ -1,5 +1,5 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/globals.css";
 export const appContext = React.createContext(false);
 
@@ -7,10 +7,14 @@ import { extendTheme } from "@chakra-ui/react";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 import { MessengerChat } from "react-messenger-chat-plugin";
-// import ReactPixel from 'react-facebook-pixel';
+import { useRouter } from 'next/router'
+const options = {
+  autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
+  debug: false, // enable logs
+};
 
 
-// ReactPixel.init('2779571125594393', advancedMatching, options);
+
 
 
 const theme = extendTheme({
@@ -36,8 +40,24 @@ const theme = extendTheme({
 
 function MyApp({ Component, pageProps }) {
  
+  const router = useRouter()
+
+  useEffect(() => {
+    import('react-facebook-pixel')
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init('2779571125594393') // facebookPixelId
+        ReactPixel.pageView()
+
+        router.events.on('routeChangeComplete', () => {
+          ReactPixel.pageView()
+        })
+      })
+  }, [router.events])
+
+
   return (
-    // <appContext.Provider>
+   
     <ChakraProvider theme={theme}>
       <DefaultSeo {...SEO} />
       <MessengerChat

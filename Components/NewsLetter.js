@@ -8,72 +8,28 @@ const url =
   "https://florintechcomputercollege.us11.list-manage.com/subscribe/post?u=4944c00554cd45873e202b0ae&amp;id=95058db00b&amp;f_id=001896e0f0";
 const NewsLetter = () => {
   const SimpleForm = () => <MailchimpSubscribe url={url} />;
-  // const [userEmail, setuserEmail] = useState("");
-  // const [subscribeMessage, setsubscribeMessage] = useState("");
-  // let bodyContent = new FormData();
-  // const handleChange = (e) => {
-  //   setuserEmail(e.target.value);
-  //   console.log(userEmail);
-
-  //   bodyContent.append("email", e.target.value);
-  // };
-
-  //
-  // const subscribe = () => {
-  //   fetch(url, {
-  //     method: "POST",
-  //     body: bodyContent,
-  //   })
-  //     .then((data) => {
-  //       return data.json();
-  //     })
-  //     .then((msg) => {
-  //       console.log(msg);
-  //     });
-  // };
+ 
   return (
-    <>
-      <Box>
-        <Flex
+  
+      <Flex className="newsletter">
+        <Box
           align="center"
-          m={{ base: 5, sm: 5, md: 3, lg: 3 }}
-          className="course-container"
+          // m={{ base: 5, sm: 5, md: 3, lg: 3 }}
+          // className="course-container"
         >
-          <Flex m={0} padding={10} className="browse-course" flex="auto">
-            <Box className="browse-title">
-              <h2>Blog</h2>
-              <Text fontSize="xl" className="browse-text">
-                visit our&nbsp;
-                <span style={{ textDecoration: "underline" }}>
-                  <Link href="https://blog.florintechcomputercollege.com">
-                    blog
-                  </Link>
-                </span>
-                &nbsp;for exciting tech related news
-              </Text>
-            </Box>
-          </Flex>
-          <Flex justifyContent="flex-end" flex="auto" alignContent="center">
-            <Box className="course-message newsletter" bg="white" flex="auto">
-              <Flex m={2} className="join-message">
-                <Box>
-                  <BiEnvelope fontSize={20} className="newsletter-icons" />
-                </Box>
-                <Box className="browse-title">
-                  <h2>Join our email newsletter</h2>
-                  <Text fontSize="15px" className="browse-text-text">
-                    subscribe to our newsletter to receive exciting mails about
-                    promos and offers
-                  </Text>
-                </Box>
-              </Flex>
+          {/* <h2>NEWSLETTER</h2> */}
+          <p>keep up with our latest news and event and offers,subscribe to our newsletter</p>
+      
+          <Flex justifyContent="flex-end" flex="auto" >
+            <Box textAlign="left"  flex="auto">
+             
 
               <SimpleForm onSubmitted={(formData) => subscribe(formData)} />
             </Box>
           </Flex>
-        </Flex>
-      </Box>
-    </>
+        </Box>
+      </Flex>
+   
   );
 };
 

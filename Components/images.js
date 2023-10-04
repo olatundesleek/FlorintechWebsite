@@ -17,7 +17,10 @@ export const courseImages = {
 
   officeapplication: "/images/officeapplication.jpg",
 
-  digitalmedia: "/images/dg.jpg",
+  reactjs:"/images/reactjsimg.png",
+nodejs:"/images/nodejs.png",
+fullstack:"/images/fullstack.jpg",
+  digitalmedia: "/images/digitalmedia.jpg",
   officemgt: "/images/officemgt.jpg",
 
   computersecurity: "/images/computersecurity.jpg",

@@ -53,10 +53,12 @@ In conclusion, desktop publishing is an essential skill for anyone looking to cr
           "MS Paint",
           "Ms Word",
           "Ms Excel",
+          "Adobe Page Maker / Ms Publisher",
+          "Corel Draw",
           "Ms PowerPoint",
           "Internet Essentials",
         ]}
-        coursePrice="30,000"
+        coursePrice="#35,000"
         courseDuration="3 months"
       />
     </Box>

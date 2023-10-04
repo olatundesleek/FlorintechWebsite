@@ -22,6 +22,12 @@ const myQuestionData = [
     info: "The cost of registering for a course at Florintech Computer College varies depending on the program and course you are interested in",
   },
   {
+    id: 4,
+    title:
+      "Where is Florintech Computer College located",
+    info: "Our college is located in Okokomaiko,Ojo ,Lagos Nigeria. with state-of-the-art facilities and a conducive learning environment for our students.",
+  },
+  {
     id: 5,
     title: "Do you offer one month program?",
     info: "yes, for only office apllication program",
