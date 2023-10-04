@@ -28,7 +28,7 @@ function VerifyCertificate() {
           name="Florintech Computer College"
           
         />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <Verification />

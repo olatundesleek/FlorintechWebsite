@@ -49,7 +49,7 @@ export default function Home() {
           name="courses"
           content="Florintech computer college is a leading computer school that offers computer training to businesses, individuals,institutions and organizations. It’s a computer training school located at Okokomaiko,Ojo,Lagos state. Our main purpose is to help students perform better and have a breaking edge over their competitors. From the very basic programs to the most advanced IT training in programming languages,we have got you at Florintech computer college. Our courses includes but not limited to the list of courses: Web development Office training Computer training amongst others. Still have some hesitations whether cooperation with us is worth the trouble? Check the benefits of choosing us among others."
         />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Box listStyleType="none" textDecoration="none" m={0}>
