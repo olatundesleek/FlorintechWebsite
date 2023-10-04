@@ -93,6 +93,50 @@ function index() {
           margin="20px 0"
         >
           <CourseTab
+            to="courses/frontendwebdevelopment"
+            courseText="This comprehensive 6-month React.js course is designed to equip students with the skills and knowledge necessary to become proficient React.js developers. students will start with a strong foundation in HTML, CSS, and JavaScript before diving into React.js, a popular JavaScript library for building modern web applications. Throughout the course, students will gain hands-on experience through practical projects and assignments, enabling them to create interactive and dynamic web applications."
+            courseTitle="Front End Web Development with React.js "
+            courseImage={courseImages.reactjs}
+            price="120000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/backenddevelopment"
+            courseText="Our 6-Months Backend Development course with Node.js is tailored for individuals aspiring to become proficient backend developers. This comprehensive course equips you with the skills and knowledge needed to excel in the dynamic world of backend development using Node.js, one of the most versatile and in-demand technologies in the field."
+            courseTitle="Back-End Development with Node.js "
+            courseImage={courseImages.nodejs}
+            price="150000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/fullstackwebdevelopment"
+            courseText="This intensive program covers a wide spectrum of skills, technologies, and industry best practices to ensure that graduates are well-equipped for success in the ever-evolving field of web development.
+
+            Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools."
+            courseTitle="Full-Stack Web Development "
+            courseImage={courseImages.fullstack}
+            price="250000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
             to="courses/certifiedgraphicsprofessional"
             courseText=" we offer comprehensive training programs for aspiring graphics professionals. Our courses are designed to help individuals develop the skills and knowledge needed to become certified graphics professionals.
 
@@ -280,7 +324,7 @@ One of the key benefits of our Office Information Management system is improved 
           />
         </Flex>
       </Flex>
-      <NewsLetter />
+
       <Footer />
     </Box>
   );

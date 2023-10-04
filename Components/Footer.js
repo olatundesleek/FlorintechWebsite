@@ -6,6 +6,7 @@ import { FiFacebook } from "react-icons/fi";
 import { FiTwitter } from "react-icons/fi";
 import { FiYoutube } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
+import NewsLetter from "./NewsLetter";
 
 function Footer() {
   return (
@@ -25,7 +26,8 @@ function Footer() {
           flexDirection="column"
         >
           <Brand />
-          <h2>Copyright © Florintech Computer College </h2>
+          <h2>FLORINTECH COMPUTER COLLEGE </h2>
+          <NewsLetter />
         </Flex>
         <Flex
           className="footer-links"
@@ -81,7 +83,7 @@ function Footer() {
           </Box>
 
           <Box>
-            <h2>TOOLS</h2>
+            <h2>TOOLS & SOCIALS</h2>
             <Box className="footer-tools">
               <ul>
                 <li>
@@ -94,16 +96,7 @@ function Footer() {
                     <a>ONLINE REGISTERATION</a>
                   </Link>
                 </li>
-              </ul>
-            </Box>
-          </Box>
-        </Flex>
-
-        <Box>
-          <h2>SOCIALS</h2>
-          <Box className="footer-socials">
-            <ul>
-              <li>
+                <li >
                 <Link
                   legacyBehavior
                   href="https://facebook.com/florintechcomputercollege"
@@ -138,9 +131,12 @@ function Footer() {
                   </a>
                 </Link>
               </li>
-            </ul>
+              </ul>
+            </Box>
           </Box>
-        </Box>
+        </Flex>
+
+
       </Flex>
     </Box>
   );

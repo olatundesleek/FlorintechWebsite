@@ -47,11 +47,22 @@ function WebDevelopment() {
         
         Enroll now and start building your future in web development with Florintech Computer College!"
         courseOutline={[
-          "HTML5.",
-          "CSS",
-          "Javascript.",
-          "Bootstrap(css framework)",
-          "JQuery.",
+          "Introduction to Web Development.",
+          "HTML Fundamentals",
+          "CSS Fundamentals",
+          "JavaScript Basics",
+          "JavaScript Functions and DOM Manipulation.",
+          "JavaScript Events and Event Handling",
+          "HTML Forms and Input Validation",
+          "CSS Layout Techniques",
+          "CSS Flexbox and Grid",
+          "Responsive Web Design",
+          "JavaScript ES6 Features",
+          "Asynchronous JavaScript (Promises and Async/Await)",
+          "JavaScript Modules",
+          "Browser Storage (LocalStorage and SessionStorage)",
+          "AJAX and Fetch API",
+          "JavaScript Debugging and Tools",
           "Introduction to content management system(CMS).",
         ]}
         coursePrice="#60,000"

@@ -51,7 +51,7 @@ So why choose Florintech Computer College for your UI/UX education? With our exp
 Enroll now and take the first step towards a rewarding career in UI/UX design!"
           courseOutline={["Figma", "Adobe xd", "Adobe Illustrator"]}
           coursePrice="#80,000"
-          courseDuration="6 months"
+          courseDuration="4 months"
         />
       </Box>
     </div>

@@ -33,7 +33,7 @@ const SiteFaq = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <Banner pageName="FAQ" pageDetails="find answers to your frequently asked questions on courses,registeration and general information about Florintech Computer College" />
+      <Banner pageName="FAQ" pageDetails="Welcome to FlorinTech Computer College's FAQ section! Here, we aim to provide you with answers to some of the most common questions prospective students and parents may have about our institution. If you have any additional questions, please don't hesitate to contact our admissions team for more information." />
      
       <Faq />
      

@@ -253,13 +253,14 @@ a {
     font-weight: bold;
     color: #fff;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 18px;
   }
   p {
     color: #ffffff;
   }
+  li{padding: 4px;}
   li a {
-    font-size: 14px;
+    font-size: 14px;display: flex;align-items: center;
   }
   @media screen and (max-width:#{$phone-width}) {
     padding: 10px 20px;
@@ -308,7 +309,7 @@ a {
   background-color: #fff;
   font-family: sans-serif;
   color: #083b6b;
-  font-size: 20px;
+  font-size: 18px;
   overflow: hidden;
 }
 .single-course-inner {
@@ -320,8 +321,8 @@ a {
   width: 100%;
 }
 .single-course-content > div {
-  width: 91%;
-  padding: 30px;
+  width: 100%;
+  padding:20px 50px;
 }
 .single-course-content > div h1 {
   color: #1d2b5f;
@@ -719,7 +720,7 @@ $desktop-width: 1024px;
 }
 
 .about-teacher-title-sec {
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   color: #1d2b5f !important;
   font-weight: bold;
   font-family: Manrope, sans-serif !important;
@@ -743,12 +744,13 @@ $desktop-width: 1024px;
 }
 
 .last-text {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 @media screen and (max-width:#{$tablet-width}) {
   .single-course-container {
     flex-direction: column;
   }
+  .about-teacher-title-sec{margin: 0;}
 }
 // faq css frequently questions
 main {
@@ -854,6 +856,7 @@ main {
   .faq-container p {
     width: 80%;
   }
+  .single-list-two li{font-size: 16px;text-align: left;}
 
   .single-course-inner {
     display: flex;
@@ -863,12 +866,15 @@ main {
     text-align: center;
     width: 100%;
     margin: auto;
+    p{font-size: 16px;text-align: left;}
   }
   .single-course-content > div h1 {
     font-size: 40px;
   }
   .single-course-content-two {
+    margin-top:0;
     width: 408px;
+    padding-bottom: 20px;
   }
   .single-course-inner {
     width: 100%;
@@ -904,21 +910,21 @@ main {
   }
   .course-cart-button {
     border-radius: 80px;
-    font-size: 1em;
-    width: 60%;
+    font-size: 16px;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: auto;
-    padding: 20px 14px;
+    padding: 10px 14px;
   }
   .course-amount {
     display: flex;
     justify-content: center;
   }
   .course-amount .amount {
-    font-size: 25px;
+    font-size: 16px;
     font-weight: bold;
     color: #083b6b;
     display: block;
@@ -1774,23 +1780,26 @@ $top-clip-orange-two-bottom: polygon(
 // }
 
 .newsletter {
-  input {
+  padding: 10px 20px;
+//  h2{font-size: 25px;margin: 0;}
+p{margin: 0;}
+  input {width: 70%;
     border: 1px solid #083b6b;
-    padding: 0.5rem 1rem;
-    border-radius: 50px;
+    padding: 0.6rem 1rem;
+    // border-radius: 50px;
     color: #1d2b5f !important;
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin: 20px 10px;
+    // font-weight: bold;
+    // font-size: 1.5rem;
+    margin: 10px 10px 10px 0px;
     flex: auto;
     ::placeholder {
       font-size: small;
     }
   }
   button {
-    background-color: #083b6b;
+    background-color: #ead990;
     padding: 10px;
-    color: #ffffff;
+    color: #000000;
   }
 }
 .course-message > div:nth-child(2) {

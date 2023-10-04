@@ -63,7 +63,7 @@ export default function Home() {
           <Trending />
           <Testimonial />
         </Box>
-        <NewsLetter />
+       
         <Footer />
       </Box>
     </div>
