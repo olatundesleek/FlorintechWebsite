@@ -131,7 +131,7 @@ function Contactus() {
             <Box className="email-con">
               <HiOutlineMailOpen fontSize="3rem" style={{ padding: "5px" }} />
               <span>
-                <h2>Email:</h2>
+                <h2>Email</h2>
                 <p>info@florintechcomputercollege.com</p>
               </span>
             </Box>
