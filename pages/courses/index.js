@@ -311,13 +311,7 @@ At Florintech, we believe in providing a holistic learning experience."
         >
           <CourseTab
             to="courses/digitalmedia"
-            courseText="Welcome to our website dedicated to Office Information Management, where we explore the importance of efficient information management in the workplace, and how it can be achieved using modern technologies and strategies. In this page, we will specifically highlight the benefits of Office Information Management for Florintech Computer College.
-
-At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students.
-
-To achieve these goals, we have implemented an Office Information Management system that is tailored to our specific needs and requirements. This system encompasses a range of software, hardware, and policies that allow us to collect, store, process, and share information securely and efficiently.
-
-One of the key benefits of our Office Information Management system is improved productivity.."
+            courseText="This course is designed for individuals who want to gain practical skills and knowledge in the field of digital media and marketing. It is suitable for marketing professionals, entrepreneurs, small business owners, and anyone interested in understanding and utilizing digital marketing strategies effectively."
             courseTitle="Digital Media"
             courseImage={courseImages.digitalmedia}
             price="30000"
