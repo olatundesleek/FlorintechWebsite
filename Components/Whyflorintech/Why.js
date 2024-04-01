@@ -11,15 +11,15 @@ function Why() {
     <Box className="advantage">
       <Box className="writecopy">
         <h1>
-        Florintech Computer College stands out as a premier computer training school in Ojo, Lagos, empowering individuals and organizations with the skills to thrive in today's digital world. Whether you're a beginner looking to learn the basics, or a seasoned professional seeking to advance your career, Florintech offers a comprehensive range of courses tailored to your needs.
+        Florintech Computer College stands out as a premier computer training school in Ojo, Lagos, empowering individuals and organizations with the skills to thrive in today&apos;s digital world. Whether you&apos;re a beginner looking to learn the basics, or a seasoned professional seeking to advance your career, Florintech offers a comprehensive range of courses tailored to your needs.<br/>
 
-Unleash Your Potential with Our Diverse Curriculum:
+Unleash Your Potential with Our Diverse Curriculum<br/>
 
-Web Development: Master the art of building dynamic websites and applications using industry-standard languages like HTML, CSS, and JavaScript.
-Programming Bootcamps: Dive deep into in-demand programming languages like Python, Java, or Javascript and gain the skills to become a sought-after developer.
-IT Courses: Enhance your productivity and efficiency with essential office training in Microsoft Office Suite or explore advanced IT skills for network administration or cybersecurity.
+<b>Web Development: </b>Master the art of building dynamic websites and applications using industry-standard languages like HTML, CSS, JavaScript and React Js.<br/>
+<b>Programming Bootcamps: </b> Dive deep into in-demand programming languages like Python,C++, Java, or Javascript and gain the skills to become a sought-after developer.<br/>
+<b>IT Courses: </b> Enhance your productivity and efficiency with essential office training in Microsoft Office Suite or explore advanced IT skills for network administration, Design or cybersecurity.
 And More,
-At Florintech Computer School in Ojo, you'll benefit from experienced instructors, a hands-on learning environment, and practical projects that prepare you for real-world challenges.
+At Florintech Computer School in Ojo, you&apos;ll benefit from experienced instructors, a hands-on learning environment, and practical projects that prepare you for real-world challenges.
         </h1>
 
       </Box>
