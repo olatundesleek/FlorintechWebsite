@@ -19,10 +19,10 @@ function Topnav() {
             <BsCardChecklist /> Our Course List
           </a>
         </Link>
-        <Link legacyBehavior href="tel:+2349024702192">
+        <Link legacyBehavior href="tel:+2348136689745">
           <a className="link">
             <MdPhone />
-            09024702192
+            08136689745
           </a>
         </Link>
       </Flex>

@@ -143,7 +143,7 @@ function Slider() {
             <Flex justifyContent="center">
               <Linkbtn
                 caption="Click to call"
-                to="tel:+2349024702192"
+                to="tel:+234813668745"
                 className="register-action"
                 borderRadius="md"
                 bg="none"

@@ -24,11 +24,11 @@ export default function Home() {
       <DefaultSeo  {...SEO}
         title="Florintech computer college"
         canonical = 'https://www.florintechcomputercollege.com/'
-        description="Florintech computer college is a leading computer school that offers computer training to businesses, individuals,institutions and organizations. It’s a computer training school located in Okokomaiko, Ojo, Lagos state. Our main purpose is to help students perform better and have a breaking edge over their competitors. From the very basic programs to the most advanced IT training in programming languages,we have got you at Florintech computer college. Our courses includes but not limited to the list of courses: Web development Office training Computer training amongst others. Still have some hesitations whether cooperation with us is worth the trouble? Check the benefits of choosing us among others."
+        description="Master in-demand computer skills like web development & programming at Florintech, a leading computer school in Ojo, Lagos. Boost your career with industry-recognized courses & experienced instructors. Enroll today!"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/",
           title: "Florintech Computer College",
-          description: "Florintech computer college is a leading computer school that offers computer training to businesses, individuals,institutions and organizations. It’s a computer training school located at Okokomaiko,Ojo,Lagos state. Our main purpose is to help students perform better and have a breaking edge over their competitors. From the very basic programs to the most advanced IT training in programming languages,we have got you at Florintech computer college. Our courses includes but not limited to the list of courses: Web development Office training Computer training amongst others. Still have some hesitations whether cooperation with us is worth the trouble? Check the benefits of choosing us among others.",
+          description: "Master in-demand computer skills like web development & programming at Florintech, a leading computer school in Ojo, Lagos. Boost your career with industry-recognized courses & experienced instructors. Enroll today!",
          
           siteName: "Florintech Computer College",
           images: [
@@ -46,8 +46,8 @@ export default function Home() {
       <Head>
         <title>Florintech Computer College</title>
         <meta
-          name="courses"
-          content="Florintech computer college is a leading computer school that offers computer training to businesses, individuals,institutions and organizations. It’s a computer training school located at Okokomaiko,Ojo,Lagos state. Our main purpose is to help students perform better and have a breaking edge over their competitors. From the very basic programs to the most advanced IT training in programming languages,we have got you at Florintech computer college. Our courses includes but not limited to the list of courses: Web development Office training Computer training amongst others. Still have some hesitations whether cooperation with us is worth the trouble? Check the benefits of choosing us among others."
+          name="Florintech Computer College"
+          content="Master in-demand computer skills like web development & programming at Florintech, a leading computer school in Ojo, Lagos. Boost your career with industry-recognized courses & experienced instructors. Enroll today!"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

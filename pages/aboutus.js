@@ -18,7 +18,7 @@ function Aboutus() {
         openGraph={{
           url: "https://www.florintechcomputercollege.com/aboutus/",
           title: "About Us | Florintech Computer College",
-          description: "Florintech Computer College Contact us Page",
+          description: "Florintech Computer College About us Page",
 
           siteName: "Florintech Computer College",
           images: [
@@ -42,7 +42,7 @@ function Aboutus() {
       </Head>
       <Header />
       <Banner
-        pageName="Abous Us"
+        pageName="About Us"
         pageDetails="find out about us and our core values"
       />
       <Box className="about-container">
