@@ -16,7 +16,7 @@ function Navmenu() {
       setIsActive(false);
     }
   };
-  console.log(isActive);
+ 
 
   return (
     <Box>
