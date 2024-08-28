@@ -6,7 +6,7 @@ export const appContext = React.createContext(false);
 import { extendTheme } from "@chakra-ui/react";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
-import { MessengerChat } from "react-messenger-chat-plugin";
+
 import { useRouter } from 'next/router'
 const options = {
   autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
@@ -60,16 +60,7 @@ function MyApp({ Component, pageProps }) {
    
     <ChakraProvider theme={theme}>
       <DefaultSeo {...SEO} />
-      <MessengerChat
-        pageId="575806952943547"
-        language="en_US"
-        themeColor={"#ffffff"}
-        bottomSpacing={100}
-        // loggedInGreeting="loggedInGreeting"
-        // loggedOutGreeting="loggedOutGreeting"
-        // greetingDialogDisplay={"show"}
-        debugMode={true}
-      />
+ 
       
       <Component {...pageProps} />
     </ChakraProvider>
