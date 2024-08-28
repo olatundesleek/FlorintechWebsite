@@ -50,7 +50,7 @@ function Contactus() {
         {...SEO}
       />
       <Header />
-      <Banner pageName="Contact us" pageDetails="contact us today on our email or phone number,you can also check to see our opening hours" />
+      <Banner pageName="Contact us" pageDetails="Are you ready to start your journey towards a successful career in the world of technology? Florintech Computer College, a leading computer school in Lagos, is here to help you every step of the way. Whether you have questions about our courses, need guidance on enrollment, or want to learn more about our state-of-the-art facilities, our team is here to assist you." />
 
       <Flex
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
@@ -137,14 +137,14 @@ function Contactus() {
             </Box>
           </a>
         </Link>
-        <Link legacyBehavior href="tel:+2349024702192
+        <Link legacyBehavior href="tel:+2348136689745
 ">
           <a>
             <Box className="phone-con">
               <FiPhoneCall fontSize="3rem" style={{ padding: "5px" }} />
               <span>
                 <h2>Phone:</h2>
-                <p>+2349024702192</p>
+                <p>+2348136689745</p>
               </span>
             </Box>
           </a>

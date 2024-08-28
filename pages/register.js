@@ -210,40 +210,53 @@ function Register() {
                   value={inputs.course}
                   onChange={handleChange}
                 >
-                  <option value="Diploma In Office Application">
-                    Diploma In Office Application
+                  <option value="Office Application">
+                    Office Application
                   </option>
-                  <option value="Diploma In Business Electronic Accounting">
-                    Diploma In Business Electronic Accounting
+                  <option value="Business Electronic Accounting">
+                   Business Electronic Accounting
                   </option>
-                  <option value="Advance Diploma In Information MGT">
-                    Advance Diploma In Information MGT
+                  <option value="Office Information MGT">
+                    Office Information MGT
                   </option>
-                  <option value="Diploma In Deskstop Publishing">
-                    Diploma In Deskstop Publishing
+                  <option value="Deskstop Publishing">
+                    Deskstop Publishing
                   </option>
-                  <option value="Certified Desktop Publishing">
-                    Certified Desktop Publishing
+                  <option value="UI/UX">
+                    UI/UX
+                  </option>
+                  <option value="Cybersecurity">
+                    Cybersecurity
+                  </option>
+                  <option value="Advanced Desktop Publishing">
+                    Advanced Desktop Publishing
                   </option>
                   <option value="Certified Graphics Professional">
                     Certified Graphics Professional
                   </option>
                   <option value="Autocad Specialist">Autocad Specialist</option>
-                  <option value="Diploma In Digital Media">
-                    Diploma In Digital Media
+                 
+                  <option value="Digital Marketing">
+                    Digital Marketing
                   </option>
-                  <option value="Advance In Digital Medial">
-                    Advance In Digital Medial{" "}
-                  </option>
-                  <option value="Advance In Digital Media And Web Development">
-                    Advance In Digital Media And Web Development
+                  <option value="Digital Marketing And Web Development">
+                    Digital Marketing And Web Development
                   </option>
                   <option value=" Website Development Frontend">
                     Website Development Frontend
                   </option>
-                  <option value="Python Data-Science">
-                    Python Data-Science
+                  <option value="Website Development Frontend with React js">
+                    Website Development Frontend with React.Js
                   </option>
+                  <option value=" Website Development Back-End">
+                    Website Development Back-End
+                  </option>
+                  <option value=" Website Development Full-Stack">
+                  Website Development Full-Stack
+                  </option>
+                  {/* <option value="Python Data-Science">
+                    Python Data-Science
+                  </option> */}
                 </Select>
                 <Box>
                   <Heading as="h6" size="md" color="white">
@@ -253,27 +266,27 @@ function Register() {
                     <Stack direction="column">
                       <Radio
                         required
-                        value="Morning(9am-12:30pm)"
+                        value="Morning(9am-1pm)"
                         onChange={handleSelected}
-                        checked={selected === "Morning(9am-12:30pm)"}
+                        checked={selected === "Morning(9am-1pm)"}
                       >
-                        Morning(9am-12:30pm)
+                        Morning(9am-1pm)
                       </Radio>
                       <Radio
                         required
-                        value="Afternoon(1pm-4pm)"
+                        value="Afternoon(1pm-3pm)"
                         onChange={handleSelected}
-                        checked={selected === "Afternoon(1pm-4pm)"}
+                        checked={selected === "Afternoon(1pm-3pm)"}
                       >
-                        Afternoon(1pm-4pm)
+                        Afternoon(1pm-3pm)
                       </Radio>
                       <Radio
                         required
-                        value="Evening(5;30pm-7pm)"
+                        value="Evening(3pm-5pm)"
                         onChange={handleSelected}
-                        checked={selected === "Evening(5;30pm"}
+                        checked={selected === "Evening(3:00pm"}
                       >
-                        Evening(5:30pm-7pm)
+                        Evening(3pm-5pm)
                       </Radio>
                     </Stack>
                   </RadioGroup>

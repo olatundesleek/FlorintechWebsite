@@ -51,7 +51,7 @@ Our instructors are experienced professionals who have a deep understanding of t
 
 At Florintech Computer College, we are committed to providing our students with the highest-quality education and training. Our Certified Graphics Professional program is just one example of how we are helping individuals develop the skills and knowledge needed to succeed in today's competitive job market.
 
-If you are interested in pursuing a career in graphic design, we invite you to learn more about our Certified Graphics Professional progra,Contact us today to schedule a consultation or to enroll in our next training session."
+If you are interested in pursuing a career in graphic design, we invite you to learn more about our Certified Graphics Professional program."
         courseOutline={[
           "All courses in desktop publishing ",
           "All courses in certied desktop publishing ",

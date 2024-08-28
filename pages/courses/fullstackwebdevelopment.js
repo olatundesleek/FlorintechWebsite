@@ -11,7 +11,7 @@ function FullStackWebDevelopment() {
     <Box>
       <DefaultSeo  {...SEO}
         title="Full-Stack Web Development | Florintech computer college"
-        description="learn Full-Stack Web Development at Florintech Computer College"
+        description="Join Florintech Computer College's Full-Stack Web Development program. Learn front-end and back-end development, MERN stack, and build full-stack applications. Hands-on training with industry experts. Duration: 12 months. Certification included. Start your journey to becoming a web developer"
         canonical = 'https://www.florintechcomputercollege.com/fullstackwebdevelopment/'
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/fullstackwebdevelopment/",
@@ -34,8 +34,11 @@ function FullStackWebDevelopment() {
       <Singlecourse
         courseTitle="Full-Stack website Development"
         courseImage={courseImages.fullstack}
-        aboutCourseText="This intensive program covers a wide spectrum of skills, technologies, and industry best practices to ensure that graduates are well-equipped for success in the ever-evolving field of web development.
-        Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools."
+        aboutCourseText="This intensive program at Florintech Computer College, a premier computer school in Lagos, covers a wide spectrum of skills, technologies, and industry best practices to ensure that graduates are well-equipped for success in the ever-evolving field of web development. Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools.
+
+        Join Florintech Computer College and learn Full-Stack web development to advance your career in tech and software development. Our hands-on approach and experienced instructors will guide you through every step, ensuring you gain practical experience and comprehensive knowledge.
+        
+        Take the next step in your career and contact Florintech Computer College today to learn more about our web development program."
         courseOutline={[
 
             "Introduction to Web Development",
@@ -92,7 +95,7 @@ function FullStackWebDevelopment() {
             "Continuous integration and deployment (CI/CD)",
            
           ]}
-        coursePrice="#250,000"
+        coursePrice="285,000"
         courseDuration="12 months"
       />
     </Box>

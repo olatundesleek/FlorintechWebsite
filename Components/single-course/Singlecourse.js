@@ -5,6 +5,8 @@ import NewsLetter from "../../Components/NewsLetter";
 import Footer from "../../Components/Footer";
 import { FaPlay, FaAward } from "react-icons/fa";
 import { BsFileEarmarkFill, BsFileMinusFill } from "react-icons/bs";
+import { TbCurrencyNaira } from "react-icons/tb";
+import { IoIosPricetag } from "react-icons/io";
 import { BiTimeFive } from "react-icons/bi";
 import { TiArrowSync } from "react-icons/ti";
 import AboutTeacher from "../../Components/AboutTeacher";
@@ -69,21 +71,10 @@ const Singlecourse = ({
          
 
           <Box>
-            <div className="single-course-content-two">
-              <div className="about-teacher-title-sec">
-                Register for this Course
-              </div>
-
-              <div className="course-amount">
-                <span className="amount">{coursePrice}Naira</span>
-              </div>
-              <Link legacyBehavior href="/register">
-                <button className="course-cart-button">Register Now </button>
-              </Link>
-            </div>
+           
             {/* the "what is include part of the single course page " */}
-            <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem">
-              <div className="about-teacher-title-sec">What’s included?</div>
+            <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem" m={{ base: '20px 0' }}>
+              <div className="about-teacher-title-sec">Course Information</div>
 
               <Flex alignItems="center">
                 <BsFileEarmarkFill />
@@ -115,7 +106,7 @@ const Singlecourse = ({
                   fontWeight={500}
                 >
                   Duration:
-                  <bold className="about-teacher-title">{courseDuration}</bold>
+                  {courseDuration}
                 </Text>
               </Flex>
               <Flex alignItems="center">
@@ -150,7 +141,30 @@ const Singlecourse = ({
                   Certificate of Completion
                 </Text>
               </Flex>
+              <Flex alignItems="center">
+                <IoIosPricetag />
+                <Text display={"flex"} alignItems={"center"}
+                  fontSize={{
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={500}
+                >
+                  <TbCurrencyNaira/>{coursePrice}
+                </Text>
+              </Flex>
+              <Link legacyBehavior href="/register">
+                <button className="course-cart-button">Register Now </button>
+              </Link>
             </Box>
+           
+             
+             
+          
           </Box>
         </div>
       </section>

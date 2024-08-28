@@ -35,15 +35,15 @@ function Aboutus() {
       <Head>
         <title>About Us | Florintech Computer College</title>
         <meta
-          name="courses"
-          content="you can select from our wide range of courses"
+          name="About Us"
+          content="Florintech Computer College is a leading institution in Lagos, Nigeria, dedicated to providing high-quality education and training in the field of technology. With a focus on practical, hands-on learning, we equip our students with the skills and knowledge necessary to excel in today's digital world."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <Banner
         pageName="About Us"
-        pageDetails="find out about us and our core values"
+        pageDetails="Florintech Computer College is a leading institution in Lagos, Nigeria, dedicated to providing high-quality education and training in the field of technology. With a focus on practical, hands-on learning, we equip our students with the skills and knowledge necessary to excel in today's digital world."
       />
       <Box className="about-container">
         <p style={{ fontSize: "19px" }}>

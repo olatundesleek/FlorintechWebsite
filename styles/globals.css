@@ -281,7 +281,7 @@ a {
   flex: 1;
 }
 .footer-tools {
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 .footer-tools a {
   color: #ffffff;
@@ -332,7 +332,7 @@ a {
 
 .single-course-content > div {
   width: 100%;
-  padding: 20px 50px;
+  padding: 20px 30px;
 }
 
 .single-course-content > div h1 {
@@ -363,6 +363,11 @@ a {
   padding: 9px 0.8rem;
   margin-top: 4rem;
 }
+@media screen and (max-width: 500px) {
+  .single-course-content-two {
+    box-shadow: none;
+  }
+}
 
 .single-course-content-two .course-header {
   font-weight: 700;
@@ -382,7 +387,7 @@ a {
 }
 
 .course-amount .amount {
-  font-size: 28px;
+  font-size: 3vw;
   font-weight: bold;
   color: #083b6b;
   display: block;
@@ -415,6 +420,7 @@ a {
   border: unset;
   transform-style: preserve-3d;
   transition: box-shadow 350ms ease, transform 350ms ease;
+  margin: 20px;
   line-height: 1em;
   font-weight: 700;
   font-family: Manrope, sans-serif !important;
@@ -428,15 +434,14 @@ a {
 
 .course-text {
   width: 100%;
-  margin-top: 5rem;
-  margin-bottom: 7rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
   color: #1d2b5f;
   line-height: 2.5em;
 }
 
 .course-text-left {
   font-family: "Alegreya Sans", sans-serif;
-  padding: 0 1rem 0 5rem;
   font-size: 3.8rem;
   font-weight: bold;
   line-height: 1.12em;
@@ -561,7 +566,7 @@ a {
     width: 100%;
   }
   .course-text-right {
-    margin-top: 3rem;
+    margin-top: 10px;
     width: 80%;
   }
 }
@@ -694,8 +699,7 @@ a {
 
 .single-page-image {
   margin: 2.5rem 0;
-  height: 450px;
-  width: 100%;
+  width: 70%;
   border-radius: 20px;
 }
 
@@ -717,7 +721,6 @@ a {
   font-size: 20px !important;
   color: #1d2b5f !important;
   margin-bottom: 1rem;
-  font-weight: bold;
   font-family: Manrope, sans-serif !important;
 }
 
@@ -925,19 +928,18 @@ main {
   }
   .single-course-content-two {
     margin-top: 0;
-    width: 408px;
+    max-width: 408px;
     padding-bottom: 20px;
   }
   .single-course-inner {
     width: 100%;
   }
   .single-page-image {
-    margin: 1.5rem 4.5rem;
     width: 100%;
     border-radius: 20px;
   }
   .about-teacher-title-sec {
-    font-size: 3rem !important;
+    font-size: 1rem !important;
   }
   .browse-link {
     font-size: 1rem !important;
@@ -948,7 +950,7 @@ main {
     font-size: 1.5rem;
   }
   .about-teacher-title {
-    font-size: 20px !important;
+    font-size: 17px !important;
   }
   .faq-container p {
     width: 100%;
@@ -961,17 +963,16 @@ main {
   .course-cart-button {
     border-radius: 80px;
     font-size: 16px;
-    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: auto;
     padding: 10px 14px;
   }
   .course-amount {
     display: flex;
     justify-content: center;
+    margin: 10px 0;
   }
   .course-amount .amount {
     font-size: 16px;
@@ -1018,9 +1019,10 @@ main {
     color: #1d2b5f !important;
     font-weight: bold;
     font-family: Manrope, sans-serif !important;
+    text-align: center;
   }
   .single-course-content > div h1 {
-    font-size: 30px;
+    font-size: 10vw;
   }
   .single-course-content-two .content {
     margin: 5px 0;
@@ -1606,7 +1608,7 @@ main {
   color: white;
   font-size: 3rem;
   font-weight: 600;
-  height: 400px;
+  min-height: 400px;
   padding: 20px;
 }
 .banner span {
@@ -1736,7 +1738,8 @@ main {
   margin: 0;
 }
 .newsletter input {
-  width: 70%;
+  width: 100%;
+  max-width: 400px;
   border: 1px solid #083b6b;
   padding: 0.6rem 1rem;
   color: #1d2b5f !important;

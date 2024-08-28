@@ -14,7 +14,7 @@ function Slider() {
       showIndicators={false}
     >
       <div className="page-slider">
-        <img src="https://res.cloudinary.com/de0x1equu/image/upload/v1600773486/Student_1_hhux1k.png" />
+        <img src="https://res.cloudinary.com/de0x1equu/image/upload/f_auto/v1600773486/Student_1_hhux1k.webp" alt="florintech computer college"/>
         <Box
           justifyContent="center"
           position="absolute"
@@ -66,7 +66,7 @@ function Slider() {
         </Box>
       </div>
       <div className="page-slider">
-        <img src="https://res.cloudinary.com/de0x1equu/image/upload/v1600773475/student1ed_ycght3.png" />
+        <img src="https://res.cloudinary.com/de0x1equu/image/upload/f_auto/v1600773475/student1ed_ycght3.webp" alt="florintech computer college"/>
         <Box
           justifyContent="center"
           position="absolute"
@@ -118,7 +118,7 @@ function Slider() {
         </Box>
       </div>
       <div className="page-slider">
-        <img src="https://res.cloudinary.com/de0x1equu/image/upload/v1600773441/student2ed_gl6tlj.png" />
+        <img src="https://res.cloudinary.com/de0x1equu/image/upload/f_auto/v1600773441/student2ed_gl6tlj.webp" alt="florintech computer college"/>
         <Box
           justifyContent="center"
           position="absolute"

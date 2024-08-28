@@ -54,8 +54,7 @@ function Certificate({
 
             <Box className="user-name">
               <span>
-                {firstName} {middleName}
-                {lastName}
+                {firstName} {middleName} {lastName}
               </span>
               <hr />
             </Box>
@@ -83,10 +82,10 @@ function Certificate({
                 >
                   <Image
                     src={signature}
-                    width="80px"
-                    height="20px"
+                    width="200"
+                    height="200"
                     color="black"
-                    fontWight="500"
+                    fontWeight="500"
                   />
                 </span>
                 <hr />

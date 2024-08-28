@@ -20,7 +20,7 @@ export let reviewData = [
   {
     name: "Stanley Ogaga",
     review:
-      "Arguably the best computer school in Ojo. The environment is conducive for learning and growing.I probably would refer family and friends",
+      "Unarguably the best computer school in Ojo. The environment is conducive for learning and growing.I probably would refer family and friends",
     photo: "/images/stanley.jpg",
   },
 ];

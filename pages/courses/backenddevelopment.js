@@ -61,7 +61,7 @@ function WebDevelopmentWithReact() {
           "Deployment Strategies",
           "Final Project Development and Presentation"
         ]}
-        coursePrice="#150,000"
+        coursePrice="160,000"
         courseDuration="6 months"
       />
     </Box>

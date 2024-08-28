@@ -15,12 +15,12 @@ function index() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Courses | Florintech computer college"
+        title="Courses | Florintech Computer College"
         canonical="https://www.florintechcomputercollege.com/courses/"
         description="You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/",
-          title: "Courses | Florintech Online Registeration",
+          title: "Courses | Florintech Computer College",
           description:
             "You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos",
 
@@ -30,7 +30,7 @@ function index() {
               url: "https://www.florintechcomputercollege.com/images/logo.jpg",
               width: 800,
               height: 600,
-              alt: "Florintech Comuter College",
+              alt: "Florintech ComPuter College",
               type: "image/jpeg",
             },
           ],
@@ -39,7 +39,11 @@ function index() {
       <Header />
       <Banner
         pageName="Courses"
-        pageDetails="You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos"
+        pageDetails="Discover a world of possibilities at Florintech Computer College in Okokomaiko, Ojo, Lagos. As a leading computer school in Ojo, our training center offers a diverse selection of courses designed to help you specialize and excel in your chosen field. From web development to digital marketing, graphic design, and more, we have the courses you need to enhance your skills and advance your career.
+
+        What sets Florintech Computer College apart is our commitment to providing quality education and personalized attention to each student. Our experienced instructors bring real-world expertise to the classroom, ensuring that you receive practical, industry-relevant training.
+        
+        At Florintech Computer College, we understand that flexibility is key. That's why we offer flexible scheduling options and online learning opportunities, allowing you to pursue your education on your own terms. Join us at Florintech Computer College and experience the difference."
       />
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">
@@ -83,7 +87,7 @@ function index() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web developmen."
             courseTitle="Web Development"
             courseImage={courseImages.webdevelopment}
-            price="60000"
+            price="70000"
           />
         </Flex>
         <Flex
@@ -97,7 +101,7 @@ function index() {
             courseText="This comprehensive 6-month React.js course is designed to equip students with the skills and knowledge necessary to become proficient React.js developers. students will start with a strong foundation in HTML, CSS, and JavaScript before diving into React.js, a popular JavaScript library for building modern web applications. Throughout the course, students will gain hands-on experience through practical projects and assignments, enabling them to create interactive and dynamic web applications."
             courseTitle="Front End Web Development with React.js "
             courseImage={courseImages.reactjs}
-            price="120000"
+            price="140000"
           />
         </Flex>
         <Flex
@@ -111,7 +115,7 @@ function index() {
             courseText="Our 6-Months Backend Development course with Node.js is tailored for individuals aspiring to become proficient backend developers. This comprehensive course equips you with the skills and knowledge needed to excel in the dynamic world of backend development using Node.js, one of the most versatile and in-demand technologies in the field."
             courseTitle="Back-End Development with Node.js "
             courseImage={courseImages.nodejs}
-            price="150000"
+            price="160000"
           />
         </Flex>
         <Flex
@@ -127,7 +131,7 @@ function index() {
             Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools."
             courseTitle="Full-Stack Web Development "
             courseImage={courseImages.fullstack}
-            price="250000"
+            price="285000"
           />
         </Flex>
         <Flex
@@ -177,7 +181,7 @@ Our instructors are experienced professionals with years of experience in the de
             courseText="Office applications are an essential part of any modern workplace, and mastering them is a must for anyone who wants to succeed in their career."
             courseTitle="Office Application"
             courseImage={courseImages.officeapplication}
-            price="15000"
+            price="20000"
           />
         </Flex>
         <Flex
@@ -209,7 +213,7 @@ At Florintech Computer College, our AutoCAD Specialist program is designed to gi
         >
           <CourseTab
             to="courses/advanceddesktoppublishing"
-            courseText="Welcome to Florintech Computer College, your one-stop solution for professional desktop publishing training and certification. Our Advanced Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing.
+            courseText="Our Advanced Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing.
 
 Desktop publishing has become an essential skill in today's fast-paced digital world. Whether you're creating brochures, flyers, newsletters, or other marketing materials, having a strong understanding of desktop publishing tools and techniques is crucial. That's where our Advanced Desktop Publishing program comes in.
 
@@ -230,7 +234,7 @@ Upon completion of our program, you'll be awarded a Advanced Desktop Publishing 
           margin="20px 0"
         >
           <CourseTab
-            to="courses/digitalmediaandwebdevelopnment"
+            to="courses/digitalmarketingandwebdevelopnment"
             courseText="Digital media is a term that encompasses a wide range of digital technologies, including social media, mobile applications, digital advertising, and more. Our courses cover a variety of topics related to digital media, including social media marketing, digital branding, and content creation.
 
 In addition to digital media, we also offer courses in web development. With more and more businesses relying on their online presence to reach customers, web development is a rapidly growing field. Our courses cover a variety of web development languages and technologies, including HTML, CSS, JavaScript, and more.
@@ -238,9 +242,9 @@ In addition to digital media, we also offer courses in web development. With mor
 Whether you're looking to start a career in digital media or web development, or simply looking to enhance your skills, Florintech Computer College has the courses you need. Our experienced instructors are dedicated to helping you achieve your goals and succeed in this exciting and dynamic field.
 
 We offer a range of programs and courses to suit your needs, including flexible scheduling options to fit your busy lifestyle."
-            courseTitle="Digital Media And Web Development"
+            courseTitle="Digital Marketing And Web Development"
             courseImage={courseImages.digitalandwebdev2}
-            price="85000"
+            price="100000"
           />
         </Flex>
         <Flex
@@ -271,7 +275,7 @@ Financial analysis: Our financial analysis courses cover the techniques and tool
         >
           <CourseTab
             to="courses/officeinformationmgt"
-            courseText="Welcome to our website dedicated to Office Information Management, where we explore the importance of efficient information management in the workplace, and how it can be achieved using modern technologies and strategies. In this page, we will specifically highlight the benefits of Office Information Management for Florintech Computer College.
+            courseText="we explore the importance of efficient information management in the workplace, and how it can be achieved using modern technologies and strategies. In this page, we will specifically highlight the benefits of Office Information Management for Florintech Computer College.
 
 At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students.
 
@@ -300,7 +304,7 @@ Whether you're a seasoned professional looking to enhance your skills or a begin
 At Florintech, we believe in providing a holistic learning experience."
             courseTitle="UI/UX"
             courseImage={courseImages.ux}
-            price="80000"
+            price="100000"
           />
         </Flex>
         <Flex
@@ -310,11 +314,25 @@ At Florintech, we believe in providing a holistic learning experience."
           margin="20px 0"
         >
           <CourseTab
-            to="courses/digitalmedia"
+            to="courses/cybersecurity"
+            courseText="The Junior Security Analyst course provides a comprehensive introduction to the field of cybersecurity. It is designed for individuals who want to learn cybersecurity from the ground up."
+            courseTitle="Cybersecurity"
+            courseImage={courseImages.Cybersecurity}
+            price="150000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/digitalmarketing"
             courseText="This course is designed for individuals who want to gain practical skills and knowledge in the field of digital media and marketing. It is suitable for marketing professionals, entrepreneurs, small business owners, and anyone interested in understanding and utilizing digital marketing strategies effectively."
-            courseTitle="Digital Media"
+            courseTitle="Digital Marketing"
             courseImage={courseImages.digitalmedia}
-            price="30000"
+            price="35000"
           />
         </Flex>
       </Flex>

@@ -12,14 +12,12 @@ function AdvancedDesktopDublishing() {
       <DefaultSeo  {...SEO}
       canonical="https://www.florintechcomputercollege.com/courses/advanceddesktoppublishing/"
         title="Advanced DeskTop Publishing| Florintech computer college"
-        description="At Florintech Computer College, we offer a comprehensive training program that covers all aspects of desktop publishing. Our program includes in-depth training on industry-standard software applications such as Adobe InDesign, Adobe Illustrator, and Adobe Photoshop. You'll learn how to create and design professional-grade documents, layouts, and graphics that meet the highest industry standards.
-
-Our Advanced Desktop Publishing program is ideal for both beginners and professionals looking to enhance their skills."
+        description="Learn desktop publishing at Florintech Computer College. Master tools like Corel Draw,Adobe Photoshop, and Microsoft Office. Create professional documents with hands-on training."
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/advanceddesktoppublishing/",
           title: "Advanced DeskTop Publishing| Florintech computer college",
           description:
-            " At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications.",
+            "Learn desktop publishing at Florintech Computer College. Master tools like Corel Draw, Photoshop, and Microsoft Office. Create professional documents with hands-on training.",
           images: [
             {
               url: "https://www.florintechcomputercollege.com/images/advanceddesktoppublishing.jpg",
@@ -37,7 +35,7 @@ Our Advanced Desktop Publishing program is ideal for both beginners and professi
       <Singlecourse
         courseTitle="Advanced Desktop Publishing"
         courseImage={courseImages.advanceddesktoppublishing}
-        aboutCourseText="Welcome to Florintech Computer College, your one-stop solution for professional desktop publishing training and certification. Our Advanced Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing.
+        aboutCourseText="Our Advanced Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing.
 
 Desktop publishing has become an essential skill in today's fast-paced digital world. Whether you're creating brochures, flyers, newsletters, or other marketing materials, having a strong understanding of desktop publishing tools and techniques is crucial. That's where our Advanced Desktop Publishing program comes in.
 
@@ -55,7 +53,7 @@ So why wait? Sign up for our Advanced Desktop Publishing program today and take 
           "Adobe Photoshop"
          
         ]}
-        coursePrice="#40,000"
+        coursePrice="40,000"
         courseDuration="4 months"
       />
     </Box>

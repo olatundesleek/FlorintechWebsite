@@ -41,7 +41,7 @@ function Trending() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web developmena."
             courseTitle="web development"
             courseImage={courseImages.webdevelopment}
-            price="60000"
+            price="70000"
           />
         </Flex>
         <Flex
@@ -52,16 +52,10 @@ function Trending() {
         >
           <CourseTab
             to="courses/uiux"
-            courseText="Florintech Computer College is a leading institution that provides students with the skills and knowledge necessary to succeed in the digital media industry. The college offers various courses, ranging from web development and graphic design to digital marketing and video production.
-
-One of the unique aspects of Florintech Computer College is its focus on hands-on learning. Students have access to state-of-the-art facilities and equipment, including high-end computers, cameras, and software. This allows them to gain practical experience and develop their skills in real-world scenarios.
-
-The college also places a significant emphasis on industry partnerships, ensuring that students have access to relevant and up-to-date knowledge. Florintech Computer College has established partnerships with various digital media companies, providing students with internship opportunities and exposure to industry experts.
-
-In addition to its academic programs, Florintech Computer College also offers a range of extracurricular activities."
+            courseText="Our UI/UX course covers wireframing, prototyping, user research, and visual design. With a strong emphasis on hands-on learning, students utilize state-of-the-art tools and software to gain practical experience."
             courseTitle="UI/UX"
             courseImage={courseImages.ux}
-            price="80000"
+            price="100000"
           />
         </Flex>
         <Flex
@@ -72,15 +66,9 @@ In addition to its academic programs, Florintech Computer College also offers a 
         >
           <CourseTab
             to="courses/certifiedgraphicsprofessional"
-            courseText="Florintech Computer College, your one-stop solution for professional desktop publishing training and certification. Our Certified Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing
+            courseText="Our Certified Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital graphics design,
 
-Desktop publishing has become an essential skill in today's fast-paced digital world. Whether you're creating brochures, flyers, newsletters, or other marketing materials, having a strong understanding of desktop publishing tools and techniques is crucial. That's where our Certified Desktop Publishing program comes in.
-
-At Florintech Computer College, we offer a comprehensive training program that covers all aspects of desktop publishing. Our program includes in-depth training on industry-standard software applications such as Adobe InDesign, Adobe Illustrator, and Adobe Photoshop. You'll learn how to create and design professional-grade documents, layouts, and graphics that meet the highest industry standards.
-
-Our Certified Desktop Publishing program is ideal for both beginners and professionals looking to enhance their skills. Our instructors are industry experts with years of experience in the field, and they'll provide you with practical, hands-on training that will help you master the techniques and tools used in desktop publishing.
-
-Upon completion of our program, you'll be awarded a Certified Desktop Publishing certification from Florintech Computer College. This certification is recognized worldwide and is a testament to your skills and knowledge in the field of desktop publishing. Our certification is also a great way to enhance your resume and increase your job prospects in the competitive job market."
+Graphics Design has become an essential skill in today's fast-paced digital world."
             courseTitle="Graphics Design Professional"
             courseImage={courseImages.graphics}
             price="50000"

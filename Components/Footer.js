@@ -2,10 +2,8 @@ import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
 import Brand from "./Brand/Brand";
-import { FiFacebook } from "react-icons/fi";
-import { FiTwitter } from "react-icons/fi";
-import { FiYoutube } from "react-icons/fi";
-import { FiLinkedin } from "react-icons/fi";
+import { FiFacebook, FiInstagram ,FiTwitter,FiYoutube,FiLinkedin} from "react-icons/fi";
+import { FaTiktok } from "react-icons/fa";
 import NewsLetter from "./NewsLetter";
 
 function Footer() {
@@ -32,7 +30,7 @@ function Footer() {
         <Flex
           className="footer-links"
           justifyContent="center"
-          flexDirection={{ base: "row", sm: "column", md: "row", lg: "row" }}
+          flexDirection={{ base: "row", sm: "row", md: "row", lg: "row" }}
         >
           <Box>
             <h2>PAGES</h2>
@@ -112,6 +110,23 @@ function Footer() {
                   <a target="_blank">
                     <FiTwitter />
                     TWITTER
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link  legacyBehavior href="https://instagram.com/florintechcomputercollege">
+                  <a target="_blank">
+                    <FiInstagram />
+                    INSTAGRAM
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link  legacyBehavior href="https://www.tiktok.com/@florintechcomputer">
+                  <a target="_blank">
+                  <FaTiktok />
+
+                    TIKTOK
                   </a>
                 </Link>
               </li>

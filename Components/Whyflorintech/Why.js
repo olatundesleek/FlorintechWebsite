@@ -13,12 +13,7 @@ function Why() {
         <h1>
         Florintech Computer College stands out as a premier computer training school in Ojo, Lagos, empowering individuals and organizations with the skills to thrive in today&apos;s digital world. Whether you&apos;re a beginner looking to learn the basics, or a seasoned professional seeking to advance your career, Florintech offers a comprehensive range of courses tailored to your needs.<br/>
 
-Unleash Your Potential with Our Diverse Curriculum<br/>
-
-<b>Web Development: </b>Master the art of building dynamic websites and applications using industry-standard languages like HTML, CSS, JavaScript and React Js.<br/>
-<b>Programming Bootcamps: </b> Dive deep into in-demand programming languages like Python,C++, Java, or Javascript and gain the skills to become a sought-after developer.<br/>
-<b>IT Courses: </b> Enhance your productivity and efficiency with essential office training in Microsoft Office Suite or explore advanced IT skills for network administration, Design or cybersecurity.
-And More,
+Unleash Your Potential with Our Diverse Curriculum.<br/>
 At Florintech Computer School in Ojo, you&apos;ll benefit from experienced instructors, a hands-on learning environment, and practical projects that prepare you for real-world challenges.
         </h1>
 
@@ -59,12 +54,11 @@ At Florintech Computer School in Ojo, you&apos;ll benefit from experienced instr
             <Box>
               <h2 className="advantage-subtitle">Expert teachers</h2>
               <p>
-                Our college is made of university graduates specialized with
-                distinction in the various field they teach. They are
+                Our college is made of professionals in the various field they teach. They are
                 enthusiastic about teaching and assisting students to understand
-                technologybeen taught. Each of this instructors are working on
-                real life projects for clientsand also developing a pet project
-                by the side. You can be sure to trust theknowledge they offer.
+                technology or course that is being taught. Each of this instructors are working on
+                real life projects for clients and also developing a pet project
+                by the side. You can be sure to trust the knowledge they offer.
               </p>
             </Box>
           </Flex>

@@ -3,11 +3,11 @@
 // import advancedgraphicsdesign from "./../pages/courses/advancedgraphicsdesign";
 export const videoCon = [
   {
-    img: "rfmJI8BqxC8&list=PL0EqspLrOAxRX_IeXFX1jcaqHKCc45IJx",
+    img: "GQS7wPujL2k",
     to: "/courses/certifiedgraphicsprofessional",
     title: "Graphics Designs  Tutorial for Beginners",
     paragraph:
-      " This video summaries  how to become a proffesional graphics designer.",
+      " This video talks about the introduction to becoming a proffesional graphics designer.",
     textbtn: "view course",
   },
   {
@@ -35,19 +35,12 @@ export const videoCon = [
   //   textbtn: "view course",
   // },
   {
-    img: "EceJQ05KTf4&list=PLwoh6bBAszPrNlrMqJXnb9G6MdgSfN686",
+    img: "HD13eq_Pmp8",
     to: "/courses/webdevelopment",
     title: "Introduction to Web Development",
     paragraph:
       " Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great.",
     textbtn: "view course",
   },
-  {
-    img: "qoSksQ4s_hg&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET",
-    to: "/courses/webdevelopment",
-    title: "Introduction To JavaScript",
-    paragraph:
-      "JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages.",
-    textbtn: "view course",
-  },
+  
 ];

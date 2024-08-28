@@ -1,3 +1,5 @@
+import Cybersecurity from "../pages/courses/cybersecurity";
+
 export const courseImages = {
   webdevelopment: "/images/webdevelopment.jpg",
 
@@ -29,6 +31,7 @@ fullstack:"/images/fullstack.jpg",
 
   graphics: "/images/graphic-pic.jpg",
   advanceddesktoppublishing: "/images/advanceddesktoppublishing.jpg",
+  Cybersecurity:"/images/cybersecurity.jpg",
   autocad: "/images/autocad.jpg",
   digitalandwebdev2: "/images/digitalandwebdev2.jpg",
 };
