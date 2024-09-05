@@ -1,8 +1,7 @@
 import { Box, Flex } from "@chakra-ui/react";
 import Image from "next/image";
-import Link from "next/link";
-import aboutUs from "../../public/images/2.jpeg";
-import aboutUs2 from "../../public/images/businesselectronicaccounting.jpg";
+
+
 import React from "react";
 
 const About = () => {
