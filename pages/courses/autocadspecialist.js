@@ -65,8 +65,9 @@ We offer hands-on training that allows students to apply their skills in a pract
 
 Whether you are just starting out in your career or looking to enhance your skills, Florintech Computer College can help you achieve your goals. Contact us today to learn more about our AutoCAD Specialist program and how we can help you reach your full potential."
           courseOutline={["Autocad 2D", "Autocad 3D"]}
-          coursePrice="50,000"
+          coursePrice="80,000"
           courseDuration="2 months"
+          classType="Physical/Virtual"
         />
       </Box>
     </div>

@@ -6,7 +6,7 @@ import { courseImages } from "../../Components/images";
 import Header from "../../Components/Header";
 import Singlecourse from "../../Components/single-course/Singlecourse";
 
-function WebDevelopmentWithReact() {
+function BackendDevelopment() {
   return (
     <Box>
       <DefaultSeo  {...SEO}
@@ -61,11 +61,12 @@ function WebDevelopmentWithReact() {
           "Deployment Strategies",
           "Final Project Development and Presentation"
         ]}
-        coursePrice="160,000"
+        coursePrice="200,000"
         courseDuration="6 months"
+        classType="Physical"
       />
     </Box>
   );
 }
 
-export default WebDevelopmentWithReact;
+export default BackendDevelopment;

@@ -47,7 +47,8 @@ function DigitalMarketing  () {
           ]}
         
           courseDuration="6 weeks"
-          coursePrice="35,000"
+          coursePrice="50,000"
+           classType="Physical/Virtual"
         />
       </Box>
     </div>

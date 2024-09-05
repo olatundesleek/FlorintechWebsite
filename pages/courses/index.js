@@ -76,9 +76,7 @@ function index() {
         >
           <CourseTab
             to="courses/webdevelopment"
-            courseText="A website not only allows you to reach a wider audience, but it also helps establish credibility and trust with potential customers.
-        
-        Our Web Development program is designed to equip students with the skills and knowledge necessary to create professional and functional websites. We cover a wide range of topics, including HTML, CSS, JavaScript, and web design principles.
+            courseText="Our Web Development program is designed to equip students with the skills and knowledge necessary to create professional and functional websites. We cover a wide range of topics, including HTML, CSS, JavaScript, and web design principles.
         
         At Florintech Computer College, we believe in a hands-on approach to learning. Our experienced instructors provide practical exercises and real-world examples to ensure that students gain practical skills that they can apply in their careers.
         
@@ -87,7 +85,7 @@ function index() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web developmen."
             courseTitle="Web Development"
             courseImage={courseImages.webdevelopment}
-            price="70000"
+            price="120000"
           />
         </Flex>
         <Flex
@@ -101,7 +99,7 @@ function index() {
             courseText="This comprehensive 6-month React.js course is designed to equip students with the skills and knowledge necessary to become proficient React.js developers. students will start with a strong foundation in HTML, CSS, and JavaScript before diving into React.js, a popular JavaScript library for building modern web applications. Throughout the course, students will gain hands-on experience through practical projects and assignments, enabling them to create interactive and dynamic web applications."
             courseTitle="Front End Web Development with React.js "
             courseImage={courseImages.reactjs}
-            price="140000"
+            price="180000"
           />
         </Flex>
         <Flex
@@ -115,7 +113,7 @@ function index() {
             courseText="Our 6-Months Backend Development course with Node.js is tailored for individuals aspiring to become proficient backend developers. This comprehensive course equips you with the skills and knowledge needed to excel in the dynamic world of backend development using Node.js, one of the most versatile and in-demand technologies in the field."
             courseTitle="Back-End Development with Node.js "
             courseImage={courseImages.nodejs}
-            price="160000"
+            price="200000"
           />
         </Flex>
         <Flex
@@ -131,7 +129,23 @@ function index() {
             Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools."
             courseTitle="Full-Stack Web Development "
             courseImage={courseImages.fullstack}
-            price="285000"
+            price="350000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/webdesignwithwordpress"
+            courseText="This intensive program covers a wide spectrum of skills, technologies, and industry best practices to ensure that graduates are well-equipped for success in the ever-evolving field of web development.
+
+            Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools."
+            courseTitle="Web Design with Wordpress"
+            courseImage={courseImages.wordpress}
+            price="80000"
           />
         </Flex>
         <Flex
@@ -151,7 +165,7 @@ The program covers a wide range of topics, including graphic design theory, colo
 At the end of the program, students will be prepared to take the Certified Graphics Professional exam."
             courseTitle="Certified Graphics Professional"
             courseImage={courseImages.graphics}
-            price="50000"
+            price="60000"
           />
         </Flex>
         <Flex
@@ -167,7 +181,7 @@ At the end of the program, students will be prepared to take the Certified Graph
 Our instructors are experienced professionals with years of experience in the desktop publishing industry."
             courseTitle="Desktop Publishing"
             courseImage={courseImages.desktoppublishing}
-            price="35000"
+            price="45000"
           />
         </Flex>
         <Flex
@@ -181,7 +195,7 @@ Our instructors are experienced professionals with years of experience in the de
             courseText="Office applications are an essential part of any modern workplace, and mastering them is a must for anyone who wants to succeed in their career."
             courseTitle="Office Application"
             courseImage={courseImages.officeapplication}
-            price="20000"
+            price="25000"
           />
         </Flex>
         <Flex
@@ -202,7 +216,7 @@ At Florintech Computer College, our AutoCAD Specialist program is designed to gi
 ."
             courseTitle="AutoCad Specialist"
             courseImage={courseImages.autocad}
-            price="50000"
+            price="80000"
           />
         </Flex>
         <Flex
@@ -224,7 +238,7 @@ Our Advanced Desktop Publishing program is ideal for both beginners and professi
 Upon completion of our program, you'll be awarded a Advanced Desktop Publishing certification from Florintech Computer College. This certification is recognized worldwide and is a testament to your skills and knowledge in the field of desktop publishing. Our certification is also a great way to enhance your resume and increase your job prospects in the competitive job market."
             courseTitle="Advanced Desktop Publishing"
             courseImage={courseImages.advanceddesktoppublishing}
-            price="40000"
+            price="50000"
           />
         </Flex>
         <Flex
@@ -244,7 +258,7 @@ Whether you're looking to start a career in digital media or web development, or
 We offer a range of programs and courses to suit your needs, including flexible scheduling options to fit your busy lifestyle."
             courseTitle="Digital Marketing And Web Development"
             courseImage={courseImages.digitalandwebdev2}
-            price="100000"
+            price="150000"
           />
         </Flex>
         <Flex
@@ -264,7 +278,7 @@ Taxation: Our taxation courses cover the fundamentals of taxation, including inc
 Financial analysis: Our financial analysis courses cover the techniques and tools used to analyze financial data and make informed business decisions."
             courseTitle="Business Electronic Accounting"
             courseImage={courseImages.businesselectronicaccounting}
-            price="35000"
+            price="45000"
           />
         </Flex>
         <Flex
@@ -284,7 +298,7 @@ To achieve these goals, we have implemented an Office Information Management sys
 One of the key benefits of our Office Information Management system is improved productivity.."
             courseTitle="Office Information Management"
             courseImage={courseImages.officemgt}
-            price="50000"
+            price="60000"
           />
         </Flex>
         <Flex
@@ -304,7 +318,7 @@ Whether you're a seasoned professional looking to enhance your skills or a begin
 At Florintech, we believe in providing a holistic learning experience."
             courseTitle="UI/UX"
             courseImage={courseImages.ux}
-            price="100000"
+            price="150000"
           />
         </Flex>
         <Flex
@@ -332,7 +346,7 @@ At Florintech, we believe in providing a holistic learning experience."
             courseText="This course is designed for individuals who want to gain practical skills and knowledge in the field of digital media and marketing. It is suitable for marketing professionals, entrepreneurs, small business owners, and anyone interested in understanding and utilizing digital marketing strategies effectively."
             courseTitle="Digital Marketing"
             courseImage={courseImages.digitalmedia}
-            price="35000"
+            price="50000"
           />
         </Flex>
       </Flex>

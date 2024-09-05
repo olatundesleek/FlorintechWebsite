@@ -34,4 +34,5 @@ fullstack:"/images/fullstack.jpg",
   Cybersecurity:"/images/cybersecurity.jpg",
   autocad: "/images/autocad.jpg",
   digitalandwebdev2: "/images/digitalandwebdev2.jpg",
+  wordpress:"/images/wordpress.jpg"
 };

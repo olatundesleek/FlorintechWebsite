@@ -56,6 +56,7 @@ function Cybersecurity() {
         ]}
         coursePrice="150,000"
         courseDuration="3 months"
+         classType="Physical & Virtual"
       />
     </Box>
   );

@@ -47,8 +47,9 @@ function digitalmediaandwebdevelopnment() {
           "All courses in diploma in digital media",
           "All courses in web development",
         ]}
-        coursePrice="100,000"
+        coursePrice="150,000"
         courseDuration="5 months"
+        classType="Physical"
       />
     </Box>
   );

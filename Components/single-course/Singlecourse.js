@@ -10,6 +10,7 @@ import { IoIosPricetag } from "react-icons/io";
 import { BiTimeFive } from "react-icons/bi";
 import { TiArrowSync } from "react-icons/ti";
 import AboutTeacher from "../../Components/AboutTeacher";
+import { SiGoogleclassroom } from "react-icons/si";
 
 const Singlecourse = ({
   //passed the below items as props
@@ -19,6 +20,7 @@ const Singlecourse = ({
   aboutCourseText,
   courseDuration,
   courseOutline,
+  classType
 }) => {
   return (
     <div>
@@ -139,6 +141,22 @@ const Singlecourse = ({
                   fontWeight={500}
                 >
                   Certificate of Completion
+                </Text>
+              </Flex>
+              <Flex alignItems="center">
+              <SiGoogleclassroom />
+                <Text
+                  fontSize={{
+                    base: "20px",
+                    sm: "20px",
+                    md: "25px",
+                    lg: "25px",
+                  }}
+                  color="gray"
+                  ml={8}
+                  fontWeight={500}
+                >
+                 {classType}
                 </Text>
               </Flex>
               <Flex alignItems="center">

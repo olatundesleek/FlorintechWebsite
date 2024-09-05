@@ -54,8 +54,9 @@ function WebDevelopment() {
           "JavaScript Debugging and Tools",
           "Introduction to content management system(CMS).",
         ]}
-        coursePrice="70,000"
+        coursePrice="120,000"
         courseDuration="4 months"
+         classType="Physical"
       />
     </Box>
   );

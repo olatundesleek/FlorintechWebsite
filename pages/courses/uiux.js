@@ -50,8 +50,9 @@ function uiux () {
           
           Contact Florintech Computer College today to learn more about our UI/UX courses and start your journey to success. Enroll now and take the first step towards a rewarding career in UI/UX design!"
           courseOutline={["Figma", "Adobe xd", "Adobe Illustrator"]}
-          coursePrice="100,000"
-          courseDuration="4 months"
+          coursePrice="150,000"
+          courseDuration="3 months"
+           classType="Physical/Virtual"
         />
       </Box>
     </div>

@@ -59,8 +59,9 @@ If you are interested in pursuing a career in graphic design, we invite you to l
           "Certified desktop publishing",
           "Internet Essential",
         ]}
-        coursePrice="50,000"
+        coursePrice="60,000"
         courseDuration="4 months"
+        classType="Physical"
       />
     </Box>
   );
