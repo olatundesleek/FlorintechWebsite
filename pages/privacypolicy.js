@@ -45,7 +45,7 @@ function Privacypolicy() {
 <h1>Privacy Policy</h1>
     <text><strong>Effective Date:</strong> January 2024 </text>
 
-    <text>Florintech Computer College ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. Please read this policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our services.</text>
+    <text>Florintech Computer College (&quot;we&quot;,&quot;our&quot;,&quot;or&quot;,&quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. Please read this policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our services.</text>
 
     <h2>1. Information We Collect</h2>
     <text>We may collect personal information from you in various ways, including when you:</text>
