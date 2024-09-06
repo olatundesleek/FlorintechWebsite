@@ -33,7 +33,8 @@ function Slider() {
             color="#fff"
             fontWeight="bold"
           >
-           Take the first step towards a successful tech career.
+          We enhance productivity
+
           </Text>
           <Flex justifyContent="center">
             <Flex justifyContent="center">
@@ -66,7 +67,7 @@ function Slider() {
         </Box>
       </div>
       <div className="page-slider">
-        <img src="https://res.cloudinary.com/de0x1equu/image/upload/f_auto/v1600773486/Student_1_hhux1k.webp" alt="florintech computer college"/>
+        <img src="https://res.cloudinary.com/de0x1equu/image/upload/q_auto/v1600773486/Student_1_hhux1k.webp" alt="florintech computer college"/>
         <Box
           justifyContent="center"
           position="absolute"
@@ -137,7 +138,7 @@ function Slider() {
             color="#fff"
             fontWeight="bold"
           >
-            Thousands of People Already Registered
+          Begin your tech journey.
           </Text>
           <Flex justifyContent="center">
             <Flex justifyContent="center">
@@ -170,7 +171,7 @@ function Slider() {
         </Box>
       </div>
       <div className="page-slider">
-        <img src="https://res.cloudinary.com/de0x1equu/image/upload/f_auto/v1600773441/student2ed_gl6tlj.webp" alt="florintech computer college"/>
+        <img src="https://res.cloudinary.com/de0x1equu/image/upload/q_auto/v1600773441/student2ed_gl6tlj.webp" alt="florintech computer college"/>
         <Box
           justifyContent="center"
           position="absolute"

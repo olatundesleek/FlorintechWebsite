@@ -63,7 +63,7 @@ function index() {
           lg: "center",
         }}
         flexFlow="wrap"
-        p={{ base: 0, sm: 0, md: 0, lg: 0, xl: 0 }}
+        p={{ base: "0 20px", sm: 0, md: 0, lg: 0, xl: 0 }}
         // variants={container}
         // initial="hidden"
         // animate="visible"

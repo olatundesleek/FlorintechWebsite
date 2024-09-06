@@ -16,13 +16,12 @@ function Topnav() {
       <Flex justifyContent={{ base: "center" }}>
         <Link legacyBehavior href="/courses">
           <a className="link">
-            <BsCardChecklist /> Our Course List
+            <BsCardChecklist />Course List
           </a>
         </Link>
         <Link legacyBehavior href="tel:+2348136689745">
           <a className="link">
-            <MdPhone />
-            08136689745
+            <MdPhone />08136689745
           </a>
         </Link>
       </Flex>
@@ -31,12 +30,12 @@ function Topnav() {
       <Flex justifyContent={{ base: "center" }}>
         <Link legacyBehavior href="/register">
           <a className="link">
-            <BsPencil /> Register
+            <BsPencil />Register
           </a>
         </Link>
         <Link legacyBehavior href="/verifycertificate">
           <a className="link">
-            <AiOutlineSafetyCertificate /> Verify Certificate
+            <AiOutlineSafetyCertificate />Verify Certificate
           </a>
         </Link>
       </Flex>

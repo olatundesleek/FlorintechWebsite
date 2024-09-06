@@ -34,7 +34,7 @@ function WebDesignWithWordpress() {
       <Singlecourse
         courseTitle="Website Design with Wordpress"
         courseImage={courseImages.wordpress}
-        aboutCourseText="Learn web design with WordPress in this practical course at Florintech Computer College. Whether you're new to web design or want to enhance your skills, this course teaches you how to build and customize professional, responsive websites using WordPress—no coding required. You'll master themes, plugins, content creation, SEO, and website maintenance. By the end, you'll have the skills to design and manage fully functional WordPress sites, including e-commerce integration. Perfect for aspiring designers and business owners looking to build a strong online presence."
+        aboutCourseText="Learn web design with WordPress in this practical course at Florintech Computer College. Whether you're new to web design or want to enhance your skills, this course teaches you how to build and customize professional, responsive websites using WordPress —no coding required.   You'll master themes, plugins, content creation, SEO, and website maintenance. By the end, you'll have the skills to design and manage fully functional WordPress sites, including e-commerce integration. Perfect for aspiring designers and business owners looking to build a strong online presence."
         courseOutline={[
     "Introduction to Web Design & WordPress",
   "Exploring the WordPress Dashboard",

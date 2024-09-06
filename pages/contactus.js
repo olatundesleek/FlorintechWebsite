@@ -42,7 +42,7 @@ function Contactus() {
               url: "https://www.florintechcomputercollege.com/images/logo.jpg",
               width: 800,
               height: 600,
-              alt: "Florintech Comuter College",
+              alt: "Florintech Computer College",
               type: "image/jpeg",
             },
           ],

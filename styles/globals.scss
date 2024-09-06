@@ -29,7 +29,7 @@ a {
 * {
   box-sizing: border-box;
   font-family: "Alegreya Sans", sans-serif;
-  font-weight: "bold";
+list-style: none;
 }
 .link {
   margin: 15px;
@@ -322,7 +322,7 @@ a {
 }
 .single-course-content > div {
   width: 100%;
-  padding:20px 30px;
+  padding:0 30px;
 }
 .single-course-content > div h1 {
   color: #1d2b5f;
@@ -520,6 +520,14 @@ $desktop-width: 1024px;
 .join-message {
   padding: 0 30px;
 }
+@media screen and (min-width:#{$desktop-width}) {
+  .fixed {
+    position: fixed;
+    // right: 20px;
+    width: 25%;
+    height: 100%;
+  }
+  }
 @media screen and (max-width:#{$tablet-width}) {
   .course-container {
     display: flex;
@@ -667,10 +675,11 @@ $desktop-width: 1024px;
 }
 
 .single-page-image {
-  margin: 2.5rem 0;
+ 
   
   width: 70%;
   border-radius: 20px;
+  max-width: 600px;
 }
 .about-teacher-container {
   // padding: 1rem 0.3rem;
@@ -702,7 +711,7 @@ $desktop-width: 1024px;
   color: #1d2b5f !important;
   font-family: Manrope, sans-serif !important;
   font-weight: bold;
-  margin: 4rem 0 1rem;
+  margin: 2rem 0 1rem;
 }
 
 .about-link {
@@ -712,6 +721,12 @@ $desktop-width: 1024px;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+.terms {
+  h1{text-align: center;
+    margin-bottom: 20px;}
+}
+.student-rules li{list-style-type: disc;margin-left: 20px;}
+h2{margin-top: 30px;font-size: 18px;}
 
 .single-list li {
   text-align: center;
@@ -719,7 +734,7 @@ $desktop-width: 1024px;
 }
 
 .single-list-two li {
-  list-style-type: decimal;
+  list-style-type: disc;
   margin-bottom: 1rem;
 }
 
@@ -897,6 +912,10 @@ main {
     font-size: 1rem !important;
   }
 }
+
+.course-info-container{position: relative;}
+// .course-info{}
+
 @media screen and (max-width:#{$phone-width}) {
   .faq-container h1 {
     font-size: 1.5rem;
@@ -966,10 +985,11 @@ main {
   }
 
   .single-page-image {
-    margin: 1.5rem 1px;
+    margin: 0 1px;
     width: 100%;
     border-radius: 20px;
     height: 271px;
+    object-fit: contain;
   }
 
   .about-teacher-title-sec {

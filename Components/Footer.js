@@ -76,6 +76,16 @@ function Footer() {
                     <a>FAQ</a>
                   </Link>
                 </li>
+                <li>
+                  <Link legacyBehavior href="/termsandconditions">
+                    <a>TERMS AND CONDITIONS</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/privacypolicy">
+                    <a>PRIVACY POLICY</a>
+                  </Link>
+                </li>
               </ul>
             </Box>
           </Box>
