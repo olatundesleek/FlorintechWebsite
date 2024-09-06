@@ -17,7 +17,7 @@ function Termsandconditions() {
   return (
     <Box className="Terms">
       <DefaultSeo noindex={true}
-        title="terms and conditions | Florintech computer college"
+        title="Terms and Conditions | Florintech computer college"
         description="Florintech Computer College terms and conditions"
         canonical="https://www.florintechcomputercollege.com/termsandconditions/"
         openGraph={{
