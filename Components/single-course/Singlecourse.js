@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import NewsLetter from "../../Components/NewsLetter";
 // import Faq from "../../Components/Faq/Faq";
@@ -12,7 +12,6 @@ import { TiArrowSync } from "react-icons/ti";
 import AboutTeacher from "../../Components/AboutTeacher";
 import { SiGoogleclassroom } from "react-icons/si";
 
-
 const Singlecourse = ({
   //passed the below items as props
   coursePrice,
@@ -21,7 +20,7 @@ const Singlecourse = ({
   aboutCourseText,
   courseDuration,
   courseOutline,
-  classType
+  classType,
 }) => {
   const [isFixed, setIsFixed] = useState(false);
   const [fixedTop, setFixedTop] = useState(0); // To store the original top offset
@@ -32,10 +31,11 @@ const Singlecourse = ({
   const handleScroll = () => {
     if (divRef.current) {
       // Calculate the element's position relative to the viewport (including scrolling)
-      const divTop = divRef.current.getBoundingClientRect().top + window.scrollY;
+      const divTop =
+        divRef.current.getBoundingClientRect().top + window.scrollY;
 
       // If the scroll position has reached the element's top, make it fixed
-      if (window.scrollY >= fixedTop ) {
+      if (window.scrollY >= fixedTop) {
         setIsFixed(true);
       } else {
         setIsFixed(false);
@@ -43,29 +43,29 @@ const Singlecourse = ({
     }
   };
 
-//   useEffect(() => {
-//     if (divRef.current) {
-//       // Calculate the original top, left, and right positions relative to the container and the document
-//       const divTop = divRef.current.getBoundingClientRect().top + window.scrollY;
-//       const divLeft = divRef.current.getBoundingClientRect().left; // Get left relative to the viewport
-//       const divRight = window.innerWidth - divRef.current.getBoundingClientRect().right; // Calculate right offset
-// console.log(divTop);
+  //   useEffect(() => {
+  //     if (divRef.current) {
+  //       // Calculate the original top, left, and right positions relative to the container and the document
+  //       const divTop = divRef.current.getBoundingClientRect().top + window.scrollY;
+  //       const divLeft = divRef.current.getBoundingClientRect().left; // Get left relative to the viewport
+  //       const divRight = window.innerWidth - divRef.current.getBoundingClientRect().right; // Calculate right offset
+  // console.log(divTop);
 
-//       setFixedTop(divTop);
-//       setFixedLeft(divLeft);
-//       setFixedRight(divRight);
-//     }
+  //       setFixedTop(divTop);
+  //       setFixedLeft(divLeft);
+  //       setFixedRight(divRight);
+  //     }
 
-//     if (divRef.current) {
-//       // Set the element's original top position when the component mounts
-//       const divTop = divRef.current.getBoundingClientRect().top + window.scrollY;
-//       setFixedTop(divTop);
-//     }
+  //     if (divRef.current) {
+  //       // Set the element's original top position when the component mounts
+  //       const divTop = divRef.current.getBoundingClientRect().top + window.scrollY;
+  //       setFixedTop(divTop);
+  //     }
 
-//     window.addEventListener('scroll', handleScroll);
-//     return () => window.removeEventListener('scroll', handleScroll);
-//   }, [fixedTop]);
-  
+  //     window.addEventListener('scroll', handleScroll);
+  //     return () => window.removeEventListener('scroll', handleScroll);
+  //   }, [fixedTop]);
+
   return (
     <div>
       <section className="single-course-container">
@@ -111,132 +111,139 @@ const Singlecourse = ({
                   })}
                 </ol>
               </div>
-           
             </Box>
           </div>
-         
-                  <Box className='course-info-container'>
-          <Box className={`course-info ${isFixed ? 'fixed' : ''}` }
-            ref={divRef}  style={{
-              top: isFixed ? `${fixedTop}px` : 'auto', // Dynamic top positioning
-              left: isFixed ? `${fixedLeft}px` : 'auto', // Dynamic left positioning
-              right: isFixed ? `${fixedRight}px` : 'auto', // Dynamic right positioning
-            }}>
-           
-            {/* the "what is include part of the single course page " */}
-            <Box boxShadow="md" rounded="md" bg="white" p="0rem 2rem 2rem 2rem" m={{ base: '20px 0' }}>
-              <div className="about-teacher-title-sec">Course Information</div>
 
-              <Flex alignItems="center">
-                <BsFileEarmarkFill />
-                <Text
-                  fontSize={{
-                    base: "20px",
-                    sm: "20px",
-                    md: "25px",
-                    lg: "25px",
-                  }}
-                  color="gray"
-                  ml={8}
-                  fontWeight={500}
-                >
-                  Downloadable Files
-                </Text>
-              </Flex>
-              <Flex alignItems="center">
-                <BiTimeFive />
-                <Text
-                  fontSize={{
-                    base: "20px",
-                    sm: "20px",
-                    md: "25px",
-                    lg: "25px",
-                  }}
-                  color="gray"
-                  ml={8}
-                  fontWeight={500}
-                >
-                  Duration:
-                  {courseDuration}
-                </Text>
-              </Flex>
-              <Flex alignItems="center">
-                <BsFileMinusFill />
-                <Text
-                  fontSize={{
-                    base: "20px",
-                    sm: "20px",
-                    md: "25px",
-                    lg: "25px",
-                  }}
-                  color="gray"
-                  ml={8}
-                  fontWeight={500}
-                >
-                  Access Anywhere
-                </Text>
-              </Flex>
-              <Flex alignItems="center">
-                <FaAward />
-                <Text
-                  fontSize={{
-                    base: "20px",
-                    sm: "20px",
-                    md: "25px",
-                    lg: "25px",
-                  }}
-                  color="gray"
-                  ml={8}
-                  fontWeight={500}
-                >
-                  Certificate of Completion
-                </Text>
-              </Flex>
-              <Flex alignItems="center">
-              <SiGoogleclassroom />
-                <Text
-                  fontSize={{
-                    base: "20px",
-                    sm: "20px",
-                    md: "25px",
-                    lg: "25px",
-                  }}
-                  color="gray"
-                  ml={8}
-                  fontWeight={500}
-                >
-                 {classType}
-                </Text>
-              </Flex>
-              <Flex alignItems="center">
-                <IoIosPricetag />
-                <Text display={"flex"} alignItems={"center"}
-                  fontSize={{
-                    base: "20px",
-                    sm: "20px",
-                    md: "25px",
-                    lg: "25px",
-                  }}
-                  color="gray"
-                  ml={8}
-                  fontWeight={500}
-                >
-                  <TbCurrencyNaira/>{coursePrice}
-                </Text>
-              </Flex>
-              <Link legacyBehavior href="/register">
-                <button className="course-cart-button">Register Now </button>
-              </Link>
+          <Box className="course-info-container">
+            <Box
+              className={`course-info ${isFixed ? "fixed" : ""}`}
+              ref={divRef}
+              style={{
+                top: isFixed ? `${fixedTop}px` : "auto", // Dynamic top positioning
+                left: isFixed ? `${fixedLeft}px` : "auto", // Dynamic left positioning
+                right: isFixed ? `${fixedRight}px` : "auto", // Dynamic right positioning
+              }}
+            >
+              {/* the "what is include part of the single course page " */}
+              <Box
+                boxShadow="md"
+                rounded="md"
+                bg="white"
+                p="0rem 2rem 2rem 2rem"
+                m={{ base: "20px 0" }}
+              >
+                <div className="about-teacher-title-sec">
+                  Course Information
+                </div>
+
+                <Flex alignItems="center">
+                  <BsFileEarmarkFill />
+                  <Text
+                    fontSize={{
+                      base: "20px",
+                      sm: "20px",
+                      md: "25px",
+                      lg: "25px",
+                    }}
+                    color="gray"
+                    ml={8}
+                    fontWeight={500}
+                  >
+                    Downloadable Files
+                  </Text>
+                </Flex>
+                <Flex alignItems="center">
+                  <BiTimeFive />
+                  <Text
+                    fontSize={{
+                      base: "20px",
+                      sm: "20px",
+                      md: "25px",
+                      lg: "25px",
+                    }}
+                    color="gray"
+                    ml={8}
+                    fontWeight={500}
+                  >
+                    Duration:
+                    {courseDuration}
+                  </Text>
+                </Flex>
+                <Flex alignItems="center">
+                  <BsFileMinusFill />
+                  <Text
+                    fontSize={{
+                      base: "20px",
+                      sm: "20px",
+                      md: "25px",
+                      lg: "25px",
+                    }}
+                    color="gray"
+                    ml={8}
+                    fontWeight={500}
+                  >
+                    Access Anywhere
+                  </Text>
+                </Flex>
+                <Flex alignItems="center">
+                  <FaAward />
+                  <Text
+                    fontSize={{
+                      base: "20px",
+                      sm: "20px",
+                      md: "25px",
+                      lg: "25px",
+                    }}
+                    color="gray"
+                    ml={8}
+                    fontWeight={500}
+                  >
+                    Certificate of Completion
+                  </Text>
+                </Flex>
+                <Flex alignItems="center">
+                  <SiGoogleclassroom />
+                  <Text
+                    fontSize={{
+                      base: "20px",
+                      sm: "20px",
+                      md: "25px",
+                      lg: "25px",
+                    }}
+                    color="gray"
+                    ml={8}
+                    fontWeight={500}
+                  >
+                    {classType}
+                  </Text>
+                </Flex>
+                <Flex alignItems="center">
+                  <IoIosPricetag />
+                  <Text
+                    display={"flex"}
+                    alignItems={"center"}
+                    fontSize={{
+                      base: "20px",
+                      sm: "20px",
+                      md: "25px",
+                      lg: "25px",
+                    }}
+                    color="gray"
+                    ml={8}
+                    fontWeight={500}
+                  >
+                    <TbCurrencyNaira />
+                    {coursePrice}
+                  </Text>
+                </Flex>
+                <Link legacyBehavior href="/register">
+                  <button className="course-cart-button">Register Now </button>
+                </Link>
+              </Box>
             </Box>
-           
-             
-             
-          
-          </Box>
           </Box>
         </div>
       </section>
-   
 
       <Footer />
     </div>

@@ -61,8 +61,8 @@ function BackendDevelopment() {
           "Deployment Strategies",
           "Final Project Development and Presentation"
         ]}
-        coursePrice="200,000"
-        courseDuration="6 months"
+        coursePrice="250,000"
+        courseDuration="4 months"
         classType="Physical"
       />
     </Box>

@@ -32,7 +32,7 @@ function WebDevelopment() {
       />
       <Header />
       <Singlecourse
-        courseTitle="website Development"
+        courseTitle="Website Development"
         courseImage={courseImages.webdevelopment}
         aboutCourseText="Our Web Development program is meticulously designed to equip students with the skills and knowledge necessary to create professional and functional websites. Learn web development through our comprehensive curriculum, which covers a range of topics including HTML, CSS, JavaScript, and core web design principles. At Florintech Computer College Ojo, we believe in a hands-on approach to learning web development. Our experienced instructors provide practical exercises and real-world examples to ensure students gain practical skills that they can immediately apply in their careers. Whether you are looking to start a career as a web developer or enhance your existing skills, our Web Development program is the perfect choice."
         courseOutline={[
@@ -54,8 +54,8 @@ function WebDevelopment() {
           "JavaScript Debugging and Tools",
           "Introduction to content management system(CMS).",
         ]}
-        coursePrice="120,000"
-        courseDuration="4 months"
+        coursePrice="150,000"
+        courseDuration="3 months"
          classType="Physical"
       />
     </Box>

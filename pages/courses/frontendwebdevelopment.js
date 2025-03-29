@@ -76,8 +76,8 @@ function WebDevelopmentWithReact() {
           "Optimizing Performance",
           "Deploying React Applications",
         ]}
-        coursePrice="180,000"
-        courseDuration="6 months"
+        coursePrice="200,000"
+        courseDuration="4 months"
         classType="Physical"
       />
     </Box>

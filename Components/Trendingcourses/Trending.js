@@ -41,7 +41,7 @@ function Trending() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web developmena."
             courseTitle="web development"
             courseImage={courseImages.webdevelopment}
-            price="120000"
+            price="150000"
           />
         </Flex>
         <Flex
@@ -55,7 +55,7 @@ function Trending() {
             courseText="Our UI/UX course covers wireframing, prototyping, user research, and visual design. With a strong emphasis on hands-on learning, students utilize state-of-the-art tools and software to gain practical experience."
             courseTitle="UI/UX"
             courseImage={courseImages.ux}
-            price="120000"
+            price="150000"
           />
         </Flex>
         <Flex

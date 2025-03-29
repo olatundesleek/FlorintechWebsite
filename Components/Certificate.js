@@ -15,7 +15,7 @@ function Certificate({
 }) {
   return (
     <Flex justifyContent="center" m={20}>
-      {console.log(completionDate)}
+    
       <Box className="certificate-overall">
         <Box className="first-border"></Box>
 

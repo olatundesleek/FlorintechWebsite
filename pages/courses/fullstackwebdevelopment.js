@@ -95,7 +95,7 @@ function FullStackWebDevelopment() {
             "Continuous integration and deployment (CI/CD)",
            
           ]}
-        coursePrice="350,000"
+        coursePrice="400,000"
         courseDuration="8 months"
          classType="Physical"
       />

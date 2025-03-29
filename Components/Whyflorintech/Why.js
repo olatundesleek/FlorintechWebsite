@@ -11,10 +11,19 @@ function Why() {
     <Box className="advantage">
       <Box className="writecopy">
         <h1>
-        Florintech Computer College stands out as a premier computer training school in Ojo, Lagos, empowering individuals and organizations with the skills to thrive in today&apos;s digital world. Whether you&apos;re a beginner looking to learn the basics, or a seasoned professional seeking to advance your career, Florintech offers a comprehensive range of courses tailored to your needs.<br/>
-
-Unleash Your Potential with Our Diverse Curriculum.<br/>
-At Florintech Computer School in Ojo, you&apos;ll benefit from experienced instructors, a hands-on learning environment, and practical projects that prepare you for real-world challenges.
+        Florintech Computer College stands out as a premier computer training
+        school in Ojo, Lagos, empowering individuals and organizations with the
+        skills needed to excel in today’s digital world. Whether you’re a
+        beginner exploring the basics or a seasoned professional aiming to
+        advance your career, Florintech offers a comprehensive range of courses
+        tailored to meet your goals.
+      
+     <br/> Unleash Your Potential with Our Diverse Curriculum<br/>
+      
+        At Florintech Computer School in Ojo, you’ll benefit from experienced
+        instructors, a hands-on learning approach, and practical projects
+        designed to prepare you for real-world challenges.
+      
         </h1>
 
       </Box>

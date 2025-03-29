@@ -17,8 +17,7 @@ function Contactus() {
   function activateDays() {
     let today = new Date();
     let currentDay = today.getDay();
-    //   currentDay = currentDay+1
-    console.log(currentDay);
+
     setGetDays(currentDay);
   }
   useEffect(() => {
@@ -50,7 +49,10 @@ function Contactus() {
         {...SEO}
       />
       <Header />
-      <Banner pageName="Contact us" pageDetails="Are you ready to start your journey towards a successful career in the world of technology? Florintech Computer College, a leading computer school in Lagos, is here to help you every step of the way. Whether you have questions about our courses, need guidance on enrollment, or want to learn more about our state-of-the-art facilities, our team is here to assist you." />
+      <Banner
+        pageName="Contact us"
+        pageDetails="Are you ready to start your journey towards a successful career in the world of technology? Florintech Computer College, a leading computer school in Lagos, is here to help you every step of the way. Whether you have questions about our courses, need guidance on enrollment, or want to learn more about our state-of-the-art facilities, our team is here to assist you."
+      />
 
       <Flex
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
@@ -137,8 +139,11 @@ function Contactus() {
             </Box>
           </a>
         </Link>
-        <Link legacyBehavior href="tel:+2348136689745
-">
+        <Link
+          legacyBehavior
+          href="tel:+2348136689745
+"
+        >
           <a>
             <Box className="phone-con">
               <FiPhoneCall fontSize="3rem" style={{ padding: "5px" }} />
