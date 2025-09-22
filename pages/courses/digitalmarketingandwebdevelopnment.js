@@ -9,12 +9,13 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function digitalmediaandwebdevelopnment() {
   return (
     <Box>
-      <DefaultSeo {...SEO}
-      canonical="https://www.florintechcomputercollege.com/courses/digitalmediaandwebdevelopnment/"
+      <DefaultSeo
+        {...SEO}
+        canonical="https://www.florintechcomputercollege.com/courses/digitalmarketingandwebdevelopnment/"
         title="Digital Marketing And Web Developnment | Florintech computer college"
         description="At Florintech Computer College, we understand the importance of staying up-to-date with the latest trends and advancements in technology. That's why we offer a comprehensive range of courses in digital media and web development, designed to equip you with the skills and knowledge you need to succeed in this ever-evolving field"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/digitalmediaandwebdevelopnment/",
+          url: "https://www.florintechcomputercollege.com/courses/digitalmarketingandwebdevelopnment/",
           title:
             "Digital Marketing And WebDevelopnment | Florintech computer college",
           description:
@@ -30,7 +31,6 @@ function digitalmediaandwebdevelopnment() {
           ],
           siteName: "Florintech Computer College",
         }}
-        
       />
       <Header />
       <Singlecourse

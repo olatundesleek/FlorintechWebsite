@@ -17,12 +17,12 @@ function index() {
         {...SEO}
         title="Courses | Florintech Computer College"
         canonical="https://www.florintechcomputercollege.com/courses/"
-        description="You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos"
+        description="Learn job ready ICT and computer skills at Florintech Computer College, Ojo Lagos. Explore certified courses in web development, digital marketing, and more."
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/",
           title: "Courses | Florintech Computer College",
           description:
-            "You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos",
+            "Learn job ready ICT and computer skills at Florintech Computer College, Ojo Lagos. Explore certified courses in web development, digital marketing, and more.",
 
           siteName: "Florintech Computer College",
           images: [
@@ -39,17 +39,17 @@ function index() {
       <Header />
       <Banner
         pageName="Courses"
-        pageDetails="Discover a world of possibilities at Florintech Computer College in Okokomaiko, Ojo, Lagos. As a leading computer school in Ojo, our training center offers a diverse selection of courses designed to help you specialize and excel in your chosen field. From web development to digital marketing, graphic design, and more, we have the courses you need to enhance your skills and advance your career.
+        pageDetails="Discover a world of opportunities at Florintech Computer College, the premier computer school in Okokomaiko, Ojo, Lagos. Our accredited training center offers a wide variety of computer and ICT courses designed to help you specialize in high demand digital fields and advance your career.
 
-        What sets Florintech Computer College apart is our commitment to providing quality education and personalized attention to each student. Our experienced instructors bring real-world expertise to the classroom, ensuring that you receive practical, industry-relevant training.
-        
-        At Florintech Computer College, we understand that flexibility is key. That's why we offer flexible scheduling options and online learning opportunities, allowing you to pursue your education on your own terms. Join us at Florintech Computer College and experience the difference."
+Whether you're interested in web development, digital marketing, cybersecurity, graphic design, or data analysis, our curriculum combines expert instruction with hands-on learning to ensure you gain real world experience and industry relevant skills.
+
+What sets us apart as a top computer training school in Ojo is our dedication to quality education and personalized attention. Our experienced instructors bring practical knowledge from the tech industry directly into the classroom, helping students bridge the gap between learning and doing.
+
+At Florintech Computer College in Ojo, Lagos, we understand that flexibility matters. That’s why we offer weekday and weekend classes, along with online learning options — giving you control over how and when you learn."
       />
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">
-        <Box>
-          <h1 className="course-text-left">Courses</h1>
-        </Box>
+        <Box>{/* <h1 className="course-text-left">Courses</h1> */}</Box>
         <Box className="course-text-right">
           explore the list of our numerous courses
         </Box>
@@ -214,7 +214,7 @@ At Florintech Computer College, our AutoCAD Specialist program is designed to gi
 ."
             courseTitle="AutoCad Specialist"
             courseImage={courseImages.autocad}
-            price="80000"
+            price="200000"
           />
         </Flex>
         <Flex

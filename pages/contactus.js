@@ -28,12 +28,13 @@ function Contactus() {
     <Box className="contactus">
       <DefaultSeo
         title="Contact Us | Florintech computer college"
-        description="Florintech Computer College Contact us Page"
+        description="Get in touch with Florintech Computer College, the leading ICT training center in Okokomaiko, Ojo, Lagos. Call, WhatsApp, or visit us today to start your journey in tech."
         canonical="https://www.florintechcomputercollege.com/contactus/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/contactus/",
           title: "Contact Us | Florintech Computer College",
-          description: "Florintech Computer College Contact us Page",
+          description:
+            "Get in touch with Florintech Computer College, the leading ICT training center in Okokomaiko, Ojo, Lagos. Call, WhatsApp, or visit us today to start your journey in tech.",
 
           siteName: "Florintech Computer College",
           images: [
@@ -41,7 +42,7 @@ function Contactus() {
               url: "https://www.florintechcomputercollege.com/images/logo.jpg",
               width: 800,
               height: 600,
-              alt: "Florintech Computer College",
+              alt: "Florintech Computer College logo",
               type: "image/jpeg",
             },
           ],
@@ -123,7 +124,7 @@ function Contactus() {
               <GrLocation fontSize="3rem" style={{ padding: "5px" }} />
               <span>
                 <h2>Location:</h2>
-                <p>9 kemberi Road okokomaiko,Ojo,Lagos, NIgeria.</p>
+                <p>9 Kemberi Road Okokomaiko, Ojo, Lagos, Nigeria.</p>
               </span>
             </Box>
           </a>

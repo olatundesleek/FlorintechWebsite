@@ -9,14 +9,16 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function BackendDevelopment() {
   return (
     <Box>
-      <DefaultSeo  {...SEO}
+      <DefaultSeo
+        {...SEO}
         title="Back-End Development | Florintech computer college"
         description="learn Back-End Development with Node Js at Florintech Computer College"
-        canonical = 'https://www.florintechcomputercollege.com/webdevelopment/'
+        canonical="https://www.florintechcomputercollege.com/courses/backendwebdevelopment/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/backendwebdevelopment/",
           title: "Back-End Development | Florintech computer college",
-          description: "Learn Back-End Development at Florintech Computer College",
+          description:
+            "Learn Back-End Development at Florintech Computer College",
           images: [
             {
               url: "https://www.florintechcomputercollege.com/images/nodejs.png",
@@ -28,7 +30,6 @@ function BackendDevelopment() {
           ],
           siteName: "Florintech Computer College",
         }}
-       
       />
       <Header />
       <Singlecourse
@@ -59,7 +60,7 @@ function BackendDevelopment() {
           "API Documentation and Testing",
           "Performance Optimization",
           "Deployment Strategies",
-          "Final Project Development and Presentation"
+          "Final Project Development and Presentation",
         ]}
         coursePrice="250,000"
         courseDuration="4 months"

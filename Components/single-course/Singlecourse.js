@@ -74,7 +74,11 @@ const Singlecourse = ({
             <Box>
               <h1 className="single-page-ads">{courseTitle}</h1>
               {/* <p>{courseDetails}</p> */}
-              <img src={courseImage} className="single-page-image" />
+              <img
+                src={courseImage}
+                className="single-page-image"
+                alt="course image"
+              />
             </Box>
             {/* the about teacher */}
             {/* <AboutTeacher

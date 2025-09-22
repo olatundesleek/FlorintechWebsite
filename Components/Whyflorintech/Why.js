@@ -11,25 +11,39 @@ function Why() {
     <Box className="advantage">
       <Box className="writecopy">
         <h1>
-        Florintech Computer College stands out as a premier computer training
-        school in Ojo, Lagos, empowering individuals and organizations with the
-        skills needed to excel in today’s digital world. Whether you’re a
-        beginner exploring the basics or a seasoned professional aiming to
-        advance your career, Florintech offers a comprehensive range of courses
-        tailored to meet your goals.
-      
-     <br/> Unleash Your Potential with Our Diverse Curriculum<br/>
-      
-        At Florintech Computer School in Ojo, you’ll benefit from experienced
-        instructors, a hands-on learning approach, and practical projects
-        designed to prepare you for real-world challenges.
-      
+          Florintech Computer College – Leading Computer School in Ojo, Lagos
         </h1>
-
+        {/* <h1>
+          Florintech Computer College is the leading computer school in Ojo,
+          Lagos, dedicated to empowering individuals and organizations with the
+          digital skills needed to thrive in today’s technology driven world. As
+          a trusted computer training school in Ojo, we provide hands-on, career
+          focused courses designed for beginners and professionals alike. Our
+          state of the art ICT training center located in Okokomaiko, Ojo,
+          offers a wide range of certified courses including web development,
+          digital marketing, cybersecurity, graphic design, and more.
+          <br /> At Florintech, you’ll learn from industry experienced
+          instructors and gain practical skills through real world projects.
+          Join thousands of successful students who have launched or advanced
+          their careers by choosing the best computer school in Ojo Lagos.
+          Whether you want to start a new career, upgrade your skills, or become
+          a tech entrepreneur, Florintech is your go to destination for quality
+          ICT education.
+        </h1> */}
+        <p>
+          Florintech Computer College is a{" "}
+          <strong>computer school in Ojo, Lagos</strong>, known for 100%
+          practical ICT training. We help students, professionals, and
+          organizations gain the digital and computer skills they need to
+          succeed in today’s technology-driven world. Whether you’re searching
+          for a <strong>computer training school in Ojo</strong> or a place to
+          build your tech career, Florintech provides hands-on learning with
+          industry-recognized programs.
+        </p>
       </Box>
 
       <Box>
-        <h2 className="why">Why Florintech?</h2>
+        <h2 className="why">Why Choose Our Computer School in Ojo?</h2>
         <Flex justifyContent={"center"}>
           <Box className="line"></Box>
           <FcGraduationCap className="graduationcap" />
@@ -63,11 +77,9 @@ function Why() {
             <Box>
               <h2 className="advantage-subtitle">Expert teachers</h2>
               <p>
-                Our college is made of professionals in the various field they teach. They are
-                enthusiastic about teaching and assisting students to understand
-                technology or course that is being taught. Each of this instructors are working on
-                real life projects for clients and also developing a pet project
-                by the side. You can be sure to trust the knowledge they offer.
+                Our instructors are ICT professionals working on real-life
+                projects. They guide students step by step, making our computer
+                school in Ojo one of the most practical places to learn.
               </p>
             </Box>
           </Flex>
@@ -87,13 +99,15 @@ function Why() {
             <Box>
               <h2 className="advantage-subtitle">Trusted Certification</h2>
               <p>
-                Our certificates and diplomas certificates we issued to
-                graduands are easily recognized and welcome inreputable
-                companies, institutions and other organizations here in Nigeria
-                andabroad. This is because Florintech Computer College itself is
-                a leading IT training institute in Okokomaiko,Ojo,Lagos,Nigeria
-                that is duly registered and recognized by the government to
-                impact quality IT skill sets in student.
+                Our certificates and diplomas are widely recognized and accepted
+                by reputable companies, institutions, and organizations in
+                Nigeria and abroad. This is because Florintech Computer College,
+                a leading IT training institute in Okokomaiko, Ojo, Lagos, is
+                duly registered and recognized by the government to provide
+                students with quality IT skills. To give our students and
+                employers extra confidence, we also provide an online
+                certificate verification portal, allowing anyone to instantly
+                verify the authenticity of our certificates and diplomas.
               </p>
             </Box>
           </Flex>
@@ -123,8 +137,8 @@ function Why() {
             <Box>
               <h2 className="advantage-subtitle">Methodology</h2>
               <p>
-                We keep learning new methods,as well as updating to latest
-                program and programming languages/versions for skill
+                We keep learning new methods, as well as updating to the latest
+                programs, programming languages, and versions for skill
                 advancement. Our mode of training is 100% practical.
               </p>
             </Box>
@@ -146,7 +160,7 @@ function Why() {
               <h2 className="advantage-subtitle">Video Lessons</h2>
               <p>
                 Get ready to be immersed into a world of video guides,
-                referencing and video practices.As this video lesson aid in
+                referencing and video practices. As these video lessons aid
                 better understanding and visual retention of information.
               </p>
             </Box>

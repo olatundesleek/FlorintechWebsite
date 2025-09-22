@@ -9,10 +9,11 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function WebDevelopment() {
   return (
     <Box>
-      <DefaultSeo  {...SEO}
+      <DefaultSeo
+        {...SEO}
         title="Web Development | Florintech computer college"
         description="learn web development at Florintech Computer College"
-        canonical = 'https://www.florintechcomputercollege.com/webdevelopment/'
+        canonical="https://www.florintechcomputercollege.com/courses/webdevelopment/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/webdevelopment/",
           title: "Web Development | Florintech computer college",
@@ -28,7 +29,6 @@ function WebDevelopment() {
           ],
           siteName: "Florintech Computer College",
         }}
-       
       />
       <Header />
       <Singlecourse
@@ -56,7 +56,7 @@ function WebDevelopment() {
         ]}
         coursePrice="150,000"
         courseDuration="3 months"
-         classType="Physical"
+        classType="Physical"
       />
     </Box>
   );

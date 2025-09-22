@@ -55,7 +55,7 @@ function Verification() {
     bodyContent.append("cert_number", certificateNo);
 
     let verificationResponse = await fetch(
-      `https://florintechcomputercollege.com/api/api_verifycertificate.php`,
+      `https://www.florintechcomputercollege.com/api/api_verifycertificate.php`,
 
       {
         method: "POST",

@@ -10,7 +10,7 @@ function Trending() {
     <Box className="trending-section">
       <Flex justifyContent="center" width="100%">
         <Box className="trending-section-title-text">
-          <h2>Checkout our premium trending courses</h2>
+          <h2>Start Your Tech Career With These Popular Courses</h2>
         </Box>
       </Flex>
       <Flex
@@ -38,7 +38,7 @@ function Trending() {
         
         Whether you are interested in starting a career as a web developer or want to enhance your existing skills, our Web Development program is the perfect choice. Join us today and take the first step towards building your own website or developing websites for others.
         
-        Don't miss this opportunity! Register now to start your journey in the exciting world of web developmena."
+        Don't miss this opportunity! Register now to start your journey in the exciting world of web development."
             courseTitle="web development"
             courseImage={courseImages.webdevelopment}
             price="150000"
