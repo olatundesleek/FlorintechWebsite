@@ -9,8 +9,9 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function AdvancedDesktopDublishing() {
   return (
     <Box>
-      <DefaultSeo  {...SEO}
-      canonical="https://www.florintechcomputercollege.com/courses/advanceddesktoppublishing/"
+      <DefaultSeo
+        {...SEO}
+        canonical="https://www.florintechcomputercollege.com/courses/advanceddesktoppublishing/"
         title="Advanced DeskTop Publishing| Florintech computer college"
         description="Learn desktop publishing at Florintech Computer College. Master tools like Corel Draw,Adobe Photoshop, and Microsoft Office. Create professional documents with hands-on training."
         openGraph={{
@@ -29,7 +30,6 @@ function AdvancedDesktopDublishing() {
           ],
           siteName: "Florintech Computer College",
         }}
-       
       />
       <Header />
       <Singlecourse
@@ -50,8 +50,7 @@ So why wait? Sign up for our Advanced Desktop Publishing program today and take 
           "All Courses in Desktop Publishing",
           "Powerpoint",
           "ADV Corel Draw",
-          "Adobe Photoshop"
-         
+          "Adobe Photoshop",
         ]}
         coursePrice="50,000"
         courseDuration="3 months"

@@ -17,12 +17,12 @@ function index() {
         {...SEO}
         title="Courses | Florintech Computer College"
         canonical="https://www.florintechcomputercollege.com/courses/"
-        description="You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos"
+        description="Learn job ready ICT and computer skills at Florintech Computer College, Ojo Lagos. Explore certified courses in web development, digital marketing, and more."
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/",
           title: "Courses | Florintech Computer College",
           description:
-            "You can choose from series of courses designed to help you specialise your skills,We offer a wide range of courses at our computer training center here in Florintech Computer College Okokomaiko Ojo Lagos",
+            "Learn job ready ICT and computer skills at Florintech Computer College, Ojo Lagos. Explore certified courses in web development, digital marketing, and more.",
 
           siteName: "Florintech Computer College",
           images: [
@@ -39,17 +39,17 @@ function index() {
       <Header />
       <Banner
         pageName="Courses"
-        pageDetails="Discover a world of possibilities at Florintech Computer College in Okokomaiko, Ojo, Lagos. As a leading computer school in Ojo, our training center offers a diverse selection of courses designed to help you specialize and excel in your chosen field. From web development to digital marketing, graphic design, and more, we have the courses you need to enhance your skills and advance your career.
+        pageDetails="Discover a world of opportunities at Florintech Computer College, the premier computer school in Okokomaiko, Ojo, Lagos. Our accredited training center offers a wide variety of computer and ICT courses designed to help you specialize in high demand digital fields and advance your career.
 
-        What sets Florintech Computer College apart is our commitment to providing quality education and personalized attention to each student. Our experienced instructors bring real-world expertise to the classroom, ensuring that you receive practical, industry-relevant training.
-        
-        At Florintech Computer College, we understand that flexibility is key. That's why we offer flexible scheduling options and online learning opportunities, allowing you to pursue your education on your own terms. Join us at Florintech Computer College and experience the difference."
+Whether you're interested in web development, digital marketing, cybersecurity, graphic design, or data analysis, our curriculum combines expert instruction with hands-on learning to ensure you gain real world experience and industry relevant skills.
+
+What sets us apart as a top computer training school in Ojo is our dedication to quality education and personalized attention. Our experienced instructors bring practical knowledge from the tech industry directly into the classroom, helping students bridge the gap between learning and doing.
+
+At Florintech Computer College in Ojo, Lagos, we understand that flexibility matters. That’s why we offer weekday and weekend classes, along with online learning options — giving you control over how and when you learn."
       />
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">
-        <Box>
-          <h1 className="course-text-left">Courses</h1>
-        </Box>
+        <Box>{/* <h1 className="course-text-left">Courses</h1> */}</Box>
         <Box className="course-text-right">
           explore the list of our numerous courses
         </Box>
@@ -85,7 +85,7 @@ function index() {
         Don't miss this opportunity! Register now to start your journey in the exciting world of web developmen."
             courseTitle="Web Development"
             courseImage={courseImages.webdevelopment}
-            price="120000"
+            price="150000"
           />
         </Flex>
         <Flex
@@ -96,10 +96,10 @@ function index() {
         >
           <CourseTab
             to="courses/frontendwebdevelopment"
-            courseText="This comprehensive 6-month React.js course is designed to equip students with the skills and knowledge necessary to become proficient React.js developers. students will start with a strong foundation in HTML, CSS, and JavaScript before diving into React.js, a popular JavaScript library for building modern web applications. Throughout the course, students will gain hands-on experience through practical projects and assignments, enabling them to create interactive and dynamic web applications."
+            courseText="This comprehensive React.js course is designed to equip students with the skills and knowledge necessary to become proficient React.js developers. students will start with a strong foundation in HTML, CSS, and JavaScript before diving into React.js, a popular JavaScript library for building modern web applications. Throughout the course, students will gain hands-on experience through practical projects and assignments, enabling them to create interactive and dynamic web applications."
             courseTitle="Front End Web Development with React.js "
             courseImage={courseImages.reactjs}
-            price="180000"
+            price="200000"
           />
         </Flex>
         <Flex
@@ -110,10 +110,10 @@ function index() {
         >
           <CourseTab
             to="courses/backenddevelopment"
-            courseText="Our 6-Months Backend Development course with Node.js is tailored for individuals aspiring to become proficient backend developers. This comprehensive course equips you with the skills and knowledge needed to excel in the dynamic world of backend development using Node.js, one of the most versatile and in-demand technologies in the field."
+            courseText="Our Backend Development course with Node.js is tailored for individuals aspiring to become proficient backend developers. This comprehensive course equips you with the skills and knowledge needed to excel in the dynamic world of backend development using Node.js, one of the most versatile and in-demand technologies in the field."
             courseTitle="Back-End Development with Node.js "
             courseImage={courseImages.nodejs}
-            price="200000"
+            price="250000"
           />
         </Flex>
         <Flex
@@ -129,7 +129,7 @@ function index() {
             Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools."
             courseTitle="Full-Stack Web Development "
             courseImage={courseImages.fullstack}
-            price="350000"
+            price="400000"
           />
         </Flex>
         <Flex
@@ -140,9 +140,7 @@ function index() {
         >
           <CourseTab
             to="courses/webdesignwithwordpress"
-            courseText="This intensive program covers a wide spectrum of skills, technologies, and industry best practices to ensure that graduates are well-equipped for success in the ever-evolving field of web development.
-
-            Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools."
+            courseText="Learn web design with WordPress at Florintech Computer College! Master how to build and customize professional, responsive websites using the world’s leading CMS."
             courseTitle="Web Design with Wordpress"
             courseImage={courseImages.wordpress}
             price="80000"
@@ -216,7 +214,7 @@ At Florintech Computer College, our AutoCAD Specialist program is designed to gi
 ."
             courseTitle="AutoCad Specialist"
             courseImage={courseImages.autocad}
-            price="80000"
+            price="200000"
           />
         </Flex>
         <Flex
@@ -258,7 +256,7 @@ Whether you're looking to start a career in digital media or web development, or
 We offer a range of programs and courses to suit your needs, including flexible scheduling options to fit your busy lifestyle."
             courseTitle="Digital Marketing And Web Development"
             courseImage={courseImages.digitalandwebdev2}
-            price="150000"
+            price="180000"
           />
         </Flex>
         <Flex

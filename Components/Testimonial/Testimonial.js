@@ -47,6 +47,7 @@ function Testimonial() {
                       src={data.photo}
                       width="80"
                       height="80"
+                      alt={data.alt}
                     />
                   </Flex>
                   <h2 color="#ffffff">{data.name}</h2>

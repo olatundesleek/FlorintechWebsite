@@ -11,10 +11,11 @@ import SEO from "../next-seo.config";
 function Aboutus() {
   return (
     <Box className="about-container-overall">
-       <DefaultSeo {...SEO}
+      <DefaultSeo
+        {...SEO}
         title="About Us | Florintech computer college"
-        description="Florintech Computer College about us Page"
-        canonical = 'https://www.florintechcomputercollege.com/aboutus/'
+        description="Learn more about Florintech Computer College, a government-recognized ICT training center in Okokomaiko, Ojo, Lagos. Discover our mission, vision, expert instructors, and commitment to delivering quality computer education."
+        canonical="https://www.florintechcomputercollege.com/aboutus/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/aboutus/",
           title: "About Us | Florintech Computer College",
@@ -31,7 +32,7 @@ function Aboutus() {
             },
           ],
         }}
-         />
+      />
       <Head>
         <title>About Us | Florintech Computer College</title>
         <meta
@@ -43,28 +44,28 @@ function Aboutus() {
       <Header />
       <Banner
         pageName="About Us"
-        pageDetails="Florintech Computer College is a leading institution in Lagos, Nigeria, dedicated to providing high-quality education and training in the field of technology. With a focus on practical, hands-on learning, we equip our students with the skills and knowledge necessary to excel in today's digital world."
+        pageDetails="Florintech Computer College stands out as a leading institution in Lagos, Nigeria, dedicated to providing top-notch education and training in technology. As a trusted computer school in Ojo, we pride ourselves on delivering a curriculum that emphasizes practical, hands-on learning to prepare our students for success in today’s competitive digital landscape.
+
+At Florintech Computer College, we are committed to equipping our students with the skills and knowledge they need to thrive in the ever-evolving tech industry. Whether you're taking your first steps into the world of technology or looking to advance your career, our programs are designed to meet your needs and help you achieve your goals.
+
+Join us at the foremost computer school in Lagos and experience a learning environment where innovation meets excellence. Your journey to mastering technology starts here."
       />
       <Box className="about-container">
         <p style={{ fontSize: "19px" }}>
-          Welcome to Florintech College, where we are committed to providing
-          high-quality education and training in the field of floriculture and
-          horticulture. At Florintech College, we believe that education should
-          be both engaging and challenging, and we strive to create an
-          environment that fosters curiosity, creativity, and critical thinking.
-          Our faculty consists of experienced professionals who bring a wealth
-          of knowledge and expertise to the classroom, and we are dedicated to
-          helping our students achieve their academic and career goals.
-        </p>
-        <p style={{ fontSize: "19px" }}>
-          we understand that many of our students have busy lives outside of
-          school. In addition to our academic programs, Florintech College
-          offers a range of extracurricular activities and clubs, including
-          student government, athletics, and community service projects. These
-          activities provide students with opportunities to build their
-          leadership skills, make new friends, and give back to their
-          communities. We are proud of our diverse student body, which includes
-          students from all walks of life and backgrounds.
+          Florintech Computer College is a trusted computer training school in
+          Ojo, Lagos, dedicated to empowering individuals and businesses with
+          practical ICT skills. Since our founding, we have provided high
+          quality training that blends theory with hands-on experience,
+          preparing students for real world technology careers. Our ICT training
+          center in Okokomaiko, Ojo is staffed by experienced instructors who
+          bring industry knowledge and passion to every class. Whether you want
+          to start a new career in technology or upgrade your skills, Florintech
+          offers certified courses in web development, digital marketing,
+          cybersecurity, graphic design, and more. As one of the best computer
+          schools in Lagos Mainland, we take pride in our affordable tuition,
+          flexible schedules, and supportive learning environment. Join the
+          growing community of Florintech graduates who are making an impact in
+          Nigeria’s digital economy.
         </p>
       </Box>
       <Box className="about-container">
@@ -128,7 +129,7 @@ function Aboutus() {
           <p>Dedicated Teachers</p>
         </Box>
         <Box className="award__class">
-          <h2>13</h2>
+          <h2>15</h2>
           <p>Courses</p>
         </Box>
         {/* <Box className="award__class">

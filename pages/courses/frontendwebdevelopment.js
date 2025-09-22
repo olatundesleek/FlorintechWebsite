@@ -9,10 +9,11 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function WebDevelopmentWithReact() {
   return (
     <Box>
-      <DefaultSeo  {...SEO}
+      <DefaultSeo
+        {...SEO}
         title="Front-End Web Development | Florintech computer college"
         description="learn Front-End Web Development with React Js at Florintech Computer College"
-        canonical = 'https://www.florintechcomputercollege.com/frontendwebdevelopment./'
+        canonical="https://www.florintechcomputercollege.com/courses/frontendwebdevelopment./"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/frontendwebdevelopment/",
           title: "Web Development | Florintech computer college",
@@ -28,7 +29,6 @@ function WebDevelopmentWithReact() {
           ],
           siteName: "Florintech Computer College",
         }}
-       
       />
       <Header />
       <Singlecourse
@@ -76,8 +76,8 @@ function WebDevelopmentWithReact() {
           "Optimizing Performance",
           "Deploying React Applications",
         ]}
-        coursePrice="180,000"
-        courseDuration="6 months"
+        coursePrice="200,000"
+        courseDuration="4 months"
         classType="Physical"
       />
     </Box>

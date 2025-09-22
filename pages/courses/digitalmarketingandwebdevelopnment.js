@@ -9,16 +9,17 @@ import Singlecourse from "../../Components/single-course/Singlecourse";
 function digitalmediaandwebdevelopnment() {
   return (
     <Box>
-      <DefaultSeo {...SEO}
-      canonical="https://www.florintechcomputercollege.com/courses/digitalmediaandwebdevelopnment/"
-        title="Digital Media And Web Developnment | Florintech computer college"
+      <DefaultSeo
+        {...SEO}
+        canonical="https://www.florintechcomputercollege.com/courses/digitalmarketingandwebdevelopnment/"
+        title="Digital Marketing And Web Developnment | Florintech computer college"
         description="At Florintech Computer College, we understand the importance of staying up-to-date with the latest trends and advancements in technology. That's why we offer a comprehensive range of courses in digital media and web development, designed to equip you with the skills and knowledge you need to succeed in this ever-evolving field"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/digitalmediaandwebdevelopnment/",
+          url: "https://www.florintechcomputercollege.com/courses/digitalmarketingandwebdevelopnment/",
           title:
-            "Digital Media And WebDevelopnment | Florintech computer college",
+            "Digital Marketing And WebDevelopnment | Florintech computer college",
           description:
-            " At Florintech Computer College, we understand the importance of staying up-to-date with the latest trends and advancements in technology. That's why we offer a comprehensive range of courses in digital media and web development, designed to equip you with the skills and knowledge you need to succeed in this ever-evolving field.",
+            "At Florintech Computer College, we understand the importance of staying up-to-date with the latest trends and advancements in technology. That's why we offer a comprehensive range of courses in digital media and web development, designed to equip you with the skills and knowledge you need to succeed in this ever-evolving field.",
           images: [
             {
               url: "https://www.florintechcomputercollege.com/images/digitalandwebdev2.jpg",
@@ -30,11 +31,10 @@ function digitalmediaandwebdevelopnment() {
           ],
           siteName: "Florintech Computer College",
         }}
-        
       />
       <Header />
       <Singlecourse
-        courseTitle=" Digital Media And Web Development"
+        courseTitle=" Digital Marketing And Web Development"
         courseImage={courseImages.digitalandwebdev2}
         aboutCourseText="Digital media encompasses a wide range of digital technologies, including social media, mobile applications, digital advertising, and more. At Florintech Computer College, a leading computer school in Lagos, our courses cover various topics related to digital media, such as social media marketing, digital branding, and content creation. In addition to digital media, we also offer comprehensive courses in web development.
 
@@ -47,8 +47,8 @@ function digitalmediaandwebdevelopnment() {
           "All courses in diploma in digital media",
           "All courses in web development",
         ]}
-        coursePrice="150,000"
-        courseDuration="5 months"
+        coursePrice="180,000"
+        courseDuration="4 months"
         classType="Physical"
       />
     </Box>

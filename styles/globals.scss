@@ -1,5 +1,5 @@
-$phone-width: 500px;
-$tablet-width: 768px;
+$phone-width: 600px;
+$tablet-width: 900px;
 $desktop-width: 1024px;
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
@@ -29,7 +29,7 @@ a {
 * {
   box-sizing: border-box;
   font-family: "Alegreya Sans", sans-serif;
-list-style: none;
+  list-style: none;
 }
 .link {
   margin: 15px;
@@ -154,6 +154,21 @@ list-style: none;
     opacity: 1;
   }
 }
+
+.carousel {
+  @media screen and (max-width:#{$tablet-width}) {
+    .slide img {
+      height: 350px;
+    }
+    object-fit: cover;
+  }
+  @media screen and (max-width:#{$phone-width}) {
+    .slide img {
+      height: 250px;
+      object-fit: cover;
+    }
+  }
+}
 .course-card {
   transition: 0.5s;
   overflow: hidden;
@@ -258,9 +273,13 @@ list-style: none;
   p {
     color: #ffffff;
   }
-  li{padding: 4px;}
+  li {
+    padding: 4px;
+  }
   li a {
-    font-size: 14px;display: flex;align-items: center;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
   }
   @media screen and (max-width:#{$phone-width}) {
     padding: 10px 20px;
@@ -322,7 +341,7 @@ list-style: none;
 }
 .single-course-content > div {
   width: 100%;
-  padding:0 30px;
+  padding: 0 30px;
 }
 .single-course-content > div h1 {
   color: #1d2b5f;
@@ -421,7 +440,7 @@ list-style: none;
 .course-text-left {
   // font-family: Manrope, sans-serif !important;
   font-family: "Alegreya Sans", sans-serif;
- 
+
   font-size: 3.8rem;
   font-weight: bold;
   line-height: 1.12em;
@@ -527,7 +546,7 @@ $desktop-width: 1024px;
     width: 25%;
     height: 100%;
   }
-  }
+}
 @media screen and (max-width:#{$tablet-width}) {
   .course-container {
     display: flex;
@@ -675,8 +694,6 @@ $desktop-width: 1024px;
 }
 
 .single-page-image {
- 
-  
   width: 70%;
   border-radius: 20px;
   max-width: 600px;
@@ -698,7 +715,7 @@ $desktop-width: 1024px;
   font-size: 20px !important;
   color: #1d2b5f !important;
   margin-bottom: 1rem;
- 
+
   font-family: Manrope, sans-serif !important;
 }
 
@@ -722,11 +739,19 @@ $desktop-width: 1024px;
   margin-bottom: 1rem;
 }
 .terms {
-  h1{text-align: center;
-    margin-bottom: 20px;}
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
-.student-rules li{list-style-type: disc;margin-left: 20px;}
-h2{margin-top: 30px;font-size: 18px;}
+.student-rules li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+h2 {
+  margin-top: 30px;
+  font-size: 18px;
+}
 
 .single-list li {
   text-align: center;
@@ -769,7 +794,9 @@ h2{margin-top: 30px;font-size: 18px;}
   .single-course-container {
     flex-direction: column;
   }
-  .about-teacher-title-sec{margin: 0;}
+  .about-teacher-title-sec {
+    margin: 0;
+  }
 }
 // faq css frequently questions
 main {
@@ -875,7 +902,10 @@ main {
   .faq-container p {
     width: 80%;
   }
-  .single-list-two li{font-size: 16px;text-align: left;}
+  .single-list-two li {
+    font-size: 16px;
+    text-align: left;
+  }
 
   .single-course-inner {
     display: flex;
@@ -885,13 +915,16 @@ main {
     text-align: center;
     width: 100%;
     margin: auto;
-    p{font-size: 16px;text-align: left;}
+    p {
+      font-size: 16px;
+      text-align: left;
+    }
   }
   .single-course-content > div h1 {
     font-size: 40px;
   }
   .single-course-content-two {
-    margin-top:0;
+    margin-top: 0;
     max-width: 408px;
     padding-bottom: 20px;
   }
@@ -913,7 +946,9 @@ main {
   }
 }
 
-.course-info-container{position: relative;}
+.course-info-container {
+  position: relative;
+}
 // .course-info{}
 
 @media screen and (max-width:#{$phone-width}) {
@@ -934,12 +969,12 @@ main {
   .course-cart-button {
     border-radius: 80px;
     font-size: 16px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-  
+
     padding: 10px 14px;
   }
   .course-amount {
@@ -1807,9 +1842,12 @@ $top-clip-orange-two-bottom: polygon(
 
 .newsletter {
   padding: 10px 20px;
-//  h2{font-size: 25px;margin: 0;}
-p{margin: 0;}
-  input {width: 100%;
+  //  h2{font-size: 25px;margin: 0;}
+  p {
+    margin: 0;
+  }
+  input {
+    width: 100%;
     max-width: 400px;
     border: 1px solid #083b6b;
     padding: 0.6rem 1rem;

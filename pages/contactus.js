@@ -17,8 +17,7 @@ function Contactus() {
   function activateDays() {
     let today = new Date();
     let currentDay = today.getDay();
-    //   currentDay = currentDay+1
-    console.log(currentDay);
+
     setGetDays(currentDay);
   }
   useEffect(() => {
@@ -29,12 +28,13 @@ function Contactus() {
     <Box className="contactus">
       <DefaultSeo
         title="Contact Us | Florintech computer college"
-        description="Florintech Computer College Contact us Page"
+        description="Get in touch with Florintech Computer College, the leading ICT training center in Okokomaiko, Ojo, Lagos. Call, WhatsApp, or visit us today to start your journey in tech."
         canonical="https://www.florintechcomputercollege.com/contactus/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/contactus/",
           title: "Contact Us | Florintech Computer College",
-          description: "Florintech Computer College Contact us Page",
+          description:
+            "Get in touch with Florintech Computer College, the leading ICT training center in Okokomaiko, Ojo, Lagos. Call, WhatsApp, or visit us today to start your journey in tech.",
 
           siteName: "Florintech Computer College",
           images: [
@@ -42,7 +42,7 @@ function Contactus() {
               url: "https://www.florintechcomputercollege.com/images/logo.jpg",
               width: 800,
               height: 600,
-              alt: "Florintech Computer College",
+              alt: "Florintech Computer College logo",
               type: "image/jpeg",
             },
           ],
@@ -50,7 +50,10 @@ function Contactus() {
         {...SEO}
       />
       <Header />
-      <Banner pageName="Contact us" pageDetails="Are you ready to start your journey towards a successful career in the world of technology? Florintech Computer College, a leading computer school in Lagos, is here to help you every step of the way. Whether you have questions about our courses, need guidance on enrollment, or want to learn more about our state-of-the-art facilities, our team is here to assist you." />
+      <Banner
+        pageName="Contact us"
+        pageDetails="Are you ready to start your journey towards a successful career in the world of technology? Florintech Computer College, a leading computer school in Lagos, is here to help you every step of the way. Whether you have questions about our courses, need guidance on enrollment, or want to learn more about our state-of-the-art facilities, our team is here to assist you."
+      />
 
       <Flex
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
@@ -121,7 +124,7 @@ function Contactus() {
               <GrLocation fontSize="3rem" style={{ padding: "5px" }} />
               <span>
                 <h2>Location:</h2>
-                <p>9 kemberi Road okokomaiko,Ojo,Lagos, NIgeria.</p>
+                <p>9 Kemberi Road Okokomaiko, Ojo, Lagos, Nigeria.</p>
               </span>
             </Box>
           </a>
@@ -137,8 +140,11 @@ function Contactus() {
             </Box>
           </a>
         </Link>
-        <Link legacyBehavior href="tel:+2348136689745
-">
+        <Link
+          legacyBehavior
+          href="tel:+2348136689745
+"
+        >
           <a>
             <Box className="phone-con">
               <FiPhoneCall fontSize="3rem" style={{ padding: "5px" }} />

@@ -10,7 +10,6 @@ function Verification() {
   const [isBot, setisBot] = useState(true);
 
   async function onCaptchaChange(token) {
-    console.log(token);
     if (token !== null) {
       setisBot(false);
     } else {
@@ -47,8 +46,6 @@ function Verification() {
 
   const handleChange = (event) => {
     certificateNo = event.target.value;
-
-    console.log(certificateNo);
   };
   // function to make an api call
   const verifyCert = async () => {
@@ -57,11 +54,9 @@ function Verification() {
     let bodyContent = new FormData();
     bodyContent.append("cert_number", certificateNo);
 
-    console.log("this is the cern nunmber" + bodyContent.values);
-   
     let verificationResponse = await fetch(
-      `https://florintechcomputercollege.com/api/api_verifycertificate.php`,
-      
+      `https://www.florintechcomputercollege.com/api/api_verifycertificate.php`,
+
       {
         method: "POST",
 
@@ -70,14 +65,12 @@ function Verification() {
     );
 
     let data = await verificationResponse.json();
-    console.log(data);
+
     if (data.error) {
       setCertificateAvailable(false);
       setError(true);
       setErrorMessage(data.error);
     } else {
-      console.log(data.date_of_completion);
-
       let studentCertificateInfo = {
         firstName: data.firstname,
         middleName: data.middle_name,

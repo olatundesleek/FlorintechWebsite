@@ -80,7 +80,7 @@ a {
 .advantage p {
   font-size: 20px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .advantage p {
     line-height: 2;
     font-size: 16px;
@@ -93,7 +93,7 @@ a {
   font-size: 20px;
   line-height: 2;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .advantage .writecopy h1 {
     line-height: 2;
     font-size: 16px;
@@ -135,12 +135,12 @@ a {
 .advantage-subtitle {
   font-size: 30px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .advantage-subtitle {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .advantage {
     padding: 5px;
   }
@@ -155,6 +155,23 @@ a {
 .course-card:hover .divider-content {
   transform: translateX(0);
   opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .carousel {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .carousel .slide img {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .carousel .slide img {
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 .course-card {
@@ -177,7 +194,7 @@ a {
   font-size: 14px;
   font-weight: bold;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .course-card .coursetext {
     font-size: 14px;
   }
@@ -208,7 +225,7 @@ a {
 .course-main-content {
   padding: 20px 2vw 34px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .course-main-content {
     padding: 10px 20px;
   }
@@ -242,7 +259,7 @@ a {
   font-size: 30px;
   padding: 0 20px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .trending-section h2 {
     font-size: 25px;
   }
@@ -269,7 +286,7 @@ a {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .footer {
     padding: 10px 20px;
   }
@@ -363,7 +380,7 @@ a {
   padding: 9px 0.8rem;
   margin-top: 4rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .single-course-content-two {
     box-shadow: none;
   }
@@ -485,7 +502,7 @@ a {
 .browse-title {
   padding: 0 30px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .browse-title {
     padding: 0;
   }
@@ -494,7 +511,7 @@ a {
   color: #083b6b;
   font-size: 18px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .browse-title p {
     font-size: 0.9rem !important;
   }
@@ -1310,8 +1327,7 @@ main {
   margin-top: 3rem;
 }
 .certificate-overall .first-border {
-  -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
-          clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+  clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
   background-color: orange;
   width: 91%;
   height: 60vh;
@@ -1329,8 +1345,7 @@ main {
   background-color: none !important;
 }
 .certificate-overall .certificate-container .blue-con {
-  -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
-          clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+  clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
   background-color: rgb(5, 5, 40);
   width: 85%;
   height: 80vh;
@@ -1339,8 +1354,7 @@ main {
   left: 6%;
 }
 .certificate-overall .certificate-container .orange-con1 {
-  -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
-          clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+  clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
   background-color: orange;
   width: 75%;
   height: 80vh;
@@ -1349,8 +1363,7 @@ main {
   left: 11%;
 }
 .certificate-overall .certificate-container .orange-con2 {
-  -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
-          clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+  clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
   background-color: orange;
   width: 70%;
   height: 80vh;
@@ -1422,8 +1435,7 @@ main {
   margin: 10px;
 }
 .certificate-overall .certificate-container .blue-con2 {
-  -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
-          clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+  clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
   background-color: rgb(5, 5, 40);
   width: 91%;
   height: 82vh;
@@ -1432,8 +1444,7 @@ main {
   position: absolute;
 }
 .certificate-overall .certificate-container .orange1 {
-  -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
-          clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+  clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
   width: 91%;
   background-color: orange;
   height: 82vh;
@@ -1442,8 +1453,7 @@ main {
   position: absolute;
 }
 .certificate-overall .certificate-container .orange2 {
-  -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
-          clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+  clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
   width: 91%;
   background-color: orange;
   height: 82vh;
@@ -1452,8 +1462,7 @@ main {
   position: absolute;
 }
 .certificate-overall .first-border2 {
-  -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
-          clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+  clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
   background-color: orange;
   width: 91%;
   height: 82vh;
@@ -1475,8 +1484,7 @@ main {
     margin-top: 3rem;
   }
   .overall .first-border {
-    -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
-            clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+    clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
     background-color: orange;
     width: 91%;
     height: 60vh;
@@ -1491,8 +1499,7 @@ main {
     margin: 1.5rem 0;
   }
   .overall .container .blue-con {
-    -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
-            clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+    clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
     background-color: rgb(5, 5, 40);
     width: 85%;
     height: 80vh;
@@ -1501,8 +1508,7 @@ main {
     left: 6%;
   }
   .overall .container .orange-con1 {
-    -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
-            clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+    clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
     background-color: orange;
     width: 75%;
     height: 80vh;
@@ -1511,8 +1517,7 @@ main {
     left: 11%;
   }
   .overall .container .orange-con2 {
-    -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
-            clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+    clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
     background-color: orange;
     width: 70%;
     height: 80vh;
@@ -1587,8 +1592,7 @@ main {
     font-size: 16px;
   }
   .overall .container .blue-con2 {
-    -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
-            clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+    clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
     background-color: rgb(5, 5, 40);
     width: 91%;
     height: 82vh;
@@ -1597,8 +1601,7 @@ main {
     position: absolute;
   }
   .overall .container .orange1 {
-    -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
-            clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+    clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
     width: 91%;
     background-color: orange;
     height: 82vh;
@@ -1607,8 +1610,7 @@ main {
     position: absolute;
   }
   .overall .container .orange2 {
-    -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
-            clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+    clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
     width: 91%;
     background-color: orange;
     height: 82vh;
@@ -1617,8 +1619,7 @@ main {
     position: absolute;
   }
   .overall .first-border2 {
-    -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
-            clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+    clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
     background-color: orange;
     width: 91%;
     height: 82vh;
