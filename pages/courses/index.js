@@ -15,22 +15,22 @@ function index() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Computer School in Ojo Lagos | ICT Training Courses"
+        title="Computer School in Ojo Lagos | ICT Training & Courses - Florintech"
         canonical="https://www.florintechcomputercollege.com/courses/"
-        description="Enroll at Florintech Computer College, the leading computer school in Ojo, Lagos. Learn ICT skills with certified courses in web development, digital marketing, and more."
+        description="Florintech Computer College is a leading computer school in Ojo, Lagos. We provide accredited ICT training and certified courses in web development, digital marketing, cybersecurity, graphic design, data analysis, and more."
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/",
-          title: "Courses | Florintech Computer College",
+          title:
+            "Computer School in Ojo Lagos | ICT Training & Courses - Florintech",
           description:
-            "Enroll at Florintech Computer College, the leading computer school in Ojo, Lagos. Learn ICT skills with certified courses in web development, digital marketing, and more.",
-
+            "Florintech Computer College in Ojo, Lagos offers accredited ICT training and computer courses in web development, digital marketing, cybersecurity, graphic design, and more. Learn job-ready skills at our leading ICT training centre.",
           siteName: "Florintech Computer College",
           images: [
             {
               url: "https://www.florintechcomputercollege.com/images/logo.jpg",
               width: 800,
               height: 600,
-              alt: "Florintech ComPuter College",
+              alt: "Florintech Computer College Logo",
               type: "image/jpeg",
             },
           ],
@@ -39,13 +39,7 @@ function index() {
       <Header />
       <Banner
         pageName="Courses"
-        pageDetails="Discover a world of opportunities at Florintech Computer College, the premier computer school in Okokomaiko, Ojo, Lagos. Our accredited training center offers a wide variety of computer and ICT courses designed to help you specialize in high demand digital fields and advance your career.
-
-Whether you're interested in web development, digital marketing, cybersecurity, graphic design, or data analysis, our curriculum combines expert instruction with hands-on learning to ensure you gain real world experience and industry relevant skills.
-
-What sets us apart as a top computer training school in Ojo is our dedication to quality education and personalized attention. Our experienced instructors bring practical knowledge from the tech industry directly into the classroom, helping students bridge the gap between learning and doing.
-
-At Florintech Computer College in Ojo, Lagos, we understand that flexibility matters. That’s why we offer weekday and weekend classes, along with online learning options — giving you control over how and when you learn."
+        pageDetails="Discover opportunities at Florintech Computer College, the top computer school in Okokomaiko, Ojo, Lagos. Our accredited ICT training centre offers a wide variety of computer and ICT courses designed to prepare you for in-demand digital careers."
       />
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">
