@@ -28,7 +28,6 @@ jobs:
       - name: Build Next.js static site
         run: |
           npm run build
-          npm run export
 
       # Deploy only `out/` to cPanel via FTP
       - name: Upload to cPanel
