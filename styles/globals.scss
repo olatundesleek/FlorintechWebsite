@@ -261,6 +261,9 @@ a {
   }
 }
 
+.students-trained {
+}
+
 .footer {
   background-image: radial-gradient(circle, #083b6b, #092038);
   padding: 50px 90px;
@@ -654,7 +657,9 @@ $desktop-width: 1024px;
     font-size: 35px;
     width: 100%;
   }
-  h2 {
+  h2,
+  h3,
+  h4 {
     font-size: 20px;
     line-height: 25px;
     color: #ffffff;

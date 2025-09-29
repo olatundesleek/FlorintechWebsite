@@ -683,7 +683,9 @@ a {
   font-size: 35px;
   width: 100%;
 }
-.testimonial-slide h2 {
+.testimonial-slide h2,
+.testimonial-slide h3,
+.testimonial-slide h4 {
   font-size: 20px;
   line-height: 25px;
   color: #ffffff;
@@ -691,7 +693,9 @@ a {
   text-align: center;
 }
 @media screen and (max-width: 500px) {
-  .testimonial-slide h2 {
+  .testimonial-slide h2,
+  .testimonial-slide h3,
+  .testimonial-slide h4 {
     padding: 5px;
     font-size: 16px;
   }

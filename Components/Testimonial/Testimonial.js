@@ -35,7 +35,7 @@ function Testimonial() {
                     <Flex className="leftquote">
                       <FaQuoteLeft className="quote" />
                     </Flex>
-                    <h2>{data.review}</h2>
+                    <h3>{data.review}</h3>
                     <Flex className="rightquote">
                       <FaQuoteRight className="quote" />
                     </Flex>
@@ -50,7 +50,7 @@ function Testimonial() {
                       alt={data.alt}
                     />
                   </Flex>
-                  <h2 color="#ffffff">{data.name}</h2>
+                  <h4 color="#ffffff">{data.name}</h4>
                 </Box>
               );
             })}
