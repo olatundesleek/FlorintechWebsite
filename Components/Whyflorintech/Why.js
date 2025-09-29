@@ -13,32 +13,16 @@ function Why() {
         <h1>
           Florintech Computer College – Leading Computer School in Ojo, Lagos
         </h1>
-        {/* <h1>
-          Florintech Computer College is the leading computer school in Ojo,
-          Lagos, dedicated to empowering individuals and organizations with the
-          digital skills needed to thrive in today’s technology driven world. As
-          a trusted computer training school in Ojo, we provide hands-on, career
-          focused courses designed for beginners and professionals alike. Our
-          state of the art ICT training center located in Okokomaiko, Ojo,
-          offers a wide range of certified courses including web development,
-          digital marketing, cybersecurity, graphic design, and more.
-          <br /> At Florintech, you’ll learn from industry experienced
-          instructors and gain practical skills through real world projects.
-          Join thousands of successful students who have launched or advanced
-          their careers by choosing the best computer school in Ojo Lagos.
-          Whether you want to start a new career, upgrade your skills, or become
-          a tech entrepreneur, Florintech is your go to destination for quality
-          ICT education.
-        </h1> */}
+
         <p>
-          Florintech Computer College is a{" "}
-          <strong>computer school in Ojo, Lagos</strong>, known for 100%
+          Florintech Computer College is a leading
+          <strong> computer school in Ojo, Lagos</strong>, known for 100%
           practical ICT training. We help students, professionals, and
           organizations gain the digital and computer skills they need to
           succeed in today’s technology-driven world. Whether you’re searching
-          for a <strong>computer training school in Ojo</strong> or a place to
-          build your tech career, Florintech provides hands-on learning with
-          industry-recognized programs.
+          for a <strong>computer training school in Ojo, Lagos </strong>
+          or a place to build your tech career, Florintech provides hands-on
+          learning with industry-recognized programs.
         </p>
       </Box>
 
