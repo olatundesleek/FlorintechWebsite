@@ -1,0 +1,42 @@
+name: Deploy Next.js Export to cPanel
+
+on:
+  push:
+    branches:
+      - main # or whichever branch you want to deploy from
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repo
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Install Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Build & export Next.js
+      - name: Build Next.js static site
+        run: |
+          npm run build
+          npm run export
+
+      # Deploy only `out/` to cPanel via FTP
+      - name: Upload to cPanel
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          local-dir: ./out
+          server-dir: /public_html # Adjust if your site root is different
