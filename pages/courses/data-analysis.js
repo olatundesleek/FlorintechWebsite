@@ -35,7 +35,7 @@ function DataAnalysis() {
       <Singlecourse
         courseTitle="Data Analysis"
         courseImage={courseImages.dataanalysis}
-        aboutCourseText="Our Data Analysis Course in Ojo, Lagos equips you with the skills to collect, clean, and interpret data for smarter decision-making. At Florintech, we don’t just teach theory – we focus on practical ICT training that helps you become job-ready.
+        aboutCourseText="Our Data Analysis Course in Ojo, Lagos equips you with the skills to collect, clean, and interpret data for smarter decision making. At Florintech, we don’t just teach theory, we focus on practical ICT training that helps you become job-ready.
 
 With small class sizes, you’ll get personalized guidance from expert instructors while working on real-world projects that prepare you for internships, freelance roles, or professional positions in Lagos and beyond.
 
