@@ -17,13 +17,12 @@ function index() {
         {...SEO}
         title="Computer School in Ojo Lagos | ICT Training & Courses - Florintech"
         canonical="https://www.florintechcomputercollege.com/courses/"
-        description="Florintech Computer College is a leading computer school in Ojo, Lagos. We provide accredited ICT training and certified courses in web development, digital marketing, cybersecurity, graphic design, data analysis, and more."
+        description="Learn web development, digital marketing, cybersecurity & more courses at Florintech Computer College, Ojo’s leading ICT school."
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/",
-          title:
-            "Computer School in Ojo Lagos | ICT Training & Courses - Florintech",
+          title: "Courses | Florintech Computer College",
           description:
-            "Florintech Computer College in Ojo, Lagos offers accredited ICT training and computer courses in web development, digital marketing, cybersecurity, graphic design, and more. Learn job-ready skills at our leading ICT training centre.",
+            "Learn web development, digital marketing, cybersecurity & more courses at Florintech Computer College, Ojo’s leading ICT school.",
           siteName: "Florintech Computer College",
           images: [
             {
@@ -39,13 +38,13 @@ function index() {
       <Header />
       <Banner
         pageName="Courses"
-        pageDetails="Discover opportunities at Florintech Computer College, the top computer school in Okokomaiko, Ojo, Lagos. Our accredited ICT training centre offers a wide variety of computer and ICT courses designed to prepare you for in-demand digital careers."
+        pageDetails="At Florintech, we provide ICT training and professional courses designed to equip students with essential digital skills. As a computer school in Ojo, Lagos, our focus is on practical, hands-on learning that prepares learners for real opportunities in tech. Our courses cover web development, digital marketing, cybersecurity, graphics design, data analysis and more, giving you the tools to build a successful career in today’s digital world."
       />
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">
         <Box>{/* <h1 className="course-text-left">Courses</h1> */}</Box>
         <Box className="course-text-right">
-          explore the list of our numerous courses
+          <h2>Explore Our Courses</h2>
         </Box>
       </Flex>
       {/*  the courses images */}
@@ -339,6 +338,20 @@ At Florintech, we believe in providing a holistic learning experience."
             courseTitle="Digital Marketing"
             courseImage={courseImages.digitalmedia}
             price="50000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/data-analysis"
+            courseText="This course is designed for individuals who want to gain practical skills and knowledge in the field of data analysis. It is suitable for data analysts, business intelligence professionals, and anyone interested in understanding and utilizing data analysis techniques effectively."
+            courseTitle="Data Analysis"
+            courseImage={courseImages.dataanalysis}
+            price="150000"
           />
         </Flex>
       </Flex>

@@ -89,9 +89,9 @@ const Singlecourse = ({
             /> */}
             {/* end of about teacher */}
             <Box>
-              <h3 className="about-teacher-title-sec">
+              <h2 className="about-teacher-title-sec">
                 What’s this course about?
-              </h3>
+              </h2>
               <div>
                 <p>{aboutCourseText}</p>
 
@@ -105,7 +105,7 @@ const Singlecourse = ({
               </div>
             </Box> */}
             <Box>
-              <h1 className="about-teacher-title-sec">Course Outline </h1>
+              <h3 className="about-teacher-title-sec">Course Outline </h3>
               <div className="last-text">
                 {/* <br /> */}
 

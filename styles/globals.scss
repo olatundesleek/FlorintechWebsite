@@ -181,6 +181,7 @@ a {
     color: #ffffff;
     font-size: 20px;
     font-weight: 800;
+    margin: 5px 0;
   }
   .coursetext {
     color: #ffffff;
@@ -448,10 +449,10 @@ a {
   font-weight: bold;
   line-height: 1.12em;
 }
-.course-text-right {
+.course-text-right h2 {
   // font-family: Manrope, sans-serif !important;
   font-family: "Alegreya Sans", sans-serif;
-  width: 50%;
+
   color: #4b4e59;
   padding-right: 1rem;
   font-size: 1.5rem;
@@ -570,7 +571,6 @@ $desktop-width: 1024px;
   }
   .course-text-right {
     margin-top: 10px;
-    width: 80%;
   }
 }
 @media screen and (max-width:#{$phone-width}) {

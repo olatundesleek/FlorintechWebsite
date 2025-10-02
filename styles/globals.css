@@ -188,6 +188,7 @@ a {
   color: #ffffff;
   font-size: 20px;
   font-weight: 800;
+  margin: 5px 0;
 }
 .course-card .coursetext {
   color: #ffffff;
@@ -464,9 +465,8 @@ a {
   line-height: 1.12em;
 }
 
-.course-text-right {
+.course-text-right h2 {
   font-family: "Alegreya Sans", sans-serif;
-  width: 50%;
   color: #4b4e59;
   padding-right: 1rem;
   font-size: 1.5rem;
@@ -591,7 +591,6 @@ a {
   }
   .course-text-right {
     margin-top: 10px;
-    width: 80%;
   }
 }
 @media screen and (max-width: 500px) {
