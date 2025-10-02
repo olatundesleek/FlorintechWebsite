@@ -19,9 +19,9 @@ export const courseImages = {
 
   officeapplication: "/images/officeapplication.jpg",
 
-  reactjs:"/images/reactjsimg.png",
-nodejs:"/images/nodejs.png",
-fullstack:"/images/fullstack.jpg",
+  reactjs: "/images/reactjsimg.png",
+  nodejs: "/images/nodejs.png",
+  fullstack: "/images/fullstack.jpg",
   digitalmedia: "/images/digitalmedia.jpg",
   officemgt: "/images/officemgt.jpg",
 
@@ -31,8 +31,9 @@ fullstack:"/images/fullstack.jpg",
 
   graphics: "/images/graphic-pic.jpg",
   advanceddesktoppublishing: "/images/advanceddesktoppublishing.jpg",
-  Cybersecurity:"/images/cybersecurity.jpg",
+  Cybersecurity: "/images/cybersecurity.jpg",
   autocad: "/images/autocad.jpg",
   digitalandwebdev2: "/images/digitalandwebdev2.jpg",
-  wordpress:"/images/wordpress.jpg"
+  wordpress: "/images/wordpress.jpg",
+  dataanalysis: "/images/data-analysis.jpg",
 };

@@ -11,13 +11,15 @@ function WebDevelopment() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Web Development | Florintech computer college"
-        description="learn web development at Florintech Computer College"
+        title="Web Development Course in Ojo, Lagos | Florintech ICT Training"
+        keywords="web development course in ojo, web development course in lagos, web development training in ojo, web development training in lagos, web design course in ojo, web design course in lagos, learn web development in ojo, learn web development in lagos"
+        description="Learn web development courses at Florintech, the top computer school in Ojo, Lagos. Gain ICT training in coding, frontend, backend & web design skills."
         canonical="https://www.florintechcomputercollege.com/courses/webdevelopment/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/webdevelopment/",
           title: "Web Development | Florintech computer college",
-          description: "learn web development at Florintech Computer College",
+          description:
+            "Learn web development courses at Florintech, the top computer school in Ojo, Lagos. Gain ICT training in coding, frontend, backend & web design skills.",
           images: [
             {
               url: "https://www.florintechcomputercollege.com/images/webdevelopment.jpg",
@@ -34,7 +36,11 @@ function WebDevelopment() {
       <Singlecourse
         courseTitle="Website Development"
         courseImage={courseImages.webdevelopment}
-        aboutCourseText="Our Web Development program is meticulously designed to equip students with the skills and knowledge necessary to create professional and functional websites. Learn web development through our comprehensive curriculum, which covers a range of topics including HTML, CSS, JavaScript, and core web design principles. At Florintech Computer College Ojo, we believe in a hands-on approach to learning web development. Our experienced instructors provide practical exercises and real-world examples to ensure students gain practical skills that they can immediately apply in their careers. Whether you are looking to start a career as a web developer or enhance your existing skills, our Web Development program is the perfect choice."
+        aboutCourseText="Our Web Development Course in Ojo, Lagos is designed for anyone who wants to build a career or business in tech. At Florintech, we go beyond theory with practical ICT training in small class sizes that ensure personal attention and effective learning.
+
+As a local computer school in Ojo, we understand the Nigerian digital market and structure our lessons to give you real-world skills you can immediately apply. Our experienced instructors bring industry knowledge straight into the classroom, guiding you through projects that help you build a professional portfolio.
+
+This course also offers flexible schedules and hands-on lab sessions, making it easier for both students and working professionals to learn without stress. By the end of your training, you’ll be confident in developing, designing, and launching modern websites, ready to take on freelance jobs, internships, or tech roles in Lagos and beyond."
         courseOutline={[
           "Introduction to Web Development.",
           "HTML Fundamentals",
