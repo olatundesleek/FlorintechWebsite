@@ -179,7 +179,7 @@ function Slider() {
       <div className="page-slider">
         <img
           src="https://res.cloudinary.com/de0x1equu/image/upload/q_auto/v1600773441/student2ed_gl6tlj.webp"
-          alt="Student support at Florintech Computer College in Ojo Lagos"
+          alt="we provide support at Florintech Computer College, a leading computer school in Ojo, Lagos."
         />
         <Box
           justifyContent="center"

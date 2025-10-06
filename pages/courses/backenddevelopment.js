@@ -13,9 +13,9 @@ function BackendDevelopment() {
         {...SEO}
         title="Back-End Development | Florintech computer college"
         description="learn Back-End Development with Node Js at Florintech Computer College"
-        canonical="https://www.florintechcomputercollege.com/courses/backendwebdevelopment/"
+        canonical="https://www.florintechcomputercollege.com/courses/backenddevelopment/"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/backendwebdevelopment/",
+          url: "https://www.florintechcomputercollege.com/courses/backenddevelopment/",
           title: "Back-End Development | Florintech computer college",
           description:
             "Learn Back-End Development at Florintech Computer College",

@@ -24,14 +24,15 @@ export default function Home() {
     <div className={styles.container}>
       <DefaultSeo
         {...SEO}
-        title="Florintech computer college"
+        title="Florintech Computer College – Top Computer School in Ojo, Lagos | 100% Practical ICT Training"
         canonical="https://www.florintechcomputercollege.com/"
-        description="Florintech is a top computer school in Ojo. Learn web development, digital marketing, cybersecurity & more. Kickstart your tech career today!"
+        description="Learn tech skills at Florintech Computer College, the top computer school in Ojo, Lagos offering 100% practical ICT & computer training in graphics, web development, data analysis & more."
+        keywords="computer school in Ojo, ICT training in Lagos, computer training in Ojo, Florintech Computer College, learn web design, graphics design, data analysis, digital marketing, cybersecurity"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/",
           title: "Florintech Computer College",
           description:
-            "Florintech is a top computer school in Ojo. Learn web development, digital marketing, cybersecurity & more. Kickstart your tech career today!",
+            "Learn tech skills at Florintech Computer College, the top computer school in Ojo, Lagos offering 100% practical ICT & computer training in graphics, web development, data analysis & more.",
 
           siteName: "Florintech Computer College",
           images: [
@@ -47,13 +48,10 @@ export default function Home() {
       />
       <Head>
         <title>
-          Florintech Computer College | Computer School in Ojo, Lagos
+          Florintech Computer College – Top Computer School in Ojo, Lagos | 100%
+          Practical ICT Training
         </title>
 
-        <meta
-          name="Florintech Computer College"
-          content="Florintech is a top computer school in Ojo. Learn web development, digital marketing, cybersecurity & more. Kickstart your tech career today!"
-        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

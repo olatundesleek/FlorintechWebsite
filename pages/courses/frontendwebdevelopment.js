@@ -13,7 +13,7 @@ function WebDevelopmentWithReact() {
         {...SEO}
         title="Front-End Web Development | Florintech computer college"
         description="learn Front-End Web Development with React Js at Florintech Computer College"
-        canonical="https://www.florintechcomputercollege.com/courses/frontendwebdevelopment./"
+        canonical="https://www.florintechcomputercollege.com/courses/frontendwebdevelopment/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/frontendwebdevelopment/",
           title: "Web Development | Florintech computer college",
