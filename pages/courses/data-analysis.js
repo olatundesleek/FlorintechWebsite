@@ -13,9 +13,9 @@ function DataAnalysis() {
         title="Data Analysis Course in Ojo, Lagos | Florintech ICT Training"
         keywords="data analysis course in ojo, data analysis course in lagos, data analysis training in ojo, data analysis training in lagos, data analytics course in ojo, data analytics course in lagos, learn data analysis in ojo, learn data analysis in lagos"
         description="Learn Data Analysis at Florintech, Ojo’s trusted computer school. Gain ICT training in Excel, SQL, Power BI, Python, and data visualization for real-world projects."
-        canonical="https://www.florintechcomputercollege.com/courses/dataanalysis/"
+        canonical="https://www.florintechcomputercollege.com/courses/data-analysis/"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/dataanalysis/",
+          url: "https://www.florintechcomputercollege.com/courses/data-analysis/",
           title: "Data Analysis | Florintech Computer College",
           description:
             "Learn Data Analysis at Florintech, Ojo’s trusted computer school. Gain ICT training in Excel, SQL, Power BI, Python, and data visualization for real-world projects.",

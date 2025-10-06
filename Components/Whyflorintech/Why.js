@@ -17,8 +17,8 @@ function Why() {
         <p>
           Florintech Computer College is a leading
           <strong> computer school in Ojo, Lagos</strong>, known for 100%
-          practical ICT training. We help students, professionals, and
-          organizations gain the digital and computer skills they need to
+          practical ICT and computer training. We help students, professionals,
+          and organizations gain the digital and computer skills they need to
           succeed in today’s technology-driven world. Whether you’re searching
           for a <strong>computer training school in Ojo, Lagos </strong>
           or a place to build your tech career, Florintech provides hands-on

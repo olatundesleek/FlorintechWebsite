@@ -40,7 +40,7 @@ function StudentsTrained() {
         <Box flex="1" className="students-image">
           <Image
             src="https://res.cloudinary.com/de0x1equu/image/upload/q_auto/v1758804840/Students_of_Florintech_Computer_School_in_Ojo_eo3qb2.webp"
-            alt="Students enrolled for ICT training at Florintech Computer Training School, Ojo, Lagos"
+            alt="Florintech Computer School in Ojo students group photo during ICT training session"
             borderRadius="lg"
             shadow="2xl"
             width="100%"
