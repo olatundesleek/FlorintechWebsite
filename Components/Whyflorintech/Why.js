@@ -3,6 +3,7 @@ import { FcGraduationCap } from "react-icons/fc";
 import { GrWorkshop } from "react-icons/gr";
 import { HiOutlineTrendingUp } from "react-icons/hi";
 import { HiOutlineVideoCamera } from "react-icons/hi";
+import { FiUsers, FiClock } from "react-icons/fi";
 
 import { GrCertificate } from "react-icons/gr";
 
@@ -61,9 +62,11 @@ function Why() {
             <Box>
               <h2 className="advantage-subtitle">Expert teachers</h2>
               <p>
-                Our instructors are ICT professionals working on real-life
-                projects. They guide students step by step, making our computer
-                school in Ojo one of the most practical places to learn.
+                Our instructors are practicing professionals who bring real
+                industry experience into every lesson. They guide you
+                step-by-step through practical projects, ensuring you don’t just
+                learn theory but gain the technical confidence needed to solve
+                real problems.
               </p>
             </Box>
           </Flex>
@@ -83,15 +86,11 @@ function Why() {
             <Box>
               <h2 className="advantage-subtitle">Trusted Certification</h2>
               <p>
-                Our certificates and diplomas are widely recognized and accepted
-                by reputable companies, institutions, and organizations in
-                Nigeria and abroad. This is because Florintech Computer College,
-                a leading IT training institute in Okokomaiko, Ojo, Lagos, is
-                duly registered and recognized by the government to provide
-                students with quality IT skills. To give our students and
-                employers extra confidence, we also provide an online
-                certificate verification portal, allowing anyone to instantly
-                verify the authenticity of our certificates and diplomas.
+                Upon completion, students receive an industry-recognized
+                certificate with a unique batch number that can be verified on
+                our portal. Our certificates are widely accepted by employers
+                across Nigeria and serve as a strong addition to your CV or
+                professional profile.
               </p>
             </Box>
           </Flex>
@@ -119,11 +118,14 @@ function Why() {
               <HiOutlineTrendingUp className="advantage_icon" />
             </Box>
             <Box>
-              <h2 className="advantage-subtitle">Methodology</h2>
+              <h2 className="advantage-subtitle">
+                Proven Learning Methodology
+              </h2>
               <p>
-                We keep learning new methods, as well as updating to the latest
-                programs, programming languages, and versions for skill
-                advancement. Our mode of training is 100% practical.
+                Each course follows a structured, project-based curriculum.
+                Students complete real assignments, build portfolios, and
+                participate in hands-on activities that help them retain
+                knowledge faster and apply skills immediately.
               </p>
             </Box>
           </Flex>
@@ -141,11 +143,69 @@ function Why() {
               <HiOutlineVideoCamera className="advantage_icon" />
             </Box>
             <Box>
-              <h2 className="advantage-subtitle">Video Lessons</h2>
+              <h2 className="advantage-subtitle">Video Lessons & Materials</h2>
               <p>
-                Get ready to be immersed into a world of video guides,
-                referencing and video practices. As these video lessons aid
-                better understanding and visual retention of information.
+                Students receive supportive video lessons, PDF notes, templates,
+                and resources to help them revise at home. This blended learning
+                model ensures you never fall behind even if you miss a class.
+              </p>
+            </Box>
+          </Flex>
+        </Flex>
+        <Flex
+          className="right-content"
+          flexDirection={{
+            base: "column",
+            sm: "column",
+            md: "column",
+            lg: "row",
+          }}
+        >
+          <Flex
+            className="advantage_righttab"
+            flex="50%"
+            flexDirection={{
+              base: "column",
+              sm: "column",
+              md: "row",
+              lg: "row",
+            }}
+          >
+            <Box>
+              <FiClock className="advantage_icon" />
+            </Box>
+            <Box>
+              <h2 className="advantage-subtitle">Flexible Timing</h2>
+              <p>
+                We understand that students have different schedules. That’s why
+                we provide morning, afternoon, evening, and weekend batches so
+                you can learn at your convenience without missing out on quality
+                training.
+              </p>
+            </Box>
+          </Flex>
+          <Flex
+            className="advantage_righttab"
+            flex="50%"
+            flexDirection={{
+              base: "column",
+              sm: "column",
+              md: "row",
+              lg: "row",
+            }}
+          >
+            <Box>
+              <FiUsers className="advantage_icon" />
+            </Box>
+            <Box>
+              <h2 className="advantage-subtitle">
+                Supportive Learning Community
+              </h2>
+              <p>
+                At Florintech, students learn in a welcoming environment where
+                instructors and classmates support each other. Our
+                community-based learning approach helps students stay motivated,
+                confident, and engaged throughout their training.
               </p>
             </Box>
           </Flex>
