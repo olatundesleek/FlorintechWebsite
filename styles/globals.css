@@ -134,6 +134,7 @@ a {
 }
 .advantage-subtitle {
   font-size: 30px;
+  margin: 0;
 }
 @media screen and (max-width: 600px) {
   .advantage-subtitle {
@@ -839,10 +840,9 @@ main {
   align-items: center;
 }
 
-.container {
+.faq-container {
   width: 100%;
   margin: 5rem auto;
-  background-color: #083b6b;
   color: #eef0f5;
   border-radius: 0.25rem;
   padding: 2.5rem 2rem;
@@ -850,11 +850,20 @@ main {
   gap: 1rem 2rem;
 }
 
+.faq-header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  font-family: Manrope, sans-serif !important;
+  color: #ffffff;
+}
+
 .container h3 {
   line-height: 1.2;
   font-weight: 500;
   font-size: 2rem;
   font-family: Manrope, sans-serif !important;
+  color: #ffffff;
 }
 
 .question {
@@ -869,12 +878,14 @@ main {
   text-transform: none;
   line-height: 1.5;
   font-size: 1.5rem;
+  color: #ffffff;
 }
 
 .question p {
   margin-bottom: 0;
   margin-top: 0.5rem;
   font-family: Manrope, sans-serif !important;
+  color: #ffffff;
 }
 
 .question header {
@@ -892,13 +903,13 @@ main {
   border-color: transparent;
   width: 2.3rem;
   height: 2.3rem;
-  background: #eae6eb;
+  background: #3f3f3f;
   font-family: Manrope, sans-serif !important;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: #b4345c;
+  color: #ffffff;
   cursor: pointer;
   margin-left: 1rem;
   align-self: center;
@@ -907,7 +918,7 @@ main {
 
 .btn:hover {
   background-color: #000;
-  color: #eae6eb;
+  color: #565257;
 }
 
 .section {
@@ -923,7 +934,6 @@ main {
 .faq-container p {
   display: flex;
   justify-content: center;
-  margin: auto;
   width: 50%;
   text-align: left;
   font-family: Manrope, sans-serif !important;
@@ -931,9 +941,9 @@ main {
 
 .faq-container h3 {
   font-family: Manrope, sans-serif !important;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: grey;
+  color: #ffffff;
 }
 
 .faq-container h1 {
@@ -1214,7 +1224,6 @@ main {
   .faq-container p {
     display: flex;
     justify-content: center;
-    margin: auto;
     width: 80%;
     text-align: left;
     font-family: Manrope, sans-serif !important;

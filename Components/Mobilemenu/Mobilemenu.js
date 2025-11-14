@@ -29,7 +29,7 @@ function Mobilemenu() {
         <MyNavLink legacyBehavior href="/aboutus">
           <a className="link">ABOUT US</a>
         </MyNavLink>
-        <MyNavLink legacyBehavior href="/faq">
+        <MyNavLink legacyBehavior href="/#faq">
           <a className="link">FAQ</a>
         </MyNavLink>
       </Flex>

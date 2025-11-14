@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import { Box, Flex } from "@chakra-ui/react";
 
 import Slider from "../Components/Slider/Slider";
-
+import Faq from "../Components/Faq/Faq";
 import { appContext } from "./_app";
 import Why from "../Components/Whyflorintech/Why";
 import CourseTab from "../Components/Coursetab/CourseTab";
@@ -142,6 +142,7 @@ export default function Home() {
           <Trending />
           <StudentsTrained />
           <Testimonial />
+          <Faq />
         </Box>
 
         <Footer />
