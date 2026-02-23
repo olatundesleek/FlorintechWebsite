@@ -80,7 +80,7 @@ function Register() {
     bodyContent.append("session", inputs.session);
     bodyContent.append("recaptcharesponse", inputs.recaptcharesponse);
 
-    fetch("https://florintechcomputercollege.com/api/api_register.php", {
+    fetch("https://www.florintechcomputercollege.com/api/api_register.php", {
       method: "POST",
       body: bodyContent,
     })
