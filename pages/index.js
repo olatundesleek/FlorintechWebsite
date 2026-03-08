@@ -129,6 +129,13 @@ export default function Home() {
             }),
           }}
         />
+        
+        {/* Mailchimp tracking script */}
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/4944c00554cd45873e202b0ae/b380d980bb224b656f8f016e2.js");`,
+    }}
+  />
       </Head>
 
       <Box listStyleType="none" textDecoration="none" m={0}>
