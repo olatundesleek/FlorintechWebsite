@@ -39,7 +39,7 @@ function BackendDevelopment() {
 
         In today's digital landscape, a robust and efficient backend is crucial for delivering high-quality applications. Node.js, with its asynchronous, event-driven architecture, has become the go-to choice for building scalable and real-time backend systems.
         
-        This 6-month intensive course takes you on a comprehensive journey through the core concepts of backend development. Whether you're a beginner or an experienced developer looking to expand your skill set, our curriculum is carefully structured to accommodate all levels of expertise."
+        This 4 months intensive course takes you on a comprehensive journey through the core concepts of backend development. Whether you're a beginner or an experienced developer looking to expand your skill set, our curriculum is carefully structured to accommodate all levels of expertise."
         courseOutline={[
           "Introduction to Backend Development and Node.js Basics",
           "Introduction to Node.js Modules and NPM",
@@ -62,7 +62,7 @@ function BackendDevelopment() {
           "Deployment Strategies",
           "Final Project Development and Presentation",
         ]}
-        coursePrice="250,000"
+        coursePrice="400,000"
         courseDuration="4 months"
         classType="Physical"
       />

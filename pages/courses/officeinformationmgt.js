@@ -57,7 +57,7 @@ At Florintech Computer College, we are committed to providing the best education
           "Internet Essentails",
         ]}
         courseDuration="4 months"
-        coursePrice="60,000"
+        coursePrice="80,000"
         classType="Physical"
       />
     </Box>

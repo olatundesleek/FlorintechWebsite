@@ -49,10 +49,9 @@ So why wait? Sign up for our Advanced Desktop Publishing program today and take 
         courseOutline={[
           "All Courses in Desktop Publishing",
           "Powerpoint",
-          "ADV Corel Draw",
           "Adobe Photoshop",
         ]}
-        coursePrice="50,000"
+        coursePrice="70,000"
         courseDuration="3 months"
         classType="Physical"
       />

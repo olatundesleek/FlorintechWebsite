@@ -60,7 +60,7 @@ This course also offers flexible schedules and hands-on lab sessions, making it 
           "JavaScript Debugging and Tools",
           "Introduction to content management system(CMS).",
         ]}
-        coursePrice="150,000"
+        coursePrice="200,000"
         courseDuration="3 months"
         classType="Physical"
       />

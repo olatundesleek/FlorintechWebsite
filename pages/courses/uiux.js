@@ -44,7 +44,7 @@ This course includes flexible schedules and practical lab sessions, making it su
 
 Start your journey to becoming a skilled UI/UX designer with Florintech today."
           courseOutline={["Figma", "Adobe xd", "Adobe Illustrator"]}
-          coursePrice="150,000"
+          coursePrice="200,000"
           courseDuration="3 months"
           classType="Physical/Virtual"
         />

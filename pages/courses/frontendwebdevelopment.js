@@ -34,7 +34,7 @@ function WebDevelopmentWithReact() {
       <Singlecourse
         courseTitle="Front-End website Development with React Js"
         courseImage={courseImages.reactjs}
-        aboutCourseText="Join our comprehensive 6-month React.js course at Florintech Computer College, the leading computer school in Lagos. This program is designed to equip students with the skills and knowledge necessary to become proficient React.js developers.
+        aboutCourseText="Join our comprehensive 4-month React.js course at Florintech Computer College, the leading computer school in Lagos. This program is designed to equip students with the skills and knowledge necessary to become proficient React.js developers.
 
         Starting with a strong foundation in HTML, CSS, and JavaScript, you'll then dive into React.js, a popular JavaScript library for building modern web applications. Throughout the course, students will gain hands-on experience through practical projects and assignments, enabling them to create interactive and dynamic web applications.
         
@@ -76,7 +76,7 @@ function WebDevelopmentWithReact() {
           "Optimizing Performance",
           "Deploying React Applications",
         ]}
-        coursePrice="200,000"
+        coursePrice="300,000"
         courseDuration="4 months"
         classType="Physical"
       />

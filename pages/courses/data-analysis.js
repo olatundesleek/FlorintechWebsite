@@ -54,7 +54,7 @@ This training covers Excel, SQL, Power BI, and Python – the essential tools of
           "Dashboards and Interactive Reports",
           "Case Studies and Real-World Projects",
         ]}
-        coursePrice="150,000"
+        coursePrice="250,000"
         courseDuration="3 months"
         classType="Physical/Virtual"
       />

@@ -54,7 +54,7 @@ function Cybersecurity() {
   "Cybersecurity Careers and Skills",
   "Capstone Project"
         ]}
-        coursePrice="150,000"
+        coursePrice="300,000"
         courseDuration="3 months"
          classType="Physical & Virtual"
       />

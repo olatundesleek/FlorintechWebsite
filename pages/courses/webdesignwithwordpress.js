@@ -50,7 +50,7 @@ function WebDesignWithWordpress() {
           "Launching & Managing Your Website",
           "Final Project",
         ]}
-        coursePrice="80,000"
+        coursePrice="100,000"
         courseDuration="6 weeks"
         classType="Physical/Virtual"
       />

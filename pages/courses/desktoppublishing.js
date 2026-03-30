@@ -54,7 +54,7 @@ function desktoppublishing() {
           "Ms PowerPoint",
           "Internet Essentials",
         ]}
-        coursePrice="45,000"
+        coursePrice="60,000"
         courseDuration="3 months"
          classType="Physical"
       />

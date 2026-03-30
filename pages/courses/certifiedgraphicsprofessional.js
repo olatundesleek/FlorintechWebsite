@@ -54,7 +54,7 @@ By the end of the program, you will be confident in your ability to transform id
           "Certified desktop publishing",
           "Internet Essential",
         ]}
-        coursePrice="60,000"
+        coursePrice="80,000"
         courseDuration="4 months"
         classType="Physical"
       />

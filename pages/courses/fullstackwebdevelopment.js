@@ -93,7 +93,7 @@ function FullStackWebDevelopment() {
           "Serverless architecture with AWS Lambda",
           "Continuous integration and deployment (CI/CD)",
         ]}
-        coursePrice="400,000"
+        coursePrice="600,000"
         courseDuration="8 months"
         classType="Physical"
       />

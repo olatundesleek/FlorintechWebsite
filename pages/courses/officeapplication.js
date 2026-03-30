@@ -49,9 +49,9 @@ function officeapplication (){
             "Internet Essentials",
           ]}
          
-          coursePrice="25,000"
+          coursePrice="30,000"
           courseDuration="1 month"
-          classType="Physical/Virtual"
+          classType="Physical"
         />
       </Box>
     </div>
