@@ -11,8 +11,8 @@ function WebDevelopmentWithReact() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Front-End Web Development | Florintech computer college"
-        description="learn Front-End Web Development with React Js at Florintech Computer College"
+        title="Frontend Web Development with React.js in Lagos | Florintech"
+        description="Take our React.js frontend development course in Ojo, Lagos. Build modern web apps with hands-on practical training. Enroll at Florintech Computer College today."
         canonical="https://www.florintechcomputercollege.com/courses/frontendwebdevelopment/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/frontendwebdevelopment/",
@@ -34,13 +34,11 @@ function WebDevelopmentWithReact() {
       <Singlecourse
         courseTitle="Front-End website Development with React Js"
         courseImage={courseImages.reactjs}
-        aboutCourseText="Join our comprehensive 4-month React.js course at Florintech Computer College, the leading computer school in Lagos. This program is designed to equip students with the skills and knowledge necessary to become proficient React.js developers.
+        aboutCourseText="React.js has become the gold standard for building fast, interactive websites and it's what companies like Uber, Netflix, and Nigerian fintech apps use daily. Our React frontend development course teaches you React from the ground up, starting with JavaScript fundamentals before diving into components, state management, and API integration.
 
-        Starting with a strong foundation in HTML, CSS, and JavaScript, you'll then dive into React.js, a popular JavaScript library for building modern web applications. Throughout the course, students will gain hands-on experience through practical projects and assignments, enabling them to create interactive and dynamic web applications.
-        
-        At Florintech Computer College, a top computer school in Ojo, we emphasize a hands-on learning approach. You'll work on real-world projects, receive guidance from experienced instructors, and have access to state-of-the-art facilities. Whether you're looking to start a career in web development or enhance your skills, our React.js course offers the tools and expertise you need.
-        
-        Take the first step towards a successful tech career. Contact Florintech Computer College today to learn more about our programs and how you can enroll in our React.js course."
+You'll start by understanding why React is revolutionary, then build real projects: a weather app, a todo list, an e-commerce product page. Each one goes into your portfolio. By month two, you're working with Redux for complex apps. By month four, you can build any modern web application yourself.
+
+Demand for React developers across tech companies and startups is explosive. You'll be ready to land junior developer positions, work for Nigerian tech companies, or build and sell SaaS products."
         courseOutline={[
           "Introduction to Web Development.",
           "HTML Fundamentals",

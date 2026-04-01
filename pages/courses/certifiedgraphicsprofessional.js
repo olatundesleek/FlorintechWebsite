@@ -13,8 +13,8 @@ function CertifiedGraphicsProfessional() {
       <DefaultSeo
         {...SEO}
         canonical="https://www.florintechcomputercollege.com/courses/certifiedgraphicsprofessional/"
-        title="Certified Graphics Design Course in Ojo Lagos | Florintech"
-        description="Learn graphics design to become a professional at Florintech, Ojo’s trusted computer school. Practical ICT training in Photoshop, CorelDRAW, Illustrator and more."
+        title="Graphics Design Course in Ojo, Lagos | Florintech Computer College"
+        description="Master Adobe Photoshop, Illustrator and CorelDRAW at Florintech Computer College in Ojo, Lagos. Become a certified graphics design professional. Enroll today."
         keywords="graphics course, certified graphics professional, graphic design course Ojo Lagos, computer school in Ojo, ICT training Lagos, learn Photoshop, learn Illustrator, CorelDRAW training, design course Nigeria, Florintech computer college"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/certifiedgraphicsprofessional/",
@@ -38,21 +38,27 @@ function CertifiedGraphicsProfessional() {
       <Singlecourse
         courseTitle="Certified Graphics Professional Course"
         courseImage={courseImages.graphics}
-        aboutCourseText="Our Graphics Design Course in Ojo, Lagos is designed to help you master the art of creating professional visual content for both digital and print media. At Florintech, a trusted computer school in Ojo, you’ll gain hands-on ICT training with small class sizes for personalized learning.
+        aboutCourseText="Graphic design is a skill that always pays—brands need logos, social media graphics, and stunning visuals or they disappear online. Our certified graphics professional course teaches you Adobe Photoshop, Illustrator, and CorelDRAW so you can create professional grade designs from day one.
 
-With guidance from experienced instructors, you will learn industry-standard tools such as Adobe Photoshop, CorelDRAW, and Illustrator to develop logos, posters, flyers, social media graphics, and brand identities.
+You’ll start with design principles: color theory, typography, composition. Then master Photoshop for photo editing, Illustrator for logos and vectors, InDesign for layouts. You’ll create portfolio pieces—brand identities, posters, social media templates—that prove you can deliver results. By month three, you’re designing for real clients. By month four, you’re building your freelance business.
 
-As a local ICT training center in Lagos, our curriculum is tailored to the Nigerian market while preparing you for global opportunities. Through practical projects and portfolio development, you will graduate with the skills to work as a professional graphics designer, join creative teams, or launch your own freelance career.
-
-Flexible schedules, practical lab sessions, and real-world assignments make this course suitable for both beginners and working professionals.
-
-By the end of the program, you will be confident in your ability to transform ideas into stunning designs that communicate and inspire."
+Graphic designers are needed across creative agencies, e commerce businesses, and startups. You’ll be ready to land freelance projects, work remotely for international brands, or join creative agencies as a professional designer."
         courseOutline={[
-          "All courses in desktop publishing ",
-          "All courses in certied desktop publishing ",
-          "Adobe Illustrator",
-          "Certified desktop publishing",
-          "Internet Essential",
+          "Introduction to Graphic Design Principles",
+          "Colour Theory and Typography",
+          "Layout and Composition Techniques",
+          "Introduction to Adobe Photoshop",
+          "Photo Editing and Image Manipulation in Photoshop",
+          "Introduction to CorelDRAW",
+          "Logo Design and Brand Identity Creation",
+          "Flyer, Poster and Banner Design",
+          "Introduction to Adobe Illustrator",
+          "Vector Graphics and Illustration",
+          "Introduction to Adobe InDesign",
+          "Print and Digital Publication Design",
+          "Social Media Graphics and Digital Content",
+          "Portfolio Development and Presentation",
+          "Introduction to Internet and Digital Publishing Essentials",
         ]}
         coursePrice="80,000"
         courseDuration="4 months"

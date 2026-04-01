@@ -11,8 +11,8 @@ function WebDesignWithWordpress() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Web Design with wordpress | Florintech computer college"
-        description="Learn web design with WordPress at Florintech Computer College! Master how to build and customize professional, responsive websites using the world’s leading CMS. Perfect for beginners and aspiring web designers. Enroll now to create stunning websites without coding!"
+        title="Web Design with WordPress Course in Ojo, Lagos | Florintech"
+        description="Learn to build and customize professional websites with WordPress at Florintech Computer College in Ojo, Lagos. Practical training for beginners. Register now."
         canonical="https://www.florintechcomputercollege.com/courses/webdesignwithwordpress/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/webdesignwithwordpress/",
@@ -35,7 +35,11 @@ function WebDesignWithWordpress() {
       <Singlecourse
         courseTitle="Website Design with Wordpress"
         courseImage={courseImages.wordpress}
-        aboutCourseText="Learn web design with WordPress in this practical course at Florintech Computer College. Whether you're new to web design or want to enhance your skills, this course teaches you how to build and customize professional, responsive websites using WordPress —no coding required.   You'll master themes, plugins, content creation, SEO, and website maintenance. By the end, you'll have the skills to design and manage fully functional WordPress sites, including e-commerce integration. Perfect for aspiring designers and business owners looking to build a strong online presence."
+        aboutCourseText="WordPress powers 60% of all websites and if you can build WordPress sites, you can generate income immediately. Our WordPress web design course teaches you to create stunning, professional websites without writing a single line of code. Within weeks, you'll be able to build client ready sites.
+
+You'll learn WordPress from installation to launch: choosing the right theme, customizing with plugins, creating SEO optimized content, adding e commerce, and managing security. You'll build real websites—a restaurant site, an online store, a portfolio—that you can show potential clients. By week five, you can confidently handle small business websites. By week six, you're ready to take paying projects.
+
+This skill is perfect for side income or a full business. Design agencies and small businesses constantly need WordPress professionals. You'll be able to build and sell websites to small businesses, restaurants, and entrepreneurs across Lagos and Nigeria."
         courseOutline={[
           "Introduction to Web Design & WordPress",
           "Exploring the WordPress Dashboard",

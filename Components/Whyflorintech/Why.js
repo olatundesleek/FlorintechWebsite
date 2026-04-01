@@ -25,6 +25,11 @@ function Why() {
           or a place to build your tech career, Florintech provides hands-on
           learning with industry-recognized programs.
         </p>
+        <p>
+          Conveniently located in Ojo, we serve students from across Lagos
+          including Festac Town, Mile 2, Satellite Town, Amuwo-Odofin, Agbara,
+          and Badagry.
+        </p>
       </Box>
 
       <Box>

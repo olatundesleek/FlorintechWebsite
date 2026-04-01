@@ -11,8 +11,8 @@ function BackendDevelopment() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Back-End Development | Florintech computer college"
-        description="learn Back-End Development with Node Js at Florintech Computer College"
+        title="Backend Development with Node.js Course in Lagos | Florintech"
+        description="Learn backend development with Node.js at Florintech Computer College in Ojo, Lagos. Practical training for aspiring backend developers. Register now."
         canonical="https://www.florintechcomputercollege.com/courses/backenddevelopment/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/backenddevelopment/",
@@ -35,11 +35,11 @@ function BackendDevelopment() {
       <Singlecourse
         courseTitle="Back-End Development with Node Js"
         courseImage={courseImages.nodejs}
-        aboutCourseText="Our Backend Development with Node.js course is designed to equip you with the skills and knowledge needed to become a proficient backend developer.
+        aboutCourseText="Every website needs a backend—the invisible engine that stores data, processes payments, and powers everything users see. Node.js dominates backend development because it's fast, scalable, and built on JavaScript. Our backend development with Node.js course teaches you to become a backend specialist who builds the APIs that power modern applications.
 
-        In today's digital landscape, a robust and efficient backend is crucial for delivering high-quality applications. Node.js, with its asynchronous, event-driven architecture, has become the go-to choice for building scalable and real-time backend systems.
-        
-        This 4 months intensive course takes you on a comprehensive journey through the core concepts of backend development. Whether you're a beginner or an experienced developer looking to expand your skill set, our curriculum is carefully structured to accommodate all levels of expertise."
+You'll start with Node.js fundamentals, then build production-grade REST APIs using Express.js. You'll master databases (SQL and MongoDB), authentication, real-time features with WebSockets, and deployment. By month three, you've built a full social media backend from scratch. By month four, you understand caching, performance optimization, and security like a professional.
+
+Nigeria's fintech and tech companies desperately need backend developers. You'll be job-ready for remote contracts, corporate roles, or architecting systems for startups and growing businesses."
         courseOutline={[
           "Introduction to Backend Development and Node.js Basics",
           "Introduction to Node.js Modules and NPM",

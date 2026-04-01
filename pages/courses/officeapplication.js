@@ -12,9 +12,9 @@ function officeapplication (){
       <Box>
         <DefaultSeo
          {...SEO}
-          title="Office Application | Florintech computer college"
+          title="Microsoft Office Application Course in Ojo, Lagos | Florintech"
           canonical="https://www.florintechcomputercollege.com/courses/officeapplication/"
-          description=" learn Microsoft Office applications like Word, Excel, PowerPoint, and Access. Enroll now and boost your career productivity."
+          description="Master Microsoft Office applications at Florintech Computer College in Ojo, Lagos. Essential digital skills for students and professionals. Enroll today."
           openGraph={{
             url: "https://www.florintechcomputercollege.com/courses/officeapplication/",
             title: "Office Application | Florintech computer college",
@@ -37,9 +37,11 @@ function officeapplication (){
         <Singlecourse
           courseTitle="Office Application"
           courseImage={courseImages.officeapplication}
-          aboutCourseText="Our Microsoft Office courses are designed to equip you with the skills and knowledge needed to excel in today's fast-paced office environments. Microsoft Office applications are essential in modern workplaces, and mastering them is key to career success. Whether you're an administrative assistant, project manager, or business owner, learning how to use Microsoft Office effectively can save you time and significantly boost your productivity.
+          aboutCourseText='Microsoft Office skills are a necessity for every office job. Our office application course teaches you Word, Excel, and PowerPoint—the tools that administrative staff, accountants, project managers, and business professionals use daily. Mastery of these applications dramatically speeds up your work and makes you more valuable to employers.
 
-          At Florintech Computer College, we offer a comprehensive range of Microsoft Office courses covering all the popular programs, including Word, Excel, PowerPoint, and Access. Taught by experienced professionals, our courses provide hands-on learning with practical exercises and real-world examples to ensure you can apply your Microsoft Office knowledge effectively in your work"
+You will master Word for professional documents, Excel for data analysis and financial tracking, and PowerPoint for presentations that actually influence decisions. You will learn shortcuts, formulas, and advanced features that save hours weekly. You will create spreadsheets that analyze sales data, write reports that impress leadership, and build presentations that close deals. By the end, you are not just using Office, you are leveraging it strategically.
+
+Every company in Lagos needs employees who can work efficiently in Microsoft Office. You will be job-ready for administrative roles, banking positions, or corporate jobs where these skills are required every day.'
         
           courseOutline={[
             "Computer fundemantals and information tech",

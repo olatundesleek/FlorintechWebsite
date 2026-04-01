@@ -11,8 +11,8 @@ function FullStackWebDevelopment() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Full-Stack Web Development | Florintech computer college"
-        description="Join Florintech Computer College's Full-Stack Web Development program. Learn front-end and back-end development, MERN stack, and build full-stack applications. Hands-on training with industry experts. Duration: 12 months. Certification included. Start your journey to becoming a web developer"
+        title="Full-Stack Web Development Course in Ojo, Lagos | Florintech"
+        description="Become a full-stack web developer at Florintech Computer College, Ojo Lagos. Covers frontend, backend, and industry best practices. Enroll today."
         canonical="https://www.florintechcomputercollege.com/courses/fullstackwebdevelopment/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/fullstackwebdevelopment/",
@@ -34,11 +34,11 @@ function FullStackWebDevelopment() {
       <Singlecourse
         courseTitle="Full-Stack website Development"
         courseImage={courseImages.fullstack}
-        aboutCourseText="This intensive program at Florintech Computer College, a premier computer school in Lagos, covers a wide spectrum of skills, technologies, and industry best practices to ensure that graduates are well-equipped for success in the ever-evolving field of web development. Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools.
+        aboutCourseText="Full stack developers are unicorns—they can build any feature, from frontend to database, making them invaluable to startups and valuable to enterprises. Our full stack web development course teaches you the MERN stack (MongoDB, Express, React, Node), the same technology used by fast growing tech companies across Africa.
 
-        Join Florintech Computer College and learn Full-Stack web development to advance your career in tech and software development. Our hands-on approach and experienced instructors will guide you through every step, ensuring you gain practical experience and comprehensive knowledge.
-        
-        Take the next step in your career and contact Florintech Computer College today to learn more about our web development program."
+You'll start with frontend fundamentals, then move to React state management and routing. Next, Node.js and Express for backend APIs. Then you'll connect everything—frontend talking to database through your APIs. By month four, you're deploying full applications to production. You'll build projects like marketplace apps, task managers, and real time chat systems.
+
+Full stack developers are in high demand across tech companies and startups. You'll qualify for positions at tech companies, work on remote contracts, or founding your own SaaS product. You'll have all the skills to bring any web application idea to life."
         courseOutline={[
           "Introduction to Web Development",
           "Understanding the web development ecosystem",

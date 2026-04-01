@@ -11,8 +11,8 @@ function desktoppublishing() {
     <Box>
       <DefaultSeo   {...SEO}
       canonical="https://www.florintechcomputercollege.com/courses/desktoppublishing/"
-        title="Desktop Publishing| Florintech computer college"
-        description="At Florintech Computer College, we offer comprehensive courses on desktop publishing that cover everything from basic concepts to advanced techniques. Our courses are designed to teach students how to use desktop publishing software to create professional documents with ease and efficiency. We provide hands-on training using the latest software tools and techniques, so you can gain practical experience in the field."
+        title="Desktop Publishing Course in Ojo, Lagos | Florintech Computer College"
+        description="Learn desktop publishing software and techniques at Florintech, a leading computer school in Ojo, Lagos. Practical, hands-on ICT training. Register now."
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/desktoppublishing/",
           title: "Desktop Publishing | Florintech computer college",
@@ -35,13 +35,11 @@ function desktoppublishing() {
       <Singlecourse
         courseTitle=" Desktop Publishing"
         courseImage={courseImages.desktoppublishing}
-        aboutCourseText="Learn Desktop Publishing at Florintech Computer College Ojo,
+        aboutCourseText="Desktop publishing skills are essential for creating polished documents, flyers, brochures, and marketing materials that stand out. Our desktop publishing course teaches you to transform basic ideas into publication ready designs using industry tools like CorelDRAW, Photoshop, and Microsoft Publisher.
 
-        a leading computer school in Lagos, we offer comprehensive courses on desktop publishing that cover everything from basic concepts to advanced techniques. Our courses are designed to teach students how to use desktop publishing software to create professional documents with ease and efficiency.
-        
-        We provide hands-on training using the latest software tools and techniques, so you can gain practical experience in the field. Our instructors are experienced professionals with years of experience in the desktop publishing industry. They provide expert guidance and support to ensure that you get the most out of your training.
-        
-        Our desktop publishing courses cover a range of topics, including typography/word processing, layout design, image manipulation, and printing techniques. You will learn how to use industry-standard software like corel-draw and Photoshop to create professional-grade documents ready for print or digital distribution."
+You'll start with typography and layout fundamentals, then master software tools one by one. You'll learn image editing, color theory, and print preparation. By week two, you're creating professional flyers. By week six, you can design brochures, newsletters, and business materials.
+
+This skill is in constant demand—marketing agencies, print houses, and small businesses all need desktop publishing professionals. You can take freelance projects designing book covers, menus, and marketing collateral. You'll be ready to work as an in house designer, take remote freelance projects, or freelance to local businesses and agencies."
         courseOutline={[
           "Computer Fundamentals and information tech",
           "Typing Tutor",

@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.11.0",
     "axios": "^1.5.1",
     "install": "^0.13.0",
+    "lucide-react": "^1.7.0",
     "next": "^13.5.4",
     "next-recaptcha-v3": "^1.2.0",
     "next-seo": "^6.1.0",

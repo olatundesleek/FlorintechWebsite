@@ -11,9 +11,9 @@ function WebDevelopment() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Web Development Course in Ojo, Lagos | Florintech ICT Training"
+        title="Web Development Course in Ojo, Lagos | Florintech Computer College"
         keywords="web development course in ojo, web development course in lagos, web development training in ojo, web development training in lagos, web design course in ojo, web design course in lagos, learn web development in ojo, learn web development in lagos"
-        description="Learn web development courses at Florintech, the top computer school in Ojo, Lagos. Gain ICT training in coding, frontend, backend & web design skills."
+        description="Learn web development in Ojo, Lagos at Florintech Computer College. Master HTML, CSS, JavaScript and more with 100% practical ICT training. Register today."
         canonical="https://www.florintechcomputercollege.com/courses/webdevelopment/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/webdevelopment/",
@@ -36,11 +36,9 @@ function WebDevelopment() {
       <Singlecourse
         courseTitle="Website Development"
         courseImage={courseImages.webdevelopment}
-        aboutCourseText="Our Web Development Course in Ojo, Lagos is designed for anyone who wants to build a career or business in tech. At Florintech, we go beyond theory with practical ICT training in small class sizes that ensure personal attention and effective learning.
+        aboutCourseText="If you want to build websites or launch your tech career, our web development course teaches you the exact skills Nigerian employers and international clients demand. You’ll master HTML, CSS, and JavaScript—the core languages behind every website—then apply them to real projects that go into your portfolio.
 
-As a local computer school in Ojo, we understand the Nigerian digital market and structure our lessons to give you real-world skills you can immediately apply. Our experienced instructors bring industry knowledge straight into the classroom, guiding you through projects that help you build a professional portfolio.
-
-This course also offers flexible schedules and hands-on lab sessions, making it easier for both students and working professionals to learn without stress. By the end of your training, you’ll be confident in developing, designing, and launching modern websites, ready to take on freelance jobs, internships, or tech roles in Lagos and beyond."
+Perfect for beginners and working professionals, you’ll learn responsive design so your sites work flawlessly on phones and desktops. By week three, you’re building actual web pages. By the end, you’ll understand how the web works from server to browser. You’ll be ready to take freelance projects, compete for junior developer roles in fintech companies, agencies, and startups, or build and launch client websites independently."
         courseOutline={[
           "Introduction to Web Development.",
           "HTML Fundamentals",

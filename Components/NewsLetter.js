@@ -12,8 +12,9 @@ const NewsLetter = () => {
   return (
   
       <Flex className="newsletter">
+        
         <Box
-          align="center"
+        
           // m={{ base: 5, sm: 5, md: 3, lg: 3 }}
           // className="course-container"
         >

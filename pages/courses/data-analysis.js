@@ -10,9 +10,9 @@ function DataAnalysis() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Data Analysis Course in Ojo, Lagos | Florintech ICT Training"
+        title="Data Analysis Course in Ojo, Lagos | Florintech Computer College"
         keywords="data analysis course in ojo, data analysis course in lagos, data analysis training in ojo, data analysis training in lagos, data analytics course in ojo, data analytics course in lagos, learn data analysis in ojo, learn data analysis in lagos"
-        description="Learn Data Analysis at Florintech, Ojo’s trusted computer school. Gain ICT training in Excel, SQL, Power BI, Python, and data visualization for real-world projects."
+        description="Learn data analysis with Excel, SQL, Power BI and Python at Florintech Computer College in Ojo, Lagos. Hands-on training for aspiring analysts. Register now."
         canonical="https://www.florintechcomputercollege.com/courses/data-analysis/"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/data-analysis/",
@@ -35,11 +35,8 @@ function DataAnalysis() {
       <Singlecourse
         courseTitle="Data Analysis"
         courseImage={courseImages.dataanalysis}
-        aboutCourseText="Our Data Analysis Course in Ojo, Lagos equips you with the skills to collect, clean, and interpret data for smarter decision making. At Florintech, we don’t just teach theory, we focus on practical ICT training that helps you become job-ready.
-
-With small class sizes, you’ll get personalized guidance from expert instructors while working on real-world projects that prepare you for internships, freelance roles, or professional positions in Lagos and beyond.
-
-This training covers Excel, SQL, Power BI, and Python – the essential tools of modern data analysts. You’ll also learn data visualization and storytelling, making it easy to present insights clearly and effectively. By the end of the course, you’ll be confident in analyzing datasets, creating dashboards, and supporting business decisions with data."
+        aboutCourseText="Data analysts are the most valuable employees in companies because they turn numbers into profits. If you can collect data, clean it, analyze it, and tell a story with it, businesses will seek you out. Our data analysis course teaches you Excel, SQL, Power BI,Panda and Python. The exact tools companies use to make every important decision. You will learn to extract data from databases using SQL, clean messy real-world data that is full of errors, create visualizations that make complex trends obvious, and build dashboards executives actually use. You will work with real datasets: retail sales, customer behavior, financial performance. You will answer questions like Why are customers leaving ?, and Which products are most profitable? By month two, you understand data analysis workflows. By month three, you are presenting insights to decision-makers.
+Data analysts are highly sought after across banks, fintech, e-commerce, and tech companies. You will be job-ready for analyst positions, business intelligence roles, or consulting contracts."
         courseOutline={[
           "Introduction to Data Analysis",
           "Microsoft Excel for Data Analysis",
