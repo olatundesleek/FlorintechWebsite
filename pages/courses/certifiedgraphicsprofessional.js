@@ -36,7 +36,7 @@ function CertifiedGraphicsProfessional() {
       />
       <Header />
       <Singlecourse
-        courseTitle="Certified Graphics Professional Course"
+        courseTitle="Certified Graphics Professional"
         courseImage={courseImages.graphics}
         aboutCourseText="Graphic design is a skill that always pays—brands need logos, social media graphics, and stunning visuals or they disappear online. Our certified graphics professional course teaches you Adobe Photoshop, Illustrator, and CorelDRAW so you can create professional grade designs from day one.
 
