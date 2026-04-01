@@ -12,8 +12,8 @@ function digitalmediaandwebdevelopnment() {
       <DefaultSeo
         {...SEO}
         canonical="https://www.florintechcomputercollege.com/courses/digitalmarketingandwebdevelopnment/"
-        title="Digital Marketing And Web Developnment | Florintech computer college"
-        description="At Florintech Computer College, we understand the importance of staying up-to-date with the latest trends and advancements in technology. That's why we offer a comprehensive range of courses in digital media and web development, designed to equip you with the skills and knowledge you need to succeed in this ever-evolving field"
+        title="Digital Marketing & Web Development Course in Lagos | Florintech"
+        description="Learn digital marketing and web development together at Florintech Computer College in Ojo, Lagos. Practical training for the Nigerian digital economy. Register now."
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/digitalmarketingandwebdevelopnment/",
           title:
@@ -36,18 +36,16 @@ function digitalmediaandwebdevelopnment() {
       <Singlecourse
         courseTitle=" Digital Marketing And Web Development"
         courseImage={courseImages.digitalandwebdev2}
-        aboutCourseText="Digital media encompasses a wide range of digital technologies, including social media, mobile applications, digital advertising, and more. At Florintech Computer College, a leading computer school in Lagos, our courses cover various topics related to digital media, such as social media marketing, digital branding, and content creation. In addition to digital media, we also offer comprehensive courses in web development.
+        aboutCourseText="Businesses can't survive online without both digital marketing and a fast website—our digital marketing and web development course teaches you both. Master web development (HTML, CSS, JavaScript) to build fast websites, then learn digital marketing (SEO, social media, Google Ads) to drive traffic and sales to those sites. You become the complete solution businesses desperately need.
 
-        With more businesses relying on their online presence to reach customers, web development is a rapidly growing field. Our courses cover a variety of web development languages and technologies, including HTML, CSS, JavaScript, and more. Whether you're looking to start a career in digital media or web development, or simply looking to enhance your skills, Florintech Computer College has the courses you need.
-        
-        Our experienced instructors are dedicated to helping you achieve your goals and succeed in this exciting and dynamic field. We offer a range of programs and courses to suit your needs, including flexible scheduling options to fit your busy lifestyle. With our state-of-the-art facilities and hands-on approach to learning, you'll be equipped with the skills and knowledge you need to succeed in today's digital world.
-        
-        So, if you're ready to take your career to the next level or simply want to learn digital marketing and web development, contact Florintech Computer College today. Discover how our programs and courses can help you achieve your goals. We look forward to helping you succeed"
+You'll create responsive websites that load quickly and convert visitors into customers, then optimize those sites for search engines so potential customers actually find them. You'll run paid ads on Facebook and Google, create viral social media content, and understand analytics. By week eight, you've launched a complete digital marketing campaign for a real business website—from designing the site to driving profitable traffic.
+
+This combination is highly valuable in the market. Companies across Lagos need professionals who understand both web development and marketing. You'll be ready to manage digital projects end to end, freelance to businesses scaling online, or take high value remote contracts."
         courseOutline={[
           "All courses in diploma in digital media",
           "All courses in web development",
         ]}
-        coursePrice="180,000"
+        coursePrice="250,000"
         courseDuration="4 months"
         classType="Physical"
       />

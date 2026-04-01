@@ -121,7 +121,7 @@ Join us at the foremost computer school in Lagos and experience a learning envir
         className="card-content-card"
       >
         <Box className="award__class">
-          <h2>45</h2>
+          <h2>46</h2>
           <p>Certificates & Awards</p>
         </Box>
         <Box className="award__class">
@@ -129,7 +129,7 @@ Join us at the foremost computer school in Lagos and experience a learning envir
           <p>Dedicated Teachers</p>
         </Box>
         <Box className="award__class">
-          <h2>15</h2>
+          <h2>17</h2>
           <p>Courses</p>
         </Box>
         {/* <Box className="award__class">

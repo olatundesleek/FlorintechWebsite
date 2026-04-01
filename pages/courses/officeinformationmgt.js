@@ -10,9 +10,9 @@ function officeinformationmgt () {
   return (
     <Box>
       <DefaultSeo    {...SEO}
-        title="Office Information Managnment | Florintech computer college"
+        title="Office Information Management Course in Lagos | Florintech"
         canonical="https://www.florintechcomputercollege.com/courses/officeinformationmgt/"
-        description=" At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students"
+        description="Learn modern office information management at Florintech Computer College in Ojo, Lagos. Practical digital skills for office professionals. Register now."
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/officeinformationmgt/",
           title: "Office information managnment | Florintech computer college",
@@ -35,19 +35,11 @@ function officeinformationmgt () {
       <Singlecourse
         courseTitle="Office Information Management"
         courseImage={courseImages.officemgt}
-        aboutCourseText=" Welcome to our website dedicated to Office Information Management, where we explore the importance of efficient information management in the workplace, and how it can be achieved using modern technologies and strategies. In this page, we will specifically highlight the benefits of Office Information Management for Florintech Computer College.
+        aboutCourseText="Office managers who can organize information efficiently are valuable in Lagos corporations—they save time, prevent chaos, and keep operations running smoothly. Our office information management course teaches you the software and systems enterprises use: Microsoft Office at an advanced level, Adobe tools for professional documents, and Peachtree for managing office finances and records.
 
-At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students.
+You'll master complex Excel spreadsheets that track hundreds of data points, create professional documents with advanced Word features, organize files systematically, manage databases, and use software to streamline office workflows. You'll understand how information flows through organizations and how to optimize that flow. By the end, you can walk into any office and immediately make it more efficient.
 
-To achieve these goals, we have implemented an Office Information Management system that is tailored to our specific needs and requirements. This system encompasses a range of software, hardware, and policies that allow us to collect, store, process, and share information securely and efficiently.
-
-One of the key benefits of our Office Information Management system is improved productivity. By automating repetitive tasks, streamlining workflows, and reducing manual data entry, our staff members can focus on more important tasks that require their expertise and creativity. This not only saves time but also reduces the risk of errors and improves the overall quality of our work.
-
-Another benefit of our Office Information Management system is better collaboration. By providing a centralized platform for communication and file sharing, we can work together seamlessly regardless of our physical location. This not only improves the speed and efficiency of our work but also fosters a culture of teamwork and innovation.
-
-Finally, our Office Information Management system provides enhanced security and compliance. By implementing strict access controls, encryption, and backup procedures, we can protect sensitive information from unauthorized access, theft, or loss. This not only helps us comply with data protection regulations but also builds trust and confidence among our stakeholders.
-
-At Florintech Computer College, we are committed to providing the best education possible to our students. Our Office Information Management system is just one of the many ways we achieve this goal. By leveraging modern technologies and best practices, we can ensure that our staff members have the tools they need to work efficiently, collaboratively, and securely!"
+Companies and large organizations need skilled office professionals. You'll be job ready for senior administrative positions, office management roles, or specialized admin jobs across Lagos' corporate sector."
         courseOutline={[
           "computer Fundementals",
           "Microsoft Office Packages",
@@ -57,7 +49,7 @@ At Florintech Computer College, we are committed to providing the best education
           "Internet Essentails",
         ]}
         courseDuration="4 months"
-        coursePrice="60,000"
+        coursePrice="80,000"
         classType="Physical"
       />
     </Box>

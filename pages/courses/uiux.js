@@ -14,7 +14,7 @@ function uiux() {
           {...SEO}
           title="UI/UX Design Course in Ojo, Lagos | Florintech Computer College"
           canonical="https://www.florintechcomputercollege.com/courses/uiux/"
-          description="Learn UI/UX design at Florintech, a computer school in Ojo, Lagos. Hands-on ICT training, real projects, portfolio building, and flexible schedules."
+          description="Learn UI/UX design at Florintech Computer College in Ojo, Lagos. Master wireframing, prototyping, and user research with expert instructors. Enroll today."
           openGraph={{
             url: "https://www.florintechcomputercollege.com/courses/uiux/",
             title: "UI/UX | Florintech Computer College",
@@ -36,15 +36,13 @@ function uiux() {
         <Singlecourse
           courseTitle="UI/UX"
           courseImage={courseImages.ux}
-          aboutCourseText="Our UI/UX Design Course in Ojo, Lagos is designed to help you master the skills needed to create user-friendly websites and applications. At Florintech, you’ll benefit from practical ICT training in small class sizes, ensuring personalized learning from experienced instructors with real-world design expertise.
+          aboutCourseText="Companies only hire UI/UX designers who can prove they understand how real users interact with apps and websites. Our UI/UX design course teaches you to research user needs, design intuitive interfaces, and create prototypes that actually work before developers build them. You’ll learn from day one that design isn’t art—it’s solving problems.
 
-As a local computer school in Ojo, our curriculum is tailored to meet the needs of the Nigerian digital market. You’ll gain hands-on experience through projects and portfolio building, preparing you to work as a UI/UX designer, join development teams, or take on freelance projects.
+You’ll master Figma, the industry standard for design collaboration, plus Adobe XD for prototyping. You’ll learn user research methods, wireframing, interaction design, and usability testing. You’ll redesign real apps and websites, getting feedback from actual users, then iterate based on data. By month two, you’ve built a professional portfolio. By month three, you understand design like companies expect.
 
-This course includes flexible schedules and practical lab sessions, making it suitable for beginners and professionals. By the end of your training, you will be proficient in design tools like Figma and Adobe XD, and confident in user research, wireframing, prototyping, and usability testing.
-
-Start your journey to becoming a skilled UI/UX designer with Florintech today."
+Tech startups, fintech firms, and e commerce companies across Lagos actively hire UI/UX designers. You’ll be ready to land junior design roles, freelance high value design projects, or startup design positions."
           courseOutline={["Figma", "Adobe xd", "Adobe Illustrator"]}
-          coursePrice="150,000"
+          coursePrice="200,000"
           courseDuration="3 months"
           classType="Physical/Virtual"
         />

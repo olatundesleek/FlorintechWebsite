@@ -24,7 +24,19 @@ function Footer() {
           flexDirection="column"
         >
           <Brand />
-          <h2>FLORINTECH COMPUTER COLLEGE </h2>
+          <Flex className="newsletter">
+          <Box className="footer-writeup-text">
+            <address className="footer-address">
+            9 Kemberi Road, Okokomaiko, Ojo,<br />
+            Lagos State, Nigeria.<br />
+          </address>
+          <Box className="footer-contact">
+            <p>Phone: +2348136689745</p>
+            <p>Email: info@florintechcomputercollege.com</p>
+            </Box>
+          </Box>
+          </Flex>
+         
           <NewsLetter />
         </Flex>
         <Flex

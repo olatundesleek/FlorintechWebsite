@@ -14,8 +14,8 @@ function AutocadSpecialist() {
         <DefaultSeo
           {...SEO}
           canonical="https://www.florintechcomputercollege.com/courses/autocadspecialist/"
-          title="AutoCad Specialist| Florintech computer college"
-          description="At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications."
+          title="AutoCAD Specialist Course in Ojo, Lagos | Florintech Computer College"
+          description="Become an AutoCAD specialist at Florintech Computer College in Ojo, Lagos. Training for architects, engineers and designers. Practical ICT training. Register now."
           openGraph={{
             url: "https://www.florintechcomputercollege.com/courses/autocadspecialist/",
             title: "AutoCad Specialist | Florintech computer college",
@@ -37,33 +37,11 @@ function AutocadSpecialist() {
         <Singlecourse
           courseTitle="AutoCad Specialist Course"
           courseImage={courseImages.autocad}
-          aboutCourseText="Welcome to Florintech Computer College, where we specialize in providing high-quality training and education in AutoCAD. Our team of experts is dedicated to helping students master this powerful software and develop the skills they need to excel in their careers.
+          aboutCourseText="AutoCAD is the industry standard for architects, engineers, and designers across Africa and the world. If you can design in AutoCAD, you can work for construction companies, oil and gas firms, manufacturing businesses, or architectural firms—all booming sectors in Nigeria.
 
-What is AutoCAD?
+Our AutoCAD specialist course teaches you to create precise 2D and 3D technical drawings, from building blueprints to mechanical parts. You'll master drawing tools, layers, annotations, dimensioning, and professional standards. You'll work on real projects: designing a house, creating mechanical assemblies, producing construction documents. By month two, you're building complex designs with professional accuracy. By the end, you understand CAD workflow exactly as employers expect.
 
-AutoCAD is a computer-aided design (CAD) software used by architects, engineers, and designers to create precise 2D and 3D drawings. It is a versatile tool that allows users to design everything from buildings and infrastructure to mechanical parts and products.
-
-Why Become an AutoCAD Specialist?
-
-Becoming an AutoCAD specialist can open up a world of opportunities in various industries. As an AutoCAD specialist, you'll have the skills to create detailed technical drawings, schematics, and models that are essential to many different types of projects. You could find work in fields such as architecture, engineering, construction, manufacturing, and more.
-
-At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications. Our program covers topics such as:
-
-Understanding the AutoCAD interface and workspace
-Creating and editing basic drawings
-Using layers, annotations, and dimensions
-Working with blocks and attributes
-Creating and managing layouts and templates
-Applying advanced drawing techniques
-Our experienced instructors are certified AutoCAD professionals who bring real-world expertise to the classroom. They provide personalized attention and guidance to each student, ensuring that everyone has the opportunity to master the material.
-
-Why Choose Florintech Computer College?
-
-Florintech Computer College is committed to providing high-quality, affordable education that prepares students for success in their chosen fields. Our AutoCAD Specialist program is designed to be flexible and accommodating, with both in-person and online learning options available.
-
-We offer hands-on training that allows students to apply their skills in a practical setting. Our state-of-the-art facilities are equipped with the latest technology and software, ensuring that students have access to the tools they need to succeed.
-
-Whether you are just starting out in your career or looking to enhance your skills, Florintech Computer College can help you achieve your goals. Contact us today to learn more about our AutoCAD Specialist program and how we can help you reach your full potential."
+Nigeria's construction and engineering sectors constantly need AutoCAD specialists. You'll be job ready for technical positions, contract work with multinational firms, or high value freelance projects designing commercial and residential buildings."
           courseOutline={["Autocad 2D", "Autocad 3D"]}
           coursePrice="200,000"
           courseDuration="2 months"
