@@ -19,9 +19,9 @@ function Mobilemenu() {
         </MyNavLink>
         <MyNavLink
           legacyBehavior
-          href="https://blog.florintechcomputercollege.com"
+          href="https://www.florintechcomputercollege.com/blog"
         >
-          <a className="link">BLOG</a>
+          <a className="link" target="_blank">BLOG</a>
         </MyNavLink>
         <MyNavLink legacyBehavior href="/contactus">
           <a className="link">CONTACT US</a>
