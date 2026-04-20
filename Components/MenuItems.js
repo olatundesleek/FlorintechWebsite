@@ -9,7 +9,9 @@ function MenuItems() {
       {menuData.map((i, index) => {
         return (
           <MyNavLink legacyBehavior href={i.path} key={index}>
-            <a className="link">{i.name}</a>
+            <a className="link" target={i.target || "_self"}>
+              {i.name}
+            </a>
           </MyNavLink>
         );
       })}

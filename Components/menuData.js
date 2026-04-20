@@ -3,7 +3,7 @@ export const menuData = [
   { name: "COURSES", path: "/courses" },
   { name: "TESTIMONIAL", path: "/#testimonial" },
   { name: "TUTORIAL", path: "/tutorial" },
-  { name: "BLOG", path: "https://blog.florintechcomputercollege.com" },
+  { name: "BLOG", path: "https://www.florintechcomputercollege.com/blog",target:"_blank" },
   { name: "CONTACT US", path: "/contactus" },
   { name: "ABOUT US", path: "/aboutus" },
   { name: "FAQ", path: "/#faq" },

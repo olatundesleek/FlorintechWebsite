@@ -72,7 +72,7 @@ function Footer() {
                 <li>
                   <Link
                     legacyBehavior
-                    href="https://blog.florintechcomputercollege.com"
+                    href="https://www.florintechcomputercollege.com/blog"
                   >
                     <a target="_blank">BLOG</a>
                   </Link>
