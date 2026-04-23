@@ -21,7 +21,7 @@ function DataAnalysis() {
             "Learn Data Analysis at Florintech, Ojo’s trusted computer school. Gain ICT training in Excel, SQL, Power BI, Python, and data visualization for real-world projects.",
           images: [
             {
-              url: "https://www.florintechcomputercollege.com/images/dataanalysis.jpg",
+              url: "https://www.florintechcomputercollege.com/images/data-analysis.jpg",
               width: 800,
               height: 600,
               alt: "data analysis",

@@ -21,7 +21,7 @@ function DigitalMarketing  () {
               " At Florintech Computer College, we offer a wide range of courses that cover all the major office applications.",
             images: [
               {
-                url: "https://www.florintechcomputercollege.com/images/dg.jpg",
+                url: "https://www.florintechcomputercollege.com/images/digitalmedia.jpg",
                 width: 800,
                 height: 600,
                 alt: "digitalmarketing",
