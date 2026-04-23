@@ -22,7 +22,7 @@ function uiux() {
               "Learn UI/UX design at Florintech Computer College. Master design principles, user research, wireframing, and prototyping from industry professionals. Enhance your skills and advance your career in UI/UX with our comprehensive course. Duration: 4 months. Certification included. Enroll now.",
             images: [
               {
-                url: "https://www.florintechcomputercollege.com/images/uiux.jpg",
+                url: "https://www.florintechcomputercollege.com/images/ui2.jpg",
                 width: 800,
                 height: 600,
                 alt: "ui/ux",

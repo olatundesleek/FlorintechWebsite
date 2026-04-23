@@ -23,7 +23,7 @@ function AutocadSpecialist() {
               " At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications.",
             images: [
               {
-                url: "https://www.florintechcomputercollege.com/images/autocadspecialist.jpg",
+                url: "https://www.florintechcomputercollege.com/images/autocad.jpg",
                 width: 800,
                 height: 600,
                 alt: "autocadSpecialist",

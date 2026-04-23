@@ -24,7 +24,7 @@ function CertifiedGraphicsProfessional() {
             "Our Certified Graphics Professional program is just one example of how we are helping individuals develop the skills and knowledge needed to succeed in today's competitive job marke.",
           images: [
             {
-              url: "https://www.florintechcomputercollege.com/images/certifiedgraphicsprofessional.jpg",
+              url: "https://www.florintechcomputercollege.com/images/graphic-pic.jpg",
               width: 800,
               height: 600,
               alt: "certifiedgraphicsprofessional",
