@@ -37,7 +37,7 @@ export default function Home() {
           siteName: "Florintech Computer College",
           images: [
             {
-              url: "https://res.cloudinary.com/de0x1equu/image/upload/q_auto/v1758804840/Students_of_Florintech_Computer_School_in_Ojo_eo3qb2.webp",
+              url: "https://res.cloudinary.com/de0x1equu/image/upload/q_auto:best/v1779449918/Florintech/Florintech_Image_vs89dj.webp",
               width: 800,
               height: 600,
               alt: "Students of Florintech Computer College standing together during ICT training in Ojo, Lagos",
@@ -68,7 +68,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/de0x1equu/image/upload/q_auto/v1758804840/Students_of_Florintech_Computer_School_in_Ojo_eo3qb2.webp"
+          content="https://res.cloudinary.com/de0x1equu/image/upload/q_auto:best/v1779449918/Florintech/Florintech_Image_vs89dj.webp"
         />
         <link rel="icon" href="/favicon.ico" />
         <script
@@ -82,7 +82,7 @@ export default function Home() {
               url: "https://www.florintechcomputercollege.com/",
               logo: "https://www.florintechcomputercollege.com/images/logo.png",
               image:
-                "https://res.cloudinary.com/de0x1equu/image/upload/q_auto/v1758804840/Students_of_Florintech_Computer_School_in_Ojo_eo3qb2.webp",
+                "https://res.cloudinary.com/de0x1equu/image/upload/q_auto:best/v1779449918/Florintech/Florintech_Image_vs89dj.webp",
               description:
                 "Florintech Computer College is a trusted computer school in Ojo, Lagos, dedicated to helping students, professionals, and organizations gain the practical digital skills they need to succeed in today’s technology-driven world. With experienced instructors, hands-on training, and industry-recognized programs, we make learning technology simple, accessible, and career-focused.",
               address: {
