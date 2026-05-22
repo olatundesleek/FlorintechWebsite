@@ -37,19 +37,18 @@ export default function Home() {
           siteName: "Florintech Computer College",
           images: [
             {
-              url: "https://www.florintechcomputercollege.com/images/logo.png",
+              url: "https://res.cloudinary.com/de0x1equu/image/upload/q_auto/v1758804840/Students_of_Florintech_Computer_School_in_Ojo_eo3qb2.webp",
               width: 800,
               height: 600,
-              alt: "Florintech Computer College",
-              type: "image/png",
+              alt: "Students of Florintech Computer College standing together during ICT training in Ojo, Lagos",
+              type: "image/webp",
             },
           ],
         }}
       />
       <Head>
         <title>
-          Florintech Computer College – Top Computer School in Ojo, Lagos | 100%
-          Practical ICT Training
+       Top Computer School in Ojo, Lagos | Florintech Computer College
         </title>
 
         <link
@@ -124,7 +123,7 @@ export default function Home() {
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.9",
-                reviewCount: "372",
+                reviewCount: "488",
               },
             }),
           }}
