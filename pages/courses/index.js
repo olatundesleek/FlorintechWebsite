@@ -15,14 +15,14 @@ function index() {
     <Box>
       <DefaultSeo
         {...SEO}
-        title="Computer School in Ojo Lagos | ICT Training & Courses - Florintech"
+        title="Computer & ICT Courses in Ojo, Lagos | Florintech Computer College"
         canonical="https://www.florintechcomputercollege.com/courses/"
-        description="Learn web development, digital marketing, cybersecurity & more courses at Florintech Computer College, Ojo’s leading ICT school."
+        description="Learn web development, graphics design, digital marketing, cybersecurity & data analysis at Florintech Computer College, Ojo Lagos. Enroll today."
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/",
-          title: "Courses | Florintech Computer College",
+          title: "Computer & ICT Courses in Ojo, Lagos | Florintech Computer College",
           description:
-            "Learn web development, digital marketing, cybersecurity & more courses at Florintech Computer College, Ojo’s leading ICT school.",
+            "Learn web development, graphics design, digital marketing, cybersecurity & data analysis at Florintech Computer College, Ojo Lagos. Enroll today.",
           siteName: "Florintech Computer College",
           images: [
             {
