@@ -13,9 +13,9 @@ function WebDesignWithWordpress() {
         {...SEO}
         title="Web Design with WordPress Course in Ojo, Lagos | Florintech"
         description="Learn to build and customize professional websites with WordPress at Florintech Computer College in Ojo, Lagos. Practical training for beginners. Register now."
-        canonical="https://www.florintechcomputercollege.com/courses/webdesignwithwordpress/"
+        canonical="https://www.florintechcomputercollege.com/courses/web-design-with-wordpress/"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/webdesignwithwordpress/",
+          url: "https://www.florintechcomputercollege.com/courses/web-design-with-wordpress/",
           title: "Web Design with wordpress | Florintech computer college",
           description:
             "Learn web design with WordPress at Florintech Computer College! Master how to build and customize professional, responsive websites using the world’s leading CMS. Perfect for beginners and aspiring web designers. Enroll now to create stunning websites without coding!",

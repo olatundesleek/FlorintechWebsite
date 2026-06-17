@@ -68,7 +68,7 @@ function index() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/webdevelopment"
+            to="courses/web-development"
             courseText="Our Web Development program is designed to equip students with the skills and knowledge necessary to create professional and functional websites. We cover a wide range of topics, including HTML, CSS, JavaScript, and web design principles.
         
         At Florintech Computer College, we believe in a hands-on approach to learning. Our experienced instructors provide practical exercises and real-world examples to ensure that students gain practical skills that they can apply in their careers.
@@ -88,7 +88,7 @@ function index() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/frontendwebdevelopment"
+            to="courses/frontend-web-development"
             courseText="This comprehensive React.js course is designed to equip students with the skills and knowledge necessary to become proficient React.js developers. students will start with a strong foundation in HTML, CSS, and JavaScript before diving into React.js, a popular JavaScript library for building modern web applications. Throughout the course, students will gain hands-on experience through practical projects and assignments, enabling them to create interactive and dynamic web applications."
             courseTitle="Front End Web Development with React.js "
             courseImage={courseImages.reactjs}
@@ -102,7 +102,7 @@ function index() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/backenddevelopment"
+            to="courses/backend-development"
             courseText="Our Backend Development course with Node.js is tailored for individuals aspiring to become proficient backend developers. This comprehensive course equips you with the skills and knowledge needed to excel in the dynamic world of backend development using Node.js, one of the most versatile and in-demand technologies in the field."
             courseTitle="Back-End Development with Node.js "
             courseImage={courseImages.nodejs}
@@ -116,7 +116,7 @@ function index() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/fullstackwebdevelopment"
+            to="courses/full-stack-web-development"
             courseText="This intensive program covers a wide spectrum of skills, technologies, and industry best practices to ensure that graduates are well-equipped for success in the ever-evolving field of web development.
 
             Throughout this immersive journey, you will learn the intricacies of both front-end and back-end development, gaining expertise in the latest web technologies, frameworks, and tools."
@@ -132,7 +132,7 @@ function index() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/webdesignwithwordpress"
+            to="courses/web-design-with-wordpress"
             courseText="Learn web design with WordPress at Florintech Computer College! Master how to build and customize professional, responsive websites using the world’s leading CMS."
             courseTitle="Web Design with Wordpress"
             courseImage={courseImages.wordpress}
@@ -146,7 +146,7 @@ function index() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/certifiedgraphicsprofessional"
+            to="courses/certified-graphics-professional"
             courseText=" we offer comprehensive training programs for aspiring graphics professionals. Our courses are designed to help individuals develop the skills and knowledge needed to become certified graphics professionals.
 
 Our Certified Graphics Professional program is designed to provide students with a deep understanding of graphic design principles and software tools. Through a combination of classroom instruction, hands-on exercises, and real-world projects, students will learn how to create high-quality graphics that meet the needs of clients and customers.
@@ -166,7 +166,7 @@ At the end of the program, students will be prepared to take the Certified Graph
           margin="20px 0"
         >
           <CourseTab
-            to="courses/desktoppublishing"
+            to="courses/desktop-publishing"
             courseText=" we offer comprehensive courses on desktop publishing that cover everything from basic concepts to advanced techniques. Our courses are designed to teach students how to use desktop publishing software to create professional documents with ease and efficiency. We provide hands-on training using the latest software tools and techniques, so you can gain practical experience in the field.
 
 Our instructors are experienced professionals with years of experience in the desktop publishing industry."
@@ -182,7 +182,7 @@ Our instructors are experienced professionals with years of experience in the de
           margin="20px 0"
         >
           <CourseTab
-            to="courses/officeapplication"
+            to="courses/office-application"
             courseText="Office applications are an essential part of any modern workplace, and mastering them is a must for anyone who wants to succeed in their career."
             courseTitle="Office Application"
             courseImage={courseImages.officeapplication}
@@ -196,7 +196,7 @@ Our instructors are experienced professionals with years of experience in the de
           margin="20px 0"
         >
           <CourseTab
-            to="courses/autocadspecialist"
+            to="courses/autocad-specialist"
             courseText="AutoCAD is a computer-aided design (CAD) software used by architects, engineers, and designers to create precise 2D and 3D drawings. It is a versatile tool that allows users to design everything from buildings and infrastructure to mechanical parts and products.
 
 Why Become an AutoCAD Specialist?
@@ -217,7 +217,7 @@ At Florintech Computer College, our AutoCAD Specialist program is designed to gi
           margin="20px 0"
         >
           <CourseTab
-            to="courses/advanceddesktoppublishing"
+            to="courses/advanced-desktop-publishing"
             courseText="Our Advanced Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital publishing.
 
 Desktop publishing has become an essential skill in today's fast-paced digital world. Whether you're creating brochures, flyers, newsletters, or other marketing materials, having a strong understanding of desktop publishing tools and techniques is crucial. That's where our Advanced Desktop Publishing program comes in.
@@ -239,7 +239,7 @@ Upon completion of our program, you'll be awarded a Advanced Desktop Publishing 
           margin="20px 0"
         >
           <CourseTab
-            to="courses/digitalmarketingandwebdevelopnment"
+            to="courses/digital-marketing-and-web-development"
             courseText="Digital media is a term that encompasses a wide range of digital technologies, including social media, mobile applications, digital advertising, and more. Our courses cover a variety of topics related to digital media, including social media marketing, digital branding, and content creation.
 
 In addition to digital media, we also offer courses in web development. With more and more businesses relying on their online presence to reach customers, web development is a rapidly growing field. Our courses cover a variety of web development languages and technologies, including HTML, CSS, JavaScript, and more.
@@ -259,7 +259,7 @@ We offer a range of programs and courses to suit your needs, including flexible 
           margin="20px 0"
         >
           <CourseTab
-            to="courses/businesselectronicaccounting"
+            to="courses/business-electronic-accounting"
             courseText="we offer a range of courses that are designed to help individuals acquire the skills and knowledge needed to succeed in electronic accounting. Our courses cover the following areas:
 
 Accounting software: We offer courses on popular accounting software such as QuickBooks, Xero, and MYOB. Our courses cover everything from basic bookkeeping to advanced financial reporting.
@@ -279,7 +279,7 @@ Financial analysis: Our financial analysis courses cover the techniques and tool
           margin="20px 0"
         >
           <CourseTab
-            to="courses/officeinformationmgt"
+            to="courses/office-information-management"
             courseText="we explore the importance of efficient information management in the workplace, and how it can be achieved using modern technologies and strategies. In this page, we will specifically highlight the benefits of Office Information Management for Florintech Computer College.
 
 At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students.
@@ -299,7 +299,7 @@ One of the key benefits of our Office Information Management system is improved 
           margin="20px 0"
         >
           <CourseTab
-            to="courses/uiux"
+            to="courses/ui-ux"
             courseText="we believe that a great user experience is at the heart of every successful product, website, or app. Our UI/UX courses cover everything from design principles and user research to wireframing and prototyping, ensuring that our students have a solid foundation in all aspects of UI/UX design.
 
 Our instructors are seasoned professionals with years of experience in the industry. They bring real-world examples and hands-on experience to the classroom, giving our students a glimpse into what it's like to work as a UI/UX designer.
@@ -333,7 +333,7 @@ At Florintech, we believe in providing a holistic learning experience."
           margin="20px 0"
         >
           <CourseTab
-            to="courses/digitalmarketing"
+            to="courses/digital-marketing"
             courseText="This course is designed for individuals who want to gain practical skills and knowledge in the field of digital media and marketing. It is suitable for marketing professionals, entrepreneurs, small business owners, and anyone interested in understanding and utilizing digital marketing strategies effectively."
             courseTitle="Digital Marketing"
             courseImage={courseImages.digitalmedia}
@@ -352,6 +352,62 @@ At Florintech, we believe in providing a holistic learning experience."
             courseTitle="Data Analysis"
             courseImage={courseImages.dataanalysis}
             price="250,000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/video-editing"
+            courseText="Learn professional video editing and video production in Lagos. Master DaVinci Resolve and Adobe Premiere Pro. Transform raw footage into compelling stories with hands-on video editing training at Florintech Computer College."
+            courseTitle="Professional Video Editing"
+            courseImage={courseImages.videoediting}
+            price="250,000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/2d-animation"
+            courseText="Master 2D animation and character animation in Lagos. Learn frame-by-frame animation, Adobe Animate, and Toon Boom. Create engaging animated characters and explainer videos with professional-quality techniques at Florintech."
+            courseTitle="2D Animation Fundamentals"
+            courseImage={courseImages.twodanimation}
+            price="350,000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/3d-animation"
+            courseText="Learn 3D animation and 3D modeling in Lagos. Master Blender, character rigging, and visual effects. Create stunning three-dimensional worlds and professional-quality animated sequences at Florintech Computer College."
+            courseTitle="3D Animation & Modeling"
+            courseImage={courseImages.threedanimation}
+            price="500,000"
+          />
+        </Flex>
+        <Flex
+          justifyContent="center"
+          p={{ base: 0, sm: 5, md: 10, lg: 10 }}
+          width={{ base: "100%", sm: "auto" }}
+          margin="20px 0"
+        >
+          <CourseTab
+            to="courses/ai-automation-with-n8n"
+            courseText="Learn AI automation and workflow automation with N8N in Lagos. Master no-code automation, business process automation, and AI integration. Build intelligent automated workflows without coding at Florintech."
+            courseTitle="AI Automation with N8N"
+            courseImage={courseImages.aiautomation}
+            price="150,000"
           />
         </Flex>
       </Flex>

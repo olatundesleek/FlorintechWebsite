@@ -13,9 +13,9 @@ function WebDevelopmentWithReact() {
         {...SEO}
         title="Frontend Web Development with React.js in Lagos | Florintech"
         description="Take our React.js frontend development course in Ojo, Lagos. Build modern web apps with hands-on practical training. Enroll at Florintech Computer College today."
-        canonical="https://www.florintechcomputercollege.com/courses/frontendwebdevelopment/"
+        canonical="https://www.florintechcomputercollege.com/courses/frontend-web-development/"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/frontendwebdevelopment/",
+          url: "https://www.florintechcomputercollege.com/courses/frontend-web-development/",
           title: "Web Development | Florintech computer college",
           description: "learn web development at Florintech Computer College",
           images: [

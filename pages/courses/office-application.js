@@ -13,10 +13,10 @@ function officeapplication (){
         <DefaultSeo
          {...SEO}
           title="Microsoft Office Application Course in Ojo, Lagos | Florintech"
-          canonical="https://www.florintechcomputercollege.com/courses/officeapplication/"
+          canonical="https://www.florintechcomputercollege.com/courses/office-application/"
           description="Master Microsoft Office applications at Florintech Computer College in Ojo, Lagos. Essential digital skills for students and professionals. Enroll today."
           openGraph={{
-            url: "https://www.florintechcomputercollege.com/courses/officeapplication/",
+            url: "https://www.florintechcomputercollege.com/courses/office-application/",
             title: "Office Application | Florintech computer college",
             description:
               "learn Microsoft Office applications like Word, Excel, PowerPoint, and Access. Enroll now and boost your career productivity.",

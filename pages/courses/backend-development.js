@@ -13,9 +13,9 @@ function BackendDevelopment() {
         {...SEO}
         title="Backend Development with Node.js Course in Lagos | Florintech"
         description="Learn backend development with Node.js at Florintech Computer College in Ojo, Lagos. Practical training for aspiring backend developers. Register now."
-        canonical="https://www.florintechcomputercollege.com/courses/backenddevelopment/"
+        canonical="https://www.florintechcomputercollege.com/courses/backend-development/"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/backenddevelopment/",
+          url: "https://www.florintechcomputercollege.com/courses/backend-development/",
           title: "Back-End Development | Florintech computer college",
           description:
             "Learn Back-End Development at Florintech Computer College",

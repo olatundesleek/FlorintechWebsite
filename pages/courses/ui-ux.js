@@ -13,10 +13,10 @@ function uiux() {
         <DefaultSeo
           {...SEO}
           title="UI/UX Design Course in Ojo, Lagos | Florintech Computer College"
-          canonical="https://www.florintechcomputercollege.com/courses/uiux/"
+          canonical="https://www.florintechcomputercollege.com/courses/ui-ux/"
           description="Learn UI/UX design at Florintech Computer College in Ojo, Lagos. Master wireframing, prototyping, and user research with expert instructors. Enroll today."
           openGraph={{
-            url: "https://www.florintechcomputercollege.com/courses/uiux/",
+            url: "https://www.florintechcomputercollege.com/courses/ui-ux/",
             title: "UI/UX | Florintech Computer College",
             description:
               "Learn UI/UX design at Florintech Computer College. Master design principles, user research, wireframing, and prototyping from industry professionals. Enhance your skills and advance your career in UI/UX with our comprehensive course. Duration: 4 months. Certification included. Enroll now.",

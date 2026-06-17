@@ -10,11 +10,11 @@ function desktoppublishing() {
   return (
     <Box>
       <DefaultSeo   {...SEO}
-      canonical="https://www.florintechcomputercollege.com/courses/desktoppublishing/"
+        canonical="https://www.florintechcomputercollege.com/courses/desktop-publishing/"
         title="Desktop Publishing Course in Ojo, Lagos | Florintech Computer College"
         description="Learn desktop publishing software and techniques at Florintech, a leading computer school in Ojo, Lagos. Practical, hands-on ICT training. Register now."
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/desktoppublishing/",
+          url: "https://www.florintechcomputercollege.com/courses/desktop-publishing/",
           title: "Desktop Publishing | Florintech computer college",
           description:
             " At Florintech Computer College, we offer comprehensive courses on desktop publishing that cover everything from basic concepts to advanced techniques. Our courses are designed to teach students how to use desktop publishing software to create professional documents with ease and efficiency. We provide hands-on training using the latest software tools and techniques, so you can gain practical experience in the field.",

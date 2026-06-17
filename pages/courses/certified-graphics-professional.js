@@ -12,12 +12,12 @@ function CertifiedGraphicsProfessional() {
     <Box>
       <DefaultSeo
         {...SEO}
-        canonical="https://www.florintechcomputercollege.com/courses/certifiedgraphicsprofessional/"
+        canonical="https://www.florintechcomputercollege.com/courses/certified-graphics-professional/"
         title="Graphics Design Course in Ojo, Lagos | Florintech Computer College"
         description="Master Adobe Photoshop, Illustrator and CorelDRAW at Florintech Computer College in Ojo, Lagos. Become a certified graphics design professional. Enroll today."
         keywords="graphics course, certified graphics professional, graphic design course Ojo Lagos, computer school in Ojo, ICT training Lagos, learn Photoshop, learn Illustrator, CorelDRAW training, design course Nigeria, Florintech computer college"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/certifiedgraphicsprofessional/",
+          url: "https://www.florintechcomputercollege.com/courses/certified-graphics-professional/",
           title:
             "Certified Graphics Professional | Florintech computer college",
           description:
