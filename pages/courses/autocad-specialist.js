@@ -13,11 +13,11 @@ function AutocadSpecialist() {
       <Box>
         <DefaultSeo
           {...SEO}
-          canonical="https://www.florintechcomputercollege.com/courses/autocadspecialist/"
+          canonical="https://www.florintechcomputercollege.com/courses/autocad-specialist/"
           title="AutoCAD Specialist Course in Ojo, Lagos | Florintech Computer College"
           description="Become an AutoCAD specialist at Florintech Computer College in Ojo, Lagos. Training for architects, engineers and designers. Practical ICT training. Register now."
           openGraph={{
-            url: "https://www.florintechcomputercollege.com/courses/autocadspecialist/",
+            url: "https://www.florintechcomputercollege.com/courses/autocad-specialist/",
             title: "AutoCad Specialist | Florintech computer college",
             description:
               " At Florintech Computer College, our AutoCAD Specialist program is designed to give students a comprehensive understanding of the software and how it's used in real-world applications.",

@@ -11,10 +11,10 @@ function officeinformationmgt () {
     <Box>
       <DefaultSeo    {...SEO}
         title="Office Information Management Course in Lagos | Florintech"
-        canonical="https://www.florintechcomputercollege.com/courses/officeinformationmgt/"
+        canonical="https://www.florintechcomputercollege.com/courses/office-information-management/"
         description="Learn modern office information management at Florintech Computer College in Ojo, Lagos. Practical digital skills for office professionals. Register now."
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/officeinformationmgt/",
+          url: "https://www.florintechcomputercollege.com/courses/office-information-management/",
           title: "Office information managnment | Florintech computer college",
           description:
             " At Florintech Computer College, we recognize the importance of efficient information management in our day-to-day operations. Our staff and faculty members rely on accurate and timely information to make informed decisions, manage resources effectively, and deliver quality education to our students.",

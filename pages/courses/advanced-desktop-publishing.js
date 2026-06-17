@@ -11,11 +11,11 @@ function AdvancedDesktopDublishing() {
     <Box>
       <DefaultSeo
         {...SEO}
-        canonical="https://www.florintechcomputercollege.com/courses/advanceddesktoppublishing/"
+        canonical="https://www.florintechcomputercollege.com/courses/advanced-desktop-publishing/"
         title="Advanced Desktop Publishing Course in Lagos | Florintech Computer College"
         description="Take your desktop publishing skills to the next level at Florintech, Ojo Lagos. Covers Adobe InDesign, Illustrator and Photoshop. Enroll today."
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/advanceddesktoppublishing/",
+          url: "https://www.florintechcomputercollege.com/courses/advanced-desktop-publishing/",
           title: "Advanced DeskTop Publishing| Florintech computer college",
           description:
             "Learn desktop publishing at Florintech Computer College. Master tools like Corel Draw, Photoshop, and Microsoft Office. Create professional documents with hands-on training.",

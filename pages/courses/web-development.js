@@ -14,9 +14,9 @@ function WebDevelopment() {
         title="Web Development Course in Ojo, Lagos | Florintech Computer College"
         keywords="web development course in ojo, web development course in lagos, web development training in ojo, web development training in lagos, web design course in ojo, web design course in lagos, learn web development in ojo, learn web development in lagos"
         description="Learn web development in Ojo, Lagos at Florintech Computer College. Master HTML, CSS, JavaScript and more with 100% practical ICT training. Register today."
-        canonical="https://www.florintechcomputercollege.com/courses/webdevelopment/"
+        canonical="https://www.florintechcomputercollege.com/courses/web-development/"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/webdevelopment/",
+          url: "https://www.florintechcomputercollege.com/courses/web-development/",
           title: "Web Development | Florintech computer college",
           description:
             "Learn web development courses at Florintech, the top computer school in Ojo, Lagos. Gain ICT training in coding, frontend, backend & web design skills.",

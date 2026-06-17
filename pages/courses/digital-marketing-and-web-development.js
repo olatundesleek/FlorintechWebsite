@@ -11,11 +11,11 @@ function digitalmediaandwebdevelopnment() {
     <Box>
       <DefaultSeo
         {...SEO}
-        canonical="https://www.florintechcomputercollege.com/courses/digitalmarketingandwebdevelopnment/"
+        canonical="https://www.florintechcomputercollege.com/courses/digital-marketing-and-web-development/"
         title="Digital Marketing & Web Development Course in Lagos | Florintech"
         description="Learn digital marketing and web development together at Florintech Computer College in Ojo, Lagos. Practical training for the Nigerian digital economy. Register now."
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/digitalmarketingandwebdevelopnment/",
+          url: "https://www.florintechcomputercollege.com/courses/digital-marketing-and-web-development/",
           title:
             "Digital Marketing And WebDevelopnment | Florintech computer college",
           description:

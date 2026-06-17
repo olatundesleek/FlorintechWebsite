@@ -13,9 +13,9 @@ function FullStackWebDevelopment() {
         {...SEO}
         title="Full-Stack Web Development Course in Ojo, Lagos | Florintech"
         description="Become a full-stack web developer at Florintech Computer College, Ojo Lagos. Covers frontend, backend, and industry best practices. Enroll today."
-        canonical="https://www.florintechcomputercollege.com/courses/fullstackwebdevelopment/"
+        canonical="https://www.florintechcomputercollege.com/courses/full-stack-web-development/"
         openGraph={{
-          url: "https://www.florintechcomputercollege.com/courses/fullstackwebdevelopment/",
+          url: "https://www.florintechcomputercollege.com/courses/full-stack-web-development/",
           title: "Web Development | Florintech computer college",
           description: "learn web development at Florintech Computer College",
           images: [

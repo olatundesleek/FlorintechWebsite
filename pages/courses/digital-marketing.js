@@ -12,10 +12,10 @@ function DigitalMarketing  () {
       <Box>
         <DefaultSeo {...SEO}
           title="Digital Marketing Course in Ojo, Lagos | Florintech Computer College"
-          canonical="https://www.florintechcomputercollege.com/courses/digitalmarketing/"
+          canonical="https://www.florintechcomputercollege.com/courses/digital-marketing/"
           description="Learn digital marketing at Florintech Computer College in Ojo, Lagos. Master SEO, social media, and content creation. Practical training for all levels. Enroll today."
           openGraph={{
-            url: "https://www.florintechcomputercollege.com/courses/digitalmarketing/",
+            url: "https://www.florintechcomputercollege.com/courses/digital-marketing/",
             title: " Digital Marketing | Florintech computer college",
             description:
               " At Florintech Computer College, we offer a wide range of courses that cover all the major office applications.",

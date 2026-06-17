@@ -11,11 +11,11 @@ function BusinessElectronicAccounting() {
     <div>
       <Box>
         <DefaultSeo {...SEO}
-        canonical="https://www.florintechcomputercollege.com/courses/businesselectronicaccounting/"
+        canonical="https://www.florintechcomputercollege.com/courses/business-electronic-accounting/"
           title="Electronic Accounting Course in Ojo, Lagos | Florintech Computer College"
           description="Learn QuickBooks and business electronic accounting at Florintech Computer College in Ojo, Lagos. Ideal for students and business owners. Enroll today."
           openGraph={{
-            url: "https://www.florintechcomputercollege.com/courses/businesselectronicaccounting/",
+            url: "https://www.florintechcomputercollege.com/courses/business-electronic-accounting/",
             title:
               "Business Electronic Accounting | Florintech computer college",
             description:

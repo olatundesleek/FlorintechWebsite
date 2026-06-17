@@ -36,4 +36,8 @@ export const courseImages = {
   digitalandwebdev2: "/images/digitalandwebdev2.jpg",
   wordpress: "/images/wordpress.jpg",
   dataanalysis: "/images/data-analysis.jpg",
+  videoediting: "/images/videoediting.jpg",
+  twodanimation: "/images/2danimation.jpg",
+  threedanimation: "/images/3danimation.jpg",
+  aiautomation: "/images/aiautomation.jpg",
 };
