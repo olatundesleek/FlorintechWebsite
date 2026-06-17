@@ -29,7 +29,7 @@ function Trending() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/webdevelopment"
+            to="courses/web-development"
             courseText="A website not only allows you to reach a wider audience, but it also helps establish credibility and trust with potential customers.
         
         Our Web Development program is designed to equip students with the skills and knowledge necessary to create professional and functional websites. We cover a wide range of topics, including HTML, CSS, JavaScript, and web design principles.
@@ -51,7 +51,7 @@ function Trending() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/uiux"
+            to="courses/ui-ux"
             courseText="Our UI/UX course covers wireframing, prototyping, user research, and visual design. With a strong emphasis on hands-on learning, students utilize state-of-the-art tools and software to gain practical experience."
             courseTitle="UI/UX"
             courseImage={courseImages.ux}
@@ -65,7 +65,7 @@ function Trending() {
           margin="20px 0"
         >
           <CourseTab
-            to="courses/certifiedgraphicsprofessional"
+            to="courses/certified-graphics-professional"
             courseText="Our Certified Desktop Publishing program is designed to provide you with the skills and knowledge you need to excel in the world of digital graphics design,
 
 Graphics Design has become an essential skill in today's fast-paced digital world."

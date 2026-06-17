@@ -32,7 +32,7 @@ function TwoDAnimation() {
       />
       <Header />
       <Singlecourse
-        courseTitle="2D Animation Fundamentals"
+        courseTitle="2D Animation"
         courseImage={courseImages.twodanimation}
         aboutCourseText="Animation brings imagination to life. From animated explainer videos to character animations for games and films, 2D animators are in high demand. Our 2D animation course teaches you the art and craft of creating smooth, engaging animations that capture attention and tell stories.
 

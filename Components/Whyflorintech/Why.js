@@ -4,6 +4,7 @@ import { GrWorkshop } from "react-icons/gr";
 import { HiOutlineTrendingUp } from "react-icons/hi";
 import { HiOutlineVideoCamera } from "react-icons/hi";
 import { FiUsers, FiClock } from "react-icons/fi";
+import Link from "next/link";
 
 import { GrCertificate } from "react-icons/gr";
 
@@ -11,29 +12,32 @@ function Why() {
   return (
     <Box className="advantage">
       <Box className="writecopy">
-        <h1>
-          Florintech Computer College – Leading Computer School in Ojo, Lagos
-        </h1>
+   <h1>
+  Florintech Computer College – Top Computer Training School in Ojo, Lagos
+</h1>
 
-        <p>
-          Florintech Computer College is a leading
-          <strong> computer school in Ojo, Lagos</strong>, known for 100%
-          practical ICT and computer training. We help students, professionals,
-          and organizations gain the digital and computer skills they need to
-          succeed in today’s technology-driven world. Whether you’re searching
-          for a <strong>computer training school in Ojo, Lagos </strong>
-          or a place to build your tech career, Florintech provides hands-on
-          learning with industry-recognized programs.
-        </p>
-        <p>
-          Conveniently located in Ojo, we serve students from across Lagos
-          including Festac Town, Mile 2, Satellite Town, Amuwo-Odofin, Agbara,
-          and Badagry.
-        </p>
+<p>
+  <strong>Florintech Computer College</strong> is a leading computer
+  training school in Ojo, Lagos, offering 100% practical ICT courses in
+  web development, digital marketing, cybersecurity, animation, Video Editing, data analysis and more.
+  We help students, professionals, and organizations build real,
+  job-ready tech skills for today's digital economy. Whether you're
+  searching for a computer school near you in Lagos or a place to launch
+  your tech career, Florintech delivers hands-on training with
+  industry-recognized certification.
+</p>
+
+<p>
+  Conveniently located in Okokomaiko, Ojo, we welcome students from
+  across Lagos, including Festac Town, Mile 2, Satellite Town,
+  Amuwo-Odofin, Agbara, and Badagry. Explore our{" "}
+  <Link href="/courses">full range of ICT courses</Link> to find the
+  right program for your career goals.
+</p>
       </Box>
 
       <Box>
-        <h2 className="why">Why Choose Our Computer School in Ojo?</h2>
+        <h2 className="why">Why Choose Florintech</h2>
         <Flex justifyContent={"center"}>
           <Box className="line"></Box>
           <FcGraduationCap className="graduationcap" />
@@ -65,7 +69,7 @@ function Why() {
               <GrWorkshop className="advantage_icon" />
             </Box>
             <Box>
-              <h2 className="advantage-subtitle">Expert teachers</h2>
+              <h3 className="advantage-subtitle">Expert teachers</h3>
               <p>
                 Our instructors are practicing professionals who bring real
                 industry experience into every lesson. They guide you
@@ -89,7 +93,7 @@ function Why() {
               <GrCertificate className="advantage_icon" />
             </Box>
             <Box>
-              <h2 className="advantage-subtitle">Trusted Certification</h2>
+              <h3 className="advantage-subtitle">Trusted Certification</h3>
               <p>
                 Upon completion, students receive an industry-recognized
                 certificate with a unique batch number that can be verified on
@@ -123,9 +127,9 @@ function Why() {
               <HiOutlineTrendingUp className="advantage_icon" />
             </Box>
             <Box>
-              <h2 className="advantage-subtitle">
+              <h3 className="advantage-subtitle">
                 Proven Learning Methodology
-              </h2>
+              </h3>
               <p>
                 Each course follows a structured, project-based curriculum.
                 Students complete real assignments, build portfolios, and
@@ -148,7 +152,7 @@ function Why() {
               <HiOutlineVideoCamera className="advantage_icon" />
             </Box>
             <Box>
-              <h2 className="advantage-subtitle">Video Lessons & Materials</h2>
+              <h3 className="advantage-subtitle">Video Lessons & Materials</h3>
               <p>
                 Students receive supportive video lessons, PDF notes, templates,
                 and resources to help them revise at home. This blended learning
@@ -180,7 +184,7 @@ function Why() {
               <FiClock className="advantage_icon" />
             </Box>
             <Box>
-              <h2 className="advantage-subtitle">Flexible Timing</h2>
+              <h3 className="advantage-subtitle">Flexible Timing</h3>
               <p>
                 We understand that students have different schedules. That’s why
                 we provide morning, afternoon, evening, and weekend batches so
@@ -203,9 +207,9 @@ function Why() {
               <FiUsers className="advantage_icon" />
             </Box>
             <Box>
-              <h2 className="advantage-subtitle">
+              <h3 className="advantage-subtitle">
                 Supportive Learning Community
-              </h2>
+              </h3>
               <p>
                 At Florintech, students learn in a welcoming environment where
                 instructors and classmates support each other. Our
