@@ -377,7 +377,7 @@ At Florintech, we believe in providing a holistic learning experience."
           <CourseTab
             to="courses/2d-animation"
             courseText="Master 2D animation and character animation in Lagos. Learn frame-by-frame animation, Adobe Animate, and Toon Boom. Create engaging animated characters and explainer videos with professional-quality techniques at Florintech."
-            courseTitle="2D Animation Fundamentals"
+            courseTitle="2D Animation"
             courseImage={courseImages.twodanimation}
             price="350,000"
           />
