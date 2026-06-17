@@ -254,6 +254,24 @@ function Register() {
                   <option value=" Website Development Full-Stack">
                   Website Development Full-Stack
                   </option>
+                  <option value="Web Design with Wordpress">
+                    Web Design with Wordpress
+                  </option>
+                  <option value="Data Analysis">
+                    Data Analysis
+                  </option>
+                  <option value="Video Editing">
+                    Video Editing
+                  </option>
+                  <option value="2D Animation">
+                    2D Animation
+                  </option>
+                  <option value="3D Animation">
+                    3D Animation
+                  </option>
+                  <option value="AI Automation with N8N">
+                    AI Automation with N8N
+                  </option>
                   {/* <option value="Python Data-Science">
                     Python Data-Science
                   </option> */}
