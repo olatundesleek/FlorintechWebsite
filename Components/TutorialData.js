@@ -4,7 +4,7 @@
 export const videoCon = [
   {
     img: "GQS7wPujL2k",
-    to: "/courses/certifiedgraphicsprofessional",
+    to: "/courses/certified-graphics-professional",
     title: "Graphics Designs  Tutorial for Beginners",
     paragraph:
       " This video talks about the introduction to becoming a proffesional graphics designer.",
@@ -12,7 +12,7 @@ export const videoCon = [
   },
   {
     img: "krKmmuPMJbw",
-    to: "/courses/desktoppublishing",
+    to: "/courses/desktop-publishing",
     title: "Introduction to Desktop Publishing",
     paragraph:
       " Desktop publishing (DTP) is the creation of documents using page layout software on a personal desktop computer",
@@ -20,7 +20,7 @@ export const videoCon = [
   },
   {
     img: "qNbX1qIz1uQ",
-    to: "/courses/officeapplication",
+    to: "/courses/office-application",
     title: "Office Application  for Beginners",
     paragraph:
       " Office Application  is a Software that is used in business such as word processing.",
@@ -36,7 +36,7 @@ export const videoCon = [
   // },
   {
     img: "HD13eq_Pmp8",
-    to: "/courses/webdevelopment",
+    to: "/courses/web-development",
     title: "Introduction to Web Development",
     paragraph:
       " Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great.",
