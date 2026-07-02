@@ -39,6 +39,8 @@ function BusinessElectronicAccounting() {
           courseImage={courseImages.businesselectronicaccounting}
           aboutCourseText="Every business needs someone who can manage finances accurately and quickly—but manual accounting is slow and error prone. Our electronic accounting course trains you in QuickBooks and Peachtree, software that automates bookkeeping, generates financial reports instantly, and keeps businesses compliant with Nigerian tax law. Companies will pay to have someone do in hours what used to take days.
 
+If you want professional computer training, a trusted ICT training centre in Ojo, or an affordable path into computer courses with certificate, this accounting programme is a practical option. It also suits learners comparing cheap computer training in Lagos, computer training fees, and the right computer school admission process for their career goals.
+
 You'll learn to set up businesses in accounting software, record transactions, reconcile accounts, generate profit and loss statements, and prepare tax reports. You'll understand tax obligations in Nigeria, manage multiple client accounts, and provide insights that help businesses make smarter financial decisions. By week four, you're working with real client data. By week eight, you could manage accounting for a small business or freelance to multiple clients.
 
 Demand is constant across businesses and NGOs who need accounting support. You'll be ready to work for businesses, accounting firms, or build your own accounting service."

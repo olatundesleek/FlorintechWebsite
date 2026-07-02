@@ -18,6 +18,7 @@ function index() {
         title="Computer & ICT Courses in Ojo, Lagos | Florintech Computer College"
         canonical="https://www.florintechcomputercollege.com/courses/"
         description="Learn web development, graphics design, digital marketing, cybersecurity & data analysis at Florintech Computer College, Ojo Lagos. Enroll today."
+        keywords="computer courses with certificate, online computer courses, weekend computer classes, evening computer classes, computer training with certificate, ICT courses in Lagos"
         openGraph={{
           url: "https://www.florintechcomputercollege.com/courses/",
           title: "Computer & ICT Courses in Ojo, Lagos | Florintech Computer College",
@@ -38,7 +39,7 @@ function index() {
       <Header />
       <Banner
         pageName="Courses"
-        pageDetails="At Florintech, we provide ICT training and professional courses designed to equip students with essential digital skills. As a computer school in Ojo, Lagos, our focus is on practical, hands-on learning that prepares learners for real opportunities in tech. Our courses cover web development, digital marketing, cybersecurity, graphics design, data analysis and more, giving you the tools to build a successful career in today’s digital world."
+        pageDetails="At Florintech, we provide ICT training and professional courses designed to equip students with essential digital skills. As a computer school in Ojo, Lagos, our focus is on practical, hands-on learning that prepares learners for real opportunities in tech. Our courses cover web development, digital marketing, cybersecurity, graphics design, data analysis and more, giving you the tools to build a successful career in today’s digital world. Explore computer courses with certificate, online computer courses, weekend computer classes, evening computer classes, and computer training with certificate in a practical learning environment."
       />
       {/* the courses text */}
       <Flex align="center" justify="center" className="course-text">
