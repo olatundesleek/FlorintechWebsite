@@ -84,7 +84,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/faq">
+                  <Link legacyBehavior href="/#faq">
                     <a>FAQ</a>
                   </Link>
                 </li>

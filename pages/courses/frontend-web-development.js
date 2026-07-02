@@ -36,6 +36,8 @@ function WebDevelopmentWithReact() {
         courseImage={courseImages.reactjs}
         aboutCourseText="React.js has become the gold standard for building fast, interactive websites and it's what companies like Uber, Netflix, and Nigerian fintech apps use daily. Our React frontend development course teaches you React from the ground up, starting with JavaScript fundamentals before diving into components, state management, and API integration.
 
+If you are looking for where to learn programming in Lagos, affordable coding classes in Lagos, or the best web development school in Lagos, this course gives you a strong foundation in modern web development. It is ideal for coding classes for beginners, students who want professional computer training, and anyone who prefers weekend computer classes or evening computer classes. Our online computer courses also make it easier to study from home while building practical projects.
+
 You'll start by understanding why React is revolutionary, then build real projects: a weather app, a todo list, an e-commerce product page. Each one goes into your portfolio. By month two, you're working with Redux for complex apps. By month four, you can build any modern web application yourself.
 
 Demand for React developers across tech companies and startups is explosive. You'll be ready to land junior developer positions, work for Nigerian tech companies, or build and sell SaaS products."

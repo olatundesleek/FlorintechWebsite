@@ -40,6 +40,8 @@ function CertifiedGraphicsProfessional() {
         courseImage={courseImages.graphics}
         aboutCourseText="Graphic design is a skill that always pays—brands need logos, social media graphics, and stunning visuals or they disappear online. Our certified graphics professional course teaches you Adobe Photoshop, Illustrator, and CorelDRAW so you can create professional grade designs from day one.
 
+If you are looking for a graphic design school in Lagos, an ICT training centre in Ojo, or a computer school with certificate in Lagos, this course is built to prepare you for real opportunities. It also fits learners who want computer training for beginners, digital skills training in Lagos, and clear information about computer school admission and computer training fees.
+
 You’ll start with design principles: color theory, typography, composition. Then master Photoshop for photo editing, Illustrator for logos and vectors, InDesign for layouts. You’ll create portfolio pieces—brand identities, posters, social media templates—that prove you can deliver results. By month three, you’re designing for real clients. By month four, you’re building your freelance business.
 
 Graphic designers are needed across creative agencies, e commerce businesses, and startups. You’ll be ready to land freelance projects, work remotely for international brands, or join creative agencies as a professional designer."

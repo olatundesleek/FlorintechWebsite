@@ -36,14 +36,14 @@ function VideoEditing() {
         courseImage={courseImages.videoediting}
         aboutCourseText="Video content is king in today's digital world. Every business, creator, and marketer needs video—and they need skilled editors to produce it. Our professional video editing course teaches you to transform raw footage into compelling stories that engage audiences across YouTube, TikTok, Instagram, and corporate media.
 
-You'll start by learning the fundamentals of video production: understanding shot composition, color theory, and pacing. Then dive into industry-standard software like DaVinci Resolve and Adobe Premiere Pro. You'll work with real projects: cutting promotional videos, editing vlogs, color grading cinematic footage, and adding effects that bring stories to life.
+You'll start by learning the fundamentals of video production: understanding shot composition, color theory, and pacing. Then dive into industry-standard software like Adobe Premiere Pro. You'll work with real projects: cutting promotional videos, editing vlogs, color grading cinematic footage, and adding effects that bring stories to life.
 
 By the end of this course, you'll have a portfolio of polished videos and the skills to work as a freelance video editor, work for production studios, or manage video content for businesses. Video editors across Lagos command premium rates for quality work."
         courseOutline={[
           "Introduction to Video Production and Editing",
           "Understanding Cinematography and Shot Composition",
           "Video Formats and Frame Rates",
-          "Introduction to DaVinci Resolve",
+          "Introduction to Adobe Premiere Pro",
           "Non-Linear Editing Basics",
           "Organizing and Importing Footage",
           "Rough Cut and Fine Editing",
