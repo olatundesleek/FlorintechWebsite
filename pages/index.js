@@ -19,7 +19,13 @@ import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 import { useState } from "react";
 import StudentsTrained from "../Components/Whyflorintech/StudentTrained";
-export default function Home() {
+import GalleryPreview from "../Components/Gallery/GalleryPreview";
+import {
+  getGalleryItems,
+  getLatestPublishedGalleryItemsByCategory,
+} from "../lib/gallery";
+
+export default function Home({ galleryItems }) {
   return (
     <div className={styles.container}>
       <DefaultSeo
@@ -147,6 +153,7 @@ export default function Home() {
           <Why />
           <Trending />
           <StudentsTrained />
+          <GalleryPreview items={galleryItems} />
           <Testimonial />
           <Faq />
         </Box>
@@ -155,4 +162,11 @@ export default function Home() {
       </Box>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const galleryItems = await getGalleryItems();
+  const latestByCategory = getLatestPublishedGalleryItemsByCategory(galleryItems);
+
+  return { props: { galleryItems: Object.values(latestByCategory) } };
 }
