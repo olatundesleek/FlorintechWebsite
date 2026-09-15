@@ -1,6 +1,7 @@
 export const menuData = [
   { name: "HOME", path: "/" },
   { name: "COURSES", path: "/courses" },
+  { name: "GALLERY", path: "/gallery/" },
   { name: "TESTIMONIAL", path: "/#testimonial" },
   { name: "TUTORIAL", path: "/tutorial" },
   { name: "BLOG", path: "https://www.florintechcomputercollege.com/blog",target:"_blank" },

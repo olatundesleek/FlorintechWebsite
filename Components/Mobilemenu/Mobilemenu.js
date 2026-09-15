@@ -11,6 +11,9 @@ function Mobilemenu() {
         <MyNavLink legacyBehavior href="/courses">
           <a className="link">COURSES</a>
         </MyNavLink>
+        <MyNavLink legacyBehavior href="/gallery/">
+          <a className="link">GALLERY</a>
+        </MyNavLink>
         <MyNavLink legacyBehavior href="/#testimonial">
           <a className="link">TESTIMONIAL</a>
         </MyNavLink>
