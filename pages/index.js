@@ -166,22 +166,14 @@ export default function Home({ galleryItems }) {
 }
 
 export async function getStaticProps() {
-  try {
-    const [galleryItems, categories] = await Promise.all([
-      getGalleryItems(),
-      getGalleryCategoriesFromApi(),
-    ]);
+  const [galleryItems, categories] = await Promise.all([
+    getGalleryItems(),
+    getGalleryCategoriesFromApi(),
+  ]);
 
-    return {
-      props: {
-        galleryItems: getLatestGalleryItemsByCategory(galleryItems, categories, 3),
-      },
-    };
-  } catch (error) {
-    return {
-      props: {
-        galleryItems: [],
-      },
-    };
-  }
+  return {
+    props: {
+      galleryItems: getLatestGalleryItemsByCategory(galleryItems, categories, 3),
+    },
+  };
 }
