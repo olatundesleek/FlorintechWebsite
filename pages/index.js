@@ -21,8 +21,9 @@ import { useState } from "react";
 import StudentsTrained from "../Components/Whyflorintech/StudentTrained";
 import GalleryPreview from "../Components/Gallery/GalleryPreview";
 import {
+  getGalleryCategoriesFromApi,
   getGalleryItems,
-  getLatestPublishedGalleryItemsByCategory,
+  getLatestGalleryItemsByCategory,
 } from "../lib/gallery";
 
 export default function Home({ galleryItems }) {
@@ -165,8 +166,14 @@ export default function Home({ galleryItems }) {
 }
 
 export async function getStaticProps() {
-  const galleryItems = await getGalleryItems();
-  const latestByCategory = getLatestPublishedGalleryItemsByCategory(galleryItems);
+  const [galleryItems, categories] = await Promise.all([
+    getGalleryItems(),
+    getGalleryCategoriesFromApi(),
+  ]);
 
-  return { props: { galleryItems: Object.values(latestByCategory) } };
+  return {
+    props: {
+      galleryItems: getLatestGalleryItemsByCategory(galleryItems, categories, 3),
+    },
+  };
 }

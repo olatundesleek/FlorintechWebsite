@@ -170,6 +170,17 @@ export default function Gallery({ initialPage }) {
 }
 
 export async function getStaticProps() {
-  const initialPage = await getGalleryPage({ page: 1, limit: PAGE_SIZE });
-  return { props: { initialPage } };
+  const [initialPage, categories] = await Promise.all([
+    getGalleryPage({ page: 1, limit: PAGE_SIZE }),
+    getGalleryCategoriesFromApi(),
+  ]);
+
+  return {
+    props: {
+      initialPage: {
+        ...initialPage,
+        categories,
+      },
+    },
+  };
 }
