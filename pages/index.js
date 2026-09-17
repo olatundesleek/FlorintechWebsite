@@ -17,7 +17,7 @@ import Testimonial from "../Components/Testimonial/Testimonial";
 import Footer from "../Components/Footer";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import StudentsTrained from "../Components/Whyflorintech/StudentTrained";
 import GalleryPreview from "../Components/Gallery/GalleryPreview";
 import {
@@ -26,7 +26,36 @@ import {
   getLatestGalleryItemsByCategory,
 } from "../lib/gallery";
 
-export default function Home({ galleryItems }) {
+export default function Home() {
+  const [galleryItems, setGalleryItems] = useState([]);
+
+  useEffect(() => {
+    if (typeof window === "undefined" || process.env.NODE_ENV !== "production") {
+      return;
+    }
+
+    let isMounted = true;
+
+    async function loadGallery() {
+      try {
+        const [items, categories] = await Promise.all([
+          getGalleryItems(),
+          getGalleryCategoriesFromApi(),
+        ]);
+
+        if (!isMounted) return;
+        setGalleryItems(getLatestGalleryItemsByCategory(items, categories, 3));
+      } catch (error) {
+        if (isMounted) setGalleryItems([]);
+      }
+    }
+
+    loadGallery();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
   return (
     <div className={styles.container}>
       <DefaultSeo
@@ -165,25 +194,4 @@ export default function Home({ galleryItems }) {
   );
 }
 
-export async function getStaticProps() {
-  try {
-    const [galleryItems, categories] = await Promise.all([
-      getGalleryItems(),
-      getGalleryCategoriesFromApi(),
-    ]);
 
-    console.log("Gallery Items:", galleryItems);
-    console.log("Gallery Categories:", categories);
-    return {
-      props: {
-        galleryItems: getLatestGalleryItemsByCategory(galleryItems, categories, 3),
-      },
-    };
-  } catch (error) {
-    return {
-      props: {
-        galleryItems: [],
-      },
-    };
-  }
-}
