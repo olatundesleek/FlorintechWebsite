@@ -42,10 +42,10 @@ function Verification() {
   const [errorMessage, setErrorMessage] = useState("");
   const [certificateAvailable, setCertificateAvailable] = useState(false);
 
-  let certificateNo;
+  const [certificateNo, setCertificateNo] = useState("");
 
   const handleChange = (event) => {
-    certificateNo = event.target.value;
+    setCertificateNo(event.target.value);
   };
   // function to make an api call
   const verifyCert = async () => {
@@ -54,43 +54,47 @@ function Verification() {
     let bodyContent = new FormData();
     bodyContent.append("cert_number", certificateNo);
 
-    let verificationResponse = await fetch(
-      `https://www.florintechcomputercollege.com/api/api_verifycertificate.php`,
+    try {
+      const verificationResponse = await fetch(
+        `https://www.florintechcomputercollege.com/api/api_verifycertificate.php`,
+        { method: "POST", body: bodyContent }
+      );
 
-      {
-        method: "POST",
-
-        body: bodyContent,
+      if (!verificationResponse.ok) {
+        throw new Error("Certificate verification is currently unavailable.");
       }
-    );
 
-    let data = await verificationResponse.json();
+      const data = await verificationResponse.json();
 
-    if (data.error) {
+      if (data.error) {
+        setCertificateAvailable(false);
+        setError(true);
+        setErrorMessage(data.error);
+      } else {
+        const studentCertificateInfo = {
+          firstName: data.firstname,
+          middleName: data.middle_name,
+          lastName: data.lastname,
+          course: data.course,
+          duration: data.course_duration,
+          passportImg: data.passport,
+          certNum: data.certificate_no,
+          completionDate: data.date_of_completion,
+        };
+        localStorage.setItem("studentcert", JSON.stringify(studentCertificateInfo));
+        setError(false);
+        setCertificateAvailable(true);
+        router.push("/verifycertificate/verified");
+      }
+    } catch (requestError) {
       setCertificateAvailable(false);
       setError(true);
-      setErrorMessage(data.error);
-    } else {
-      let studentCertificateInfo = {
-        firstName: data.firstname,
-        middleName: data.middle_name,
-        lastName: data.lastname,
-        course: data.course,
-        duration: data.course_duration,
-        passportImg: data.passport,
-        certNum: data.certificate_no,
-        completionDate: data.date_of_completion,
-      };
-      localStorage.setItem(
-        "studentcert",
-        JSON.stringify(studentCertificateInfo)
+      setErrorMessage(
+        requestError.message || "Unable to verify the certificate right now. Please try again."
       );
-      setError(false);
-      setCertificateAvailable(true);
-      router.push("/verifycertificate/verified");
+    } finally {
+      setIsVerifying(false);
     }
-
-    setIsVerifying(false);
   };
   return (
     <Box>
@@ -107,7 +111,12 @@ function Verification() {
                   <Text fontSize="30px">Verify Certificate</Text>
                 </Box>
                 <Text className="text">Certificate Number</Text>
-                <form>
+                <form
+                  onSubmit={(event) => {
+                    event.preventDefault();
+                    verifyCert();
+                  }}
+                >
                   <Input
                     required
                     disabled={isBot}
@@ -139,7 +148,7 @@ function Verification() {
                       disabled={isBot}
                       variant="outline"
                       isLoading
-                      onClick={verifyCert}
+                      type="submit"
                       m={3}
                       textAlign="center"
                       loadingText="verifying.."
@@ -151,7 +160,7 @@ function Verification() {
                     <Button
                       isDisabled={isBot}
                       variant="outline"
-                      onClick={verifyCert}
+                      type="submit"
                       m={3}
                       textAlign="center"
                       colorScheme="teal"
