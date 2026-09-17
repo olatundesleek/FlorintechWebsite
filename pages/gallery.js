@@ -87,7 +87,7 @@ export default function Gallery({ initialPage }) {
     }
 
     try {
-      const result = await getGalleryPage({ page: 1, limit: PAGE_SIZE, category });
+      const result = await getGalleryPage({ page: 1, limit: PAGE_SIZE, category,latest: true });
       if (requestId.current !== currentRequest) return;
       setItems(result.items);
       setPage(result.page);
@@ -109,6 +109,7 @@ export default function Gallery({ initialPage }) {
         page: nextPage,
         limit: PAGE_SIZE,
         category: selectedCategory,
+        latest: true,
       });
       setItems((currentItems) => [...currentItems, ...result.items]);
       setPage(result.page);
@@ -173,7 +174,7 @@ export default function Gallery({ initialPage }) {
 export async function getStaticProps() {
   try {
     const [initialPage, categories] = await Promise.all([
-      getGalleryPage({ page: 1, limit: PAGE_SIZE }),
+      getGalleryPage({ page: 1, limit: PAGE_SIZE, latest: true }),
       getGalleryCategoriesFromApi(),
     ]);
 
