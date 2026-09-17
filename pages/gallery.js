@@ -87,7 +87,12 @@ export default function Gallery({ initialPage }) {
     }
 
     try {
-      const result = await getGalleryPage({ page: 1, limit: PAGE_SIZE, category,latest: true });
+      const result = await getGalleryPage({
+        page: 1,
+        limit: PAGE_SIZE,
+        category,
+        latest: true,
+      });
       if (requestId.current !== currentRequest) return;
       setItems(result.items);
       setPage(result.page);
