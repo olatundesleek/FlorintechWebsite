@@ -134,10 +134,13 @@ function GalleryGrid({
   hasMore = false,
   onLoadMore,
 }) {
+  const safeItems = Array.isArray(items) ? items : [];
   const [activeIndex, setActiveIndex] = useState(null);
   const [activeItems, setActiveItems] = useState([]);
-  const displayItems = preview ? items.slice(0, 8) : items;
-  const filterCategories = categories || getGalleryCategories(items);
+  const displayItems = preview ? safeItems.slice(0, 8) : safeItems;
+  const filterCategories = Array.isArray(categories) && categories.length
+    ? categories
+    : getGalleryCategories(safeItems);
 
   function openGalleryItem(item, itemIndex) {
     if (preview) {
@@ -190,11 +193,11 @@ function GalleryGrid({
       ) : displayItems.length > 0 ? (
         <SimpleGrid className="gallery-grid" columns={{ base: 1, sm: 2, lg: 3 }} spacing={{ base: 5, md: 7 }}>
           {displayItems.map((item, index) => (
-            <button key={item.id} className="gallery-card" type="button" onClick={() => openGalleryItem(item, index)} aria-label={`Open ${item.title || item.category} photo`}>
+            <button key={item.id || `${item.category || "gallery"}-${index}`} className="gallery-card" type="button" onClick={() => openGalleryItem(item, index)} aria-label={`Open ${item.title || item.category} photo`}>
               <Box as="span" className="gallery-card-image">
                 <Image
-                  src={item.imageUrl}
-                  alt={item.altText}
+                  src={item.imageUrl || "/images/logo.png"}
+                  alt={item.altText || item.title || item.category || "Gallery image"}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   loading={index < 3 ? "eager" : "lazy"}

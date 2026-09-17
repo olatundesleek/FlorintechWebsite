@@ -6,11 +6,14 @@ import { slugifyGalleryCategory } from "../../lib/gallery";
 
 function GalleryPreview({ items }) {
   const router = useRouter();
+  const safeItems = Array.isArray(items) ? items : [];
 
   function openCategory(category) {
+    if (!category) return;
+
     router.push({
       pathname: "/gallery/",
-      query: { category: category.categorySlug || slugifyGalleryCategory(category.category) },
+      query: { category: category.categorySlug || slugifyGalleryCategory(category.category || "") },
     });
   }
 
@@ -20,7 +23,7 @@ function GalleryPreview({ items }) {
         <Text className="gallery-eyebrow">Life at Florintech</Text>
         <Heading id="gallery-preview-title" as="h2">See Our Students in Action</Heading>
       </Box>
-      <GalleryGrid items={items} preview onPreviewItemClick={openCategory} />
+      <GalleryGrid items={safeItems} preview onPreviewItemClick={openCategory} />
       <Link href="/gallery/" className="gallery-view-button">View Full Gallery</Link>
     </Box>
   );
