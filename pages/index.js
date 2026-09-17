@@ -165,7 +165,7 @@ export default function Home({ galleryItems }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   try {
     const [galleryItems, categories] = await Promise.all([
       getGalleryItems(),
