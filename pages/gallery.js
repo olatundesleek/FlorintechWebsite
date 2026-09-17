@@ -63,10 +63,10 @@ export default function Gallery({ initialPage }) {
       });
     }
 
-    if (category !== selectedCategory) {
+    if (category !== selectedCategory || items.length === 0) {
       loadCategory(category, false);
     }
-  }, [router.isReady, router.query.category, categoriesLoaded, categories]);
+  }, [router.isReady, router.query.category, categoriesLoaded, categories, items.length]);
 
   async function loadCategory(category, updateUrl = true) {
     const currentRequest = requestId.current + 1;
@@ -91,7 +91,6 @@ export default function Gallery({ initialPage }) {
         page: 1,
         limit: PAGE_SIZE,
         category,
-        latest: true,
       });
       if (requestId.current !== currentRequest) return;
       setItems(result.items);
@@ -178,7 +177,7 @@ export default function Gallery({ initialPage }) {
 export async function getStaticProps() {
   try {
     const [initialPage, categories] = await Promise.all([
-      getGalleryPage({ page: 1, limit: PAGE_SIZE, latest: true }),
+      getGalleryPage({ page: 1, limit: PAGE_SIZE }),
       getGalleryCategoriesFromApi(),
     ]);
 
