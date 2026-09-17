@@ -114,7 +114,6 @@ export default function Gallery({ initialPage }) {
         page: nextPage,
         limit: PAGE_SIZE,
         category: selectedCategory,
-        latest: true,
       });
       setItems((currentItems) => [...currentItems, ...result.items]);
       setPage(result.page);
