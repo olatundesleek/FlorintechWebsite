@@ -18,11 +18,12 @@ const PAGE_SIZE = 24;
 
 export default function Gallery({ initialPage }) {
   const router = useRouter();
-  const [items, setItems] = useState(initialPage.items);
-  const [categories, setCategories] = useState(initialPage.categories);
+  const safeInitialPage = initialPage || { items: [], categories: ["All"], page: 1, hasMore: false };
+  const [items, setItems] = useState(safeInitialPage.items || []);
+  const [categories, setCategories] = useState(safeInitialPage.categories || ["All"]);
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [page, setPage] = useState(initialPage.page);
-  const [hasMore, setHasMore] = useState(initialPage.hasMore);
+  const [page, setPage] = useState(safeInitialPage.page || 1);
+  const [hasMore, setHasMore] = useState(Boolean(safeInitialPage.hasMore));
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [categoriesLoaded, setCategoriesLoaded] = useState(false);
@@ -170,17 +171,32 @@ export default function Gallery({ initialPage }) {
 }
 
 export async function getStaticProps() {
-  const [initialPage, categories] = await Promise.all([
-    getGalleryPage({ page: 1, limit: PAGE_SIZE }),
-    getGalleryCategoriesFromApi(),
-  ]);
+  try {
+    const [initialPage, categories] = await Promise.all([
+      getGalleryPage({ page: 1, limit: PAGE_SIZE }),
+      getGalleryCategoriesFromApi(),
+    ]);
 
-  return {
-    props: {
-      initialPage: {
-        ...initialPage,
-        categories,
+    return {
+      props: {
+        initialPage: {
+          ...initialPage,
+          categories,
+        },
       },
-    },
-  };
+    };
+  } catch (error) {
+    return {
+      props: {
+        initialPage: {
+          items: [],
+          page: 1,
+          limit: PAGE_SIZE,
+          total: 0,
+          hasMore: false,
+          categories: ["All"],
+        },
+      },
+    };
+  }
 }
