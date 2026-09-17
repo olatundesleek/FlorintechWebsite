@@ -67,8 +67,6 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    let inputValue = inputs;
-    let data = inputValue;
 
     let bodyContent = new FormData();
 
@@ -80,39 +78,55 @@ function Register() {
     bodyContent.append("session", inputs.session);
     bodyContent.append("recaptcharesponse", inputs.recaptcharesponse);
 
-    fetch("https://www.florintechcomputercollege.com/api/api_register.php", {
-      method: "POST",
-      body: bodyContent,
-    })
-      .then((data) => {
-        return data.json();
-      })
-      .then((res) => {
-        setLoading(false);
-        if (res.error) {
-          toast.error(res.message, {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "colored",
-          });
-        } else {
-          toast.success(res.message, {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "colored",
-          });
+    try {
+      const response = await fetch(
+        "https://www.florintechcomputercollege.com/api/api_register.php",
+        { method: "POST", body: bodyContent }
+      );
+
+      if (!response.ok) {
+        throw new Error("Registration is currently unavailable.");
+      }
+
+      const res = await response.json();
+      if (res.error) {
+        toast.error(res.message, {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
+      } else {
+        toast.success(res.message, {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
+      }
+    } catch (requestError) {
+      toast.error(
+        requestError.message || "Unable to submit your registration right now. Please try again.",
+        {
+          position: "top-right",
+          autoClose: 5000,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          theme: "colored",
         }
-      });
+      );
+    } finally {
+      setLoading(false);
+    }
   };
   return (
     <Box>
