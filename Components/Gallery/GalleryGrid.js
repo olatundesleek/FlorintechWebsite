@@ -89,11 +89,13 @@ function GalleryLightbox({ items, activeIndex, onClose, onChange }) {
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
+      
       <button className="gallery-lightbox-backdrop" type="button" onClick={onClose} aria-label="Close photo viewer" />
-      <Button ref={closeButtonRef} className="gallery-lightbox-close" type="button" onClick={onClose} aria-label="Close photo viewer">
+     
+      <Box className="gallery-lightbox-panel">
+         <Button ref={closeButtonRef} className="gallery-lightbox-close" type="button" onClick={onClose} aria-label="Close photo viewer">
         ×
       </Button>
-      <Box className="gallery-lightbox-panel">
         <Button className="gallery-lightbox-previous" type="button" onClick={() => onChange(activeIndex - 1)} disabled={!hasPrevious} aria-label="Previous photo">
           &lsaquo;
         </Button>
@@ -114,7 +116,11 @@ function GalleryLightbox({ items, activeIndex, onClose, onChange }) {
         <Box className="gallery-lightbox-caption">
           <Text className="gallery-card-category">{item.category}</Text>
           {item.title && <Text as="h2">{item.title}</Text>}
-          {item.description && <Text>{item.description}</Text>}
+          {item.description && (
+            <Box className="gallery-lightbox-description">
+              <Text>{item.description}</Text>
+            </Box>
+          )}
         </Box>
       </Box>
     </Box>
