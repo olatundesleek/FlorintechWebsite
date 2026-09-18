@@ -90,10 +90,10 @@ function GalleryLightbox({ items, activeIndex, onClose, onChange }) {
       onTouchEnd={handleTouchEnd}
     >
       <button className="gallery-lightbox-backdrop" type="button" onClick={onClose} aria-label="Close photo viewer" />
+      <Button ref={closeButtonRef} className="gallery-lightbox-close" type="button" onClick={onClose} aria-label="Close photo viewer">
+        ×
+      </Button>
       <Box className="gallery-lightbox-panel">
-        <Button ref={closeButtonRef} className="gallery-lightbox-close" type="button" onClick={onClose} aria-label="Close photo viewer">
-          Close
-        </Button>
         <Button className="gallery-lightbox-previous" type="button" onClick={() => onChange(activeIndex - 1)} disabled={!hasPrevious} aria-label="Previous photo">
           &lsaquo;
         </Button>
